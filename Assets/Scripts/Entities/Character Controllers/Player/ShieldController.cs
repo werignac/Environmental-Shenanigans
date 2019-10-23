@@ -5,6 +5,7 @@ using UnityEngine;
 public class ShieldController : MonoBehaviour
 {
     public float rotationOffset;
+    public Rigidbody2D player;
 
     private void RotateTowards(Vector2 point)
     {
@@ -17,9 +18,14 @@ public class ShieldController : MonoBehaviour
     private void Update()
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Debug.Log(mousePos);
         RotateTowards(mousePos);
         transform.Rotate(new Vector3(0, 0, rotationOffset));
+    }
+
+    public void Impact(Vector2 velocity, float mass)
+    {
+        player.AddForce((velocity * mass) + player.velocity*-1);
+        Debug.Log("Added Force");
     }
 
 }

@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rigid;
     public Vector2 accelCoeff;
     private bool onGround;
+    public float maxSpeed;
+
     private void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
@@ -25,6 +27,12 @@ public class PlayerController : MonoBehaviour
         }
 
         rigid.AddForce(new Vector2(horizontal * accelCoeff.x, vertical * accelCoeff.y));
+
+        float currentSpeed = rigid.velocity.magnitude;
+        if (currentSpeed > maxSpeed)
+        {
+            rigid.velocity = rigid.velocity * maxSpeed / currentSpeed;
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
