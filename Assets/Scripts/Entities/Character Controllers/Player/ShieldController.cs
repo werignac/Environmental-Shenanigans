@@ -22,10 +22,9 @@ public class ShieldController : MonoBehaviour
         transform.Rotate(new Vector3(0, 0, rotationOffset));
     }
 
-    public void Impact(Vector2 velocity, float mass)
+    public void Impact(Vector2 velocity)
     {
-        player.AddForce((velocity * mass) + player.velocity*-1);
-        Debug.Log("Added Force");
+        player.velocity = velocity + player.velocity*-1;
     }
 
 }

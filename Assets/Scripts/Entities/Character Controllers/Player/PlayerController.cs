@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
         if (onGround) //Check for ground.
         {
             vertical = Input.GetAxis("Vertical");
+            onGround = false;
         }
 
         rigid.AddForce(new Vector2(horizontal * accelCoeff.x, vertical * accelCoeff.y));
