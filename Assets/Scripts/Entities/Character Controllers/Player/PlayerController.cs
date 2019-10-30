@@ -35,7 +35,8 @@ public class PlayerController : MonoBehaviour
             rigid.velocity = rigid.velocity * maxSpeed / currentSpeed;
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    private void checkCollision(Collision2D collision)
     {
         GameObject obj = collision.gameObject;
         Vector2 contactPoint = collision.GetContact(0).point;
@@ -43,6 +44,17 @@ public class PlayerController : MonoBehaviour
         {
             onGround = true;
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        checkCollision(collision);
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (! onGround)
+            checkCollision(collision);
     }
 
     private void OnCollisionExit2D(Collision2D collision)
