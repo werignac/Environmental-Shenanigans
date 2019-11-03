@@ -39,11 +39,12 @@ public class ShieldController : MonoBehaviour
     /// If the <c>Hazard</c> has a reaction to being hit (e.g. <c>Projectiles</c> being reflected),
     /// then that rection is triggered.
     /// </summary>
-    /// <param name="collision">Information about the collision that ocurred.</param>
+    /// <param name="collider">Information about the collision that ocurred.</param>
     /// <seealso cref="HazardController"/>
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        GameObject encounter = collision.gameObject;
+        Debug.Log("Hit something");
+        GameObject encounter = collider.gameObject;
         if (encounter.CompareTag("Hazard") || encounter.CompareTag("Projectile"))
         {
             HazardController hazard = encounter.GetComponent<HazardController>();

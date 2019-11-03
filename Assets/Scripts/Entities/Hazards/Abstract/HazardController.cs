@@ -13,7 +13,7 @@ public abstract class HazardController : MonoBehaviour
     /// </summary>
     /// <seealso cref="ShieldController.Impact(Vector2)"/>
     /// <seealso cref="ProjectileController"/>
-    private Vector2 moveDirection;
+    public Vector2 moveDirection;
 
     /// <summary>
     /// Sets <c>moveDirection</c> to a new direction.
