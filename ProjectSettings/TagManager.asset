@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Platform
   - Shield
+  - Hazard
+  - Projectile
   layers:
   - Default
   - TransparentFX

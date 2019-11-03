@@ -2,20 +2,40 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// A class that controls the main character's movements.
+/// </summary>
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class PlayerController : MonoBehaviour
 {
+    /// <summary>
+    /// The rigidbody of the main character.
+    /// </summary>
     private Rigidbody2D rigid;
+    /// <summary>
+    /// The acceleration of the main character for horizontal and vertical movement.
+    /// </summary>
     public Vector2 accelCoeff;
+    /// <summary>
+    /// Whether the main character is on the ground or not.
+    /// </summary>
     private bool onGround;
+    /// <summary>
+    /// The maximum velocity the main character can reach.
+    /// </summary>
     public float maxSpeed;
 
+    /// <summary>
+    /// Prepares the main character for the game.
+    /// </summary>
     private void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    /// <summary>
+    /// Moves the main character based on the player's input.
+    /// </summary>
     void Update()
     {
         float horizontal = Input.GetAxis("Horizontal");
@@ -36,6 +56,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+
+    /// <summary>
+    /// Checks if the player hit the ground.
+    /// </summary>
+    /// <param name="collision">Data regarding a collision.</param>
     private void checkCollision(Collision2D collision)
     {
         GameObject obj = collision.gameObject;
@@ -45,6 +70,7 @@ public class PlayerController : MonoBehaviour
             onGround = true;
         }
     }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -56,7 +82,11 @@ public class PlayerController : MonoBehaviour
         if (! onGround)
             checkCollision(collision);
     }
-
+    
+    /// <summary>
+    /// Checks if the player left the ground.
+    /// </summary>
+    /// <param name="collision">Data regarding a collision.</param>
     private void OnCollisionExit2D(Collision2D collision)
     {
         GameObject obj = collision.gameObject;
