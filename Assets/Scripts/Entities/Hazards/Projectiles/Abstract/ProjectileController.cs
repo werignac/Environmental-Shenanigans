@@ -2,44 +2,48 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// A class that describes the general behavior of <c>Projectiles</c>.
+/// </summary>
 public abstract class ProjectileController : HazardController
 {
-    public Vector2 moveDir;
-    private bool rigidBodyControl;
-    private bool hitShield;
-    private Rigidbody2D rigid;
-
+    /// <summary>
+    /// Instantiates the <c>Projectile</c> (if necessary).
+    /// </summary>
     private void Start()
     {
-        rigid = GetComponent<Rigidbody2D>();
-        rigidBodyControl = rigid != null;
         OnStart();
     }
 
+    /// <summary>
+    /// Moves the <c>Projectile</c> every frame.
+    /// </summary>
     private void Update()
     {
-        if (!rigidBodyControl)
-        {
-            transform.Translate(moveDirection * Time.deltaTime);
-        }
-        else
-        {
-            SetMoveDirection(rigid.velocity);
-        }
-
+        transform.Translate(GetMoveDirection() * Time.deltaTime);
         OnUpdate();
     }
 
+    /// <summary>
+    /// Switches the <c>Projectile</c>'s direction if it encounters a reflecting surface. 
+    /// </summary>
+    /// <param name="encounter">The reflecting surface.</param>
     public override void OnShieldCollision(GameObject encounter)
     {
-        float shieldAngle = encounter.GetComponentInParent<Transform>().eulerAngles.z;
-        float projectAngle = Mathf.Atan2(moveDirection.y, moveDirection.x)*Mathf.Rad2Deg;
+        float shieldAngle = encounter.GetComponent<Transform>().eulerAngles.z;
+        float projectAngle = Mathf.Atan2(GetMoveDirection().y, GetMoveDirection().x)*Mathf.Rad2Deg;
         float diff = Mathf.DeltaAngle(projectAngle, shieldAngle);
         float finalAngle = shieldAngle + diff;
 
-        SetMoveDirection(new Vector2(Mathf.Cos(finalAngle)*moveDirection.magnitude, Mathf.Sin(finalAngle) * moveDirection.magnitude));
+        SetMoveDirection(new Vector2(Mathf.Cos(finalAngle)* GetMoveDirection().magnitude, Mathf.Sin(finalAngle) * GetMoveDirection().magnitude));
     }
 
+    /// <summary>
+    /// Does something at the beginning of the game.
+    /// </summary>
     public abstract void OnStart();
+    /// <summary>
+    /// Does something at every frame.
+    /// </summary>
     public abstract void OnUpdate();
 }
