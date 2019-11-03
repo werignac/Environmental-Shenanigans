@@ -56,11 +56,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+
     /// <summary>
     /// Checks if the player hit the ground.
     /// </summary>
     /// <param name="collision">Data regarding a collision.</param>
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void checkCollision(Collision2D collision)
     {
         GameObject obj = collision.gameObject;
         Vector2 contactPoint = collision.GetContact(0).point;
@@ -70,6 +71,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        checkCollision(collision);
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (! onGround)
+            checkCollision(collision);
+    }
+    
     /// <summary>
     /// Checks if the player left the ground.
     /// </summary>
