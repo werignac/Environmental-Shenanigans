@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     /// <summary>
     /// The rigidbody of the main character.
     /// </summary>
-    private Rigidbody2D rigid;
+    public Rigidbody2D rigid;
     /// <summary>
     /// The acceleration of the main character for horizontal and vertical movement.
     /// </summary>
@@ -46,6 +46,16 @@ public class PlayerController : MonoBehaviour
             vertical = Input.GetAxis("Vertical");
             onGround = false;
         }
+        Move(horizontal, vertical);
+    }
+
+    /// <summary>
+    /// Moves the player by applying forces to the rigidbody.
+    /// </summary>
+    /// <param name="horizontal">The horizontal force to be applied.</param>
+    /// <param name="vertical">The vertical force to be applied.</param>
+    public virtual void Move(float horizontal, float vertical)
+    {
 
         rigid.AddForce(new Vector2(horizontal * accelCoeff.x, vertical * accelCoeff.y));
 
