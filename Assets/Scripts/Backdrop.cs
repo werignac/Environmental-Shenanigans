@@ -5,11 +5,11 @@ using UnityEngine;
 public class Backdrop : MonoBehaviour
 {
     public GameObject background1Sprite1;
-    public GameObject background1Sprite2;
+    private GameObject background1Sprite2;
     public GameObject background2Sprite1;
-    public GameObject background2Sprite2;
+    private GameObject background2Sprite2;
     public GameObject ground1;
-    public GameObject ground2;
+    private GameObject ground2;
     private float b1Width;
     private float b2Width;
     private float gWidth;
@@ -25,27 +25,30 @@ public class Backdrop : MonoBehaviour
         if (background1Sprite1 != null)
         {
             background1Sprite1.transform.position = new Vector3(0, background1Sprite1.transform.position.y);
+            background1Sprite2 = Instantiate(background1Sprite1, new Vector3(b1Width, background1Sprite1.transform.position.y), new Quaternion());
         }
-        if (background1Sprite2 != null)
+        /*if (background1Sprite2 != null)
         {
             background1Sprite2.transform.position = new Vector3(b1Width, background1Sprite2.transform.position.y);
-        }
+        }*/
         if (background2Sprite1 != null)
         {
             background2Sprite1.transform.position = new Vector3(0, background2Sprite1.transform.position.y);
+            background2Sprite2 = Instantiate(background2Sprite1, new Vector3(b2Width, background2Sprite1.transform.position.y), new Quaternion());
         }
-        if (background2Sprite2 != null)
+        /*if (background2Sprite2 != null)
         {
             background2Sprite2.transform.position = new Vector3(b2Width, background2Sprite2.transform.position.y);
-        }
+        }*/
         if (ground1 != null)
         {
             ground1.transform.position = new Vector3(0, ground1.transform.position.y);
+            ground2 = Instantiate(ground1, new Vector3(gWidth, ground1.transform.position.y), new Quaternion());
         }
-        if (ground2 != null)
+        /*if (ground2 != null)
         {
             ground2.transform.position = new Vector3(gWidth, ground2.transform.position.y);
-        }
+        }*/
     }
 
     /// <summary>

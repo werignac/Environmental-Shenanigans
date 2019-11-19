@@ -19,10 +19,15 @@ public class PlayerScrollController : PlayerController
         base.rigid.velocity = new Vector2(velocity, base.rigid.velocity.y);
 
         rigid.AddForce(new Vector2(horizontal * accelCoeff.x, vertical * accelCoeff.y), ForceMode2D.Impulse);
-        float currentSpeed = rigid.velocity.magnitude;
-        if (currentSpeed > maxSpeed)
+        float currentSpeed = Mathf.Abs(rigid.velocity.x);
+        if (currentSpeed > maxSpeedX)
         {
-            rigid.velocity = rigid.velocity * maxSpeed / currentSpeed;
+            rigid.velocity = new Vector2(rigid.velocity.x * maxSpeedX / currentSpeed, rigid.velocity.y);
+        }
+        currentSpeed = Mathf.Abs(rigid.velocity.y);
+        if (currentSpeed > maxSpeedY)
+        {
+            rigid.velocity = new Vector2(rigid.velocity.x, rigid.velocity.y * maxSpeedY / currentSpeed);
         }
 
         velocity = base.rigid.velocity.x;
