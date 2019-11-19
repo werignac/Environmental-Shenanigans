@@ -21,9 +21,13 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     private bool onGround;
     /// <summary>
-    /// The maximum velocity the main character can reach.
+    /// The maximum horizontal velocity the main character can reach.
     /// </summary>
-    public float maxSpeed;
+    public float maxSpeedX;
+    /// <summary>
+    /// The maximum vertical velocity the main character can reach.
+    /// </summary>
+    public float maxSpeedY;
 
     /// <summary>
     /// Prepares the main character for the game.
@@ -59,10 +63,15 @@ public class PlayerController : MonoBehaviour
 
         rigid.AddForce(new Vector2(horizontal * accelCoeff.x, vertical * accelCoeff.y));
 
-        float currentSpeed = rigid.velocity.magnitude;
-        if (currentSpeed > maxSpeed)
+        float currentSpeed = Mathf.Abs(rigid.velocity.x);
+        if (currentSpeed > maxSpeedX)
         {
-            rigid.velocity = rigid.velocity * maxSpeed / currentSpeed;
+            rigid.velocity = new Vector2(rigid.velocity.x * maxSpeedX / currentSpeed, rigid.velocity.y);
+        }
+        currentSpeed = Mathf.Abs(rigid.velocity.y);
+        if (currentSpeed > maxSpeedY)
+        {
+            rigid.velocity = new Vector2(rigid.velocity.x, rigid.velocity.y * maxSpeedY / currentSpeed);
         }
     }
 
