@@ -14,9 +14,30 @@ public abstract class ProjectileController : MovingHazardController
     public override void OnShieldCollision(GameObject encounter)
     {
         float shieldAngle = encounter.GetComponent<Transform>().eulerAngles.z;
-        float projectAngle = Mathf.Atan2(GetMoveDirection().y, GetMoveDirection().x)*Mathf.Rad2Deg;
-        float diff = Mathf.DeltaAngle(projectAngle, shieldAngle);
-        float finalAngle = shieldAngle + diff;
+        Vector2 moveDir = GetMoveDirection();
+        float projectAngle = Mathf.Atan2(moveDir.y, moveDir.x)*Mathf.Rad2Deg;
+        if (moveDir.x < 0)
+        {
+            if (moveDir.y > 0)
+            {
+                projectAngle = Mathf.Abs(projectAngle) + 90;
+            }
+            else
+            {
+                projectAngle = -projectAngle - 90;
+            }
+        }
+        Debug.Log(name + ": " + projectAngle);
+        float diff = Mathf.DeltaAngle(Mathf.Abs(projectAngle) % 90, Mathf.Abs(shieldAngle) % 90);
+        float finalAngle;
+        if (projectAngle < shieldAngle)
+        {
+             finalAngle = shieldAngle + diff;
+        }
+        else
+        {
+            finalAngle = shieldAngle - diff;
+        }
 
         SetMoveDirection(new Vector2(Mathf.Cos(finalAngle)* GetMoveDirection().magnitude, Mathf.Sin(finalAngle) * GetMoveDirection().magnitude));
     }
