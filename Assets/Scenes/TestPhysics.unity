@@ -340,7 +340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e50e96834c8dfa6418bc960d4bf6a11c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDirection: {x: -2, y: 0}
+  moveDirection: {x: -2, y: -0.001}
 --- !u!212 &603743817
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -813,7 +813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e50e96834c8dfa6418bc960d4bf6a11c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDirection: {x: 4, y: 0}
+  moveDirection: {x: 4, y: 0.001}
 --- !u!212 &1611282524
 SpriteRenderer:
   m_ObjectHideFlags: 0
