@@ -18,6 +18,7 @@ public abstract class MovingHazardController : HazardController
     {
         transform.Translate(GetMoveDirection() * Time.deltaTime);
         OnUpdate();
+        DebugDisplay();
     }
     /// <summary>
     /// Does something at the beginning of the game.
@@ -27,4 +28,11 @@ public abstract class MovingHazardController : HazardController
     /// Does something at every frame.
     /// </summary>
     public abstract void OnUpdate();
+    /// <summary>
+    /// Display's the direction the hazards are moving in Debug Mode.
+    /// </summary>
+    private void DebugDisplay()
+    {
+        Debug.DrawLine(transform.position, transform.position + ((Vector3)GetMoveDirection()),Color.red);
+    }
 }

@@ -14,10 +14,114 @@ public abstract class ProjectileController : MovingHazardController
     public override void OnShieldCollision(GameObject encounter)
     {
         float shieldAngle = encounter.GetComponent<Transform>().eulerAngles.z;
-        float projectAngle = Mathf.Atan2(GetMoveDirection().y, GetMoveDirection().x)*Mathf.Rad2Deg;
-        float diff = Mathf.DeltaAngle(projectAngle, shieldAngle);
-        float finalAngle = shieldAngle + diff;
+        if (shieldAngle > 180)
+        {
+            shieldAngle = -360 + shieldAngle;
+        }
+        int shieldQuad = GetQuad(shieldAngle);
+        float compareS = shieldAngle;
 
-        SetMoveDirection(new Vector2(Mathf.Cos(finalAngle)* GetMoveDirection().magnitude, Mathf.Sin(finalAngle) * GetMoveDirection().magnitude));
+        if (shieldQuad == 2)
+        {
+            compareS = 180 - shieldAngle;
+        }
+        else if (shieldQuad == 3)
+        {
+            compareS = 180 + shieldAngle;
+        }
+        else if (shieldQuad == 4)
+        {
+            compareS *= -1;
+        }
+
+        Vector2 moveDir = GetMoveDirection();
+        int projectQuad = GetQuad(moveDir.x, moveDir.y);
+        float projectAngle = Mathf.Atan2(moveDir.y, moveDir.x)*Mathf.Rad2Deg;
+
+        if (projectQuad == 2)
+        {
+            projectAngle = 180 - projectAngle;
+        }
+        else if (projectQuad == 3)
+        {
+            projectAngle = 180 + projectAngle;
+        }
+        else if (projectQuad == 4)
+        {
+            projectAngle *= -1;
+        }
+
+
+        float diff = Mathf.Abs(compareS - projectAngle);
+
+        float finalAngle;
+        if (shieldQuad == 1 || shieldQuad == 2)
+        {
+            if (projectQuad > 2)
+                finalAngle = shieldAngle + diff;
+            else
+                finalAngle = shieldAngle - diff;
+        }
+        else 
+        {
+            if (projectQuad > 2)
+                finalAngle = shieldAngle - diff;
+            else
+                finalAngle = shieldAngle + diff;
+        }
+
+        SetMoveDirection(new Vector2(Mathf.Cos(finalAngle*Mathf.Deg2Rad)* GetMoveDirection().magnitude, Mathf.Sin(finalAngle * Mathf.Deg2Rad) * GetMoveDirection().magnitude));
+    }
+
+    private static int GetQuad(float angle)
+    {
+        if (angle > 0)
+        {
+            if (angle > 90)
+            {
+                return 2;
+            }
+            else
+            {
+                return 1;
+            }
+        }
+        else
+        {
+            if (angle < -90)
+            {
+                return 3;
+            }
+            else
+            {
+                return 4;
+            }
+        }
+    }
+
+    private static int GetQuad(float x, float y)
+    {
+        if (x > 0)
+        {
+            if (y > 0)
+            {
+                return 1;
+            }
+            else
+            {
+                return 4;
+            }
+        }
+        else
+        {
+            if (y > 0)
+            {
+                return 2;
+            }
+            else
+            {
+                return 3;
+            }
+        }
     }
 }
