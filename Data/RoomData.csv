@@ -1,0 +1,4 @@
+Width,RoomType,Obstacles
+15,0,
+15,1,SmallPlatform;2;0
+30,2,SmallPlatform;3;0.2;SmallPlatform;10;0.5

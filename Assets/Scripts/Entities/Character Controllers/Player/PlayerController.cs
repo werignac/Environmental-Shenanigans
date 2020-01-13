@@ -28,12 +28,14 @@ public class PlayerController : MonoBehaviour
     /// The maximum vertical velocity the main character can reach.
     /// </summary>
     public float maxSpeedY;
+    private bool jump;
 
     /// <summary>
     /// Prepares the main character for the game.
     /// </summary>
     private void Start()
     {
+        jump = false;
         rigid = GetComponent<Rigidbody2D>();
     }
 
@@ -48,7 +50,19 @@ public class PlayerController : MonoBehaviour
         if (onGround) //Check for ground.
         {
             vertical = Input.GetAxis("Vertical");
-            onGround = false;
+            if(vertical < 0.75)
+            {
+                vertical = 0;
+            }
+            if (vertical > 0)
+            {
+                onGround = false;
+                jump = true;
+            }
+        }
+        if(vertical != 0)
+        {
+            Debug.Log(vertical);
         }
         Move(horizontal, vertical);
     }
@@ -68,7 +82,7 @@ public class PlayerController : MonoBehaviour
         {
             rigid.velocity = new Vector2(rigid.velocity.x * maxSpeedX / currentSpeed, rigid.velocity.y);
         }
-        currentSpeed = Mathf.Abs(rigid.velocity.y);
+        currentSpeed = rigid.velocity.y;
         if (currentSpeed > maxSpeedY)
         {
             rigid.velocity = new Vector2(rigid.velocity.x, rigid.velocity.y * maxSpeedY / currentSpeed);
@@ -84,7 +98,7 @@ public class PlayerController : MonoBehaviour
     {
         GameObject obj = collision.gameObject;
         Vector2 contactPoint = collision.GetContact(0).point;
-        if (obj.CompareTag("Platform") && contactPoint.y < transform.position.y) //Second statement makes sure it's under the player.
+        if (obj.CompareTag("Platform") && contactPoint.y < transform.position.y - 0.01) //Second statement makes sure it's under the player.
         {
             onGround = true;
         }
@@ -98,7 +112,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (! onGround)
+        if (! onGround && !jump)
             checkCollision(collision);
     }
     
@@ -112,6 +126,7 @@ public class PlayerController : MonoBehaviour
         if (obj.CompareTag("Platform"))
         {
             onGround = false;
+            jump = false;
         }
     }
 }
