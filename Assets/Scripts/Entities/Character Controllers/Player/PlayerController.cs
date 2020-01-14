@@ -50,9 +50,9 @@ public class PlayerController : MonoBehaviour
         if (onGround) //Check for ground.
         {
             vertical = Input.GetAxis("Vertical");
-            if(vertical < 0.75)
+            if(vertical < 0.85 && vertical > 0)
             {
-                vertical = 0;
+                vertical = 0.85f;
             }
             if (vertical > 0)
             {
@@ -60,9 +60,9 @@ public class PlayerController : MonoBehaviour
                 jump = true;
             }
         }
-        if(vertical != 0)
+        else
         {
-            Debug.Log(vertical);
+            horizontal /= 10;
         }
         Move(horizontal, vertical);
     }
@@ -97,10 +97,17 @@ public class PlayerController : MonoBehaviour
     private void checkCollision(Collision2D collision)
     {
         GameObject obj = collision.gameObject;
-        Vector2 contactPoint = collision.GetContact(0).point;
-        if (obj.CompareTag("Platform") && contactPoint.y < transform.position.y - 0.01) //Second statement makes sure it's under the player.
+        if (obj.CompareTag("Platform"))
         {
-            onGround = true;
+            for (int i = 0; i < collision.contactCount; ++i)
+            {
+                Vector2 contactPoint = collision.GetContact(i).point;
+                if (contactPoint.y <= (transform.position.y - (GetComponent<BoxCollider2D>().size.y / 2)) && contactPoint.x <= transform.position.x + (GetComponent<BoxCollider2D>().size.x / 2) && contactPoint.x >= transform.position.x - (GetComponent<BoxCollider2D>().size.x / 2)) //Second statement makes sure it's under the player.
+                {
+                    onGround = true;
+                    break;
+                }
+            }
         }
     }
 
