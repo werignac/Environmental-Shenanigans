@@ -58,11 +58,15 @@ public class PlayerController : MonoBehaviour
             {
                 onGround = false;
                 jump = true;
+                if(rigid.velocity.y > 0)
+                {
+                    rigid.velocity = new Vector2(rigid.velocity.x, 0);
+                }
             }
         }
         else
         {
-            horizontal /= 10;
+            horizontal /= 5;
         }
         Move(horizontal, vertical);
     }
@@ -97,15 +101,21 @@ public class PlayerController : MonoBehaviour
     private void checkCollision(Collision2D collision)
     {
         GameObject obj = collision.gameObject;
+        bool g = onGround;
         if (obj.CompareTag("Platform"))
         {
+            Debug.Log(collision.contactCount);
             for (int i = 0; i < collision.contactCount; ++i)
             {
                 Vector2 contactPoint = collision.GetContact(i).point;
-                if (contactPoint.y <= (transform.position.y - (GetComponent<BoxCollider2D>().size.y / 2)) && contactPoint.x <= transform.position.x + (GetComponent<BoxCollider2D>().size.x / 2) && contactPoint.x >= transform.position.x - (GetComponent<BoxCollider2D>().size.x / 2)) //Second statement makes sure it's under the player.
+                if (contactPoint.y <= (transform.position.y - (GetComponent<BoxCollider2D>().size.y / 2))) //Second statement makes sure it's under the player.
                 {
                     onGround = true;
-                    break;
+                }
+                else
+                {
+                    onGround = g;
+                    return;
                 }
             }
         }

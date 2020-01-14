@@ -295,8 +295,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigid: {fileID: 0}
-  accelCoeff: {x: 50, y: 400}
-  maxSpeedX: 5
+  accelCoeff: {x: 25, y: 400}
+  maxSpeedX: 4
   maxSpeedY: 17
 --- !u!50 &200564333
 Rigidbody2D:
