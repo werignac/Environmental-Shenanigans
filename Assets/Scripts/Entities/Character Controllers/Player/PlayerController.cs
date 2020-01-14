@@ -104,7 +104,6 @@ public class PlayerController : MonoBehaviour
         bool g = onGround;
         if (obj.CompareTag("Platform"))
         {
-            Debug.Log(collision.contactCount);
             for (int i = 0; i < collision.contactCount; ++i)
             {
                 Vector2 contactPoint = collision.GetContact(i).point;
