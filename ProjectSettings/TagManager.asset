@@ -7,6 +7,8 @@ TagManager:
   - Undefined
   - Hazard
   - Projectile
+  - Shield
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -46,4 +48,7 @@ TagManager:
     locked: 0
   - name: Shield
     uniqueID: 1721335229
+    locked: 0
+  - name: Projectiles
+    uniqueID: 2670525437
     locked: 0
