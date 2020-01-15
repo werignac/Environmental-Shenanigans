@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 714368479422813951}
   - component: {fileID: 714368479422813948}
   m_Layer: 0
-  m_Name: ShieldRotator
+  m_Name: ShieldRotatorBird
   m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -163,7 +163,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.75275254, y: -0.02233243}
+  m_Offset: {x: 0.5, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -174,7 +174,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.14807987, y: 1.1900535}
+  m_Size: {x: 0.14807987, y: 2}
   m_EdgeRadius: 0
 --- !u!1001 &6118153227180499860
 PrefabInstance:
