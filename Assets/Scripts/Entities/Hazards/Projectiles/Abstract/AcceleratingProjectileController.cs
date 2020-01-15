@@ -15,5 +15,6 @@ public abstract class AcceleratingProjectileController : ProjectileController
     public override void OnUpdate()
     {
         SetMoveDirection(GetMoveDirection() + acceleration * Time.deltaTime);
+        base.OnUpdate();
     }
 }

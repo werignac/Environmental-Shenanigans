@@ -7,6 +7,9 @@ using UnityEngine;
 /// </summary>
 public abstract class ProjectileController : MovingHazardController
 {
+    public float range;
+    private float distance;
+    private Vector3 pastPos;
     /// <summary>
     /// Switches the <c>Projectile</c>'s direction if it encounters a reflecting surface. 
     /// </summary>
@@ -122,6 +125,20 @@ public abstract class ProjectileController : MovingHazardController
             {
                 return 3;
             }
+        }
+    }
+
+    public override void OnStart()
+    {
+        pastPos = new Vector3(transform.position.x, transform.position.y, 0);
+    }
+    public override void OnUpdate()
+    {
+        distance += (transform.position - pastPos).magnitude;
+        pastPos = new Vector3(transform.position.x, transform.position.y, 0);
+        if (distance > range)
+        {
+            Destroy(gameObject);
         }
     }
 }

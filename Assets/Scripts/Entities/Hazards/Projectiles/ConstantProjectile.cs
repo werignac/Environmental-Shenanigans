@@ -7,6 +7,6 @@ using UnityEngine;
 /// </summary>
 public class ConstantProjectile : ProjectileController
 {
-    public override void OnStart(){}
-    public override void OnUpdate() { }
+    public override void OnStart(){ base.OnStart(); }
+    public override void OnUpdate() { base.OnUpdate(); }
 }
