@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     public float maxSpeedY;
     private bool jump;
+    private int numGround;
 
     /// <summary>
     /// Prepares the main character for the game.
@@ -37,6 +38,7 @@ public class PlayerController : MonoBehaviour
     {
         jump = false;
         rigid = GetComponent<Rigidbody2D>();
+        numGround = 0;
     }
 
     /// <summary>
@@ -124,6 +126,11 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         checkCollision(collision);
+        if (collision.gameObject.CompareTag("Platform"))
+        {
+            ++numGround;
+            Debug.Log("Entered " + numGround);
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -141,8 +148,13 @@ public class PlayerController : MonoBehaviour
         GameObject obj = collision.gameObject;
         if (obj.CompareTag("Platform"))
         {
-            onGround = false;
-            jump = false;
+            --numGround;
+            Debug.Log("Left " + numGround);
+            if (numGround <= 0)
+            {
+                onGround = false;
+                jump = false;
+            }
         }
     }
 }
