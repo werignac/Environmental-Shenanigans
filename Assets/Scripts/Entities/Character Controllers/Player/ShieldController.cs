@@ -11,7 +11,17 @@ public class ShieldController : MonoBehaviour
     /// The <c>Rigidbody</c> of the main character.
     /// </summary>
     public Rigidbody2D player;
-
+    /// <summary>
+    /// The initial scale of the sheild (used for flipping).
+    /// </summary>
+    private Vector3 initialScale;
+    /// <summary>
+    /// Stores the initialScale;
+    /// </summary>
+    private void Start()
+    {
+        initialScale = transform.localScale;
+    }
     /// <summary>
     /// Rotates the shield so that it points towards a point on the screen (usually the mouse).
     /// </summary>
@@ -22,6 +32,14 @@ public class ShieldController : MonoBehaviour
         float yDiff = point.y - transform.position.y;
         float angle = Mathf.Atan2(yDiff, xDiff)*Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0,angle);
+        if (xDiff < 0)
+        {
+            transform.localScale = new Vector3(initialScale.x, -initialScale.y, initialScale.z);
+        }
+        else
+        {
+            transform.localScale = new Vector3(initialScale.x, initialScale.y, initialScale.z);
+        }
     }
 
     /// <summary>

@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Platform
-  - Shield
+  - Undefined
   - Hazard
   - Projectile
   layers:
@@ -44,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Shield
+    uniqueID: 1721335229
     locked: 0
