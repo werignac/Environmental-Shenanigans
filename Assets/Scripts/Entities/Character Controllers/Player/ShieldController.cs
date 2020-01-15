@@ -16,11 +16,16 @@ public class ShieldController : MonoBehaviour
     /// </summary>
     private Vector3 initialScale;
     /// <summary>
+    /// Animator of sheild.
+    /// </summary>
+    private Animator anim;
+    /// <summary>
     /// Stores the initialScale;
     /// </summary>
     private void Start()
     {
         initialScale = transform.localScale;
+        anim = GetComponentInChildren<Animator>();
     }
     /// <summary>
     /// Rotates the shield so that it points towards a point on the screen (usually the mouse).
@@ -61,10 +66,10 @@ public class ShieldController : MonoBehaviour
     /// <seealso cref="HazardController"/>
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        Debug.Log("Hit something");
         GameObject encounter = collider.gameObject;
         if (encounter.CompareTag("Hazard") || encounter.CompareTag("Projectile"))
         {
+            anim.SetTrigger("Hit");
             HazardController hazard = encounter.GetComponent<HazardController>();
             Impact(hazard.GetMoveDirection());
 

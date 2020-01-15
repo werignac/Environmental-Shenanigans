@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="BirdSoldier.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="325.78466"
-     inkscape:cy="725.51982"
+     inkscape:cx="257.23175"
+     inkscape:cy="1011.8799"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -53,11 +53,14 @@
      inkscape:label="EyeBack"
      style="display:inline">
     <path
-       style="opacity:0.93999999;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:2.53388667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
-       d="m 325.53219,211.76634 c -0.0518,3.89357 -4.20427,7.20187 -10.65233,6.8318 -3.41761,9.22639 -9.33832,16.00988 -29.67096,16.53432 -19.5818,0.50508 -28.02112,-11.34854 -31.18619,-16.78686 -4.17522,0.37007 -8.12695,-2.441 -8.12695,-6.57926 0,-3.88572 2.18396,-6.69679 6.86426,-7.08434 4.42776,-9.73145 21.95846,-16.53432 32.95396,-16.53432 10.99549,0 23.72797,8.82317 27.90319,14.76656 7.96329,-0.37007 11.97314,4.47959 11.91502,8.8521 z"
+       style="opacity:0.93999999;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.55066937;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 100.53756,64.225387 c -0.0112,0.84616 -0.913683,1.56513 -2.314983,1.4847 -0.74272,2.0051 -2.02942,3.4793 -6.44815,3.59328 -4.25556,0.10976 -6.08961,-2.46629 -6.77745,-3.64816 -0.90737,0.0804 -1.76617,-0.53048 -1.76617,-1.42982 0,-0.84445 0.47463,-1.45536 1.49176,-1.53958 0.96225,-2.11486 4.77206,-3.59327 7.16162,-3.59327 2.38956,0 5.15661,1.91747 6.06398,3.2091 1.7306,-0.0804 2.602033,0.97351 2.589393,1.92375 z"
        id="path3756-1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="scscscscs" />
+       sodipodi:nodetypes="scscscscs"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -66,7 +69,10 @@
      style="display:inline">
     <g
        id="g3784"
-       transform="translate(15.357143,3.5714285)">
+       transform="matrix(0.21732203,0,0,0.21732203,33.129687,18.980051)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500">
       <path
          transform="translate(-103.21429,-90)"
          d="m 424.99999,301.64789 c 0,18.34374 -14.87054,33.21428 -33.21428,33.21428 -18.34375,0 -33.21429,-14.87054 -33.21429,-33.21428 0,-18.34375 14.87054,-33.21429 33.21429,-33.21429 18.34374,0 33.21428,14.87054 33.21428,33.21429 z"
@@ -95,17 +101,23 @@
      id="layer1"
      style="display:inline">
     <path
-       style="fill:#1c1f24;fill-opacity:1;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 263.9375,158.0625 c -29.88221,0.14303 -83.49588,15.42545 -94.375,49.71875 -13.61511,42.91766 15.4194,91.07145 15.4375,118.53125 0.0335,50.9905 -38.94196,86.94609 -52.15625,116.0625 -14.93598,37.1543 62.41407,42.53579 105.375,42.125 117.62224,-1.42857 139.73777,-15.52684 128.9375,-50.71875 -10.77531,-35.11058 -65.7251,-54.59475 -68.625,-114.9375 -0.55872,-11.62627 3.36021,-22.38563 7.85221,-29.98988 2.246,-3.80213 -32.86473,-6.63691 -42.15955,-11.03081 -10.01809,-4.73581 0.79221,8.96525 59.16448,7.82873 33.98691,-0.66174 89.7761,-128.30357 -59.45089,-127.58929 z m 22.28125,30.6875 c 10.9955,0 23.73103,8.80662 27.90625,14.75 7.96329,-0.37007 11.96436,4.50249 11.90625,8.875 -0.0518,3.89357 -4.17694,7.18257 -10.625,6.8125 -3.4176,9.22638 -9.35486,16.00681 -29.6875,16.53125 -19.5818,0.50508 -28.02242,-11.34293 -31.1875,-16.78125 -4.17522,0.37007 -8.125,-2.42425 -8.125,-6.5625 0,-3.88572 2.1947,-6.7062 6.875,-7.09375 4.42776,-9.73145 21.942,-16.53125 32.9375,-16.53125 z"
+       style="fill:#1c1f24;fill-opacity:1;stroke:#000000;stroke-width:1.30393219;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 87.151677,52.554367 c -6.49406,0.0311 -18.14549,3.35229 -20.50976,10.80498 -2.95887,9.32695 3.35097,19.79183 3.3549,25.75945 0.007,11.081363 -8.46294,18.895303 -11.3347,25.222933 -3.24592,8.07445 13.56395,9.24397 22.90031,9.1547 25.561903,-0.31046 30.368103,-3.37433 28.020963,-11.02231 -2.34171,-7.6303 -14.283513,-11.86464 -14.913723,-24.978453 -0.12143,-2.52664 0.73024,-4.86489 1.70645,-6.51746 0.48811,-0.82628 -7.14223,-1.44234 -9.1622,-2.39724 -2.17715,-1.02919 0.17217,1.94835 12.857753,1.70136 7.3861,-0.14381 19.51032,-27.88319 -12.919993,-27.72796 z m 4.84221,6.66907 c 2.38956,0 5.15727,1.91387 6.06464,3.2055 1.7306,-0.0804 2.600123,0.97849 2.587493,1.92873 -0.0113,0.84616 -0.907743,1.56093 -2.309053,1.48051 -0.74272,2.00509 -2.03301,3.47863 -6.45174,3.5926 -4.25556,0.10977 -6.08989,-2.46507 -6.77773,-3.64694 -0.90737,0.0804 -1.76575,-0.52684 -1.76575,-1.42617 0,-0.84445 0.47696,-1.45741 1.49409,-1.54163 0.96225,-2.11486 4.76848,-3.5926 7.15805,-3.5926 z"
        id="path2985"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sssccssssssscccscscs" />
+       sodipodi:nodetypes="sssccssssssscccscscs"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <path
-       style="fill:#3473e2;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 182.5,353.43361 c 0,0 -5.87974,16.43056 -9.64286,24.28571 -3.54707,7.40418 -12.14285,21.42858 -12.14285,21.42858 0,0 19.38556,14.89263 30.71428,18.92857 19.57154,6.9725 41.01323,8.62008 61.78572,8.21428 16.06528,-0.31384 32.15171,-3.45807 47.5,-8.21428 6.00421,-1.86062 17.14285,-7.85715 17.14285,-7.85715 0,0 -11.63837,-14.21596 -15.35714,-22.5 -4.02038,-8.95591 -7.14286,-28.57142 -7.14286,-28.57142 0,0 -7.25458,3.24069 -11.07143,4.28571 -10.4765,2.86836 -21.28378,5.1016 -32.14285,5.35714 -14.14223,0.3328 -28.39929,-1.64921 -42.14286,-5 -9.51648,-2.32019 -27.5,-10.35714 -27.5,-10.35714 z"
+       style="fill:#3473e2;fill-opacity:1;stroke:#000000;stroke-width:0.86928809;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 69.453517,95.012807 c 0,0 -1.2778,3.57072 -2.09561,5.277823 -0.77085,1.60909 -2.63891,4.6569 -2.63891,4.6569 0,0 4.21291,3.2365 6.67489,4.1136 4.25333,1.51528 8.91308,1.87333 13.4274,1.78514 3.49134,-0.0682 6.98728,-0.75151 10.3228,-1.78514 1.30485,-0.40435 3.72552,-1.70753 3.72552,-1.70753 0,0 -2.52928,-3.08944 -3.33745,-4.88975 -0.87371,-1.94631 -1.5523,-6.209203 -1.5523,-6.209203 0,0 -1.57658,0.70428 -2.40606,0.93138 -2.27678,0.62336 -4.62544,1.10869 -6.98535,1.16423 -3.07342,0.0723 -6.17179,-0.35841 -9.15858,-1.08661 -2.06814,-0.50423 -5.97635,-2.25084 -5.97635,-2.25084 z"
        id="path3807"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cscssscscsssc" />
+       sodipodi:nodetypes="cscssscscsssc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -113,24 +125,32 @@
      inkscape:label="Mouth"
      style="display:inline">
     <path
-       style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:4.88710117;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
-       d="m 530.37045,247.44683 c -7.66783,6.27003 -84.07691,24.92497 -135.06054,22.64005 -40.91594,11.55225 -56.44202,15.69906 -75.56488,15.69906 16.38748,-19.46753 24.24842,-31.23782 31.86936,-39.13371 15.6317,-0.93695 50.55034,-2.1651 86.81021,-0.85037 36.97571,-2.52985 80.55823,-0.67083 91.94585,1.64497 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:1.06207478;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 145.05343,71.979547 c -1.66639,1.36262 -18.27176,5.41675 -29.35163,4.92018 -8.89194,2.51056 -12.26609,3.41175 -16.421913,3.41175 3.561363,-4.23072 5.269713,-6.78866 6.925913,-8.50461 3.39711,-0.20362 10.9857,-0.47053 18.86577,-0.18481 8.03564,-0.54979 17.50708,-0.14578 19.98186,0.35749 z"
        id="path3817"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <path
-       style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:5.48938084;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
-       d="m 581.52146,246.98523 c -30.22352,-3.5049 -71.2463,0.5027 -111.95187,0.79251 -40.70559,0.28983 -76.04321,-3.13814 -118.90919,-3.27912 7.20336,-22.02855 1.30303,-23.15694 3.2373,-52.16732 72.53559,20.30141 159.58557,4.94849 227.62376,54.65393 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:1.19296336;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 156.16967,71.879227 c -6.56824,-0.76169 -15.48339,0.10925 -24.32961,0.17223 -8.84622,0.063 -16.52586,-0.68198 -25.84158,-0.71262 1.56545,-4.78729 0.28318,-5.03251 0.70353,-11.33711 15.76359,4.41195 34.68146,1.07542 49.46766,11.8775 z"
        id="path3820"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csccc" />
+       sodipodi:nodetypes="csccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <path
-       transform="translate(-144.95689,-63.63961)"
-       style="fill:#c83737;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
-       d="m 496.60727,307.76244 c -14.10714,20.59649 -22.30295,31.38564 -31.81981,41.20707 -2.37399,-6.78572 19.24389,-27.10727 24.74438,-43.45144 2.93507,-8.72131 1.6704,-50.6429 1.64281,-61.61185 4.07955,1.8882 4.21761,4.3719 6.20818,6.96119 1.90128,4.375 1.21632,12.69071 1.50693,22.95598 0.29061,10.26526 0.48537,21.76581 -2.28249,33.93905 z"
+       style="fill:#c83737;fill-opacity:1;stroke:#000000;stroke-width:0.43464404;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 106.21362,71.257167 c -3.06579,4.47607 -4.84692,6.82079 -6.915143,8.95521 -0.51592,-1.47469 4.182123,-5.89101 5.377503,-9.44296 0.63785,-1.89533 0.36301,-11.00582 0.35701,-13.38961 0.88658,0.41035 0.91658,0.95011 1.34918,1.51282 0.41319,0.95078 0.26433,2.75797 0.32749,4.98884 0.0632,2.23087 0.10548,4.73019 -0.49604,7.3757 z"
        id="path3823"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccsccsc" />
+       sodipodi:nodetypes="ccsccsc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <path
        sodipodi:type="arc"
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -140,24 +160,371 @@
        sodipodi:rx="4.1964288"
        sodipodi:ry="4.1964288"
        d="m 400.53572,181.91576 a 4.1964288,4.1964288 0 1 1 -8.39285,0 4.1964288,4.1964288 0 1 1 8.39285,0 z"
-       transform="matrix(0.29787237,0,0,0.48166594,231.76291,104.08226)" />
+       transform="matrix(0.06473423,0,0,0.10467662,80.159427,40.823267)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Hat">
     <path
-       transform="matrix(0.96480103,-0.26298095,0.26298095,0.96480103,-39.858979,60.498681)"
-       style="fill:#89a02c;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
-       d="m 307.63432,173.59009 c -11.88748,4.36764 -59.48918,16.20481 -89.79818,21.61075 -23.57599,4.20504 -59.91913,7.80695 -71.35434,8.37532 2.36141,-15.7964 -0.24137,-7.09126 3.51763,-17.3057 9.33204,-5.94717 38.49672,-10.50397 57.76605,-15.67825 19.10576,-5.13036 43.60511,-16.17956 57.35847,-15.23689 17.30247,6.61489 28.3038,11.0223 42.51037,18.23477 z"
+       style="fill:#89a02c;fill-opacity:1;stroke:#000000;stroke-width:0.86928809;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 95.553417,50.166887 c -2.24286,1.59516 -11.54712,6.7976 -17.59312,9.66329 -4.70291,2.22908 -12.11722,5.06137 -14.48238,5.83408 -0.40767,-3.44703 -0.45589,-1.47305 -0.2515,-3.82957 1.61678,-1.78029 7.47138,-4.40254 11.21592,-6.58871 3.71274,-2.16762 8.2181,-5.88451 11.15568,-6.47289 4.0059,0.3981 6.56447,0.69347 9.9554,1.3938 z"
        id="path3810"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="caccacc" />
+       sodipodi:nodetypes="caccacc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <path
-       style="fill:#445016;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
-       d="m 269.73587,124.01503 c 8.35406,11.26933 -47.30251,45.89591 -69.5439,55.83152 -22.24137,9.9356 -55.19706,29.37881 -61.71353,14.79134 -6.51647,-14.58746 8.82125,-20.25859 35.21792,-41.93139 10.21128,-8.3839 40.6536,-24.14215 54.24212,-27.03507 10.77327,-2.29358 32.47482,-14.23223 41.79739,-1.6564 z"
+       style="fill:#445016;fill-opacity:1;stroke:#000000;stroke-width:0.86928809;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 88.411797,45.155097 c 1.81552,2.44907 -10.27988,9.97419 -15.11343,12.13342 -4.83354,2.15923 -11.99553,6.38466 -13.41171,3.21448 -1.41617,-3.17017 1.91706,-4.40263 7.65363,-9.11261 2.21914,-1.82201 8.83493,-5.24662 11.78801,-5.87532 2.34127,-0.49844 7.0575,-3.09297 9.0835,-0.35997 z"
        id="path3813"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ssssss" />
+       sodipodi:nodetypes="ssssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="opacity:0.93999999;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.55066937;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 225.69097,63.18725 c 0.19205,0.824153 -0.51167,1.738573 -1.89137,1.996548 -0.24018,2.124705 -1.13579,3.864459 -5.39824,5.034806 -4.10505,1.127119 -6.50336,-0.933917 -7.45456,-1.916341 -0.86161,0.295658 -1.84185,-0.09144 -2.05753,-0.964535 -0.20252,-0.819807 0.11176,-1.526714 1.07901,-1.852403 0.42698,-2.283909 3.77106,-4.632838 6.09089,-5.205899 2.31983,-0.57306 5.46597,0.624864 6.65662,1.661197 1.66082,-0.493084 2.75956,0.321086 2.97518,1.246627 z"
+       id="path3756-1-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scscscscs"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <g
+       style="display:inline"
+       id="g3784-8"
+       transform="matrix(0.21732203,0,0,0.21732203,158.65572,18.250121)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500">
+      <path
+         transform="translate(-103.21429,-90)"
+         d="m 424.99999,301.64789 c 0,18.34374 -14.87054,33.21428 -33.21428,33.21428 -18.34375,0 -33.21429,-14.87054 -33.21429,-33.21428 0,-18.34375 14.87054,-33.21429 33.21429,-33.21429 18.34374,0 33.21428,14.87054 33.21428,33.21429 z"
+         sodipodi:ry="33.214287"
+         sodipodi:rx="33.214287"
+         sodipodi:cy="301.64789"
+         sodipodi:cx="391.78571"
+         id="path3779-9"
+         style="opacity:0.93999999;fill:#0066ff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.3703704,0,0,1.3703704,-339.84129,-237.93839)"
+         d="m 468.2143,328.07648 c 0,5.3256 -4.31726,9.64285 -9.64286,9.64285 -5.3256,0 -9.64286,-4.31725 -9.64286,-9.64285 0,-5.32561 4.31726,-9.64286 9.64286,-9.64286 5.3256,0 9.64286,4.31725 9.64286,9.64286 z"
+         sodipodi:ry="9.6428576"
+         sodipodi:rx="9.6428576"
+         sodipodi:cy="328.07648"
+         sodipodi:cx="458.57144"
+         id="path3781-8"
+         style="opacity:0.93999999;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       style="fill:#1c1f24;fill-opacity:1;stroke:#000000;stroke-width:1.30393219;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       d="m 209.1077,55.323299 c -6.23119,1.82922 -16.50623,8.248694 -16.71299,16.064679 -0.25877,9.781611 3.62929,14.947608 3.63322,20.915229 0.007,11.081363 -16.76652,10.502443 -19.63828,16.830073 -1.62296,4.03723 9.17875,7.41965 14.14252,8.71018 4.96378,1.29052 -3.58895,9.06059 17.06137,8.83738 28.76309,0.20191 18.9444,-9.65953 23.0478,-11.4203 4.10339,-1.76077 15.87887,-3.4566 14.7053,-7.28059 -2.34171,-7.6303 -24.01565,-4.18606 -24.64586,-17.299873 -0.12143,-2.52664 1.38263,-8.111935 1.86273,-9.970287 0.24006,-0.929173 -3.97924,-0.03829 -6.1847,-0.396119 -2.37708,-0.385663 0.70526,1.824366 12.82575,-1.927804 7.05708,-2.184679 11.02074,-32.19733 -20.09686,-23.062568 z m 6.50046,5.066314 c 2.296,-0.662086 5.48564,0.409991 6.71536,1.399643 1.64057,-0.556757 2.76944,0.219754 3.02059,1.13629 0.22359,0.816163 -0.43971,1.751329 -1.80844,2.062325 -0.15808,2.132376 -0.98957,3.905731 -5.20373,5.239556 -4.05853,1.284579 -6.53446,-0.681206 -7.52284,-1.626221 -0.84957,0.328661 -1.84259,-0.01697 -2.09177,-0.881089 -0.23398,-0.811389 0.0545,-1.532504 1.00844,-1.895247 0.33861,-2.298675 3.58637,-4.773168 5.88239,-5.435257 z"
+       id="path2985-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssscscsssssssscccscscs"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#3473e2;fill-opacity:1;stroke:#000000;stroke-width:0.86928809;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 195.39534,97.393646 c 0,0 -2.97423,2.142147 -4.23847,3.492104 -1.2196,1.30229 -4.69247,2.51404 -4.69247,2.51404 0,0 6.62362,5.02222 9.0856,5.89932 4.25333,1.51528 11.50237,2.0519 16.01669,1.96371 3.49134,-0.0682 5.20156,-0.12651 8.53708,-1.16014 1.30485,-0.40435 7.83266,-3.67181 7.83266,-3.67181 0,0 -3.24356,-1.57158 -4.76602,-2.65761 -1.73681,-1.23893 -3.15944,-4.334203 -3.15944,-4.334203 0,0 -1.57658,0.704283 -2.40606,0.931383 -2.27678,0.62336 -4.62544,1.10869 -6.98535,1.16423 -3.07342,0.0723 -6.17179,-0.35841 -9.15858,-1.08661 -2.06814,-0.504233 -6.06564,-3.054414 -6.06564,-3.054414 z"
+       id="path3807-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscssscscsssc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:1.06207478;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 270.96655,60.150438 c -1.34111,1.683754 -16.71607,9.152691 -27.65098,11.006823 -8.16135,4.331484 -11.26915,5.924804 -15.33127,6.802303 2.58776,-4.887311 3.71748,-7.748297 4.97401,-9.775262 3.27753,-0.916327 10.63867,-2.779544 18.4014,-4.164138 7.73838,-2.234115 17.08158,-3.839101 19.60684,-3.869726 z"
+       id="path3817-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:1.19296336;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 279.48032,51.187592 c -6.43727,1.511163 -14.5286,5.354171 -22.82912,8.41373 -8.30052,3.059578 -15.77764,4.963406 -24.55159,8.094131 -0.15101,-5.034478 -1.44044,-4.830265 -3.1833,-10.903743 16.32562,-1.195987 32.99055,-10.750997 50.56401,-5.604118 z"
+       id="path3820-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#c83737;fill-opacity:1;stroke:#000000;stroke-width:0.43464404;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 232.2743,67.545656 c -1.36595,5.250564 -2.24627,8.060401 -3.46798,10.769772 -0.9855,-1.2123 1.93622,-6.960256 1.85606,-10.707101 -0.0428,-1.999324 -3.39128,-10.476597 -4.20542,-12.717059 0.97321,0.08533 1.1845,0.582924 1.78231,0.965559 0.71116,0.754286 1.18406,2.504847 2.00011,4.582067 0.81608,2.077206 1.70353,4.414045 2.03492,7.106762 z"
+       id="path3823-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccsc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3826-8"
+       sodipodi:cx="396.33929"
+       sodipodi:cy="181.91576"
+       sodipodi:rx="4.1964288"
+       sodipodi:ry="4.1964288"
+       d="m 400.53572,181.91576 a 4.1964288,4.1964288 0 1 1 -8.39285,0 4.1964288,4.1964288 0 1 1 8.39285,0 z"
+       transform="matrix(0.06089727,-0.02195547,0.03550246,0.09847218,197.44235,47.752269)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#89a02c;fill-opacity:1;stroke:#000000;stroke-width:0.86928809;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 215.09291,51.320995 c -1.5689,2.261307 -8.5572,10.311049 -13.2729,15.057463 -3.66813,3.692011 -9.68237,8.871086 -11.64527,10.40017 -1.55261,-3.104449 -0.92847,-1.231117 -1.53544,-3.517282 0.91714,-2.22312 5.53535,-6.675608 8.31648,-10.002208 2.7575,-3.298366 5.73518,-8.322999 8.29909,-9.872823 3.90348,-0.984151 6.41057,-1.574061 9.83804,-2.06532 z"
+       id="path3810-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="caccacc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#445016;fill-opacity:1;stroke:#000000;stroke-width:0.86928809;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 206.67478,49.028441 c 2.53854,1.68815 -6.28769,12.869553 -10.10241,16.540163 -3.81471,3.670606 -9.11909,10.074668 -11.52653,7.572708 -2.40744,-2.501953 0.31022,-4.791871 4.10932,-11.168314 1.46964,-2.466665 6.5318,-7.932123 9.09661,-9.525134 2.03344,-1.262969 5.59016,-5.303287 8.42301,-3.419423 z"
+       id="path3813-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="opacity:0.93999999;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.55066937;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 350.38759,57.016347 c 0.58831,0.608272 0.45461,1.754357 -0.59634,2.684748 0.88596,1.946056 1.01183,3.898752 -2.04309,7.093379 -2.94213,3.07665 -6.0587,2.541255 -7.37958,2.187379 -0.58716,0.696444 -1.62698,0.868177 -2.26071,0.230069 -0.59507,-0.599162 -0.68879,-1.367085 -0.0265,-2.143585 -0.80754,-2.178631 0.85385,-5.912276 2.54933,-7.596132 1.69548,-1.683856 5.00997,-2.273205 6.56396,-1.996148 1.17127,-1.276554 2.53224,-1.142837 3.19288,-0.459706 z"
+       id="path3756-1-1-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scscscscs"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <g
+       style="display:inline"
+       id="g3784-8-7"
+       transform="matrix(0.21732203,0,0,0.21732203,283.20354,13.80483)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500">
+      <path
+         transform="translate(-103.21429,-90)"
+         d="m 424.99999,301.64789 c 0,18.34374 -14.87054,33.21428 -33.21428,33.21428 -18.34375,0 -33.21429,-14.87054 -33.21429,-33.21428 0,-18.34375 14.87054,-33.21429 33.21429,-33.21429 18.34374,0 33.21428,14.87054 33.21428,33.21429 z"
+         sodipodi:ry="33.214287"
+         sodipodi:rx="33.214287"
+         sodipodi:cy="301.64789"
+         sodipodi:cx="391.78571"
+         id="path3779-9-7"
+         style="opacity:0.93999999;fill:#0066ff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.3703704,0,0,1.3703704,-339.84129,-237.93839)"
+         d="m 468.2143,328.07648 c 0,5.3256 -4.31726,9.64285 -9.64286,9.64285 -5.3256,0 -9.64286,-4.31725 -9.64286,-9.64285 0,-5.32561 4.31726,-9.64286 9.64286,-9.64286 5.3256,0 9.64286,4.31725 9.64286,9.64286 z"
+         sodipodi:ry="9.6428576"
+         sodipodi:rx="9.6428576"
+         sodipodi:cy="328.07648"
+         sodipodi:cx="458.57144"
+         id="path3781-8-8"
+         style="opacity:0.93999999;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       style="fill:#1c1f24;fill-opacity:1;stroke:#000000;stroke-width:1.30393219;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       d="m 331.22846,60.273529 c -3.68568,5.346915 -4.28602,15.318998 -2.85409,23.005477 0.96294,5.168954 0.25986,-2.300604 0.26379,3.667021 0.007,11.081363 -26.59429,6.03816 -31.58765,12.36579 -2.82198,4.037233 18.91655,7.494523 23.88032,8.785043 4.96377,1.29053 -9.71287,19.23826 19.45151,18.94109 30.9637,-0.15523 17.8476,-16.90871 21.95099,-18.66948 4.1034,-1.76078 25.29869,-7.10027 23.25811,-10.924263 -4.07173,-7.630298 -31.65022,0.992503 -32.28043,-12.12131 -0.12143,-2.52664 -1.78109,-7.858508 -0.34719,-9.871864 0.55672,-0.781701 1.59608,-1.466908 -0.34189,-0.354989 -2.08877,1.198457 1.69724,0.972155 8.74407,-9.579013 4.10298,-6.143357 -11.73176,-31.945116 -30.13754,-5.243502 z m 8.23998,-0.162392 c 1.36557,-1.960913 4.5178,-3.138415 6.09628,-3.144884 0.92303,-1.466111 2.28888,-1.574525 3.06145,-1.02112 0.68791,0.492837 0.76219,1.63694 -0.10465,2.740933 1.22097,1.75535 1.69282,3.656277 -0.73886,7.347503 -2.34188,3.55492 -5.50311,3.58874 -6.86606,3.477785 -0.45256,0.790552 -1.44142,1.147928 -2.17942,0.63398 -0.69298,-0.48258 -0.92338,-1.224294 -0.41126,-2.107077 -1.18558,-1.998238 -0.22308,-5.966188 1.14252,-7.92712 z"
+       id="path2985-4-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssscscsssssssscccscscs"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#3473e2;fill-opacity:1;stroke:#000000;stroke-width:0.57529944;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 321.8348,93.829464 c 0,0 -2.37292,0.752617 -3.56145,1.100225 -1.17476,0.343572 -7.49085,1.359596 -7.49085,1.359596 0,0 11.4874,2.717348 14.42835,3.038939 5.08081,0.555583 10.6471,0.686866 16.03968,0.654534 4.17057,-0.02502 10.03973,-0.484274 14.02416,-0.863262 1.5587,-0.148258 9.00047,-2.365471 9.00047,-2.365471 0,0 -3.55045,-0.506573 -5.15076,-1.097091 -1.31308,-0.484531 -3.44155,-1.580871 -3.44155,-1.580871 0,0 -5.37527,0.814835 -6.36613,0.898104 -2.71972,0.228557 -5.5253,0.406504 -8.34433,0.426867 -3.67135,0.0265 -7.37251,-0.13141 -10.94036,-0.398408 -2.47051,-0.184879 -8.19723,-1.173162 -8.19723,-1.173162 z"
+       id="path3807-1-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscssscscsssc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:1.06207478;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 391.10683,33.083498 c -0.51914,2.089038 -11.3939,15.276696 -20.56657,21.511447 -5.61996,7.333863 -7.78334,10.075553 -11.11231,12.563269 0.32026,-5.520845 0.1575,-8.592493 0.45698,-10.958454 2.59933,-2.196657 8.51834,-6.953067 15.00163,-11.441281 6.10776,-5.250619 13.93661,-10.59669 16.22027,-11.674981 z"
+       id="path3817-4-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:1.19296336;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 387.74908,16.276993 c -4.42035,4.917591 -8.86624,12.693986 -13.93137,19.946839 -5.06514,7.252871 -10.11464,13.086761 -15.52771,20.668473 -2.99987,-4.045932 -3.94155,-3.141738 -8.84151,-7.131122 12.71654,-10.307574 20.93652,-27.669889 38.30059,-33.48419 z"
+       id="path3820-3-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#c83737;fill-opacity:1;stroke:#000000;stroke-width:0.43464404;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 359.21157,56.565909 c 1.48947,5.216869 0.0745,8.147639 0.39779,11.102081 -1.46459,-0.543939 -0.16173,-7.35812 -2.13342,-10.545242 -1.05211,-1.700641 -8.93593,-7.555831 -10.77499,-9.072526 0.88173,-0.420679 1.31642,-0.09931 2.02572,-0.07324 0.99568,0.288679 2.29199,1.556615 4.0498,2.93171 1.75782,1.375068 4.78227,3.505774 6.4351,5.657217 z"
+       id="path3823-9-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccsc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3826-8-0"
+       sodipodi:cx="396.33929"
+       sodipodi:cy="181.91576"
+       sodipodi:rx="4.1964288"
+       sodipodi:ry="4.1964288"
+       d="m 400.53572,181.91576 a 4.1964288,4.1964288 0 1 1 -8.39285,0 4.1964288,4.1964288 0 1 1 8.39285,0 z"
+       transform="matrix(0.04131285,-0.04983742,0.08058817,0.06680375,318.08034,56.633566)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#89a02c;fill-opacity:1;stroke:#000000;stroke-width:0.86928809;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 335.0981,50.745102 c -0.2033,2.744746 -2.13596,13.228042 -3.78823,19.711578 -1.28524,5.043243 -3.83648,12.558898 -4.75102,14.872922 -2.91395,-1.886012 -1.42501,-0.589111 -3.1088,-2.250379 -0.33875,-2.380893 1.37876,-8.561709 2.08541,-12.839744 0.70064,-4.241714 0.71437,-10.082374 2.13613,-12.719452 2.86302,-2.829988 4.72327,-4.611267 7.42651,-6.774925 z"
+       id="path3810-8-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="caccacc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#445016;fill-opacity:1;stroke:#000000;stroke-width:0.86928809;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 326.68192,53.044789 c 3.04412,0.165251 1.11837,14.279694 -0.30402,19.378938 -1.42238,5.099235 -2.74005,13.309729 -6.08449,12.376827 -3.34444,-0.932896 -2.16604,-4.285622 -2.13106,-11.70796 0.0135,-2.871254 1.59913,-10.150162 2.99973,-12.8249 1.11044,-2.120591 2.12283,-7.407318 5.51989,-7.222914 z"
+       id="path3813-0-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="opacity:0.93999999;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.55066937;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 490.49657,62.191895 c 0.81387,0.231758 1.27225,1.290665 0.82871,2.622353 1.7416,1.240501 2.82869,2.867501 1.78493,7.162702 -1.00525,4.136591 -3.97081,5.234354 -5.29128,5.589736 -0.15933,0.896885 -0.97327,1.566382 -1.8414,1.331549 -0.81515,-0.220488 -1.28094,-0.838172 -1.09669,-1.841982 -1.79024,-1.481079 -2.22258,-5.544753 -1.59862,-7.851414 0.62395,-2.306669 3.19741,-4.477039 4.68116,-5.015668 0.37428,-1.691558 1.61917,-2.257569 2.53315,-1.997251 z"
+       id="path3756-1-1-8-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scscscscs"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <g
+       style="display:inline"
+       id="g3784-8-7-9"
+       transform="matrix(0.21732203,0,0,0.21732203,425.72567,20.446364)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500">
+      <path
+         transform="translate(-103.21429,-90)"
+         d="m 424.99999,301.64789 c 0,18.34374 -14.87054,33.21428 -33.21428,33.21428 -18.34375,0 -33.21429,-14.87054 -33.21429,-33.21428 0,-18.34375 14.87054,-33.21429 33.21429,-33.21429 18.34374,0 33.21428,14.87054 33.21428,33.21429 z"
+         sodipodi:ry="33.214287"
+         sodipodi:rx="33.214287"
+         sodipodi:cy="301.64789"
+         sodipodi:cx="391.78571"
+         id="path3779-9-7-6"
+         style="opacity:0.93999999;fill:#0066ff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.3703704,0,0,1.3703704,-339.84129,-237.93839)"
+         d="m 468.2143,328.07648 c 0,5.3256 -4.31726,9.64285 -9.64286,9.64285 -5.3256,0 -9.64286,-4.31725 -9.64286,-9.64285 0,-5.32561 4.31726,-9.64286 9.64286,-9.64286 5.3256,0 9.64286,4.31725 9.64286,9.64286 z"
+         sodipodi:ry="9.6428576"
+         sodipodi:rx="9.6428576"
+         sodipodi:cy="328.07648"
+         sodipodi:cx="458.57144"
+         id="path3781-8-8-5"
+         style="opacity:0.93999999;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       style="fill:#1c1f24;fill-opacity:1;stroke:#000000;stroke-width:1.30393219;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       d="m 474.88395,73.468639 c -1.10893,6.398755 -3.39907,8.512885 -1.96714,16.199365 -0.0737,4.885138 -53.94844,-4.334053 -54.2852,2.639941 1.3253,11.537225 45.33946,10.633935 50.30323,11.924455 -3.60765,15.2191 -11.35681,29.41774 15.98994,29.19453 33.67381,0.73763 25.73012,-11.89167 24.65494,-30.43816 4.1034,-1.76077 48.14686,-3.367299 47.29459,-12.548435 -4.0104,-6.876743 -57.85494,3.671085 -57.77086,-2.299865 0.0356,-2.529306 1.41387,-7.558099 1.87328,-9.9868 0.17836,-0.942972 0.83544,-2.000334 -0.4591,-0.179271 -1.39526,1.962773 1.94833,0.17239 3.93119,-12.359701 1.15451,-7.296732 -24.02696,-24.100409 -29.56487,7.853941 z m 7.41529,-3.596824 c 0.4193,-2.352474 2.78913,-4.741406 4.21995,-5.408042 0.22453,-1.71787 1.41957,-2.388084 2.35285,-2.208903 0.83104,0.159605 1.37744,1.167552 1.05234,2.533026 1.84366,1.083037 3.06792,2.611875 2.40474,6.982042 -0.63868,4.208793 -3.49545,5.562833 -4.77968,6.032618 -0.0801,0.907397 -0.82851,1.645896 -1.71388,1.488088 -0.83135,-0.148173 -1.35109,-0.72533 -1.25554,-1.74142 -1.91319,-1.318436 -2.70011,-5.324904 -2.28078,-7.677409 z"
+       id="path2985-4-3-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccccccsssssscccscscs"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#3473e2;fill-opacity:1;stroke:#000000;stroke-width:0.61217123;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 456.56283,90.688387 c 0,0 -5.67771,-0.262396 -7.6144,0.09509 -1.82554,0.336964 -10.79512,-0.66628 -10.79512,-0.66628 0,0 10.26762,3.45369 16.05985,4.144438 10.07266,1.201206 27.54747,1.781254 38.23821,1.762792 8.26813,-0.01443 16.42086,-0.409927 24.31998,-0.62637 3.0901,-0.08465 9.07522,-1.367731 9.07522,-1.367731 0,0 -5.98977,-0.646972 -7.90369,-1.023983 -2.06908,-0.407577 -3.67611,-1.300286 -3.67611,-1.300286 0,0 -3.73362,0.147478 -5.69798,0.195039 -5.39181,0.130537 -10.95386,0.232176 -16.54254,0.24381 -7.2784,0.01512 -14.6159,-0.07502 -21.68918,-0.227545 -4.8977,-0.105591 -13.77424,-1.228967 -13.77424,-1.228971 z"
+       id="path3807-1-8-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscssscscsssc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:1.06207478;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 526.2835,26.15034 c -0.004,2.152574 -7.40351,17.56094 -14.81599,25.8111 -3.69992,8.466402 -5.1437,11.646431 -7.77998,14.85904 -1.01131,-5.436875 -3.16769,-6.61238 -3.44357,-8.981207 1.99758,-2.75526 7.86784,-10.558618 13.08751,-16.468967 4.67248,-6.560621 10.99309,-13.626117 12.95203,-15.219966 z"
+       id="path3817-4-3-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:1.19296336;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 499.31853,6.0764131 c -0.9662,6.5413019 -0.37374,15.4792699 -0.5867,24.3231419 -0.21295,8.843895 -1.19709,16.496555 -1.51828,25.806792 -4.73613,-1.714002 -5.02123,-0.440014 -11.30966,-1.056783 4.90148,-15.618327 2.15663,-34.631054 13.41464,-49.0731509 z"
+       id="path3820-3-7-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#c83737;fill-opacity:1;stroke:#000000;stroke-width:0.43464404;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 500.99899,59.260176 c 2.24254,4.374886 2.81983,3.593463 3.69802,7.09488 -1.55897,0.102522 -4.55719,-5.60591 -7.65978,-7.708105 -1.65556,-1.121718 -9.88238,-2.580344 -12.18086,-3.212401 0.63261,-0.744451 1.25,-1.03072 1.90796,-1.296951 1.02668,-0.143717 2.81745,0.159522 5.02084,0.514251 2.54524,0.409763 4.3334,1.037776 6.72149,2.325231 z"
+       id="path3823-9-1-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccscc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3826-8-0-8"
+       sodipodi:cx="396.33929"
+       sodipodi:cy="181.91576"
+       sodipodi:rx="4.1964288"
+       sodipodi:ry="4.1964288"
+       d="m 400.53572,181.91576 a 4.1964288,4.1964288 0 1 1 -8.39285,0 4.1964288,4.1964288 0 1 1 8.39285,0 z"
+       transform="matrix(0.01732111,-0.06237387,0.10085987,0.0280086,462.33732,74.569303)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#89a02c;fill-opacity:1;stroke:#000000;stroke-width:0.86928809;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 480.5373,56.045031 c -0.11761,2.749755 -1.72244,13.288221 -3.17173,19.820121 -1.12735,5.080876 -3.443,12.672424 -4.28493,15.01384 -2.97135,-1.794231 -1.44268,-0.544404 -3.17746,-2.152339 -0.41283,-2.369177 1.11111,-8.60054 1.68402,-12.898532 0.56802,-4.261498 0.39962,-10.099745 1.73846,-12.779876 2.77338,-2.917892 4.57718,-4.756312 7.21164,-7.003214 z"
+       id="path3810-8-7-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="caccacc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#445016;fill-opacity:1;stroke:#000000;stroke-width:0.86928809;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 472.19692,58.606043 c 3.04779,0.07024 1.5631,14.23788 0.30041,19.378993 -1.26268,5.141106 -2.32368,13.388696 -5.69558,12.560548 -3.37191,-0.828164 -2.29863,-4.216011 -2.49511,-11.635818 -0.076,-2.870286 1.28184,-10.195099 2.59835,-12.912204 1.04378,-2.154183 1.89082,-7.469913 5.29198,-7.391531 z"
+       id="path3813-0-3-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Images\Characters\Bird\BirdSoldier.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
   </g>
 </svg>
