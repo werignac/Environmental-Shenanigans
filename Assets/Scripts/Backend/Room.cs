@@ -13,6 +13,16 @@ public class Room
         roomType = r;
         obstacles = o;
     }
+    public Room(Room other)
+    {
+        width = other.width;
+        roomType = other.roomType;
+        obstacles = new ObstacleData[other.ObstacleNum];
+        for(int i = 0; i < other.ObstacleNum; ++i)
+        {
+            obstacles[i] = new ObstacleData(other.GetObstacle(i));
+        }
+    }
     public float Width
     {
         get { return (width); }

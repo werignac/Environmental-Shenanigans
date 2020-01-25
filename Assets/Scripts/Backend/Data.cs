@@ -48,6 +48,6 @@ public static class Data
         {
             return (null);
         }
-        return (roomDatas[rooms[Random.Range(0, rooms.Count)]]);
+        return (new Room(roomDatas[rooms[Random.Range(0, rooms.Count)]]));
     }
 }

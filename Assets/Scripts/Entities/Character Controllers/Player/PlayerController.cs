@@ -125,7 +125,7 @@ public class PlayerController : MonoBehaviour
             for (int i = 0; i < collision.contactCount; ++i)
             {
                 Vector2 contactPoint = collision.GetContact(i).point;
-                if (contactPoint.y <= (transform.position.y - (GetComponent<BoxCollider2D>().size.y / 2))) //Second statement makes sure it's under the player.
+                if (contactPoint.y <= (transform.position.y - (GetComponent<CapsuleCollider2D>().size.y / 2))) //Second statement makes sure it's under the player.
                 {
                     onGround = true;
                 }
