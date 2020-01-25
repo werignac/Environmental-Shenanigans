@@ -31,6 +31,8 @@ public class PlayerController : MonoBehaviour
     private bool jump;
     private int numGround;
 
+    public GameObject body;
+
     /// <summary>
     /// Prepares the main character for the game.
     /// </summary>
@@ -47,6 +49,18 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         float horizontal = Input.GetAxis("Horizontal");
+
+        Vector3 mirrorScale = body.transform.localScale;
+        if (horizontal > 0)
+        {
+            mirrorScale.x = Mathf.Abs(mirrorScale.x);
+        }
+        else if (horizontal < 0)
+        {
+            mirrorScale.x = -Mathf.Abs(mirrorScale.x);
+        }
+        body.transform.localScale = mirrorScale;
+
 
         float vertical = 0;
         if (onGround) //Check for ground.
@@ -83,7 +97,9 @@ public class PlayerController : MonoBehaviour
 
         rigid.AddForce(new Vector2(horizontal * accelCoeff.x, vertical * accelCoeff.y));
 
+        //Point the body in the direction it's going.
         float currentSpeed = Mathf.Abs(rigid.velocity.x);
+
         if (currentSpeed > maxSpeedX)
         {
             rigid.velocity = new Vector2(rigid.velocity.x * maxSpeedX / currentSpeed, rigid.velocity.y);

@@ -31,11 +31,13 @@ public class Backdrop : MonoBehaviour
         {
             background1Sprite2.transform.position = new Vector3(b1Width, background1Sprite2.transform.position.y);
         }*/
+        
         if (background2Sprite1 != null)
         {
             background2Sprite1.transform.position = new Vector3(0, background2Sprite1.transform.position.y);
             background2Sprite2 = Instantiate(background2Sprite1, new Vector3(b2Width, background2Sprite1.transform.position.y), new Quaternion());
         }
+        
         /*if (background2Sprite2 != null)
         {
             background2Sprite2.transform.position = new Vector3(b2Width, background2Sprite2.transform.position.y);
