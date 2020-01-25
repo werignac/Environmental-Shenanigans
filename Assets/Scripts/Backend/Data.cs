@@ -6,6 +6,7 @@ using System.IO;
 public static class Data
 {
     private static Room[] roomDatas;
+    public static float frameRate;
 
     public static void LoadRoomDatas()
     {

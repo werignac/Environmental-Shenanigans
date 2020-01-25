@@ -17,6 +17,7 @@ public class RoomData : MonoBehaviour
         Debug.DrawLine(new Vector3(width * 0.5f, 0), new Vector3(width * 0.5f, 25), color);
         Debug.DrawLine(new Vector3(width * 0.5f, 25), new Vector3(width * -0.5f, 25), color);
         Debug.DrawLine(new Vector3(width * -0.5f, 25), new Vector3(width * -0.5f, 0), color);
+        gameObject.name = roomName;
     }
 
     public string GetRoomData()

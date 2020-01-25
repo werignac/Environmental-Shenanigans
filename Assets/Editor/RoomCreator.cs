@@ -7,7 +7,7 @@ using System.IO;
 public class RoomCreator : MonoBehaviour
 {
     [MenuItem("ESTools/SaveRooms")]
-    static void SaveRoom()
+    static void SaveRooms()
     {
         File.Delete("Data/RoomData.csv");
         StreamWriter writer = new StreamWriter("Data/RoomData.csv");

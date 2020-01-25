@@ -149,9 +149,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74ec8ed8657f1fe4e9c22991583f92e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  background1Sprite1: {fileID: 741757596}
-  background2Sprite1: {fileID: 1956255169}
-  ground1: {fileID: 2108044550}
+  backdrops:
+  - {fileID: 2108044550}
+  - {fileID: 741757596}
+  - {fileID: 1956255169}
+  moveSpeed:
+  - 0
+  - 0.3
+  - 0.05
 --- !u!4 &26159259
 Transform:
   m_ObjectHideFlags: 0
@@ -639,6 +644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1117371811}
   - component: {fileID: 1117371812}
+  - component: {fileID: 1117371813}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -673,6 +679,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 200564331}
+--- !u!114 &1117371813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117371810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed1c95f8c60c4994eba74eb66a088dd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1863323337
 GameObject:
   m_ObjectHideFlags: 0
