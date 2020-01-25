@@ -6,22 +6,27 @@ public class Room
 {
     float width;
     int roomType;
-    ObstacleData[] obstacles;
-    public Room(float w, int r, ObstacleData[] o)
+    string name;
+    int nextRoomType;
+    GameObject model;
+    public Room(float w, int r, string n, int next)
     {
         width = w;
         roomType = r;
-        obstacles = o;
+        name = n;
+        nextRoomType = next;
+        model = null;
+        model = GameObject.Instantiate(Resources.Load<GameObject>("Rooms/" + name), new Vector3(0, 0), new Quaternion());
+        model.SetActive(false);
     }
     public Room(Room other)
     {
         width = other.width;
         roomType = other.roomType;
-        obstacles = new ObstacleData[other.ObstacleNum];
-        for(int i = 0; i < other.ObstacleNum; ++i)
-        {
-            obstacles[i] = new ObstacleData(other.GetObstacle(i));
-        }
+        name = "" + other.name;
+        nextRoomType = other.nextRoomType;
+        model = GameObject.Instantiate(Resources.Load<GameObject>("Rooms/" + name), new Vector3(0, 0), new Quaternion());
+        model.SetActive(false);
     }
     public float Width
     {
@@ -31,12 +36,16 @@ public class Room
     {
         get { return (roomType); }
     }
-    public int ObstacleNum
+    public void SetPos(float pos)
     {
-        get { return (obstacles.Length); }
+        model.transform.position = new Vector3(pos, 0);
     }
-    public ObstacleData GetObstacle(int pos)
+    public void Spawn()
     {
-        return (obstacles[pos]);
+        model.SetActive(true);
+    }
+    public void DeSpawn()
+    {
+        model.SetActive(false);
     }
 }
