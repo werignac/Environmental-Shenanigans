@@ -14,6 +14,12 @@ public class Level
         {
             rooms[i] = Data.GetRoom(2);
         }
+        float pos = 0;
+        for(int i = 0; i < numRooms; ++i)
+        {
+            rooms[i].SetPos(pos);
+            pos += rooms[i].Width;
+        }
     }
     public int RoomNum
     {

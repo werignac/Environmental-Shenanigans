@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
     void Start()
     {
         Data.LoadRoomDatas();
-        level = new Level(4);
+        level = new Level(5);
     }
 
     // Update is called once per frame
@@ -31,16 +31,13 @@ public class GameController : MonoBehaviour
         for (int i = 0; i < level.RoomNum; ++i)
         {
             Room room = level.GetRoom(i);
-            for (int o = 0; o < room.ObstacleNum; ++o)
+            if (Mathf.Abs(r - i) < 2)
             {
-                if (Mathf.Abs(r - i) < 3)
-                {
-                    room.GetObstacle(o).Spawn(pos);
-                }
-                else
-                {
-                    room.GetObstacle(o).DeSpawn();
-                }
+                room.Spawn();
+            }
+            else
+            {
+                room.DeSpawn();
             }
             pos += room.Width;
         }

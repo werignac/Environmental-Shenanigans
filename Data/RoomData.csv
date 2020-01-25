@@ -1,4 +1,4 @@
-Width,RoomType,Obstacles
-15,0,Wall;-2;0
-15,1,SmallPlatform;2;0;BulletShooter;3;1;Wall;10;0
-30,2,SmallPlatform;3;0.2;SmallPlatform;10;0.5
+Name,Width,RoomType,NextRoomType
+BasicStartRoom,15,0,2
+BasicEndRoom,15,1,0
+BasicNormalRoom,30,2,2
