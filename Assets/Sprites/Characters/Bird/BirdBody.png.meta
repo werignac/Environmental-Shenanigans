@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 42f6b77fed8fb9f41bce67d0e1545827
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8067870565023210626
+    second: BirdBody_0
+  - first:
+      213: 4132342091239223574
+    second: BirdBody_1
+  - first:
+      213: 7200092259175213484
+    second: BirdBody_2
+  - first:
+      213: 3926326280082879311
+    second: BirdBody_3
+  - first:
+      213: -301514572946286667
+    second: BirdBody_4
+  - first:
+      213: 8290806263237001351
+    second: BirdBody_5
+  - first:
+      213: 1455146095925669253
+    second: BirdBody_6
+  - first:
+      213: -8801034275348707029
+    second: BirdBody_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +64,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +93,221 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BirdBody_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 907
+        width: 570
+        height: 757
+      alignment: 9
+      pivot: {x: 0.7023826, y: 0.8104212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e18d9ce1c68f484fae3c505430d15a7
+      internalID: 8067870565023210626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdBody_1
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 941
+        width: 586
+        height: 759
+      alignment: 9
+      pivot: {x: 0.68956625, y: 0.8152325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7d96b4a6ab75243b17f34bfbfffdae
+      internalID: 4132342091239223574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdBody_2
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 958
+        width: 641
+        height: 754
+      alignment: 9
+      pivot: {x: 0.6799663, y: 0.81165636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8eba59f1a675a34e99604614bd3aa22
+      internalID: 7200092259175213484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdBody_3
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 927
+        width: 613
+        height: 765
+      alignment: 9
+      pivot: {x: 0.688187, y: 0.818345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17736ceb295f8e7438ba44689c1b3d7a
+      internalID: 3926326280082879311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdBody_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 29
+        width: 572
+        height: 756
+      alignment: 9
+      pivot: {x: 0.73155284, y: 0.79952866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e31faa85a988c4dad2b57061e325be
+      internalID: -301514572946286667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdBody_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 9
+        width: 643
+        height: 779
+      alignment: 9
+      pivot: {x: 0.6528275, y: 0.8126236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93df84653c90344bb4945089232b23a
+      internalID: 8290806263237001351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdBody_6
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 0
+        width: 648
+        height: 780
+      alignment: 9
+      pivot: {x: 0.66483563, y: 0.8122228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9cf7d85fc69d84aa56b893ce894038
+      internalID: 1455146095925669253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdBody_7
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 30
+        width: 581
+        height: 756
+      alignment: 9
+      pivot: {x: 0.77208906, y: 0.8108317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c1d76fc79bae54f915ad0a6ae6cfa0
+      internalID: -8801034275348707029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -33,9 +33,12 @@ public class PlayerController : MonoBehaviour
 
     public GameObject body;
 
+    public Animator bodyAnim;
+
     /// <summary>
     /// Prepares the main character for the game.
     /// </summary>
+    /// 
     private void Start()
     {
         jump = false;
@@ -50,17 +53,24 @@ public class PlayerController : MonoBehaviour
     {
         float horizontal = Input.GetAxis("Horizontal");
 
-        Vector3 mirrorScale = body.transform.localScale;
-        if (horizontal > 0)
+        if (horizontal != 0)
         {
-            mirrorScale.x = Mathf.Abs(mirrorScale.x);
+            bodyAnim.SetTrigger("Walking");
+            Vector3 mirrorScale = body.transform.localScale;
+            if (horizontal > 0)
+            {
+                mirrorScale.x = Mathf.Abs(mirrorScale.x);
+            }
+            else if (horizontal < 0)
+            {
+                mirrorScale.x = -Mathf.Abs(mirrorScale.x);
+            }
+            body.transform.localScale = mirrorScale;
         }
-        else if (horizontal < 0)
+        else
         {
-            mirrorScale.x = -Mathf.Abs(mirrorScale.x);
+            bodyAnim.Play("birdIdleAnimation");
         }
-        body.transform.localScale = mirrorScale;
-
 
         float vertical = 0;
         if (onGround) //Check for ground.
