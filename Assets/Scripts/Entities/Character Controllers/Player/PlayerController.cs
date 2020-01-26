@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
     {
         float horizontal = Input.GetAxis("Horizontal");
 
-        if (horizontal != 0)
+        if (horizontal != 0 && onGround)
         {
             bodyAnim.SetTrigger("Walking");
             Vector3 mirrorScale = body.transform.localScale;
