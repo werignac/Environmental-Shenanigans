@@ -16,7 +16,7 @@ public abstract class ProjectileController : MovingHazardController
     /// <param name="encounter">The reflecting surface.</param>
     public override void OnShieldCollision(GameObject encounter)
     {
-        float shieldAngle = encounter.GetComponent<Transform>().eulerAngles.z;
+        /*float shieldAngle = encounter.GetComponent<Transform>().eulerAngles.z;
         if (shieldAngle > 180)
         {
             shieldAngle = -360 + shieldAngle;
@@ -73,7 +73,39 @@ public abstract class ProjectileController : MovingHazardController
                 finalAngle = shieldAngle + diff;
         }
 
-        SetMoveDirection(new Vector2(Mathf.Cos(finalAngle*Mathf.Deg2Rad)* GetMoveDirection().magnitude, Mathf.Sin(finalAngle * Mathf.Deg2Rad) * GetMoveDirection().magnitude));
+        SetMoveDirection(new Vector2(Mathf.Cos(finalAngle*Mathf.Deg2Rad)* GetMoveDirection().magnitude, Mathf.Sin(finalAngle * Mathf.Deg2Rad) * GetMoveDirection().magnitude));*/
+
+        float shieldAngle = encounter.GetComponent<Transform>().eulerAngles.z;
+        Vector2 projectileMove = GetMoveDirection();
+        float projectileAngle = Mathf.Atan2(projectileMove.y, projectileMove.x) * Mathf.Rad2Deg;
+        if(Mathf.Abs(projectileAngle - shieldAngle) < 90)
+        {
+            shieldAngle *= Mathf.Deg2Rad;
+            SetMoveDirection(new Vector2(Mathf.Cos(shieldAngle), Mathf.Sin(shieldAngle)) * projectileMove.magnitude);
+            return;
+        }
+        projectileAngle -= shieldAngle;
+        projectileAngle += 180;
+        while(projectileAngle <= -180)
+        {
+            projectileAngle += 360;
+        }
+        while(projectileAngle > 180)
+        {
+            projectileAngle -= 360;
+        }
+        projectileAngle *= -1;
+        projectileAngle += shieldAngle;
+        while (projectileAngle <= -180)
+        {
+            projectileAngle += 360;
+        }
+        while (projectileAngle > 180)
+        {
+            projectileAngle -= 360;
+        }
+        projectileAngle *= Mathf.Deg2Rad;
+        SetMoveDirection(new Vector2(Mathf.Cos(projectileAngle), Mathf.Sin(projectileAngle)) * projectileMove.magnitude);
     }
 
     private static int GetQuad(float angle)
