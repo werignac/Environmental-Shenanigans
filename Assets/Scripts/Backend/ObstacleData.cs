@@ -15,6 +15,13 @@ public class ObstacleData
         yPos = y;
         model = null;
     }
+    public ObstacleData(ObstacleData other)
+    {
+        xPos = other.xPos;
+        yPos = other.yPos;
+        name = other.name;
+        model = null;
+    }
     public float XPos
     {
         get { return (xPos); }

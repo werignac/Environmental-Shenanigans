@@ -6,6 +6,7 @@ using System.IO;
 public static class Data
 {
     private static Room[] roomDatas;
+    public static float frameRate;
 
     public static void LoadRoomDatas()
     {
@@ -16,13 +17,7 @@ public static class Data
         while ((line = reader.ReadLine()) != null)
         {
             row = line.Split(',');
-            string[] o = row[2].Split(';');
-            ObstacleData[] obstacles = new ObstacleData[o.Length / 3];
-            for(int i = 0; i + 2 < o.Length; i += 3)
-            {
-                obstacles[i / 3] = new ObstacleData(o[i], float.Parse(o[i + 1]), float.Parse(o[i + 2]));
-            }
-            r.Add(new Room(float.Parse(row[0]), int.Parse(row[1]), obstacles));
+            r.Add(new Room(float.Parse(row[1]), int.Parse(row[2]), row[0], int.Parse(row[3])));
         }
         roomDatas = new Room[r.Count];
         for (int i = 0; i < roomDatas.Length; ++i)
@@ -48,6 +43,6 @@ public static class Data
         {
             return (null);
         }
-        return (roomDatas[rooms[Random.Range(0, rooms.Count)]]);
+        return (new Room(roomDatas[rooms[Random.Range(0, rooms.Count)]]));
     }
 }
