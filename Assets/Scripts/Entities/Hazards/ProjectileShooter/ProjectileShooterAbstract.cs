@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class ProjectileShooterAbstract : MonoBehaviour
 {
-    int count;
+    float count;
     public float delay;
     // Start is called before the first frame update
     void Start()
@@ -15,8 +15,8 @@ public abstract class ProjectileShooterAbstract : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ++count;
-        if(count > (delay * Data.frameRate))
+        count += Time.deltaTime;
+        if(count > delay)
         {
             ShootProjectile();
             count = 0;

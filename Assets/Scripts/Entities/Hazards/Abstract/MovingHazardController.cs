@@ -16,7 +16,7 @@ public abstract class MovingHazardController : HazardController
     /// </summary>
     private void Update()
     {
-        transform.Translate(GetMoveDirection() * Time.deltaTime);
+        transform.position = transform.position + (Vector3) (GetMoveDirection() * Time.deltaTime);
         OnUpdate();
         DebugDisplay();
     }
