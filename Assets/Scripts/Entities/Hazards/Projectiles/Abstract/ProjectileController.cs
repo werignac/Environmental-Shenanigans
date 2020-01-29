@@ -7,9 +7,19 @@ using UnityEngine;
 /// </summary>
 public abstract class ProjectileController : MovingHazardController
 {
+    /// <summary>
+    /// The ways projectiles can rotate.
+    /// </summary>
+    public enum RotationType
+    {
+        NOROT, FORWARDROT, CONSTANTROT
+    }
+
     public float range;
     private float distance;
     private Vector3 pastPos;
+    public RotationType rotType;
+    public float angularVelocity;
     /// <summary>
     /// Switches the <c>Projectile</c>'s direction if it encounters a reflecting surface. 
     /// </summary>
@@ -168,6 +178,17 @@ public abstract class ProjectileController : MovingHazardController
     {
         distance += (transform.position - pastPos).magnitude;
         pastPos = new Vector3(transform.position.x, transform.position.y, 0);
+
+        switch(rotType)
+        {
+            case RotationType.CONSTANTROT:
+                transform.Rotate(new Vector3(0, 0, angularVelocity * Time.deltaTime));
+                break;
+            case RotationType.FORWARDROT:
+                transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(moveDirection.y, moveDirection.x)*Mathf.Rad2Deg);
+                break;
+        }
+
         if (distance > range)
         {
             Destroy(gameObject);
