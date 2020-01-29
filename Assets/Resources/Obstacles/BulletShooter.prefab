@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8beb372b8e1042d4fab1bcf13635134b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 500
+  delay: 1.5
   projectileName: Bullet
   angle: 90
   speed: 1

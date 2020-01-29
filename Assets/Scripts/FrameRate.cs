@@ -4,9 +4,17 @@ using UnityEngine;
 
 public class FrameRate : MonoBehaviour
 {
-    int frameCounter = 0;
-    float timeCounter = 0.0f;
-    float refreshTime = 0.5f;
+    int frameCounter;
+    float timeCounter;
+    float refreshTime;
+
+    void Start()
+    {
+        Data.frameRate = 30;
+        refreshTime = 0.05f;
+        timeCounter = 0f;
+        frameCounter = 0;
+    }
 
     void Update()
     {

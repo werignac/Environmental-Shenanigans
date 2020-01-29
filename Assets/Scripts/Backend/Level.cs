@@ -10,9 +10,11 @@ public class Level
         rooms = new Room[numRooms];
         rooms[0] = Data.GetRoom(0);
         rooms[numRooms - 1] = Data.GetRoom(1);
+        int nextRoom = rooms[0].NextRoom;
         for(int i = 1; i < numRooms - 1; ++i)
         {
-            rooms[i] = Data.GetRoom(2);
+            rooms[i] = Data.GetRoom(nextRoom);
+            nextRoom = rooms[i].NextRoom;
         }
         float pos = 0;
         for(int i = 0; i < numRooms; ++i)

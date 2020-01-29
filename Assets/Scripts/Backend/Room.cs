@@ -36,6 +36,10 @@ public class Room
     {
         get { return (roomType); }
     }
+    public int NextRoom
+    {
+        get { return (nextRoomType); }
+    }
     public void SetPos(float pos)
     {
         model.transform.position = new Vector3(pos, 0);
