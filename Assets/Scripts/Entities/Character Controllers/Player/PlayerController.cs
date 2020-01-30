@@ -30,6 +30,11 @@ public class PlayerController : MonoBehaviour
     public float maxSpeedY;
     private bool jump;
     private int numGround;
+    private int numJumps;
+    private int maxJumps;
+    private bool airJump;
+    private bool crouch;
+    private int crouchCount;
 
     public GameObject body;
 
@@ -44,6 +49,11 @@ public class PlayerController : MonoBehaviour
         jump = false;
         rigid = GetComponent<Rigidbody2D>();
         numGround = 0;
+        airJump = false;
+        numJumps = 0;
+        maxJumps = 2;
+        crouch = false;
+        crouchCount = 0;
     }
 
     /// <summary>
@@ -73,26 +83,51 @@ public class PlayerController : MonoBehaviour
         }
 
         float vertical = 0;
-        if (onGround) //Check for ground.
+        float v = Input.GetAxis("Vertical");
+        if (v < 0.85 && v > 0)
         {
-            vertical = Input.GetAxis("Vertical");
-            if(vertical < 0.85 && vertical > 0)
+            v = 0.85f;
+        }
+        if(v == 0)
+        {
+            if (numJumps < maxJumps)
             {
-                vertical = 0.85f;
-            }
-            if (vertical > 0)
-            {
-                onGround = false;
-                jump = true;
-                if(rigid.velocity.y > 0)
-                {
-                    rigid.velocity = new Vector2(rigid.velocity.x, 0);
-                }
+                airJump = true;
             }
         }
-        else
+        if ((onGround || airJump) && v > 0)
+        {
+            ++numJumps;
+            onGround = false;
+            jump = true;
+            airJump = false;
+            vertical = v;
+            if (rigid.velocity.y > 0)
+            {
+                rigid.velocity = new Vector2(rigid.velocity.x, 0);
+            }
+        }
+        if (onGround && v < 0 && crouchCount <= 0)
+        {
+            if (crouch)
+            {
+                crouch = false;
+                GetComponent<CapsuleCollider2D>().size = new Vector2(GetComponent<CapsuleCollider2D>().size.x, GetComponent<CapsuleCollider2D>().size.y * 2);
+            }
+            else
+            {
+                crouch = true;
+                GetComponent<CapsuleCollider2D>().size = new Vector2(GetComponent<CapsuleCollider2D>().size.x, GetComponent<CapsuleCollider2D>().size.y / 2);
+            }
+            crouchCount = (int)Data.frameRate / 2;
+        }
+        if(!onGround)
         {
             horizontal /= 5;
+        }
+        if(crouchCount > 0)
+        {
+            --crouchCount;
         }
         Move(horizontal, vertical);
     }
@@ -138,10 +173,15 @@ public class PlayerController : MonoBehaviour
                 if (contactPoint.y <= (transform.position.y - (GetComponent<CapsuleCollider2D>().size.y / 2))) //Second statement makes sure it's under the player.
                 {
                     onGround = true;
+                    numJumps = 0;
                 }
                 else
                 {
                     onGround = g;
+                    if (onGround)
+                    {
+                        numJumps = 0;
+                    }
                     return;
                 }
             }
