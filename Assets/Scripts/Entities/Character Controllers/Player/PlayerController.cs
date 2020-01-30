@@ -82,9 +82,11 @@ public class PlayerController : MonoBehaviour
             bodyAnim.Play("birdIdleAnimation");
         }
 
+        //hitJump added to prevent wasting double jump.
+        bool hitJump = Input.GetKeyDown(KeyCode.W);
         float vertical = 0;
         float v = Input.GetAxis("Vertical");
-        if (v < 0.85 && v > 0)
+        if (v < 0.85 && v > 0 && hitJump)
         {
             v = 0.85f;
         }
@@ -95,7 +97,7 @@ public class PlayerController : MonoBehaviour
                 airJump = true;
             }
         }
-        if ((onGround || airJump) && v > 0)
+        if ((onGround || airJump) && v > 0 && hitJump)
         {
             ++numJumps;
             onGround = false;
