@@ -31,10 +31,16 @@ public class PlayerController : MonoBehaviour
     private bool jump;
     private int numGround;
     private int numJumps;
-    private int maxJumps;
+    public int maxJumps;
     private bool airJump;
     private bool crouch;
     private int crouchCount;
+    public float crouchSlow;
+    public int character;
+    public bool canCrouch;
+    public int maxDash;
+    private int numDash;
+    public float dashSpeed;
 
     public GameObject body;
 
@@ -54,6 +60,7 @@ public class PlayerController : MonoBehaviour
         maxJumps = 2;
         crouch = false;
         crouchCount = 0;
+        numDash = 0;
     }
 
     /// <summary>
@@ -83,7 +90,7 @@ public class PlayerController : MonoBehaviour
         }
 
         //hitJump added to prevent wasting double jump.
-        bool hitJump = Input.GetKeyDown(KeyCode.W);
+        bool hitJump = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow);
         float vertical = 0;
         float v = Input.GetAxis("Vertical");
         if (v < 0.85 && v > 0 && hitJump)
@@ -109,7 +116,7 @@ public class PlayerController : MonoBehaviour
                 rigid.velocity = new Vector2(rigid.velocity.x, 0);
             }
         }
-        if (onGround && v < 0 && crouchCount <= 0)
+        if (onGround && v < 0 && crouchCount <= 0 && canCrouch)
         {
             if (crouch)
             {
@@ -131,6 +138,12 @@ public class PlayerController : MonoBehaviour
         {
             --crouchCount;
         }
+        if(numDash < maxDash && Input.GetKeyDown(KeyCode.Space))
+        {
+            ++numDash;
+            horizontal *= dashSpeed;
+            vertical = v * dashSpeed;
+        }
         Move(horizontal, vertical);
     }
 
@@ -141,15 +154,22 @@ public class PlayerController : MonoBehaviour
     /// <param name="vertical">The vertical force to be applied.</param>
     public virtual void Move(float horizontal, float vertical)
     {
-
+        if (crouch)
+        {
+            horizontal *= crouchSlow;
+        }
         rigid.AddForce(new Vector2(horizontal * accelCoeff.x, vertical * accelCoeff.y));
 
         //Point the body in the direction it's going.
         float currentSpeed = Mathf.Abs(rigid.velocity.x);
-
-        if (currentSpeed > maxSpeedX)
+        float maxX = maxSpeedX;
+        if (crouch)
         {
-            rigid.velocity = new Vector2(rigid.velocity.x * maxSpeedX / currentSpeed, rigid.velocity.y);
+            maxX *= crouchSlow;
+        }
+        if (currentSpeed > maxX)
+        {
+            rigid.velocity = new Vector2(rigid.velocity.x * maxX / currentSpeed, rigid.velocity.y);
         }
         currentSpeed = rigid.velocity.y;
         if (currentSpeed > maxSpeedY)
@@ -176,6 +196,7 @@ public class PlayerController : MonoBehaviour
                 {
                     onGround = true;
                     numJumps = 0;
+                    numDash = 0;
                 }
                 else
                 {
@@ -183,6 +204,7 @@ public class PlayerController : MonoBehaviour
                     if (onGround)
                     {
                         numJumps = 0;
+                        numDash = 0;
                     }
                     return;
                 }
