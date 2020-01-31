@@ -302,6 +302,12 @@ MonoBehaviour:
   accelCoeff: {x: 50, y: 400}
   maxSpeedX: 4
   maxSpeedY: 17
+  maxJumps: 2
+  crouchSlow: 0.25
+  character: 0
+  canCrouch: 1
+  maxDash: 1
+  dashSpeed: 4
   body: {fileID: 1863323337}
   bodyAnim: {fileID: 594557805}
 --- !u!50 &200564333
