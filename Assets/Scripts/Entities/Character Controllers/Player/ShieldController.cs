@@ -71,6 +71,11 @@ public class ShieldController : MonoBehaviour
         {
             anim.SetTrigger("Hit");
             HazardController hazard = encounter.GetComponent<HazardController>();
+            while (hazard == null)
+            {
+                hazard = encounter.GetComponentInParent<HazardController>();
+            }
+
             Impact(hazard.GetMoveDirection());
 
             hazard.OnShieldCollision(gameObject);

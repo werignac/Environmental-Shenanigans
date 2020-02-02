@@ -19,8 +19,8 @@ public class Backdrop : MonoBehaviour
         for(int i = 0; i < backdrops.Length; ++i)
         {
             backdropSizes[i] = backdrops[i].GetComponent<SpriteRenderer>().bounds.size.x;
-            backdrops[i].transform.position = new Vector3(0, backdrops[i].transform.position.y);
-            backdrops2[i] = Instantiate(backdrops[i], new Vector3(backdropSizes[i], backdrops[i].transform.position.y), new Quaternion());
+            //backdrops[i].transform.position = new Vector3(0, backdrops[i].transform.position.y);
+            backdrops2[i] = Instantiate(backdrops[i], new Vector3(backdrops[i].transform.position.x + backdropSizes[i], backdrops[i].transform.position.y), new Quaternion());
         }
     }
 
