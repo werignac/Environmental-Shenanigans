@@ -40,7 +40,8 @@ public class PlayerController : MonoBehaviour
     public bool canCrouch;
     public int maxDash;
     private int numDash;
-    public float dashSpeed;
+    public float dashSpeedX;
+    public float dashSpeedY;
 
     public GameObject body;
 
@@ -57,10 +58,25 @@ public class PlayerController : MonoBehaviour
         numGround = 0;
         airJump = false;
         numJumps = 0;
-        maxJumps = 2;
         crouch = false;
         crouchCount = 0;
         numDash = 0;
+        if (character >= 0)
+        {
+            PlayerData data = Data.GetPlayerData(character);
+            if (data != null)
+            {
+                accelCoeff = data.accelCoeff;
+                maxSpeedX = data.maxSpeedX;
+                maxSpeedY = data.maxSpeedY;
+                maxJumps = data.maxJumps;
+                crouchSlow = data.crouchSlow;
+                canCrouch = data.canCrouch;
+                maxDash = data.maxDash;
+                dashSpeedX = data.dashSpeedX;
+                dashSpeedY = data.dashSpeedY;
+            }
+        }
     }
 
     /// <summary>
@@ -141,8 +157,8 @@ public class PlayerController : MonoBehaviour
         if(numDash < maxDash && Input.GetKeyDown(KeyCode.Space))
         {
             ++numDash;
-            horizontal *= dashSpeed;
-            vertical = v * dashSpeed;
+            horizontal *= dashSpeedX;
+            vertical = v * dashSpeedY;
         }
         Move(horizontal, vertical);
     }
@@ -219,7 +235,6 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Platform"))
         {
             ++numGround;
-            Debug.Log("Entered " + numGround);
         }
     }
 
@@ -239,7 +254,6 @@ public class PlayerController : MonoBehaviour
         if (obj.CompareTag("Platform"))
         {
             --numGround;
-            Debug.Log("Left " + numGround);
             if (numGround <= 0)
             {
                 onGround = false;

@@ -7,6 +7,7 @@ public static class Data
 {
     private static Room[] roomDatas;
     public static float frameRate;
+    private static PlayerData[] playerDatas;
 
     public static void LoadRoomDatas()
     {
@@ -28,6 +29,26 @@ public static class Data
         reader.Close();
     }
 
+    public static void LoadPlayerDatas()
+    {
+        StreamReader reader = new StreamReader("Data/PlayerData.csv");
+        List<PlayerData> p = new List<PlayerData>();
+        string line = reader.ReadLine();
+        string[] row;
+        while ((line = reader.ReadLine()) != null)
+        {
+            row = line.Split(',');
+            p.Add(new PlayerData(row[0], float.Parse(row[1]), float.Parse(row[2]), float.Parse(row[3]), float.Parse(row[4]), int.Parse(row[5]), float.Parse(row[6]), bool.Parse(row[7]), int.Parse(row[8]), float.Parse(row[9]), float.Parse(row[10])));
+        }
+        playerDatas = new PlayerData[p.Count];
+        for (int i = 0; i < playerDatas.Length; ++i)
+        {
+            playerDatas[i] = p[i];
+        }
+        p = null;
+        reader.Close();
+    }
+
     //Returns a room of the corrisponding type. 0 is a starting room, 1 is an ending room, 2 is a normal room.
     public static Room GetRoom(int type)
     {
@@ -44,5 +65,18 @@ public static class Data
             return (null);
         }
         return (new Room(roomDatas[rooms[Random.Range(0, rooms.Count)]]));
+    }
+
+    public static PlayerData GetPlayerData(int pos)
+    {
+        if(playerDatas == null)
+        {
+            LoadPlayerDatas();
+        }
+        if(pos < 0 || pos > playerDatas.Length)
+        {
+            return (null);
+        }
+        return (playerDatas[pos]);
     }
 }
