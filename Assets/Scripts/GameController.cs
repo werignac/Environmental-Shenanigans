@@ -10,13 +10,14 @@ public class GameController : MonoBehaviour
     void Start()
     {
         Data.LoadRoomDatas();
+        Data.LoadPlayerDatas();
         level = new Level(5);
     }
 
     // Update is called once per frame
     void Update()
     {
-        float pos = 0;
+        float pos = level.GetRoom(0).Width / -2;
         int r = 0;
         for (int i = 0; i < level.RoomNum; ++i)
         {
