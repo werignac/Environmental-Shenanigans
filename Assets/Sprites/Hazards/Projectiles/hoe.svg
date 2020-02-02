@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="hoe.svg"
+   inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\Projectiles\hoe.png"
+   inkscape:export-xdpi="500"
+   inkscape:export-ydpi="500">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="136.69394"
+     inkscape:cy="550.97158"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:5.09726715;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 296.14031,254.05103 c 13.88833,0 27.77666,0 41.665,0 -4.27287,165.46741 -3.56073,334.99252 0,496.40221 -13.88834,12.84942 -26.70845,16.23085 -41.665,0 2.13643,-165.46741 5.69716,-332.28738 0,-496.40221 z"
+       id="rect3800"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#ac9393;fill-opacity:1;stroke:#000000;stroke-width:4.12205315;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 57.581158,229.03279 c 0,0 91.116622,-4.69802 136.686502,-4.78206 50.94038,-0.0939 152.8005,4.78206 152.8005,4.78206 3.29367,12.17313 2.40348,24.51533 0,36.51941 0,0 -84.03029,-9.5793 -126.09506,-9.5061 -27.25545,0.0475 -63.65853,17.8992 -97.86469,19.32875 -30.152462,-1.11951 -47.794855,-0.3139 -65.527252,-46.34206 z"
+       id="rect3821"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="caccscc" />
+    <path
+       style="fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:1.84554768;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 337.06002,236.33631 c 0,3.79147 -8.99335,6.86507 -20.08721,6.86507 -11.09385,0 -20.0872,-3.0736 -20.0872,-6.86507 0,-3.79147 -0.35356,-7.20321 0.23616,-14.13514 5.54693,0 35.84988,-0.92231 39.48495,0.32002 0.60845,4.11654 0.4533,11.91938 0.4533,13.81512 z"
+       id="path3759-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssccs" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:2.99960685;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3759-1-7"
+       sodipodi:cx="317.56671"
+       sodipodi:cy="353.33661"
+       sodipodi:rx="36.996838"
+       sodipodi:ry="9.8489876"
+       d="m 354.56355,353.33661 a 36.996838,9.8489876 0 1 1 -73.99368,0 36.996838,9.8489876 0 1 1 73.99368,0 z"
+       transform="matrix(0.5429438,0,0,0.69703271,144.55194,-23.818848)" />
+  </g>
+</svg>

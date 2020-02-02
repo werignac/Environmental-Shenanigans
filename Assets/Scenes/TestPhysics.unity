@@ -127,11 +127,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 171897488}
     m_Modifications:
-    - target: {fileID: 714368479422813945, guid: ef628e76e34afc64898d678d56aef7fc,
-        type: 3}
-      propertyPath: m_Name
-      value: ShieldRotatorBird
-      objectReference: {fileID: 0}
     - target: {fileID: 714368479422813950, guid: ef628e76e34afc64898d678d56aef7fc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -201,6 +196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 714368479422813945, guid: ef628e76e34afc64898d678d56aef7fc,
+        type: 3}
+      propertyPath: m_Name
+      value: ShieldRotatorBird
       objectReference: {fileID: 0}
     - target: {fileID: 714368479422813951, guid: ef628e76e34afc64898d678d56aef7fc,
         type: 3}
@@ -285,6 +285,12 @@ MonoBehaviour:
   accelCoeff: {x: 25, y: 400}
   maxSpeedX: 4
   maxSpeedY: 17
+  maxJumps: 0
+  crouchSlow: 0
+  character: 0
+  canCrouch: 0
+  maxDash: 0
+  dashSpeed: 0
   body: {fileID: 942948624}
   bodyAnim: {fileID: 429873302}
 --- !u!50 &171897487
@@ -657,6 +663,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4467054318994938899, guid: 77f9cbebfffad9b4f84b1d2a20dcaf68,
+        type: 3}
+      propertyPath: m_Name
+      value: BulletShooter
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467054318994938899, guid: 77f9cbebfffad9b4f84b1d2a20dcaf68,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4711012495058403752, guid: 77f9cbebfffad9b4f84b1d2a20dcaf68,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -711,16 +727,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4467054318994938899, guid: 77f9cbebfffad9b4f84b1d2a20dcaf68,
-        type: 3}
-      propertyPath: m_Name
-      value: BulletShooter
-      objectReference: {fileID: 0}
-    - target: {fileID: 4467054318994938899, guid: 77f9cbebfffad9b4f84b1d2a20dcaf68,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3459164540333082629, guid: 77f9cbebfffad9b4f84b1d2a20dcaf68,
         type: 3}
