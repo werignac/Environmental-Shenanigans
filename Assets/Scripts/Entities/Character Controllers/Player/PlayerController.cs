@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
     private bool crouch;
     private int crouchCount;
     public float crouchSlow;
-    public int character;
+    public CharacterType character;
     public bool canCrouch;
     public int maxDash;
     private int numDash;
@@ -46,6 +46,12 @@ public class PlayerController : MonoBehaviour
     public GameObject body;
 
     public Animator bodyAnim;
+
+    public enum CharacterType
+    {
+        TESTING = 0,
+        BIRD = 1
+    }
 
     /// <summary>
     /// Prepares the main character for the game.
@@ -63,7 +69,7 @@ public class PlayerController : MonoBehaviour
         numDash = 0;
         if (character >= 0)
         {
-            PlayerData data = Data.GetPlayerData(character);
+            PlayerData data = Data.GetPlayerData((int) character);
             if (data != null)
             {
                 accelCoeff = data.accelCoeff;
