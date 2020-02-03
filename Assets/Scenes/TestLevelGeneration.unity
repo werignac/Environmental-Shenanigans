@@ -304,10 +304,11 @@ MonoBehaviour:
   maxSpeedY: 17
   maxJumps: 2
   crouchSlow: 0.25
-  character: 0
+  character: 1
   canCrouch: 1
   maxDash: 1
-  dashSpeed: 4
+  dashSpeedX: 0
+  dashSpeedY: 0
   body: {fileID: 1863323337}
   bodyAnim: {fileID: 594557805}
 --- !u!50 &200564333
@@ -549,6 +550,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 200564336}
     m_Modifications:
+    - target: {fileID: 714368479422813945, guid: ef628e76e34afc64898d678d56aef7fc,
+        type: 3}
+      propertyPath: m_Name
+      value: ShieldRotatorBird
+      objectReference: {fileID: 0}
     - target: {fileID: 714368479422813950, guid: ef628e76e34afc64898d678d56aef7fc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -618,11 +624,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 714368479422813945, guid: ef628e76e34afc64898d678d56aef7fc,
-        type: 3}
-      propertyPath: m_Name
-      value: ShieldRotatorBird
       objectReference: {fileID: 0}
     - target: {fileID: 714368479422813951, guid: ef628e76e34afc64898d678d56aef7fc,
         type: 3}

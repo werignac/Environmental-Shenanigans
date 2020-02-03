@@ -149,9 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74ec8ed8657f1fe4e9c22991583f92e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  background1Sprite1: {fileID: 741757596}
-  background2Sprite1: {fileID: 347186771}
-  ground1: {fileID: 2108044550}
+  backdrops: []
+  moveSpeed: []
 --- !u!4 &26159259
 Transform:
   m_ObjectHideFlags: 0
@@ -298,6 +297,15 @@ MonoBehaviour:
   accelCoeff: {x: 100, y: 100}
   maxSpeedX: 10
   maxSpeedY: 10
+  maxJumps: 0
+  crouchSlow: 0
+  character: 0
+  canCrouch: 0
+  maxDash: 0
+  dashSpeedX: 0
+  dashSpeedY: 0
+  body: {fileID: 0}
+  bodyAnim: {fileID: 0}
 --- !u!50 &200564333
 Rigidbody2D:
   serializedVersion: 4
