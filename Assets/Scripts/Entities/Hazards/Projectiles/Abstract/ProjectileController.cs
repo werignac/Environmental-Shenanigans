@@ -184,21 +184,28 @@ public abstract class ProjectileController : MovingHazardController
     {
         pastPos = new Vector3(transform.position.x, transform.position.y, 0);
         distance = 0;
+        setRot();
     }
-    public override void OnUpdate()
-    {
-        distance += (transform.position - pastPos).magnitude;
-        pastPos = new Vector3(transform.position.x, transform.position.y, 0);
 
-        switch(rotType)
+    public void setRot()
+    {
+        switch (rotType)
         {
             case RotationType.CONSTANTROT:
                 transform.Rotate(new Vector3(0, 0, angularVelocity * Time.deltaTime));
                 break;
             case RotationType.FORWARDROT:
-                transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(moveDirection.y, moveDirection.x)*Mathf.Rad2Deg);
+                transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg);
                 break;
         }
+    }
+
+    public override void OnUpdate()
+    {
+        distance += (transform.position - pastPos).magnitude;
+        pastPos = new Vector3(transform.position.x, transform.position.y, 0);
+
+        setRot();
 
         if (distance > range)
         {
