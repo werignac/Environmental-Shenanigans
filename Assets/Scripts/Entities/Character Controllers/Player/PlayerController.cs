@@ -195,20 +195,24 @@ public class PlayerController : MonoBehaviour
         rigid.AddForce(new Vector2(horizontal * accelCoeff.x, vertical * accelCoeff.y));
 
         //Point the body in the direction it's going.
-        float currentSpeed = Mathf.Abs(rigid.velocity.x);
+        float currentSpeed = rigid.velocity.x;
         float maxX = maxSpeedX;
         if (crouch)
         {
             maxX *= crouchSlow;
         }
-        if (currentSpeed > maxX)
+        if (currentSpeed > maxX && horizontal > 0)
         {
-            rigid.velocity = new Vector2(rigid.velocity.x * maxX / currentSpeed, rigid.velocity.y);
+            rigid.velocity = new Vector2(maxX, rigid.velocity.y);
+        }
+        else if(currentSpeed < maxX * -1 && horizontal < 0)
+        {
+            rigid.velocity = new Vector2(maxX * -1, rigid.velocity.y);
         }
         currentSpeed = rigid.velocity.y;
         if (currentSpeed > maxSpeedY)
         {
-            rigid.velocity = new Vector2(rigid.velocity.x, rigid.velocity.y * maxSpeedY / currentSpeed);
+            rigid.velocity = new Vector2(rigid.velocity.x, maxSpeedY);
         }
     }
 

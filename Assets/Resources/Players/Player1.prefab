@@ -246,7 +246,7 @@ MonoBehaviour:
   mass: 0
   body: {fileID: 4300337018736908943}
   bodyAnim: {fileID: 4300337020009885483}
-  sFX: {fileID: 4300337020420672055}
+  sFXPlayer: {fileID: 4300337020420672055}
 --- !u!70 &4300337020420672040
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

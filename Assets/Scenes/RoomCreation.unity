@@ -369,7 +369,7 @@ GameObject:
   - component: {fileID: 1651489308}
   - component: {fileID: 1651489307}
   m_Layer: 0
-  m_Name: RoundPlatforming
+  m_Name: PlatformDescent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -387,9 +387,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 686010878ed07524ca5abf00e84d71aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomName: RoundPlatforming
-  width: 100
-  roomType: 2
+  roomName: PlatformDescent
+  width: 50
+  roomType: 3
   nextRoomType: 2
 --- !u!4 &1651489308
 Transform:
