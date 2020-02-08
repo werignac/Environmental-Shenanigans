@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7961212050026409405}
   - component: {fileID: 7961212050026409402}
   m_Layer: 0
-  m_Name: RoomPrefab 2
+  m_Name: BasicNormalRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomName: BasicNormalRoom
-  width: 30
+  width: 20
   roomType: 2
   nextRoomType: 2
 --- !u!1001 &694106358111613397

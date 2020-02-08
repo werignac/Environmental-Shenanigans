@@ -3,5 +3,6 @@ ArrowWalls,30,2,2
 BasicEndRoom,15,1,2
 BasicNormalRoom,30,2,2
 BasicStartRoom,15,0,2
+RoundPlatforming,100,2,2
 SmallHillRoom,50,2,2
 SmallShootRoom,15,2,2
