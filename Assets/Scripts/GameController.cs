@@ -6,6 +6,7 @@ public class GameController : MonoBehaviour
 {
     private Level level;
     public GameObject player;
+    public HealthPoints playerHealth;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,7 @@ public class GameController : MonoBehaviour
         if(player == null)
         {
             player = Instantiate(Resources.Load<GameObject>("Players/Player" + Data.player), new Vector3(0, 1, 0), new Quaternion());
+            player.GetComponentInChildren<HitArea>().healthPoints = playerHealth;
         }
         level = new Level(Data.rooms);
     }

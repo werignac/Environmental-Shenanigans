@@ -55,3 +55,6 @@ TagManager:
   - name: Projectiles
     uniqueID: 2670525437
     locked: 0
+  - name: Platforms
+    uniqueID: 300141925
+    locked: 0
