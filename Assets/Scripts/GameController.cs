@@ -11,7 +11,11 @@ public class GameController : MonoBehaviour
     {
         Data.LoadRoomDatas();
         Data.LoadPlayerDatas();
-        level = new Level(5);
+        if(player == null)
+        {
+            player = Instantiate(Resources.Load<GameObject>("Players/Player" + Data.player), new Vector3(0, 1, 0), new Quaternion());
+        }
+        level = new Level(Data.rooms);
     }
 
     // Update is called once per frame

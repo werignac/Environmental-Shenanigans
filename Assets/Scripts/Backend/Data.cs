@@ -8,6 +8,8 @@ public static class Data
     private static Room[] roomDatas;
     public static float frameRate;
     private static PlayerData[] playerDatas;
+    public static int player;
+    public static int rooms;
 
     public static void LoadRoomDatas()
     {
