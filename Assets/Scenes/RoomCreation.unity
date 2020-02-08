@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 1651489308}
   - component: {fileID: 1651489307}
   m_Layer: 0
-  m_Name: Room
+  m_Name: SmallShootRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 686010878ed07524ca5abf00e84d71aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomName: Room
+  roomName: SmallShootRoom
   width: 15
   roomType: 2
   nextRoomType: 2

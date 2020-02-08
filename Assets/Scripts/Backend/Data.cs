@@ -38,7 +38,7 @@ public static class Data
         while ((line = reader.ReadLine()) != null)
         {
             row = line.Split(',');
-            p.Add(new PlayerData(row[0], float.Parse(row[1]), float.Parse(row[2]), float.Parse(row[3]), float.Parse(row[4]), int.Parse(row[5]), float.Parse(row[6]), bool.Parse(row[7]), int.Parse(row[8]), float.Parse(row[9]), float.Parse(row[10])));
+            p.Add(new PlayerData(row[0], float.Parse(row[1]), float.Parse(row[2]), float.Parse(row[3]), float.Parse(row[4]), int.Parse(row[5]), float.Parse(row[6]), bool.Parse(row[7]), int.Parse(row[8]), float.Parse(row[9]), float.Parse(row[10]), float.Parse(row[11])));
         }
         playerDatas = new PlayerData[p.Count];
         for (int i = 0; i < playerDatas.Length; ++i)

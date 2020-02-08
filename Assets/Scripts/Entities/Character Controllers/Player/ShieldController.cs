@@ -19,6 +19,8 @@ public class ShieldController : MonoBehaviour
     /// Animator of sheild.
     /// </summary>
     private Animator anim;
+    private float mass;
+    private bool first;
     /// <summary>
     /// Stores the initialScale;
     /// </summary>
@@ -26,6 +28,7 @@ public class ShieldController : MonoBehaviour
     {
         initialScale = transform.localScale;
         anim = GetComponentInChildren<Animator>();
+        first = true;
     }
     /// <summary>
     /// Rotates the shield so that it points towards a point on the screen (usually the mouse).
@@ -54,6 +57,11 @@ public class ShieldController : MonoBehaviour
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RotateTowards(mousePos);
+        if (first)
+        {
+            first = false;
+            mass = player.gameObject.GetComponent<PlayerController>().mass;
+        }
     }
 
     /// <summary>
@@ -76,7 +84,7 @@ public class ShieldController : MonoBehaviour
                 hazard = encounter.GetComponentInParent<HazardController>();
             }
 
-            Impact(hazard.GetMoveDirection());
+            Impact(hazard.GetMoveDirection(), hazard.mass);
 
             hazard.OnShieldCollision(gameObject);
         }
@@ -86,10 +94,10 @@ public class ShieldController : MonoBehaviour
     /// Sends the player flying in the opposite direction with an additional velocity.
     /// </summary>
     /// <param name="velocity">The additional velocity.</param>
-    public void Impact(Vector2 velocity)
+    public void Impact(Vector2 velocity, float projMass)
     {
         Vector2 angle = new Vector2(Mathf.Cos(Mathf.Deg2Rad * transform.rotation.eulerAngles.z), Mathf.Sin(Mathf.Deg2Rad * transform.rotation.eulerAngles.z));
-        player.velocity = angle * (-1 * (player.velocity.magnitude + velocity.magnitude));
+        player.velocity = angle * (-1 * (((mass * player.velocity.magnitude) + (projMass * velocity.magnitude)) / mass));
     }
 
 }

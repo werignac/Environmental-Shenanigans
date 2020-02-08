@@ -23,8 +23,9 @@ public class PlayerData
     public int maxDash;
     public float dashSpeedX;
     public float dashSpeedY;
+    public float mass;
 
-    public PlayerData(string n, float aX, float aY, float mX, float mY, int mJ, float cS, bool cC, int mD, float dSX, float dSY)
+    public PlayerData(string n, float aX, float aY, float mX, float mY, int mJ, float cS, bool cC, int mD, float dSX, float dSY, float m)
     {
         name = n;
         accelCoeff = new Vector2(aX, aY);
@@ -36,5 +37,6 @@ public class PlayerData
         maxDash = mD;
         dashSpeedX = dSX;
         dashSpeedY = dSY;
+        mass = m;
     }
 }

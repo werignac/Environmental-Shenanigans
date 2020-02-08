@@ -20,7 +20,11 @@ public class Level
         for(int i = 0; i < numRooms; ++i)
         {
             rooms[i].SetPos(pos);
-            pos += rooms[i].Width;
+            pos += rooms[i].Width / 2;
+            if(i < numRooms - 1)
+            {
+                pos += rooms[i + 1].Width / 2;
+            }
         }
     }
     public int RoomNum

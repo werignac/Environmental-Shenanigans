@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour
     private int numDash;
     public float dashSpeedX;
     public float dashSpeedY;
+    public float mass;
 
     public GameObject body;
 
@@ -81,6 +82,7 @@ public class PlayerController : MonoBehaviour
                 maxDash = data.maxDash;
                 dashSpeedX = data.dashSpeedX;
                 dashSpeedY = data.dashSpeedY;
+                mass = data.mass;
             }
         }
     }
