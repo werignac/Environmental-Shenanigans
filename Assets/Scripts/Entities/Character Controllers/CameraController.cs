@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    public AudioSource bGM;
     // Start is called before the first frame update
     void Start()
     {
-        
+        bGM.clip = Resources.Load<AudioClip>("Sounds/Pokemon - Dreamyard (Jazz)");
+        bGM.loop = true;
+        bGM.Play();
     }
 
     // Update is called once per frame
