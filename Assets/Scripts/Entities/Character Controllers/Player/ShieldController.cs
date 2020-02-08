@@ -72,7 +72,7 @@ public class ShieldController : MonoBehaviour
         if (timer > 0)
         {
             timer -= Time.deltaTime;
-            if (timer < 0)
+            if (timer <= 0)
             {
                 timer = 0;
                 headColor.color = new Color(255,255,255);
@@ -118,7 +118,6 @@ public class ShieldController : MonoBehaviour
     /// <param name="velocity">The additional velocity.</param>
     public void Impact(Vector2 velocity, float projMass)
     {
-
         Vector2 angle = new Vector2(Mathf.Cos(Mathf.Deg2Rad * transform.rotation.eulerAngles.z), Mathf.Sin(Mathf.Deg2Rad * transform.rotation.eulerAngles.z));
         player.velocity = angle * (-1 * (((mass * player.velocity.magnitude) + (projMass * velocity.magnitude)) / mass));
     }
