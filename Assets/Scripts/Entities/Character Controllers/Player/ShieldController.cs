@@ -118,7 +118,6 @@ public class ShieldController : MonoBehaviour
     /// <param name="velocity">The additional velocity.</param>
     public void Impact(Vector2 velocity, float projMass)
     {
-        Debug.Log(mass + " " + projMass);
         Vector2 angle = new Vector2(Mathf.Cos(Mathf.Deg2Rad * transform.rotation.eulerAngles.z), Mathf.Sin(Mathf.Deg2Rad * transform.rotation.eulerAngles.z));
         player.velocity = angle * (-1 * player.velocity.magnitude);
         player.AddForce(angle * (-2 * projMass * velocity.magnitude));

@@ -229,6 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  healthDisplay: {fileID: 1140829531}
 --- !u!4 &453038998
 Transform:
   m_ObjectHideFlags: 0
@@ -370,6 +371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invincTime: 5
+  soundTime: 0
 --- !u!222 &1140829532
 CanvasRenderer:
   m_ObjectHideFlags: 0
