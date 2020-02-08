@@ -170,6 +170,17 @@ public abstract class ProjectileController : MovingHazardController
         }
     }
 
+    public float getDistance()
+    {
+        return distance;
+    }
+
+    public void resetDistance()
+    {
+        distance = 0;
+    }
+
+
     public override void OnStart()
     {
         pastPos = new Vector3(transform.position.x, transform.position.y, 0);
