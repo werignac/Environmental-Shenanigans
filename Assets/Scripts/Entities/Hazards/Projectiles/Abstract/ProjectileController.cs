@@ -88,7 +88,7 @@ public abstract class ProjectileController : MovingHazardController
         float shieldAngle = encounter.GetComponent<Transform>().eulerAngles.z;
         Vector2 projectileMove = GetMoveDirection();
         float projectileAngle = Mathf.Atan2(projectileMove.y, projectileMove.x) * Mathf.Rad2Deg;
-        if(Mathf.Abs(projectileAngle - shieldAngle) < 90)
+        if(Mathf.Abs(projectileAngle - shieldAngle) <= 90)
         {
             shieldAngle *= Mathf.Deg2Rad;
             SetMoveDirection(new Vector2(Mathf.Cos(shieldAngle), Mathf.Sin(shieldAngle)) * projectileMove.magnitude);

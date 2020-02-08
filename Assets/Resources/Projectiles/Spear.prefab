@@ -120,6 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: {x: -9, y: 1}
+  mass: 10
   range: 100
   rotType: 1
   angularVelocity: 0
