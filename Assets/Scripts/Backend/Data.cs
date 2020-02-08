@@ -10,6 +10,7 @@ public static class Data
     private static PlayerData[] playerDatas;
     public static int player;
     public static int rooms;
+    public static Vector2 playerPos;
 
     public static void LoadRoomDatas()
     {

@@ -179,6 +179,7 @@ public class PlayerController : MonoBehaviour
             vertical = v * dashSpeedY;
         }
         Move(horizontal, vertical);
+        Data.playerPos = new Vector2(transform.position.x, transform.position.y);
     }
 
     /// <summary>
