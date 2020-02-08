@@ -91,15 +91,19 @@ public class ShieldController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider)
     {
         GameObject encounter = collider.gameObject;
-        if (encounter.CompareTag("Hazard") || encounter.CompareTag("Projectile"))
+        if (encounter.CompareTag("Hazard") || encounter.CompareTag("Projectile") || encounter.CompareTag("Enemy"))
         {
             if (timer == 0)
             {
                 anim.SetTrigger("Hit");
                 HazardController hazard = encounter.GetComponent<HazardController>();
-                while (hazard == null)
+                if (hazard == null)
                 {
                     hazard = encounter.GetComponentInParent<HazardController>();
+                }
+                if (hazard == null)
+                {
+                    hazard = encounter.GetComponentInChildren<HazardController>();
                 }
 
                 Impact(hazard.GetMoveDirection(), hazard.mass);
@@ -118,7 +122,6 @@ public class ShieldController : MonoBehaviour
     /// <param name="velocity">The additional velocity.</param>
     public void Impact(Vector2 velocity, float projMass)
     {
-        Debug.Log(mass + " " + projMass);
         Vector2 angle = new Vector2(Mathf.Cos(Mathf.Deg2Rad * transform.rotation.eulerAngles.z), Mathf.Sin(Mathf.Deg2Rad * transform.rotation.eulerAngles.z));
         player.velocity = angle * (-1 * player.velocity.magnitude);
         player.AddForce(angle * (-2 * projMass * velocity.magnitude));

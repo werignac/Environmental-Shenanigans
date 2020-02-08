@@ -20,7 +20,12 @@ public class HitArea : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Projectile") && healthPoints != null)
         {
-            healthPoints.Hit();
+            Damage();
         }
+    }
+
+    public void Damage()
+    {
+        healthPoints.Hit();
     }
 }

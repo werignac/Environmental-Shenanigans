@@ -15,6 +15,7 @@ public class GameController : MonoBehaviour
         if(player == null)
         {
             player = Instantiate(Resources.Load<GameObject>("Players/Player" + Data.player), new Vector3(0, 1, 0), new Quaternion());
+
             player.GetComponentInChildren<HitArea>().healthPoints = playerHealth;
         }
         level = new Level(Data.rooms);

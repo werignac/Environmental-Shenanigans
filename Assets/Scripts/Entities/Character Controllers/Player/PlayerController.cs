@@ -179,6 +179,7 @@ public class PlayerController : MonoBehaviour
             vertical = v * dashSpeedY;
         }
         Move(horizontal, vertical);
+        Data.playerPos = new Vector2(transform.position.x, transform.position.y);
     }
 
     /// <summary>
@@ -192,9 +193,33 @@ public class PlayerController : MonoBehaviour
         {
             horizontal *= crouchSlow;
         }
+        
+        float xSpeed = rigid.velocity.x;
+        if(xSpeed > maxSpeedX)
+        {
+            xSpeed = maxSpeedX;
+        }
+        else if(xSpeed < maxSpeedX * -1)
+        {
+            xSpeed = maxSpeedX * -1;
+        }
+        if (xSpeed != 0 && horizontal / xSpeed > 0)
+        {
+            horizontal *= Mathf.Pow(maxSpeedX - Mathf.Abs(xSpeed), 0.1f);
+        }
+
+        float ySpeed = rigid.velocity.y;
+        if (ySpeed > maxSpeedY)
+        {
+            ySpeed = maxSpeedY;
+        }
+        if (ySpeed != 0 && vertical / xSpeed > 0)
+        {
+            vertical *= Mathf.Pow(maxSpeedY - Mathf.Abs(ySpeed), 0.1f);
+        }
         rigid.AddForce(new Vector2(horizontal * accelCoeff.x, vertical * accelCoeff.y));
 
-        //Point the body in the direction it's going.
+        /*
         float currentSpeed = rigid.velocity.x;
         float maxX = maxSpeedX;
         if (crouch)
@@ -213,7 +238,7 @@ public class PlayerController : MonoBehaviour
         if (currentSpeed > maxSpeedY)
         {
             rigid.velocity = new Vector2(rigid.velocity.x, maxSpeedY);
-        }
+        }*/
     }
 
 
@@ -225,7 +250,7 @@ public class PlayerController : MonoBehaviour
     {
         GameObject obj = collision.gameObject;
         bool g = onGround;
-        if (obj.CompareTag("Platform"))
+        if (obj.CompareTag("Platform") || obj.CompareTag("Hazard"))
         {
             for (int i = 0; i < collision.contactCount; ++i)
             {
@@ -257,6 +282,15 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Platform"))
         {
             ++numGround;
+        }
+        else if(collision.gameObject.CompareTag("Hazard"))
+        {
+            ++numGround;
+            GetComponentInChildren<HitArea>().Damage();
+        }
+        else if (collision.gameObject.CompareTag("Enemy"))
+        {
+            GetComponentInChildren<HitArea>().Damage();
         }
     }
 
