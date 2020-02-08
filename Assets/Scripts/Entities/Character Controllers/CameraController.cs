@@ -8,7 +8,7 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        bGM.clip = Resources.Load<AudioClip>("Sounds/Pokemon - Dreamyard (Jazz)");
+        bGM.clip = Resources.Load<AudioClip>("Sounds/Masked Dedede Remix - Hardcore");
         bGM.loop = true;
         bGM.Play();
     }

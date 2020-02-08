@@ -21,6 +21,11 @@ public class ShieldController : MonoBehaviour
     private Animator anim;
     private float mass;
     private bool first;
+
+    public float reflectionDelay;
+    private float timer;
+
+    public SpriteRenderer headColor;
     /// <summary>
     /// Stores the initialScale;
     /// </summary>
@@ -29,6 +34,7 @@ public class ShieldController : MonoBehaviour
         initialScale = transform.localScale;
         anim = GetComponentInChildren<Animator>();
         first = true;
+        timer = 0;
     }
     /// <summary>
     /// Rotates the shield so that it points towards a point on the screen (usually the mouse).
@@ -62,6 +68,16 @@ public class ShieldController : MonoBehaviour
             first = false;
             mass = player.gameObject.GetComponent<PlayerController>().mass;
         }
+
+        if (timer > 0)
+        {
+            timer -= Time.deltaTime;
+            if (timer < 0)
+            {
+                timer = 0;
+                headColor.color = new Color(255,255,255);
+            }
+        }
     }
 
     /// <summary>
@@ -77,16 +93,22 @@ public class ShieldController : MonoBehaviour
         GameObject encounter = collider.gameObject;
         if (encounter.CompareTag("Hazard") || encounter.CompareTag("Projectile"))
         {
-            anim.SetTrigger("Hit");
-            HazardController hazard = encounter.GetComponent<HazardController>();
-            while (hazard == null)
+            if (timer == 0)
             {
-                hazard = encounter.GetComponentInParent<HazardController>();
+                anim.SetTrigger("Hit");
+                HazardController hazard = encounter.GetComponent<HazardController>();
+                while (hazard == null)
+                {
+                    hazard = encounter.GetComponentInParent<HazardController>();
+                }
+
+                Impact(hazard.GetMoveDirection(), hazard.mass);
+
+                hazard.OnShieldCollision(gameObject);
+
+                timer = reflectionDelay;
+                headColor.color = new Color(0, 0, 255);
             }
-
-            Impact(hazard.GetMoveDirection(), hazard.mass);
-
-            hazard.OnShieldCollision(gameObject);
         }
     }
 
@@ -96,6 +118,7 @@ public class ShieldController : MonoBehaviour
     /// <param name="velocity">The additional velocity.</param>
     public void Impact(Vector2 velocity, float projMass)
     {
+
         Vector2 angle = new Vector2(Mathf.Cos(Mathf.Deg2Rad * transform.rotation.eulerAngles.z), Mathf.Sin(Mathf.Deg2Rad * transform.rotation.eulerAngles.z));
         player.velocity = angle * (-1 * (((mass * player.velocity.magnitude) + (projMass * velocity.magnitude)) / mass));
     }
