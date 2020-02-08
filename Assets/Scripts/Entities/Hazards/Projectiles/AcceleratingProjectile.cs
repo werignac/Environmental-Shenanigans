@@ -7,5 +7,5 @@ using UnityEngine;
 /// </summary>
 public class AcceleratingProjectile : AcceleratingProjectileController
 {
-    public override void OnStart(){}
+    public override void OnStart(){ base.OnStart(); }
 }

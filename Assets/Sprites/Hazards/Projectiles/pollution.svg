@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="pollution.svg">
+   sodipodi:docname="pollution.svg"
+   inkscape:export-filename="D:\Environmental-Shenanigans\Assets\Sprites\Hazards\Projectiles\pollution.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -51,7 +54,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     style="opacity:0.99">
     <circle
        id="path10-3"
        cx="96.016579"
