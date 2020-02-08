@@ -5,6 +5,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public AudioSource bGM;
+    private GameObject player;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,10 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(GameObject.FindGameObjectWithTag("Player").transform.position.x, GameObject.FindGameObjectWithTag("Player").transform.position.y, transform.position.z);
+        if(player == null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+        }
+        transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
     }
 }
