@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     /// The maximum vertical velocity the main character can reach.
     /// </summary>
     public float maxSpeedY;
+    public bool walkSoundCooldown;
     private bool jump;
     private int numGround;
     private int numJumps;
@@ -100,6 +101,11 @@ public class PlayerController : MonoBehaviour
         {
             bodyAnim.SetTrigger("Walking");
             Vector3 mirrorScale = body.transform.localScale;
+            if(!sFX.isPlaying)
+            {
+                sFX.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
+                sFX.Play();
+            }
             if (horizontal > 0)
             {
                 mirrorScale.x = Mathf.Abs(mirrorScale.x);
