@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  reflectionDelay: 2
+  reflectionDelay: 0.1
   headColor: {fileID: 714368479290992552}
 --- !u!61 &714368479422813948
 BoxCollider2D:
