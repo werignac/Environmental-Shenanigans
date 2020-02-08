@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
 
     public Animator bodyAnim;
 
-    public AudioSource sFX;
+    public AudioSource sFXPlayer;
 
     public enum CharacterType
     {
@@ -101,10 +101,10 @@ public class PlayerController : MonoBehaviour
         {
             bodyAnim.SetTrigger("Walking");
             Vector3 mirrorScale = body.transform.localScale;
-            if(!sFX.isPlaying)
+            if(!sFXPlayer.isPlaying)
             {
-                sFX.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
-                sFX.Play();
+                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
+                sFXPlayer.Play();
             }
             if (horizontal > 0)
             {
@@ -147,8 +147,8 @@ public class PlayerController : MonoBehaviour
             {
                 rigid.velocity = new Vector2(rigid.velocity.x, 0);
             }
-            sFX.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
-            sFX.Play();
+            sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
+            sFXPlayer.Play();
         }
         if (onGround && v < 0 && crouchCount <= 0 && canCrouch)
         {

@@ -369,6 +369,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5778835194175764251}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &200564332 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5778835194365307242, guid: 35283a24cfeaaaa4aad697315cbcc717,
+    type: 3}
+  m_PrefabInstance: {fileID: 5778835194175764251}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &376708162
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,6 +871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invincTime: 5
+  soundTime: 1
 --- !u!222 &1962261825
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1120,5 +1127,15 @@ PrefabInstance:
       propertyPath: reflectionDelay
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5778835194365307255, guid: 35283a24cfeaaaa4aad697315cbcc717,
+        type: 3}
+      propertyPath: sFX
+      value: 
+      objectReference: {fileID: 200564332}
+    - target: {fileID: 5778835194365307255, guid: 35283a24cfeaaaa4aad697315cbcc717,
+        type: 3}
+      propertyPath: sFXPlayer
+      value: 
+      objectReference: {fileID: 200564332}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35283a24cfeaaaa4aad697315cbcc717, type: 3}

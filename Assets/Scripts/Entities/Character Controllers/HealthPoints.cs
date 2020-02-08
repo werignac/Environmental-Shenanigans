@@ -25,6 +25,9 @@ public abstract class HealthPoints : MonoBehaviour
     /// The index of the last "available" / "on" hitpoint.
     /// </summary>
     private int divider;
+    public float soundTime;
+    private float soundTimer;
+    //public AudioSource sFXHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -45,12 +48,26 @@ public abstract class HealthPoints : MonoBehaviour
     /// </summary>
     void Update()
     {
+        if (divider == 0)
+        {
+
+        }
         if (invincTimer > 0)
         {
             invincTimer -= Time.deltaTime;
             if (invincTimer < 0)
             {
                 invincTimer = 0;
+            }
+        }
+        if (soundTimer == 0)
+        {
+            soundTimer = soundTime;
+
+            soundTimer -= Time.deltaTime;
+            if (soundTimer < 0)
+            {
+                soundTimer = 0;
             }
         }
     }
