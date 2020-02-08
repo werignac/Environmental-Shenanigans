@@ -48,6 +48,8 @@ public class PlayerController : MonoBehaviour
 
     public Animator bodyAnim;
 
+    public AudioSource sFX;
+
     public enum CharacterType
     {
         TESTING = 0,
@@ -139,6 +141,8 @@ public class PlayerController : MonoBehaviour
             {
                 rigid.velocity = new Vector2(rigid.velocity.x, 0);
             }
+            sFX.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
+            sFX.Play();
         }
         if (onGround && v < 0 && crouchCount <= 0 && canCrouch)
         {
