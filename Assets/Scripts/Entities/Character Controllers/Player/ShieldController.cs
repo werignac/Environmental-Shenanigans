@@ -91,15 +91,19 @@ public class ShieldController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider)
     {
         GameObject encounter = collider.gameObject;
-        if (encounter.CompareTag("Hazard") || encounter.CompareTag("Projectile"))
+        if (encounter.CompareTag("Hazard") || encounter.CompareTag("Projectile") || encounter.CompareTag("Enemy"))
         {
             if (timer == 0)
             {
                 anim.SetTrigger("Hit");
                 HazardController hazard = encounter.GetComponent<HazardController>();
-                while (hazard == null)
+                if (hazard == null)
                 {
                     hazard = encounter.GetComponentInParent<HazardController>();
+                }
+                if (hazard == null)
+                {
+                    hazard = encounter.GetComponentInChildren<HazardController>();
                 }
 
                 Impact(hazard.GetMoveDirection(), hazard.mass);
