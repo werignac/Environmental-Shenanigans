@@ -13,6 +13,6 @@ public class PlayerHealth : HealthPoints
     /// </summary>
     public override void NoHealth()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 }
