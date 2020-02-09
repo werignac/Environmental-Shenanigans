@@ -5,12 +5,13 @@ using UnityEngine;
 public class HomingProjectile : AcceleratingProjectileController
 {
     private float accelerationMag;
-    public Transform target;
+    private Transform target;
     public float targetDist;
 
     public override void OnStart()
     {
         accelerationMag = acceleration.magnitude;
+        target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     public override void OnUpdate()
