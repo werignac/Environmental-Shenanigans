@@ -3,6 +3,7 @@ ArrowWalls,30,2,2
 BasicEndRoom,15,1,2
 BasicNormalRoom,20,2,2
 BasicStartRoom,15,0,2
+DoubleCompass,15,2,2
 Goombas,30,2,2
 PlatformDescent,50,3,2
 RoundPlatforming,100,2,2

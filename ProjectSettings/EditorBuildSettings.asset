@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TestPhysics.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MainMenu.unity
+    guid: 73f7a209cea431a458106869bddf7188
   - enabled: 1
     path: Assets/Scenes/MainGame.unity
     guid: 498cf62a572d4a84e8efb258228d53b2
+  - enabled: 1
+    path: Assets/Scenes/Lose.unity
+    guid: f4c910d5c814fa5409dd7efe341f3ba1
+  - enabled: 1
+    path: Assets/Scenes/TestPhysics.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
