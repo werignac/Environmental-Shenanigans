@@ -104,7 +104,7 @@ public class PlayerController : MonoBehaviour
             Vector3 mirrorScale = body.transform.localScale;
             if(!sFXPlayer.isPlaying)
             {
-                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
+                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/LeafWalk");
                 sFXPlayer.Play();
             }
             if (horizontal > 0)
