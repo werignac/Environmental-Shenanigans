@@ -9,6 +9,7 @@ TagManager:
   - Projectile
   - Shield
   - Platform
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -57,4 +58,7 @@ TagManager:
     locked: 0
   - name: Platforms
     uniqueID: 300141925
+    locked: 0
+  - name: UI Sprites
+    uniqueID: 3280376823
     locked: 0
