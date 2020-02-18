@@ -20,71 +20,13 @@ public abstract class ProjectileController : MovingHazardController
     private Vector3 pastPos;
     public RotationType rotType;
     public float angularVelocity;
+    private bool reflected = false;
     /// <summary>
     /// Switches the <c>Projectile</c>'s direction if it encounters a reflecting surface. 
     /// </summary>
     /// <param name="encounter">The reflecting surface.</param>
     public override void OnShieldCollision(GameObject encounter)
     {
-        /*float shieldAngle = encounter.GetComponent<Transform>().eulerAngles.z;
-        if (shieldAngle > 180)
-        {
-            shieldAngle = -360 + shieldAngle;
-        }
-        int shieldQuad = GetQuad(shieldAngle);
-        float compareS = shieldAngle;
-
-        if (shieldQuad == 2)
-        {
-            compareS = 180 - shieldAngle;
-        }
-        else if (shieldQuad == 3)
-        {
-            compareS = 180 + shieldAngle;
-        }
-        else if (shieldQuad == 4)
-        {
-            compareS *= -1;
-        }
-
-        Vector2 moveDir = GetMoveDirection();
-        int projectQuad = GetQuad(moveDir.x, moveDir.y);
-        float projectAngle = Mathf.Atan2(moveDir.y, moveDir.x)*Mathf.Rad2Deg;
-
-        if (projectQuad == 2)
-        {
-            projectAngle = 180 - projectAngle;
-        }
-        else if (projectQuad == 3)
-        {
-            projectAngle = 180 + projectAngle;
-        }
-        else if (projectQuad == 4)
-        {
-            projectAngle *= -1;
-        }
-
-
-        float diff = Mathf.Abs(compareS - projectAngle);
-
-        float finalAngle;
-        if (shieldQuad == 1 || shieldQuad == 2)
-        {
-            if (projectQuad > 2)
-                finalAngle = shieldAngle + diff;
-            else
-                finalAngle = shieldAngle - diff;
-        }
-        else 
-        {
-            if (projectQuad > 2)
-                finalAngle = shieldAngle - diff;
-            else
-                finalAngle = shieldAngle + diff;
-        }
-
-        SetMoveDirection(new Vector2(Mathf.Cos(finalAngle*Mathf.Deg2Rad)* GetMoveDirection().magnitude, Mathf.Sin(finalAngle * Mathf.Deg2Rad) * GetMoveDirection().magnitude));*/
-
         float shieldAngle = encounter.GetComponent<Transform>().eulerAngles.z;
         Vector2 projectileMove = GetMoveDirection();
         float projectileAngle = Mathf.Atan2(projectileMove.y, projectileMove.x) * Mathf.Rad2Deg;
@@ -120,6 +62,13 @@ public abstract class ProjectileController : MovingHazardController
         }
         projectileAngle *= Mathf.Deg2Rad;
         SetMoveDirection(new Vector2(Mathf.Cos(projectileAngle), Mathf.Sin(projectileAngle)) * projectileMove.magnitude);
+
+        reflected = true;
+    }
+
+    public bool GetReflected()
+    {
+        return reflected;
     }
 
     private static int GetQuad(float angle)

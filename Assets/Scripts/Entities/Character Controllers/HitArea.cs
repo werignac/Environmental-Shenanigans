@@ -12,13 +12,17 @@ public class HitArea : MonoBehaviour
     /// The health points associated with the entity.
     /// </summary>
     public HealthPoints healthPoints;
-
+    /// <summary>
+    /// Whether the area detects reflected or non-reflected projectiles.
+    /// </summary>
+    public bool reflectOnly;
     /// <summary>
     /// Tells the health points when the entity has been hit.
     /// </summary>
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Projectile") && healthPoints != null)
+        GameObject collidee = other.gameObject;
+        if (collidee.CompareTag("Projectile") && healthPoints != null && collidee.GetComponent<ProjectileController>().GetReflected() == reflectOnly)
         {
             Damage();
         }
