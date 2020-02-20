@@ -1,0 +1,2039 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg3609"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 3">
+  <defs
+     id="defs3611">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4002"
+       id="linearGradient4008"
+       x1="2819.2878"
+       y1="-925.28534"
+       x2="2805.3916"
+       y2="-2057.3398"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03686902,0,0,0.03686902,-6.2899999,100.14624)" />
+    <linearGradient
+       id="linearGradient4002">
+      <stop
+         style="stop-color:#1c2224;stop-opacity:1;"
+         offset="0"
+         id="stop4004" />
+      <stop
+         id="stop4010"
+         offset="0.5"
+         style="stop-color:#1c2224;stop-opacity:0.87869823;" />
+      <stop
+         style="stop-color:#1c2224;stop-opacity:0.66568047;"
+         offset="0.75"
+         id="stop4012" />
+      <stop
+         style="stop-color:#1c2224;stop-opacity:0;"
+         offset="1"
+         id="stop4006" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4014"
+       id="linearGradient4020"
+       x1="2819.2878"
+       y1="-925.28534"
+       x2="2805.3916"
+       y2="-2057.3398"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03686902,0,0,0.03686902,-6.2899999,100.14624)" />
+    <linearGradient
+       id="linearGradient4014">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4016" />
+      <stop
+         id="stop4022"
+         offset="0.5"
+         style="stop-color:#000000;stop-opacity:0.90828401;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.45490196;"
+         offset="0.75"
+         id="stop4024" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4018" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4002-7"
+       id="linearGradient4008-1"
+       x1="2819.2878"
+       y1="-925.28534"
+       x2="2805.3916"
+       y2="-2057.3398"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03686902,0,0,0.03686902,225.4144,105.61648)" />
+    <linearGradient
+       id="linearGradient4002-7">
+      <stop
+         style="stop-color:#1c2224;stop-opacity:1;"
+         offset="0"
+         id="stop4004-4" />
+      <stop
+         id="stop4010-0"
+         offset="0.5"
+         style="stop-color:#1c2224;stop-opacity:0.87869823;" />
+      <stop
+         style="stop-color:#1c2224;stop-opacity:0.66568047;"
+         offset="0.75"
+         id="stop4012-9" />
+      <stop
+         style="stop-color:#1c2224;stop-opacity:0;"
+         offset="1"
+         id="stop4006-4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4014-8"
+       id="linearGradient4020-8"
+       x1="2819.2878"
+       y1="-925.28534"
+       x2="2805.3916"
+       y2="-2057.3398"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03686902,0,0,0.03686902,225.4144,105.61648)" />
+    <linearGradient
+       id="linearGradient4014-8">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4016-2" />
+      <stop
+         id="stop4022-4"
+         offset="0.5"
+         style="stop-color:#000000;stop-opacity:0.90828401;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.45490196;"
+         offset="0.75"
+         id="stop4024-5" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4018-5" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4002-7-3"
+       id="linearGradient4008-1-2"
+       x1="2819.2878"
+       y1="-925.28534"
+       x2="2805.3916"
+       y2="-2057.3398"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03686902,0,0,0.03686902,470.49607,109.15201)" />
+    <linearGradient
+       id="linearGradient4002-7-3">
+      <stop
+         style="stop-color:#1c2224;stop-opacity:1;"
+         offset="0"
+         id="stop4004-4-3" />
+      <stop
+         id="stop4010-0-4"
+         offset="0.5"
+         style="stop-color:#1c2224;stop-opacity:0.87869823;" />
+      <stop
+         style="stop-color:#1c2224;stop-opacity:0.66568047;"
+         offset="0.75"
+         id="stop4012-9-1" />
+      <stop
+         style="stop-color:#1c2224;stop-opacity:0;"
+         offset="1"
+         id="stop4006-4-1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4014-8-8"
+       id="linearGradient4020-8-3"
+       x1="2819.2878"
+       y1="-925.28534"
+       x2="2805.3916"
+       y2="-2057.3398"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03686902,0,0,0.03686902,470.49607,109.15201)" />
+    <linearGradient
+       id="linearGradient4014-8-8">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4016-2-7" />
+      <stop
+         id="stop4022-4-4"
+         offset="0.5"
+         style="stop-color:#000000;stop-opacity:0.90828401;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.45490196;"
+         offset="0.75"
+         id="stop4024-5-2" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4018-5-7" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4002-7-3-3"
+       id="linearGradient4008-1-2-9"
+       x1="2819.2878"
+       y1="-925.28534"
+       x2="2805.3916"
+       y2="-2057.3398"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03686902,0,0,0.03686902,-6.8850389,223.80432)" />
+    <linearGradient
+       id="linearGradient4002-7-3-3">
+      <stop
+         style="stop-color:#1c2224;stop-opacity:1;"
+         offset="0"
+         id="stop4004-4-3-4" />
+      <stop
+         id="stop4010-0-4-4"
+         offset="0.5"
+         style="stop-color:#1c2224;stop-opacity:0.87869823;" />
+      <stop
+         style="stop-color:#1c2224;stop-opacity:0.66568047;"
+         offset="0.75"
+         id="stop4012-9-1-6" />
+      <stop
+         style="stop-color:#1c2224;stop-opacity:0;"
+         offset="1"
+         id="stop4006-4-1-0" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4014-8-8-6"
+       id="linearGradient4020-8-3-6"
+       x1="2819.2878"
+       y1="-925.28534"
+       x2="2805.3916"
+       y2="-2057.3398"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03686902,0,0,0.03686902,-6.8850389,223.80432)" />
+    <linearGradient
+       id="linearGradient4014-8-8-6">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4016-2-7-1" />
+      <stop
+         id="stop4022-4-4-8"
+         offset="0.5"
+         style="stop-color:#000000;stop-opacity:0.90828401;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.45490196;"
+         offset="0.75"
+         id="stop4024-5-2-4" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4018-5-7-9" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4002-7-3-3-2"
+       id="linearGradient4008-1-2-9-7"
+       x1="2819.2878"
+       y1="-925.28534"
+       x2="2805.3916"
+       y2="-2057.3398"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03686902,0,0,0.03686902,229.44865,226.7547)" />
+    <linearGradient
+       id="linearGradient4002-7-3-3-2">
+      <stop
+         style="stop-color:#1c2224;stop-opacity:1;"
+         offset="0"
+         id="stop4004-4-3-4-6" />
+      <stop
+         id="stop4010-0-4-4-0"
+         offset="0.5"
+         style="stop-color:#1c2224;stop-opacity:0.87869823;" />
+      <stop
+         style="stop-color:#1c2224;stop-opacity:0.66568047;"
+         offset="0.75"
+         id="stop4012-9-1-6-1" />
+      <stop
+         style="stop-color:#1c2224;stop-opacity:0;"
+         offset="1"
+         id="stop4006-4-1-0-6" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4014-8-8-6-7"
+       id="linearGradient4020-8-3-6-5"
+       x1="2819.2878"
+       y1="-925.28534"
+       x2="2805.3916"
+       y2="-2057.3398"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03686902,0,0,0.03686902,229.44865,226.7547)" />
+    <linearGradient
+       id="linearGradient4014-8-8-6-7">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4016-2-7-1-5" />
+      <stop
+         id="stop4022-4-4-8-4"
+         offset="0.5"
+         style="stop-color:#000000;stop-opacity:0.90828401;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.45490196;"
+         offset="0.75"
+         id="stop4024-5-2-4-1" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4018-5-7-9-2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4002-7-3-3-2-1"
+       id="linearGradient4008-1-2-9-7-0"
+       x1="2819.2878"
+       y1="-925.28534"
+       x2="2805.3916"
+       y2="-2057.3398"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03686902,0,0,0.03686902,472.26406,229.78516)" />
+    <linearGradient
+       id="linearGradient4002-7-3-3-2-1">
+      <stop
+         style="stop-color:#1c2224;stop-opacity:1;"
+         offset="0"
+         id="stop4004-4-3-4-6-2" />
+      <stop
+         id="stop4010-0-4-4-0-5"
+         offset="0.5"
+         style="stop-color:#1c2224;stop-opacity:0.87869823;" />
+      <stop
+         style="stop-color:#1c2224;stop-opacity:0.66568047;"
+         offset="0.75"
+         id="stop4012-9-1-6-1-0" />
+      <stop
+         style="stop-color:#1c2224;stop-opacity:0;"
+         offset="1"
+         id="stop4006-4-1-0-6-9" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4014-8-8-6-7-7"
+       id="linearGradient4020-8-3-6-5-4"
+       x1="2819.2878"
+       y1="-925.28534"
+       x2="2805.3916"
+       y2="-2057.3398"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03686902,0,0,0.03686902,472.26406,229.78516)" />
+    <linearGradient
+       id="linearGradient4014-8-8-6-7-7">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4016-2-7-1-5-8" />
+      <stop
+         id="stop4022-4-4-8-4-3"
+         offset="0.5"
+         style="stop-color:#000000;stop-opacity:0.90828401;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.45490196;"
+         offset="0.75"
+         id="stop4024-5-2-4-1-5" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4018-5-7-9-2-1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="500.4106"
+     inkscape:cy="1150.9137"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="838"
+     inkscape:window-height="978"
+     inkscape:window-x="833"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3614">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.8998118;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 99.323584,72.621879 c -1.776458,4.04252 -8.30028,-3.03815 -12.573861,-3.96473 -3.641106,-0.78945 -8.44949,3.49267 -11.044546,-1.33951 -1.117471,-2.08077 7.712337,-4.16192 11.794493,-3.38956 4.688842,0.88717 13.76516,4.27622 11.823915,8.69379 z"
+       id="path3880-8-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="8.7378255"
+       inkscape:transform-center-y="-1.6206569"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 98.274505,75.374039 c -0.513097,5.41184 -10.901824,0.28116 -16.267555,1.15312 -4.571583,0.74291 -8.543526,7.79633 -13.457761,3.45679 -2.116107,-1.86862 7.420419,-8.22687 12.50208,-9.18832 5.836909,-1.10434 17.783957,-1.33554 17.223236,4.57841 z"
+       id="path3880-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="10.656785"
+       inkscape:transform-center-y="1.5572142"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 133.44471,101.62663 c -0.10249,3.3306 -11.85044,6.20988 -19.21064,5.98333 -7.36019,-0.22652 -14.380792,0.27417 -13.91093,-3.02469 0.43188,-3.03237 12.85536,-9.859671 19.91393,-10.598571 7.32368,-0.76661 13.31016,4.30935 13.20764,7.639931 z"
+       id="path3856"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="12.555031"
+       inkscape:transform-center-y="0.6235473"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 103.82662,107.57127 c -4.632361,-0.4607 -7.188908,-5.44979 -6.186463,-11.354811 1.981148,-11.66997 2.982923,-22.45059 6.269053,-21.89857 5.53163,0.92929 4.98939,11.0833 6.98588,24.46185 1.08682,7.283051 -3.75267,9.121281 -7.06847,8.791531 z"
+       id="path3856-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="0.28622864"
+       inkscape:transform-center-y="-13.537629"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.87845308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 99.345372,88.544579 c -3.943322,5.12305 -16.024093,8.33116 -18.443143,4.8367 -1.389981,-2.00797 6.478464,-2.73285 9.36535,-4.75699 3.120301,-2.1878 5.024216,-8.53103 8.329546,-7.79616 2.586585,0.57508 2.539785,5.38892 0.748247,7.71645 z"
+       id="path3919"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaaa"
+       inkscape:transform-center-x="6.674192"
+       inkscape:transform-center-y="3.8084945"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.04295564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 99.672861,80.592369 c 0.349269,5.29561 -9.791275,1.37133 -14.500335,2.75708 -4.012091,1.18068 -6.536426,8.41553 -11.620262,4.70594 -2.189139,-1.59731 5.458764,-8.71952 9.898148,-10.16337 5.099197,-1.6584 15.840737,-3.0867 16.222405,2.70023 z"
+       id="path3880"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="9.1550309"
+       inkscape:transform-center-y="2.8504355"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       inkscape:transform-center-x="4.4323169"
+       inkscape:transform-center-y="-0.02090189"
+       d="m 98.756275,84.058819 c -4.20135,-0.24567 -7.472413,-0.72031 -7.108007,-6.95204 0.499706,-8.54645 3.540822,-7.21013 7.742172,-6.96447 4.20134,0.24567 7.64995,4.8148 7.47223,7.85409 -0.17771,3.03924 -3.90504,6.30807 -8.106395,6.06242 z"
+       id="path3877"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 159.47562,79.736368 c 4.55132,-1.559801 19.83637,25.782592 58.16181,28.260112 -14.51275,0.28014 -48.86537,-0.62078 -55.20447,-0.45081 -6.16057,0.16519 -10.2937,-6.49203 -9.24119,-13.120533 1.0525,-6.628474 1.14933,-11.280467 6.28385,-14.688769 z"
+       id="path3964"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 146.28233,74.721522 c 11.84504,2.977389 29.65113,7.791677 20.60133,30.300278 -1.58251,3.93599 -10.88771,2.58526 -16.41848,2.43668 -10.37337,-0.27868 -24.03288,1.89512 -30.50427,-6.21694 -2.6892,-3.370983 -1.66777,-3.756599 0.29765,-12.933252 3.28287,-15.327896 16.53332,-15.972304 26.02377,-13.586766 z"
+       id="path3922"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaasa"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.8998118;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 314.15009,81.407617 c -1.15008,4.263227 -8.66206,-1.75892 -13.02627,-2.034073 -3.71832,-0.234431 -7.83009,4.72041 -11.12052,0.33209 -1.4169,-1.889638 7.00091,-5.271533 11.15273,-5.120147 4.76886,0.173909 14.25081,2.163369 12.99406,6.82212 z"
+       id="path3880-8-2-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="8.8155427"
+       inkscape:transform-center-y="-0.93537228"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 312.8346,84.519574 c -0.37301,5.423297 -10.89091,0.562921 -16.2323,1.573316 -4.55086,0.860854 -8.33911,8.014608 -13.36389,3.803571 -2.16372,-1.813286 7.20523,-8.415966 12.26034,-9.508477 5.8064,-1.254878 17.74348,-1.794879 17.33585,4.13159 z"
+       id="path3880-8-71"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="10.577093"
+       inkscape:transform-center-y="1.9143507"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 365.14911,107.09687 c -0.10249,3.3306 -11.85044,6.20988 -19.21064,5.98333 -7.36019,-0.22652 -14.3808,0.27417 -13.91093,-3.02469 0.43188,-3.03237 12.85536,-9.85967 19.91393,-10.598573 7.32368,-0.76661 13.31016,4.309353 13.20764,7.639933 z"
+       id="path3856-15"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="12.555031"
+       inkscape:transform-center-y="0.6235473"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 337.56133,112.82425 c -3.94643,2.46914 -9.02071,0.0861 -11.83977,-5.19846 -5.57121,-10.443891 -11.37318,-19.585142 -8.43588,-21.158558 4.94447,-2.648527 10.72669,5.715919 20.48971,15.078338 5.3148,5.09676 2.61075,9.51127 -0.21406,11.27868 z"
+       id="path3856-8-27"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="7.5732356"
+       inkscape:transform-center-y="-10.074435"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.87845308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 313.44118,97.969797 c -4.4074,4.729723 -16.73622,6.788113 -18.81611,3.081753 -1.1951,-2.129736 6.70665,-2.111822 9.77102,-3.855651 3.31212,-1.884826 5.80383,-8.021017 9.02545,-6.97872 2.52109,0.815657 2.02202,5.603786 0.0196,7.752618 z"
+       id="path3919-61"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaaa"
+       inkscape:transform-center-x="7.0696593"
+       inkscape:transform-center-y="3.2702721"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.04295564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 314.23096,89.66577 c 0.58723,5.274527 -9.71965,1.810564 -14.36158,3.406826 -3.95489,1.360035 -6.15108,8.701154 -11.39671,5.224103 -2.25881,-1.497176 5.06084,-8.956339 9.43075,-10.598506 5.01941,-1.886193 15.68579,-3.796433 16.32748,1.967459 z"
+       id="path3880-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="8.9585335"
+       inkscape:transform-center-y="3.3433319"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       inkscape:transform-center-x="4.4323169"
+       inkscape:transform-center-y="-0.02090189"
+       d="m 313.28808,93.317129 c -4.20135,-0.24567 -7.47241,-0.72031 -7.10801,-6.95204 0.49971,-8.54645 3.54083,-7.21013 7.74218,-6.96447 4.20134,0.24567 7.64995,4.8148 7.47223,7.85409 -0.17771,3.03924 -3.90504,6.30807 -8.1064,6.06242 z"
+       id="path3877-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.8998118;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 553.42198,91.202713 c -0.93183,4.316186 -8.74028,-1.316245 -13.11284,-1.369155 -3.72543,-0.04508 -7.57997,5.112405 -11.08925,0.897054 -1.51115,-1.815155 6.72383,-5.620658 10.87798,-5.680557 4.77154,-0.06878 14.34237,1.436027 13.32411,6.152648 z"
+       id="path3880-8-2-1-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="8.7912704"
+       inkscape:transform-center-y="-0.71554764"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 552.12716,93.843087 c 0.4115,5.42051 -10.69647,2.124677 -15.8368,3.893379 -4.37956,1.506933 -7.09867,9.131464 -12.67725,5.687534 -2.40218,-1.48296 5.91882,-9.365434 10.76404,-11.174191 5.56531,-2.077573 17.30036,-4.330151 17.75001,1.593278 z"
+       id="path3880-8-71-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="9.9853839"
+       inkscape:transform-center-y="3.7283215"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 610.23078,110.6324 c -0.10249,3.3306 -11.85044,6.20988 -19.21064,5.98333 -7.36019,-0.22652 -14.3808,0.27417 -13.91093,-3.02469 0.43188,-3.03237 12.85536,-9.85967 19.91393,-10.59857 7.32368,-0.76661 13.31016,4.30935 13.20764,7.63993 z"
+       id="path3856-15-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="12.555031"
+       inkscape:transform-center-y="0.6235473"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 584.95943,113.22894 c -2.56931,3.88196 -8.17491,3.81465 -12.9296,0.17232 -9.39661,-7.19839 -18.46372,-13.11556 -16.44191,-15.764263 3.40342,-4.458613 12.13081,0.759694 24.89483,5.237533 6.94851,2.43769 6.31575,7.57572 4.47668,10.35441 z"
+       id="path3856-8-27-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="11.816618"
+       inkscape:transform-center-y="-5.1377037"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.87845308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 552.53748,107.96341 c -4.49912,4.64255 -16.86587,6.45926 -18.87282,2.7129 -1.15319,-2.15271 6.7467,-1.98016 9.8446,-3.66368 3.34838,-1.81964 5.9597,-7.905887 9.16031,-6.80074 2.50464,0.86484 1.91196,5.64228 -0.13209,7.75152 z"
+       id="path3919-61-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaaa"
+       inkscape:transform-center-x="7.1408689"
+       inkscape:transform-center-y="3.1615985"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.04295564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 553.43939,99.420223 c 0.85406,5.237937 -9.61528,2.301327 -14.17024,4.131037 -3.88081,1.55892 -5.70174,9.00201 -11.11701,5.79556 -2.33185,-1.38066 4.59994,-9.20155 8.88092,-11.063304 4.91725,-2.13841 15.47299,-4.587323 16.40627,1.136592 z"
+       id="path3880-4-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="8.7130804"
+       inkscape:transform-center-y="3.8734712"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       inkscape:transform-center-x="4.4323169"
+       inkscape:transform-center-y="-0.02090189"
+       d="m 552.47689,103.28123 c -4.20135,-0.24567 -7.47241,-0.72031 -7.10801,-6.952037 0.49971,-8.54645 3.54083,-7.21013 7.74218,-6.96447 4.20134,0.24567 7.64995,4.8148 7.47223,7.85409 -0.17771,3.039237 -3.90504,6.308067 -8.1064,6.062417 z"
+       id="path3877-2-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 636.26168,88.742139 c 4.55132,-1.559801 19.83637,25.782591 58.16181,28.260111 -14.51275,0.28014 -48.86537,-0.62078 -55.20447,-0.45081 -6.16056,0.16519 -10.29369,-6.49203 -9.24118,-13.12053 1.0525,-6.628476 1.14933,-11.280469 6.28384,-14.688771 z"
+       id="path3964-3-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 623.0684,83.727293 c 11.84503,2.977389 29.65112,7.791677 20.60132,30.300277 -1.58251,3.93599 -10.8877,2.58526 -16.41847,2.43668 -10.37337,-0.27868 -24.03288,1.89512 -30.50427,-6.21694 -2.6892,-3.37099 -1.66777,-3.7566 0.29765,-12.933251 3.28287,-15.327896 16.53332,-15.972304 26.02377,-13.586766 z"
+       id="path3922-2-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaasa"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.8998118;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 75.386518,219.29196 c -0.880183,4.327 -8.755396,-1.21167 -13.128264,-1.21234 -3.725711,-5.6e-4 -7.518322,5.20263 -11.077745,1.02952 -1.532729,-1.79696 6.656176,-5.70061 10.809318,-5.81016 4.770374,-0.1258 14.358506,1.2645 13.396686,5.99296 z"
+       id="path3880-8-2-1-7-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="17.29631"
+       inkscape:transform-center-y="-6.7492123"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 75.167007,221.58599 c 0.03192,5.436 -10.818734,1.37246 -16.070053,2.77782 -4.474108,1.19738 -7.719075,8.61337 -13.043514,4.78825 -2.292745,-1.64711 6.558461,-8.92919 11.518174,-10.39513 5.696821,-1.68382 17.560533,-3.11132 17.595393,2.82906 z"
+       id="path3880-8-71-9-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="20.094972"
+       inkscape:transform-center-y="-0.10432541"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 132.84967,225.28471 c -0.10249,3.3306 -11.85044,6.20988 -19.21064,5.98333 -7.36019,-0.22652 -14.380799,0.27417 -13.910929,-3.02469 0.431879,-3.03237 12.855359,-9.85967 19.913929,-10.59857 7.32368,-0.76661 13.31016,4.30935 13.20764,7.63993 z"
+       id="path3856-15-3-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="12.555031"
+       inkscape:transform-center-y="0.6235473"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 112.55534,224.74521 c -0.44426,4.63396 -5.4243,7.20817 -11.3328,6.22671 -11.676923,-1.93975 -22.461031,-2.90329 -21.920667,-6.19135 0.909665,-5.53489 11.065538,-5.02867 24.436907,-7.0726 7.27917,-1.11262 9.13454,3.72029 8.81656,7.03724 z"
+       id="path3856-8-27-1-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="13.536081"
+       inkscape:transform-center-y="0.30307791"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.87845308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 74.67143,233.32396 c -4.811198,4.31832 -17.274373,5.27028 -19.015828,1.39338 -1.000636,-2.22773 6.868108,-1.50601 10.075628,-2.96994 3.466852,-1.58227 6.495261,-7.47211 9.61123,-6.14698 2.438409,1.03698 1.514802,5.76163 -0.67103,7.72354 z"
+       id="path3919-61-9-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaaa"
+       inkscape:transform-center-x="14.339338"
+       inkscape:transform-center-y="7.4149869"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.04295564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 76.770437,226.20009 c 0.23647,5.30183 -9.818247,1.16257 -14.555743,2.44778 -4.036309,1.09499 -6.714078,8.27447 -11.717798,4.4575 -2.154643,-1.64354 5.643135,-8.60133 10.11225,-9.95034 5.133351,-1.54949 15.902858,-2.74881 16.161247,3.04493 z"
+       id="path3880-4-8-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="17.067867"
+       inkscape:transform-center-y="4.1790257"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       inkscape:transform-center-x="4.1177481"
+       inkscape:transform-center-y="-1.3541289"
+       d="m 75.730019,229.60466 c -4.192084,-0.37165 -7.447424,-0.94424 -6.896174,-7.16222 0.75596,-8.5276 3.755605,-7.10061 7.947691,-6.72898 4.192076,0.37164 7.502018,5.0422 7.233162,8.0748 -0.268833,3.03252 -4.092584,6.18802 -8.284679,5.8164 z"
+       id="path3877-2-6-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 158.88057,203.39445 c 4.55132,-1.5598 19.83637,25.78259 58.16181,28.26011 -14.51275,0.28014 -48.86537,-0.62078 -55.20447,-0.45081 -6.16056,0.16519 -10.29369,-6.49203 -9.24118,-13.12053 1.0525,-6.62847 1.14933,-11.28047 6.28384,-14.68877 z"
+       id="path3964-3-5-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 145.68729,198.37961 c 11.84503,2.97739 29.65112,7.79167 20.60132,30.30027 -1.58251,3.93599 -10.8877,2.58526 -16.41847,2.43668 -10.37337,-0.27868 -24.03288,1.89512 -30.50427,-6.21694 -2.6892,-3.37099 -1.66777,-3.7566 0.29765,-12.93325 3.28287,-15.32789 16.53332,-15.9723 26.02377,-13.58676 z"
+       id="path3922-2-0-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaasa"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 395.21426,206.34483 c 4.55132,-1.5598 19.83637,25.78259 58.16181,28.26011 -14.51275,0.28014 -48.86537,-0.62078 -55.20447,-0.45081 -6.16056,0.16519 -10.29369,-6.49203 -9.24118,-13.12053 1.0525,-6.62847 1.14933,-11.28047 6.28384,-14.68877 z"
+       id="path3964-3-5-1-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.8998118;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 318.67824,222.68886 c -0.51424,4.38556 -8.82616,-0.47322 -13.18368,-0.1072 -3.71264,0.31187 -7.05557,5.81476 -10.95239,1.95483 -1.67802,-1.6621 6.15469,-6.23869 10.28402,-6.69612 4.74303,-0.52538 14.41397,0.056 13.85205,4.84847 z"
+       id="path3880-8-2-1-7-6-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="17.670559"
+       inkscape:transform-center-y="-5.0242392"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 318.8243,224.53637 c 0.0319,5.436 -10.81873,1.37246 -16.07005,2.77782 -4.47411,1.19738 -7.71907,8.61337 -13.04351,4.78825 -2.29275,-1.64711 6.55846,-8.92919 11.51817,-10.39513 5.69682,-1.68382 17.56053,-3.11132 17.59539,2.82906 z"
+       id="path3880-8-71-9-3-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="20.094972"
+       inkscape:transform-center-y="-0.10432541"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 373.11476,211.08767 c 1.77785,2.81827 -6.35037,11.77575 -12.57841,15.70454 -6.22802,3.9288 -11.76781,8.27051 -13.22337,5.27307 -1.338,-2.75527 5.14207,-15.36335 10.58009,-19.92375 5.6423,-4.73165 13.44387,-3.87213 15.22169,-1.05386 z"
+       id="path3856-15-3-7-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="8.7058576"
+       inkscape:transform-center-y="8.8196481"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 356.21264,227.69559 c -0.44426,4.63396 -5.4243,7.20817 -11.3328,6.22671 -11.67693,-1.93975 -22.46103,-2.90329 -21.92067,-6.19135 0.90966,-5.53489 11.06554,-5.02867 24.43691,-7.0726 7.27917,-1.11262 9.13454,3.72029 8.81656,7.03724 z"
+       id="path3856-8-27-1-8-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="13.536081"
+       inkscape:transform-center-y="0.30307791"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.87845308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 318.32873,236.27434 c -4.8112,4.31832 -17.27438,5.27028 -19.01583,1.39338 -1.00064,-2.22773 6.86811,-1.50601 10.07563,-2.96994 3.46685,-1.58227 6.49526,-7.47211 9.61123,-6.14698 2.43841,1.03698 1.5148,5.76163 -0.67103,7.72354 z"
+       id="path3919-61-9-8-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaaa"
+       inkscape:transform-center-x="14.339338"
+       inkscape:transform-center-y="7.4149869"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.04295564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 320.42773,229.15047 c 0.23647,5.30183 -9.81824,1.16257 -14.55574,2.44778 -4.03631,1.09499 -6.71408,8.27447 -11.7178,4.4575 -2.15464,-1.64354 5.64314,-8.60133 10.11225,-9.95034 5.13335,-1.54949 15.90286,-2.74881 16.16125,3.04493 z"
+       id="path3880-4-8-2-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="17.067867"
+       inkscape:transform-center-y="4.1790257"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       inkscape:transform-center-x="4.1177481"
+       inkscape:transform-center-y="-1.3541289"
+       d="m 319.38732,232.55504 c -4.19209,-0.37165 -7.44743,-0.94424 -6.89618,-7.16222 0.75596,-8.5276 3.75561,-7.10061 7.94769,-6.72898 4.19208,0.37164 7.50202,5.0422 7.23316,8.0748 -0.26883,3.03252 -4.09258,6.18802 -8.28467,5.8164 z"
+       id="path3877-2-6-9-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 391.18001,85.206606 c 4.55132,-1.559801 19.83637,25.782594 58.16181,28.260114 -14.51275,0.28014 -48.86537,-0.62078 -55.20447,-0.45081 -6.16056,0.16519 -10.29369,-6.49203 -9.24118,-13.120535 1.0525,-6.628474 1.14933,-11.280467 6.28384,-14.688769 z"
+       id="path3964-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 377.98673,80.19176 c 11.84503,2.977389 29.65112,7.791677 20.60132,30.30028 -1.58251,3.93599 -10.8877,2.58526 -16.41847,2.43668 -10.37337,-0.27868 -24.03288,1.89512 -30.50427,-6.21694 -2.6892,-3.37099 -1.66777,-3.7566 0.29765,-12.933254 3.28287,-15.327896 16.53332,-15.972304 26.02377,-13.586766 z"
+       id="path3922-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaasa"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 382.02098,201.32999 c 11.84503,2.97739 29.65112,7.79167 20.60132,30.30027 -1.58251,3.93599 -10.8877,2.58526 -16.41847,2.43668 -10.37337,-0.27868 -24.03288,1.89512 -30.50427,-6.21694 -2.6892,-3.37099 -1.66777,-3.7566 0.29765,-12.93325 3.28287,-15.32789 16.53332,-15.9723 26.02377,-13.58676 z"
+       id="path3922-2-0-3-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaasa"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.8998118;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 573.6822,206.49803 c -0.96804,4.30818 -8.72892,-1.38958 -13.10087,-1.47923 -3.72494,-0.0764 -7.62262,5.04857 -11.0964,0.8039 -1.49584,-1.82777 6.77079,-5.564 10.9253,-5.58902 4.77196,-0.0287 14.3298,1.5564 13.27198,6.26433 z"
+       id="path3880-8-2-1-7-6-0-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="17.185947"
+       inkscape:transform-center-y="-7.0064835"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 573.63511,208.35069 c -0.53424,5.40979 -10.90282,0.23863 -16.27192,1.08961 -4.57446,0.72505 -8.5739,7.7629 -13.47115,3.40422 -2.1088,-1.87688 7.45247,-8.19784 12.53786,-9.13944 5.84116,-1.08155 17.78902,-1.2661 17.20521,4.64561 z"
+       id="path3880-8-71-9-3-0-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="20.096293"
+       inkscape:transform-center-y="-2.4907597"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 615.65259,213.32725 c 2.29282,2.41793 -3.93464,12.78726 -9.27798,17.85408 -5.34332,5.06681 -7.91085,6.23768 -9.92245,3.58123 -1.84913,-2.44183 0.0303,-11.90386 4.47569,-17.43627 4.61241,-5.74019 12.43195,-6.41697 14.72474,-3.99904 z"
+       id="path3856-15-3-7-1-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="6.7192664"
+       inkscape:transform-center-y="10.688837"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 601.8766,233.33268 c -3.43996,3.1365 -8.85921,1.70153 -12.57979,-2.99218 -7.3529,-9.27623 -14.69933,-17.22953 -12.09161,-19.30393 4.3897,-3.49186 11.57748,3.70078 22.86046,11.16171 6.14224,4.06166 4.27323,8.88931 1.81094,11.1344 z"
+       id="path3856-8-27-1-8-4-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="9.6187473"
+       inkscape:transform-center-y="-8.1878402"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.87845308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 571.92014,219.97328 c -5.23464,3.79393 -17.7292,3.44313 -19.05755,-0.59402 -0.76325,-2.31981 6.98758,-0.78275 10.33008,-1.90477 3.61265,-1.21305 7.23791,-6.75526 10.19899,-5.11291 2.3172,1.28521 0.90669,5.88803 -1.47152,7.6117 z"
+       id="path3919-61-9-8-6-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaaa"
+       inkscape:transform-center-x="15.028827"
+       inkscape:transform-center-y="6.1651506"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.04295564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 574.74944,213.10666 c -0.31681,5.29765 -9.88592,0.13404 -14.73148,0.91902 -4.12838,0.66881 -7.5391,7.53047 -12.11822,3.21329 -1.9718,-1.85894 6.508,-7.96705 11.09327,-8.84344 5.26678,-1.00661 16.10263,-1.07816 15.7564,4.71101 z"
+       id="path3880-4-8-2-0-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="17.538262"
+       inkscape:transform-center-y="2.0889355"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       inkscape:transform-center-x="4.0833921"
+       inkscape:transform-center-y="-1.931338"
+       d="m 573.36022,216.38441 c -4.13062,-0.80609 -7.30866,-1.71449 -6.11301,-7.84129 1.63969,-8.40255 4.47447,-6.67101 8.60508,-5.86493 4.1306,0.80607 6.93628,5.79586 6.35314,8.78399 -0.5831,2.98804 -4.7146,5.72829 -8.84521,4.92223 z"
+       id="path3877-2-6-9-7-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 638.02967,209.37529 c 4.55132,-1.5598 19.83637,25.78259 58.16181,28.26011 -14.51275,0.28014 -48.86537,-0.62078 -55.20447,-0.45081 -6.16056,0.16519 -10.29369,-6.49203 -9.24118,-13.12053 1.0525,-6.62847 1.14933,-11.28047 6.28384,-14.68877 z"
+       id="path3964-3-5-1-1-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 624.83639,204.36045 c 11.84503,2.97739 29.65112,7.79167 20.60132,30.30027 -1.58251,3.93599 -10.8877,2.58526 -16.41847,2.43668 -10.37337,-0.27868 -24.03288,1.89512 -30.50427,-6.21694 -2.6892,-3.37099 -1.66777,-3.7566 0.29765,-12.93325 3.28287,-15.32789 16.53332,-15.9723 26.02377,-13.58676 z"
+       id="path3922-2-0-3-7-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaasa"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="headAndNeck"
+     style="display:inline">
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 117.19378,81.165841 c 5.71477,0.74752 14.37345,3.49507 12.1423,12.30938 -2.23112,8.814319 -8.94523,0.34465 -13.36938,-0.19503 -4.71356,-0.57498 -11.80806,0.74521 -13.87622,-3.22249 -3.470365,-6.65779 9.31052,-9.64957 15.1033,-8.89186 z"
+       id="path3961"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="azasa"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:url(#linearGradient4008);fill-opacity:1;stroke:url(#linearGradient4020);stroke-width:1.49590075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       d="m 115.39536,77.462209 c 2.10619,10.812851 -2.78273,19.855864 -10.91967,21.440793 -8.136936,1.584958 -15.433236,-1.866159 -18.546806,-15.701186 -0.30232,-1.343429 -7.322333,-4.606046 -8.820487,-8.372942 -0.880084,-2.212805 -1.305262,-5.53557 0.38811,-7.133627 C 75.08254,66.63761 66.504264,61.499236 64.441684,56.043271 63.019008,52.280024 65.296489,48.328743 65.877572,44.059393 65.053486,42.384153 59.13323,34.03434 60.233452,28.688134 c 0.57811,-2.809187 3.932654,-6.403997 5.913959,-6.249479 -0.07236,-2.655786 -1.291051,-4.912993 -1.288344,-8.397807 4.436344,0 20.898817,-1.063409 28.522367,-1.063409 9.881276,0 30.235376,0.597914 36.093816,0.597914 -0.53297,5.055622 2.02827,4.492225 0.39905,7.957265 3.55899,0.654765 4.55955,4.843311 4.76415,7.916275 0.42101,6.323073 -5.53201,16.45456 -7.55697,17.44476 3.27132,2.611525 3.76156,7.839439 2.67149,11.68252 -1.13556,4.003452 -5.99508,6.809196 -8.75834,8.896378 2.31689,0.573958 1.14581,4.341357 0.19978,6.167995 -1.06465,2.055696 -6.06229,2.470048 -5.79905,3.821663 z"
+       id="path2996"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssacacaccsccacacas"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:1.00846481;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 108.08953,84.196573 c 0.64418,3.925797 -1.14624,7.487739 -3.99898,7.955825 -2.85273,0.468079 -5.687546,-2.334957 -6.331686,-6.260721 -0.64417,-3.925796 1.711137,-3.503207 4.283916,-4.821564 3.13767,-1.607825 5.40259,-0.799336 6.04675,3.12646 z"
+       id="path3770"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.83243901;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 88.796304,86.184734 c 0.38666,3.261054 3.52778,6.98646 5.89748,6.705499 2.36967,-0.280994 3.57427,-2.547912 3.18761,-5.808966 -0.38666,-3.261028 -2.66185,-4.301367 -5.00389,-4.758802 -2.85627,-0.557863 -4.46786,0.601241 -4.0812,3.862269 z"
+       id="path3770-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.75339371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 87.055384,81.996157 c 0,0 6.13901,0.399433 9.13732,-0.138182 4.252136,-0.762437 12.219166,-4.318554 12.219166,-4.318554 l 0.55966,2.681976 c 0,0 -8.18523,2.804978 -12.420616,3.613375 -2.93881,0.560955 -8.93584,0.843361 -8.93584,0.843361 z"
+       id="rect3767"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="caccacc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3812"
+       sodipodi:cx="2483.9651"
+       sodipodi:cy="65.443146"
+       sodipodi:rx="43.436558"
+       sodipodi:ry="81.822357"
+       d="m 2527.4016,65.443146 a 43.436558,81.822357 0 1 1 -86.8731,0 43.436558,81.822357 0 1 1 86.8731,0 z"
+       transform="matrix(0.02573057,-0.01070839,0.00875948,0.0314554,29.173684,114.1911)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3812-4"
+       sodipodi:cx="2483.9651"
+       sodipodi:cy="65.443146"
+       sodipodi:rx="43.436558"
+       sodipodi:ry="81.822357"
+       d="m 2527.4016,65.443146 a 43.436558,81.822357 0 1 1 -86.8731,0 43.436558,81.822357 0 1 1 86.8731,0 z"
+       transform="matrix(0.02573057,-0.01070839,0.00875948,0.0314554,38.794273,113.13335)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.42794001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 85.958634,44.7023 c 1.06983,-9.581863 19.024216,-8.558561 21.628976,-1.534968"
+       id="path4026"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 99.273281,61.042866 c 4.986499,-7.912976 18.138759,-3.224952 15.929369,5.324753"
+       id="path4026-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.90030921;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 78.791086,62.94463 c -1.034245,-6.644908 11.155528,-9.973262 14.557508,-4.2273"
+       id="path4026-6-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 348.89818,86.636079 c 5.71477,0.74752 14.37345,3.49507 12.1423,12.30938 -2.23112,8.814321 -8.94523,0.34465 -13.36938,-0.19503 -4.71356,-0.57498 -11.80806,0.74521 -13.87622,-3.22249 -3.47037,-6.65779 9.31052,-9.64957 15.1033,-8.89186 z"
+       id="path3961-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="azasa"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:url(#linearGradient4008-1);fill-opacity:1;stroke:url(#linearGradient4020-8);stroke-width:1.49590075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       d="m 347.09976,82.932447 c 2.10619,10.812851 -2.78273,19.855863 -10.91967,21.440793 -8.13694,1.58496 -15.43324,-1.86616 -18.54681,-15.701186 -0.30232,-1.343429 -7.32233,-4.606046 -8.82049,-8.372942 -0.88008,-2.212805 -1.30526,-5.53557 0.38811,-7.133627 -2.41396,-1.057637 -10.99224,-6.196011 -13.05482,-11.651976 -1.42268,-3.763247 0.85481,-7.714528 1.43589,-11.983878 -0.82409,-1.67524 -6.74434,-10.025053 -5.64412,-15.371259 0.57811,-2.809187 3.93265,-6.403997 5.91396,-6.249479 -0.0724,-2.655786 -1.29105,-4.912993 -1.28835,-8.397807 4.43635,0 20.89882,-1.063409 28.52237,-1.063409 9.88128,0 30.23538,0.597914 36.09382,0.597914 -0.53297,5.055622 2.02827,4.492225 0.39905,7.957265 3.55899,0.654765 4.55955,4.843311 4.76415,7.916275 0.42101,6.323073 -5.53201,16.45456 -7.55697,17.44476 3.27132,2.611525 3.76156,7.839439 2.67149,11.68252 -1.13556,4.003452 -5.99508,6.809196 -8.75834,8.896378 2.31689,0.573958 1.14581,4.341357 0.19978,6.167995 -1.06465,2.055696 -6.06229,2.470048 -5.79905,3.821663 z"
+       id="path2996-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssacacaccsccacacas"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:1.00846481;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 339.79393,89.666811 c 0.64418,3.925797 -1.14624,7.487739 -3.99898,7.955825 -2.85273,0.468079 -5.68755,-2.334957 -6.33169,-6.260721 -0.64417,-3.925796 1.71114,-3.503207 4.28392,-4.821564 3.13767,-1.607825 5.40259,-0.799336 6.04675,3.12646 z"
+       id="path3770-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.83243901;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 320.5007,91.654972 c 0.38666,3.261054 3.52778,6.98646 5.89748,6.705499 2.36967,-0.280994 3.57427,-2.547912 3.18761,-5.808966 -0.38666,-3.261028 -2.66185,-4.301367 -5.00389,-4.758802 -2.85627,-0.557863 -4.46786,0.601241 -4.0812,3.862269 z"
+       id="path3770-1-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.75339371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 318.75978,87.466395 c 0,0 6.13901,0.399433 9.13732,-0.138182 4.25214,-0.762437 12.21917,-4.318554 12.21917,-4.318554 l 0.55966,2.681976 c 0,0 -8.18523,2.804978 -12.42062,3.613375 -2.93881,0.560955 -8.93584,0.843361 -8.93584,0.843361 z"
+       id="rect3767-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="caccacc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3812-7"
+       sodipodi:cx="2483.9651"
+       sodipodi:cy="65.443146"
+       sodipodi:rx="43.436558"
+       sodipodi:ry="81.822357"
+       d="m 2527.4016,65.443146 a 43.436558,81.822357 0 1 1 -86.8731,0 43.436558,81.822357 0 1 1 86.8731,0 z"
+       transform="matrix(0.02573057,-0.01070839,0.00875948,0.0314554,260.87808,119.66134)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3812-4-6"
+       sodipodi:cx="2483.9651"
+       sodipodi:cy="65.443146"
+       sodipodi:rx="43.436558"
+       sodipodi:ry="81.822357"
+       d="m 2527.4016,65.443146 a 43.436558,81.822357 0 1 1 -86.8731,0 43.436558,81.822357 0 1 1 86.8731,0 z"
+       transform="matrix(0.02573057,-0.01070839,0.00875948,0.0314554,270.49867,118.60359)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.42794001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 317.66303,50.172538 c 1.06983,-9.581863 19.02422,-8.558561 21.62898,-1.534968"
+       id="path4026-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 330.97768,66.513104 c 4.9865,-7.912976 18.13876,-3.224952 15.92937,5.324753"
+       id="path4026-6-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.90030921;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 310.49548,68.414868 c -1.03424,-6.644908 11.15553,-9.973262 14.55751,-4.2273"
+       id="path4026-6-0-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 593.97985,90.171612 c 5.71477,0.74752 14.37345,3.49507 12.1423,12.309378 -2.23112,8.81432 -8.94523,0.34465 -13.36938,-0.19503 -4.71356,-0.57498 -11.80806,0.74521 -13.87622,-3.222488 -3.47037,-6.65779 9.31052,-9.64957 15.1033,-8.89186 z"
+       id="path3961-2-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="azasa"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:url(#linearGradient4008-1-2);fill-opacity:1;stroke:url(#linearGradient4020-8-3);stroke-width:1.49590075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       d="m 592.18143,86.46798 c 2.10619,10.812851 -2.78273,19.85586 -10.91967,21.44079 -8.13694,1.58496 -15.43324,-1.86616 -18.54681,-15.701183 -0.30232,-1.343429 -7.32233,-4.606046 -8.82049,-8.372942 -0.88008,-2.212805 -1.30526,-5.53557 0.38811,-7.133627 -2.41396,-1.057637 -10.99224,-6.196011 -13.05482,-11.651976 -1.42268,-3.763247 0.85481,-7.714528 1.43589,-11.983878 -0.82409,-1.67524 -6.74434,-10.025053 -5.64412,-15.371259 0.57811,-2.809187 3.93265,-6.403997 5.91396,-6.249479 -0.0724,-2.655785 -1.29105,-4.912992 -1.28835,-8.397806 4.43635,0 20.89882,-1.063409 28.52237,-1.063409 9.88128,0 30.23538,0.597914 36.09382,0.597914 -0.53297,5.055622 2.02827,4.492225 0.39905,7.957265 3.55899,0.654765 4.55955,4.84331 4.76415,7.916274 0.42101,6.323073 -5.53201,16.45456 -7.55697,17.44476 3.27132,2.611525 3.76156,7.839439 2.67149,11.68252 -1.13556,4.003452 -5.99508,6.809196 -8.75834,8.896378 2.31689,0.573958 1.14581,4.341357 0.19978,6.167995 -1.06465,2.055696 -6.06229,2.470048 -5.79905,3.821663 z"
+       id="path2996-1-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssacacaccsccacacas"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:1.00846481;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 584.8756,93.202344 c 0.64418,3.925797 -1.14624,7.487736 -3.99898,7.955826 -2.85273,0.46808 -5.68755,-2.334958 -6.33169,-6.260722 -0.64417,-3.925796 1.71114,-3.503207 4.28392,-4.821564 3.13767,-1.607825 5.40259,-0.799336 6.04675,3.12646 z"
+       id="path3770-6-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.83243901;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 565.58237,95.190505 c 0.38666,3.261054 3.52778,6.986465 5.89748,6.705495 2.36967,-0.28099 3.57427,-2.547908 3.18761,-5.808962 -0.38666,-3.261028 -2.66185,-4.301367 -5.00389,-4.758802 -2.85627,-0.557863 -4.46786,0.601241 -4.0812,3.862269 z"
+       id="path3770-1-8-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.75339371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 563.84145,91.001928 c 0,0 6.13901,0.399433 9.13732,-0.138182 4.25214,-0.762437 12.21917,-4.318554 12.21917,-4.318554 l 0.55966,2.681976 c 0,0 -8.18523,2.804978 -12.42062,3.613375 -2.93881,0.560955 -8.93584,0.843361 -8.93584,0.843361 z"
+       id="rect3767-5-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="caccacc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3812-7-4"
+       sodipodi:cx="2483.9651"
+       sodipodi:cy="65.443146"
+       sodipodi:rx="43.436558"
+       sodipodi:ry="81.822357"
+       d="m 2527.4016,65.443146 a 43.436558,81.822357 0 1 1 -86.8731,0 43.436558,81.822357 0 1 1 86.8731,0 z"
+       transform="matrix(0.02573057,-0.01070839,0.00875948,0.0314554,505.95975,123.19687)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3812-4-6-8"
+       sodipodi:cx="2483.9651"
+       sodipodi:cy="65.443146"
+       sodipodi:rx="43.436558"
+       sodipodi:ry="81.822357"
+       d="m 2527.4016,65.443146 a 43.436558,81.822357 0 1 1 -86.8731,0 43.436558,81.822357 0 1 1 86.8731,0 z"
+       transform="matrix(0.02573057,-0.01070839,0.00875948,0.0314554,515.58034,122.13912)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.42794001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 562.7447,53.708071 c 1.06983,-9.581863 19.02422,-8.558561 21.62898,-1.534968"
+       id="path4026-1-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 576.05935,70.048637 c 4.9865,-7.912976 18.13876,-3.224952 15.92937,5.324753"
+       id="path4026-6-8-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.90030921;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 555.57715,71.950401 c -1.03424,-6.644908 11.15553,-9.973262 14.55751,-4.2273"
+       id="path4026-6-0-9-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 116.59874,204.82393 c 5.71477,0.74752 14.37345,3.49507 12.1423,12.30937 -2.23112,8.81432 -8.94523,0.34465 -13.36938,-0.19503 -4.71356,-0.57498 -11.80806,0.74521 -13.87622,-3.22248 -3.470369,-6.65779 9.31052,-9.64957 15.1033,-8.89186 z"
+       id="path3961-2-2-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="azasa"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:url(#linearGradient4008-1-2-9);fill-opacity:1;stroke:url(#linearGradient4020-8-3-6);stroke-width:1.49590075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       d="m 114.80032,201.12029 c 2.10619,10.81285 -2.78273,19.85586 -10.91967,21.44079 -8.136939,1.58496 -15.433239,-1.86616 -18.546809,-15.70118 -0.30232,-1.34343 -7.32233,-4.60605 -8.82049,-8.37294 -0.88008,-2.21281 -1.30526,-5.53557 0.38811,-7.13363 -2.41396,-1.05764 -10.99224,-6.19601 -13.05482,-11.65197 -1.42268,-3.76325 0.85481,-7.71453 1.43589,-11.98388 -0.82409,-1.67524 -6.74434,-10.02506 -5.64412,-15.37126 0.57811,-2.80919 3.93265,-6.404 5.91396,-6.24948 -0.0724,-2.65579 -1.29105,-4.91299 -1.28835,-8.39781 4.43635,0 20.89882,-1.06341 28.52237,-1.06341 9.881279,0 30.235379,0.59792 36.093819,0.59792 -0.53297,5.05562 2.02827,4.49222 0.39905,7.95726 3.55899,0.65477 4.55955,4.84331 4.76415,7.91628 0.42101,6.32307 -5.53201,16.45456 -7.55697,17.44476 3.27132,2.61152 3.76156,7.83944 2.67149,11.68252 -1.13556,4.00345 -5.99508,6.80919 -8.75834,8.89638 2.31689,0.57395 1.14581,4.34135 0.19978,6.16799 -1.06465,2.0557 -6.06229,2.47005 -5.79905,3.82166 z"
+       id="path2996-1-8-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssacacaccsccacacas"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:1.00846481;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 107.49449,207.85466 c 0.64418,3.92579 -1.14624,7.48773 -3.99898,7.95582 -2.85273,0.46808 -5.687549,-2.33495 -6.331689,-6.26072 -0.64417,-3.92579 1.71114,-3.50321 4.283919,-4.82156 3.13767,-1.60783 5.40259,-0.79934 6.04675,3.12646 z"
+       id="path3770-6-6-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.83243901;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 88.201261,209.84282 c 0.38666,3.26105 3.52778,6.98646 5.89748,6.70549 2.36967,-0.28099 3.57427,-2.5479 3.18761,-5.80896 -0.38666,-3.26103 -2.66185,-4.30137 -5.00389,-4.7588 -2.85627,-0.55786 -4.46786,0.60124 -4.0812,3.86227 z"
+       id="path3770-1-8-0-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.75339371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 86.460341,205.65424 c 0,0 6.13901,0.39943 9.13732,-0.13818 4.25214,-0.76244 12.219169,-4.31855 12.219169,-4.31855 l 0.55966,2.68197 c 0,0 -8.18523,2.80498 -12.420619,3.61338 -2.93881,0.56095 -8.93584,0.84336 -8.93584,0.84336 z"
+       id="rect3767-5-2-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="caccacc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3812-7-4-7"
+       sodipodi:cx="2483.9651"
+       sodipodi:cy="65.443146"
+       sodipodi:rx="43.436558"
+       sodipodi:ry="81.822357"
+       d="m 2527.4016,65.443146 a 43.436558,81.822357 0 1 1 -86.8731,0 43.436558,81.822357 0 1 1 86.8731,0 z"
+       transform="matrix(0.02573057,-0.01070839,0.00875948,0.0314554,28.578641,237.84918)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3812-4-6-8-6"
+       sodipodi:cx="2483.9651"
+       sodipodi:cy="65.443146"
+       sodipodi:rx="43.436558"
+       sodipodi:ry="81.822357"
+       d="m 2527.4016,65.443146 a 43.436558,81.822357 0 1 1 -86.8731,0 43.436558,81.822357 0 1 1 86.8731,0 z"
+       transform="matrix(0.02573057,-0.01070839,0.00875948,0.0314554,38.199231,236.79143)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.42794001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 85.363591,168.36038 c 1.06983,-9.58186 19.024219,-8.55856 21.628979,-1.53496"
+       id="path4026-1-6-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="M 98.678241,184.70095 C 103.66474,176.78797 116.817,181.476 114.60761,190.0257"
+       id="path4026-6-8-5-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.90030921;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 78.196041,186.60271 c -1.03424,-6.6449 11.15553,-9.97326 14.55751,-4.2273"
+       id="path4026-6-0-9-0-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 352.93243,207.77431 c 5.71477,0.74752 14.37345,3.49507 12.1423,12.30937 -2.23112,8.81432 -8.94523,0.34465 -13.36938,-0.19503 -4.71356,-0.57498 -11.80806,0.74521 -13.87622,-3.22248 -3.47037,-6.65779 9.31052,-9.64957 15.1033,-8.89186 z"
+       id="path3961-2-2-5-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="azasa"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:url(#linearGradient4008-1-2-9-7);fill-opacity:1;stroke:url(#linearGradient4020-8-3-6-5);stroke-width:1.49590075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       d="m 351.13401,204.07067 c 2.10619,10.81285 -2.78273,19.85586 -10.91967,21.44079 -8.13694,1.58496 -15.43324,-1.86616 -18.54681,-15.70118 -0.30232,-1.34343 -7.32233,-4.60605 -8.82049,-8.37294 -0.88008,-2.21281 -1.30526,-5.53557 0.38811,-7.13363 -2.41396,-1.05764 -10.99224,-6.19601 -13.05482,-11.65197 -1.42268,-3.76325 0.85481,-7.71453 1.43589,-11.98388 -0.82409,-1.67524 -6.74434,-10.02506 -5.64412,-15.37126 0.57811,-2.80919 3.93265,-6.404 5.91396,-6.24948 -0.0724,-2.65579 -1.29105,-4.91299 -1.28835,-8.39781 4.43635,0 20.89882,-1.06341 28.52237,-1.06341 9.88128,0 30.23538,0.59792 36.09382,0.59792 -0.53297,5.05562 2.02827,4.49222 0.39905,7.95726 3.55899,0.65477 4.55955,4.84331 4.76415,7.91628 0.42101,6.32307 -5.53201,16.45456 -7.55697,17.44476 3.27132,2.61152 3.76156,7.83944 2.67149,11.68252 -1.13556,4.00345 -5.99508,6.80919 -8.75834,8.89638 2.31689,0.57395 1.14581,4.34135 0.19978,6.16799 -1.06465,2.0557 -6.06229,2.47005 -5.79905,3.82166 z"
+       id="path2996-1-8-9-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssacacaccsccacacas"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:1.00846481;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 343.82818,210.80504 c 0.64418,3.92579 -1.14624,7.48773 -3.99898,7.95582 -2.85273,0.46808 -5.68755,-2.33495 -6.33169,-6.26072 -0.64417,-3.92579 1.71114,-3.50321 4.28392,-4.82156 3.13767,-1.60783 5.40259,-0.79934 6.04675,3.12646 z"
+       id="path3770-6-6-8-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.83243901;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 324.53495,212.7932 c 0.38666,3.26105 3.52778,6.98646 5.89748,6.70549 2.36967,-0.28099 3.57427,-2.5479 3.18761,-5.80896 -0.38666,-3.26103 -2.66185,-4.30137 -5.00389,-4.7588 -2.85627,-0.55786 -4.46786,0.60124 -4.0812,3.86227 z"
+       id="path3770-1-8-0-4-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.75339371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 322.79403,208.60462 c 0,0 6.13901,0.39943 9.13732,-0.13818 4.25214,-0.76244 12.21917,-4.31855 12.21917,-4.31855 l 0.55966,2.68197 c 0,0 -8.18523,2.80498 -12.42062,3.61338 -2.93881,0.56095 -8.93584,0.84336 -8.93584,0.84336 z"
+       id="rect3767-5-2-0-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="caccacc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3812-7-4-7-5"
+       sodipodi:cx="2483.9651"
+       sodipodi:cy="65.443146"
+       sodipodi:rx="43.436558"
+       sodipodi:ry="81.822357"
+       d="m 2527.4016,65.443146 a 43.436558,81.822357 0 1 1 -86.8731,0 43.436558,81.822357 0 1 1 86.8731,0 z"
+       transform="matrix(0.02573057,-0.01070839,0.00875948,0.0314554,264.91233,240.79956)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3812-4-6-8-6-9"
+       sodipodi:cx="2483.9651"
+       sodipodi:cy="65.443146"
+       sodipodi:rx="43.436558"
+       sodipodi:ry="81.822357"
+       d="m 2527.4016,65.443146 a 43.436558,81.822357 0 1 1 -86.8731,0 43.436558,81.822357 0 1 1 86.8731,0 z"
+       transform="matrix(0.02573057,-0.01070839,0.00875948,0.0314554,274.53292,239.74181)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.42794001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 321.69728,171.31076 c 1.06983,-9.58186 19.02422,-8.55856 21.62898,-1.53496"
+       id="path4026-1-6-3-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 335.01193,187.65133 c 4.9865,-7.91298 18.13876,-3.22495 15.92937,5.32475"
+       id="path4026-6-8-5-6-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.90030921;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 314.52973,189.55309 c -1.03424,-6.6449 11.15553,-9.97326 14.55751,-4.2273"
+       id="path4026-6-0-9-0-1-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 595.74784,210.80477 c 5.71477,0.74752 14.37345,3.49507 12.1423,12.30937 -2.23112,8.81432 -8.94523,0.34465 -13.36938,-0.19503 -4.71356,-0.57498 -11.80806,0.74521 -13.87622,-3.22248 -3.47037,-6.65779 9.31052,-9.64957 15.1033,-8.89186 z"
+       id="path3961-2-2-5-7-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="azasa"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:url(#linearGradient4008-1-2-9-7-0);fill-opacity:1;stroke:url(#linearGradient4020-8-3-6-5-4);stroke-width:1.49590075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       d="m 593.94942,207.10113 c 2.10619,10.81285 -2.78273,19.85586 -10.91967,21.44079 -8.13694,1.58496 -15.43324,-1.86616 -18.54681,-15.70118 -0.30232,-1.34343 -7.32233,-4.60605 -8.82049,-8.37294 -0.88008,-2.21281 -1.30526,-5.53557 0.38811,-7.13363 -2.41396,-1.05764 -10.99224,-6.19601 -13.05482,-11.65197 -1.42268,-3.76325 0.85481,-7.71453 1.43589,-11.98388 -0.82409,-1.67524 -6.74434,-10.02506 -5.64412,-15.37126 0.57811,-2.80919 3.93265,-6.404 5.91396,-6.24948 -0.0724,-2.65579 -1.29105,-4.91299 -1.28835,-8.39781 4.43635,0 20.89882,-1.06341 28.52237,-1.06341 9.88128,0 30.23538,0.59792 36.09382,0.59792 -0.53297,5.05562 2.02827,4.49222 0.39905,7.95726 3.55899,0.65477 4.55955,4.84331 4.76415,7.91628 0.42101,6.32307 -5.53201,16.45456 -7.55697,17.44476 3.27132,2.61152 3.76156,7.83944 2.67149,11.68252 -1.13556,4.00345 -5.99508,6.80919 -8.75834,8.89638 2.31689,0.57395 1.14581,4.34135 0.19978,6.16799 -1.06465,2.0557 -6.06229,2.47005 -5.79905,3.82166 z"
+       id="path2996-1-8-9-7-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssacacaccsccacacas"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:1.00846481;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 586.64359,213.8355 c 0.64418,3.92579 -1.14624,7.48773 -3.99898,7.95582 -2.85273,0.46808 -5.68755,-2.33495 -6.33169,-6.26072 -0.64417,-3.92579 1.71114,-3.50321 4.28392,-4.82156 3.13767,-1.60783 5.40259,-0.79934 6.04675,3.12646 z"
+       id="path3770-6-6-8-7-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.83243901;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 567.35036,215.82366 c 0.38666,3.26105 3.52778,6.98646 5.89748,6.70549 2.36967,-0.28099 3.57427,-2.5479 3.18761,-5.80896 -0.38666,-3.26103 -2.66185,-4.30137 -5.00389,-4.7588 -2.85627,-0.55786 -4.46786,0.60124 -4.0812,3.86227 z"
+       id="path3770-1-8-0-4-3-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.75339371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 565.60944,211.63508 c 0,0 6.13901,0.39943 9.13732,-0.13818 4.25214,-0.76244 12.21917,-4.31855 12.21917,-4.31855 l 0.55966,2.68197 c 0,0 -8.18523,2.80498 -12.42062,3.61338 -2.93881,0.56095 -8.93584,0.84336 -8.93584,0.84336 z"
+       id="rect3767-5-2-0-3-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="caccacc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3812-7-4-7-5-3"
+       sodipodi:cx="2483.9651"
+       sodipodi:cy="65.443146"
+       sodipodi:rx="43.436558"
+       sodipodi:ry="81.822357"
+       d="m 2527.4016,65.443146 a 43.436558,81.822357 0 1 1 -86.8731,0 43.436558,81.822357 0 1 1 86.8731,0 z"
+       transform="matrix(0.02573057,-0.01070839,0.00875948,0.0314554,507.72774,243.83002)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path3812-4-6-8-6-9-9"
+       sodipodi:cx="2483.9651"
+       sodipodi:cy="65.443146"
+       sodipodi:rx="43.436558"
+       sodipodi:ry="81.822357"
+       d="m 2527.4016,65.443146 a 43.436558,81.822357 0 1 1 -86.8731,0 43.436558,81.822357 0 1 1 86.8731,0 z"
+       transform="matrix(0.02573057,-0.01070839,0.00875948,0.0314554,517.34833,242.77227)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.42794001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 564.51269,174.34122 c 1.06983,-9.58186 19.02422,-8.55856 21.62898,-1.53496"
+       id="path4026-1-6-3-9-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 577.82734,190.68179 c 4.9865,-7.91298 18.13876,-3.22495 15.92937,5.32475"
+       id="path4026-6-8-5-6-8-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.90030921;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 557.34514,192.58355 c -1.03424,-6.6449 11.15553,-9.97326 14.55751,-4.2273"
+       id="path4026-6-0-9-0-1-1-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="armTop"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.8998118;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 88.007017,100.83719 c 0.135946,4.41351 -8.799845,0.82916 -13.056284,1.83168 -3.626454,0.85417 -6.124251,6.78865 -10.546092,3.5434 -1.904075,-1.39742 5.17087,-7.075571 9.188139,-8.134932 4.614294,-1.216818 14.26564,-2.063173 14.414237,2.759852 z"
+       id="path3880-8-2-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="16.280658"
+       inkscape:transform-center-y="-2.584324"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 87.146838,103.56391 c 0.518558,5.41135 -10.652366,2.33567 -15.756753,4.20562 -4.348906,1.59319 -6.91684,9.27 -12.562381,5.937 -2.431041,-1.4352 5.732588,-9.48061 10.541098,-11.38476 5.523154,-2.18717 17.211384,-4.671229 17.778036,1.24214 z"
+       id="path3880-8-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="19.552903"
+       inkscape:transform-center-y="2.4742996"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 138.24971,77.769874 c 1.41993,4.982976 -4.27259,12.678352 -9.74848,17.601621 -5.4759,4.923235 -10.20372,10.137355 -12.14418,7.428475 -1.78367,-2.49006 2.43514,-16.045862 7.06698,-21.423167 8.62516,-10.01337 13.9125,-6.811513 14.82568,-3.606929 z"
+       id="path3856-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="6.2868791"
+       inkscape:transform-center-y="9.8474323"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 122.47038,100.14281 c 0.10974,4.65393 -4.52896,7.80185 -10.51227,7.52965 -11.82471,-0.53796 -22.646894,-0.21279 -22.501179,-3.54175 0.245274,-5.603787 10.389296,-6.308402 23.422919,-9.927244 7.09527,-1.970025 9.512,2.608106 9.59053,5.939344 z"
+       id="path3856-8-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="27.527604"
+       inkscape:transform-center-y="21.476994"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.87845308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 88.796025,117.0828 c -4.990034,4.11039 -17.482377,4.53298 -19.057834,0.5857 -0.905244,-2.26813 6.925825,-1.21337 10.192504,-2.53995 3.53085,-1.43385 6.806329,-7.18995 9.863291,-5.73386 2.392224,1.13946 1.269085,5.82068 -0.997961,7.68811 z"
+       id="path3919-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaaa"
+       inkscape:transform-center-x="11.930066"
+       inkscape:transform-center-y="10.047058"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.04295564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 89.441742,109.26796 c 0.273614,5.30006 -9.809835,1.23159 -14.53818,2.55006 -4.02851,1.12333 -6.655748,8.32149 -11.686149,4.53991 -2.16612,-1.6284 5.582563,-8.64083 10.042073,-10.02123 5.122327,-1.58554 15.883166,-2.8605 16.182256,2.93126 z"
+       id="path3880-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="62.224528"
+       inkscape:transform-center-y="-8.5204836"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       inkscape:transform-center-x="3.901168"
+       inkscape:transform-center-y="0.46715625"
+       d="m 89.260672,112.00127 c -4.172098,0.5525 -7.473918,0.70436 -8.293417,-5.48398 -1.12386,-8.486962 2.114967,-7.749235 6.287057,-8.301699 4.172071,-0.552501 8.421786,3.282859 8.821456,6.300979 0.399646,3.01813 -2.642998,6.93223 -6.815096,7.4847 z"
+       id="path3877-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.8998118;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 333.34847,106.30743 c 0.13595,4.41351 -8.79984,0.82916 -13.05628,1.83168 -3.62645,0.85417 -6.12425,6.78865 -10.54609,3.5434 -1.90408,-1.39742 5.17087,-7.07557 9.18814,-8.13493 4.61429,-1.21682 14.26564,-2.06318 14.41423,2.75985 z"
+       id="path3880-8-2-7-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="16.280658"
+       inkscape:transform-center-y="-2.584324"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 332.48829,109.03415 c 0.51856,5.41135 -10.65236,2.33567 -15.75675,4.20562 -4.3489,1.59319 -6.91684,9.27 -12.56238,5.937 -2.43104,-1.4352 5.73259,-9.48061 10.5411,-11.38476 5.52315,-2.18717 17.21138,-4.67123 17.77803,1.24214 z"
+       id="path3880-8-7-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="19.552903"
+       inkscape:transform-center-y="2.4742996"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 368.74784,81.214491 c 3.55365,3.770659 2.04076,13.222366 -0.55542,20.113209 -2.5962,6.89083 -5.10867,11.55282 -8.078,10.04071 -2.72944,-1.38999 -4.50742,-13.223776 -2.86955,-20.129334 3.04993,-12.859194 9.21759,-12.449513 11.50297,-10.024585 z"
+       id="path3856-1-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="1.4151666"
+       inkscape:transform-center-y="12.097551"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 367.81184,105.61305 c 0.10974,4.65393 -4.52896,7.80185 -10.51227,7.52965 -11.82471,-0.53796 -22.6469,-0.21279 -22.50118,-3.54175 0.24527,-5.60379 10.38929,-6.3084 23.42292,-9.927246 7.09527,-1.970025 9.512,2.608106 9.59053,5.939346 z"
+       id="path3856-8-2-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="27.527604"
+       inkscape:transform-center-y="21.476994"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.87845308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 334.13748,122.55304 c -4.99003,4.11039 -17.48238,4.53298 -19.05783,0.5857 -0.90525,-2.26813 6.92582,-1.21337 10.1925,-2.53995 3.53085,-1.43385 6.80633,-7.18995 9.86329,-5.73386 2.39223,1.13946 1.26909,5.82068 -0.99796,7.68811 z"
+       id="path3919-6-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaaa"
+       inkscape:transform-center-x="11.930066"
+       inkscape:transform-center-y="10.047058"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.04295564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 334.7832,114.7382 c 0.27361,5.30006 -9.80984,1.23159 -14.53818,2.55006 -4.02851,1.12333 -6.65575,8.32149 -11.68615,4.53991 -2.16612,-1.6284 5.58256,-8.64083 10.04207,-10.02123 5.12233,-1.58554 15.88317,-2.8605 16.18226,2.93126 z"
+       id="path3880-0-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="62.224528"
+       inkscape:transform-center-y="-8.5204836"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       inkscape:transform-center-x="3.901168"
+       inkscape:transform-center-y="0.46715625"
+       d="m 334.60213,117.47151 c -4.1721,0.5525 -7.47392,0.70436 -8.29342,-5.48398 -1.12386,-8.48696 2.11497,-7.74924 6.28706,-8.3017 4.17207,-0.5525 8.42178,3.28286 8.82145,6.30098 0.39965,3.01813 -2.64299,6.93223 -6.81509,7.4847 z"
+       id="path3877-4-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.8998118;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 587.71585,109.84296 c 0.13595,4.41351 -8.79984,0.82916 -13.05628,1.83168 -3.62645,0.85417 -6.12425,6.78865 -10.54609,3.5434 -1.90408,-1.39742 5.17087,-7.07557 9.18814,-8.13493 4.61429,-1.21682 14.26564,-2.06318 14.41423,2.75985 z"
+       id="path3880-8-2-7-2-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="16.280658"
+       inkscape:transform-center-y="-2.584324"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 586.85567,112.56968 c 0.51856,5.41135 -10.65236,2.33567 -15.75675,4.20562 -4.3489,1.59319 -6.91684,9.27 -12.56238,5.937 -2.43104,-1.4352 5.73259,-9.48061 10.5411,-11.38476 5.52315,-2.18717 17.21138,-4.67123 17.77803,1.24214 z"
+       id="path3880-8-7-7-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="19.552903"
+       inkscape:transform-center-y="2.4742996"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 612.32819,83.383401 c 4.87597,1.752473 7.80754,10.864525 8.61353,18.183969 0.80597,7.31944 0.6772,12.61378 -2.65497,12.61035 -3.06299,-0.003 -10.0074,-9.74869 -11.67446,-16.647263 -3.10434,-12.846167 2.58013,-15.274073 5.7159,-14.147056 z"
+       id="path3856-1-9-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="-3.3090618"
+       inkscape:transform-center-y="11.455723"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 622.17922,109.14858 c 0.10974,4.65393 -4.52896,7.80185 -10.51227,7.52965 -11.82471,-0.53796 -22.6469,-0.21279 -22.50118,-3.54175 0.24527,-5.60379 10.38929,-6.3084 23.42292,-9.92724 7.09527,-1.97003 9.512,2.6081 9.59053,5.93934 z"
+       id="path3856-8-2-5-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="27.527604"
+       inkscape:transform-center-y="21.476994"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.87845308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 588.50486,126.08857 c -4.99003,4.11039 -17.48238,4.53298 -19.05783,0.5857 -0.90525,-2.26813 6.92582,-1.21337 10.1925,-2.53995 3.53085,-1.43385 6.80633,-7.18995 9.86329,-5.73386 2.39223,1.13946 1.26909,5.82068 -0.99796,7.68811 z"
+       id="path3919-6-4-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaaa"
+       inkscape:transform-center-x="11.930066"
+       inkscape:transform-center-y="10.047058"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.04295564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 589.15058,118.27373 c 0.27361,5.30006 -9.80984,1.23159 -14.53818,2.55006 -4.02851,1.12333 -6.65575,8.32149 -11.68615,4.53991 -2.16612,-1.6284 5.58256,-8.64083 10.04207,-10.02123 5.12233,-1.58554 15.88317,-2.8605 16.18226,2.93126 z"
+       id="path3880-0-3-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="62.224528"
+       inkscape:transform-center-y="-8.5204836"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       inkscape:transform-center-x="3.901168"
+       inkscape:transform-center-y="0.46715625"
+       d="m 588.96951,121.00704 c -4.1721,0.5525 -7.47392,0.70436 -8.29342,-5.48398 -1.12386,-8.48696 2.11497,-7.74924 6.28706,-8.3017 4.17207,-0.5525 8.42178,3.28286 8.82145,6.30098 0.39965,3.01813 -2.64299,6.93223 -6.81509,7.4847 z"
+       id="path3877-4-1-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.8998118;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 101.82408,215.83197 c 0.35171,4.40156 -8.748724,1.25863 -12.95104,2.46816 -3.580317,1.03055 -5.784835,7.08008 -10.360125,4.05503 -1.970161,-1.30261 4.81856,-7.32005 8.779206,-8.57464 4.549227,-1.44111 14.147619,-2.75854 14.531959,2.05145 z"
+       id="path3880-8-2-7-2-9-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="7.2324876"
+       inkscape:transform-center-y="2.0919201"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 101.87477,217.78308 c 1.95208,5.07357 -9.63446,5.10937 -14.049564,8.28087 -3.761639,2.70208 -4.174654,10.78645 -10.507679,9.09119 -2.727061,-0.72994 2.977338,-10.67143 7.098233,-13.79646 4.733349,-3.58946 15.32583,-9.11982 17.45901,-3.5756 z"
+       id="path3880-8-7-7-0-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="6.6998001"
+       inkscape:transform-center-y="6.8292756"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 136.26602,199.15361 c 3.81134,3.50998 2.97048,13.045 0.86798,20.10215 -2.10251,7.05714 -4.27909,11.88509 -7.34789,10.5867 -2.82096,-1.19336 -5.43108,-12.872 -4.28554,-19.87608 2.13315,-13.04265 8.31434,-13.07004 10.76545,-10.81277 z"
+       id="path3856-1-9-0-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="0.77263452"
+       inkscape:transform-center-y="12.186355"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 135.53905,226.86581 c -2.02884,4.18986 -7.59334,4.87048 -12.79119,1.89449 -10.2724,-5.88141 -20.04743,-10.53698 -18.39676,-13.43154 2.77863,-4.87257 12.12379,-0.86437 25.37084,1.87189 7.21145,1.48957 7.26935,6.6661 5.81711,9.66516 z"
+       id="path3856-8-2-5-6-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="9.5806888"
+       inkscape:transform-center-y="-3.2996613"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.87845308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 108.32787,229.12107 c -2.87164,5.79218 -14.097763,11.28871 -17.150251,8.33146 -1.753974,-1.69928 5.823238,-3.94071 8.261284,-6.48765 2.635197,-2.75291 3.269057,-9.34533 6.654167,-9.26734 2.64905,0.061 3.53941,4.79203 2.23483,7.42352 z"
+       id="path3919-6-4-1-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaaa"
+       inkscape:transform-center-x="4.2876482"
+       inkscape:transform-center-y="4.9361634"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.04295564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 105.89956,221.73705 c 2.1694,4.84346 -8.702816,4.69159 -12.635775,7.62883 -3.350841,2.50253 -3.200897,10.16369 -9.257561,8.45425 -2.608041,-0.7361 2.084818,-10.07383 5.744711,-12.97176 4.203896,-3.32858 13.777835,-8.40408 16.148625,-3.11132 z"
+       id="path3880-0-3-3-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="3.6287854"
+       inkscape:transform-center-y="4.4753691"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       inkscape:transform-center-x="4.4792803"
+       inkscape:transform-center-y="3.0399319"
+       d="m 106.71641,224.45406 c -3.71547,1.97661 -6.755713,3.27353 -9.687553,-2.23749 -4.020812,-7.55808 -0.7285,-7.99958 2.986973,-9.97615 3.71544,-1.9766 9.03806,0.13047 10.46794,2.81825 1.42987,2.68782 -0.0519,7.4188 -3.76736,9.39539 z"
+       id="path3877-4-1-8-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.8998118;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 329.8991,213.3669 c -2.76026,3.44651 -7.23391,-5.07889 -11.12319,-7.07787 -3.31364,-1.70308 -9.06485,1.19181 -10.32379,-4.14665 -0.54212,-2.29879 8.52558,-2.02875 12.26975,-0.22822 4.30062,2.06809 12.1936,7.68641 9.17723,11.45274 z"
+       id="path3880-8-2-7-2-9-5-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="7.1230074"
+       inkscape:transform-center-y="-2.8115333"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 329.32091,215.9635 c -2.14407,4.99547 -10.46519,-3.06731 -15.84042,-3.87862 -4.57969,-0.69122 -10.51901,4.80898 -13.8701,-0.82586 -1.44304,-2.42638 9.58142,-5.56244 14.71358,-4.92326 5.89488,0.73419 17.33993,4.16887 14.99694,9.62774 z"
+       id="path3880-8-7-7-0-4-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="10.0372"
+       inkscape:transform-center-y="-0.54914988"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 373.37009,203.60988 c 2.18851,4.69645 -2.21826,13.19375 -6.84858,18.91948 -4.63033,5.72572 -8.48068,9.36184 -10.82431,6.99314 -2.15442,-2.17725 -0.12299,-13.97033 3.6022,-20.01122 6.93685,-11.24905 12.66322,-8.92171 14.07069,-5.9014 z"
+       id="path3856-1-9-0-2-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="4.7946889"
+       inkscape:transform-center-y="10.884632"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 363.02803,227.51365 c -2.46579,3.94855 -8.07118,4.02946 -12.9205,0.51404 -9.58362,-6.94747 -18.80399,-12.62289 -16.85288,-15.32408 3.28436,-4.54705 12.14664,0.4387 25.02457,4.5776 7.01049,2.25314 6.51381,7.40612 4.74881,10.23244 z"
+       id="path3856-8-2-5-6-0-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="8.9464977"
+       inkscape:transform-center-y="-4.4209499"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.87845308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 334.43873,225.21276 c -2.78455,5.83454 -13.92707,11.4986 -17.02351,8.58742 -1.77924,-1.6728 5.76355,-4.0275 8.16316,-6.61067 2.59368,-2.79208 3.12872,-9.39324 6.51463,-9.36597 2.64965,0.0213 3.6108,4.73847 2.34576,7.38921 z"
+       id="path3919-6-4-1-9-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaaa"
+       inkscape:transform-center-x="4.1885175"
+       inkscape:transform-center-y="5.0005732"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.04295564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 330.13227,218.70086 c -0.72438,5.25745 -9.86688,-0.6284 -14.75852,-0.2193 -4.16765,0.34857 -8.09716,6.92693 -12.32985,2.26975 -1.82261,-2.00544 7.10281,-7.4417 11.742,-7.96203 5.32871,-0.59761 16.13784,0.16639 15.34636,5.91161 z"
+       id="path3880-0-3-3-7-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="9.1761016"
+       inkscape:transform-center-y="1.2356292"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       inkscape:transform-center-x="4.680268"
+       inkscape:transform-center-y="1.2269292"
+       d="m 332.82621,221.44064 c -4.15214,0.68665 -7.44734,0.9448 -8.46582,-5.21393 -1.3967,-8.44633 1.86421,-7.81336 6.01635,-8.49996 4.15209,-0.68662 8.52317,3.00983 9.01987,6.0135 0.49669,3.0037 -2.41827,7.01378 -6.5704,7.70039 z"
+       id="path3877-4-1-8-3-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.8998118;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 565.21716,222.97726 c -0.44576,4.39304 -8.83244,-0.33555 -13.18377,0.0984 -3.70729,0.36973 -6.96399,5.92409 -10.92054,2.12543 -1.70373,-1.63575 6.05664,-6.33394 10.17835,-6.85569 4.73426,-0.5993 14.41305,-0.16876 13.92596,4.6319 z"
+       id="path3880-8-2-7-2-9-5-8-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="7.6628231"
+       inkscape:transform-center-y="0.27652413"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 565.12569,225.1493 c 0.90175,5.36084 -10.4595,3.08669 -15.4181,5.3146 -4.22473,1.89818 -6.24069,9.73805 -12.10878,6.81461 -2.52689,-1.25883 5.04447,-9.86395 9.70552,-12.10499 5.35377,-2.57408 16.8359,-5.88263 17.82137,-0.0242 z"
+       id="path3880-8-7-7-0-4-2-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="8.1230827"
+       inkscape:transform-center-y="5.1350632"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 616.32984,207.39193 c 1.33354,5.00679 -4.49125,12.60255 -10.05147,17.43037 -5.56023,4.82779 -9.9871,7.73458 -11.88041,4.99255 -1.74048,-2.52044 2.32188,-13.77658 7.04604,-19.07297 8.79707,-9.86269 14.02823,-6.56984 14.88584,-3.34995 z"
+       id="path3856-1-9-0-2-6-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="6.7378947"
+       inkscape:transform-center-y="9.6822555"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 600.36318,229.69916 c -1.34756,4.45592 -6.73679,5.99968 -12.3366,3.87451 -11.06678,-4.19992 -21.45035,-7.26702 -20.2734,-10.3844 1.98116,-5.24764 11.83879,-2.75253 25.3509,-2.12489 7.35573,0.34171 8.22369,5.44529 7.2591,8.63478 z"
+       id="path3856-8-2-5-6-0-6-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="10.254522"
+       inkscape:transform-center-y="-1.6467176"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:0.87845308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 570.42335,236.48257 c -3.44004,5.47373 -15.16239,9.81243 -17.90172,6.56298 -1.57404,-1.86719 6.19029,-3.33461 8.87229,-5.62323 2.89892,-2.47369 4.19307,-8.96883 7.55317,-8.55052 2.62943,0.32729 3.03912,5.12392 1.4763,7.61074 z"
+       id="path3919-6-4-1-9-0-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="asaaa"
+       inkscape:transform-center-x="4.907612"
+       inkscape:transform-center-y="4.4888457"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.04295564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       d="m 566.23472,228.3662 c 1.74908,5.01062 -9.07074,3.93346 -13.23952,6.5251 -3.55179,2.20809 -4.05478,9.8542 -9.94386,7.63524 -2.53587,-0.95552 2.93511,-9.85971 6.82849,-12.43544 4.47205,-2.95855 14.44345,-7.20031 16.35489,-1.72488 z"
+       id="path3880-0-3-3-7-3-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="aasaa"
+       inkscape:transform-center-x="6.7400617"
+       inkscape:transform-center-y="6.0751828"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:#1c2224;fill-opacity:1;stroke:#000000;stroke-width:1.10607052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;display:inline"
+       inkscape:transform-center-x="4.5869581"
+       inkscape:transform-center-y="2.5214697"
+       d="m 569.28933,231.6736 c -3.89339,1.59789 -7.04737,2.58653 -9.41747,-3.18847 -3.25037,-7.91999 0.0695,-8.03237 3.96291,-9.6302 3.89333,-1.59785 8.98044,1.02734 10.13631,3.84384 1.1559,2.81654 -0.78836,7.37696 -4.68175,8.97483 z"
+       id="path3877-4-1-8-3-8-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Entities\human.png" />
+  </g>
+</svg>
