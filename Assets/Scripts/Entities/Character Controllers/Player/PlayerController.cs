@@ -148,8 +148,16 @@ public class PlayerController : MonoBehaviour
             {
                 rigid.velocity = new Vector2(rigid.velocity.x, 0);
             }
-            sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
-            sFXPlayer.Play();
+            if (airJump == true)
+            {
+                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
+                sFXPlayer.Play();
+            }
+            else 
+            {
+                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/WingSwoosh");
+                sFXPlayer.Play();
+            }
         }
         if (onGround && v < 0 && crouchCount <= 0 && canCrouch)
         {
