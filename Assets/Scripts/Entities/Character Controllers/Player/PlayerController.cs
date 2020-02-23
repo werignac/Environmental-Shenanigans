@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour
     /// The maximum vertical velocity the main character can reach.
     /// </summary>
     public float maxSpeedY;
-    public bool walkSoundCooldown;
     private bool jump;
     private int numGround;
     private int numJumps;
