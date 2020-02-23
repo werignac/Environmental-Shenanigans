@@ -14,8 +14,7 @@ public abstract class ProjectileShooterAbstract : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sFXPlayer = GetComponent<AudioSource>();
-        count = initialCount;
+        OnStart();
     }
 
     // Update is called once per frame
@@ -46,4 +45,9 @@ public abstract class ProjectileShooterAbstract : MonoBehaviour
         }
     }
     public abstract void Move();
+    public virtual void OnStart()
+    {
+        sFXPlayer = GetComponent<AudioSource>();
+        count = initialCount;
+    }
 }
