@@ -35,8 +35,11 @@ public abstract class ProjectileShooterAbstract : MonoBehaviour
 
     public virtual void ShootProjectile()
     {
-        if(sFXPlayer!=null)
-        sFXPlayer.Play();
+        if (sFXPlayer != null)
+        {
+            sFXPlayer.Play();
+        }
+        
         if(animator != null)
         {
             animator.SetTrigger("Fire");
