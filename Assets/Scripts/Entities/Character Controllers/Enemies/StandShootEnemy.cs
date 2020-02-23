@@ -10,6 +10,7 @@ public class StandShootEnemy : Enemy
     public int speed;
     public int range;
     private int count;
+    public AudioSource sFXPlayer;
 
     public override void OnStart()
     {
@@ -21,6 +22,8 @@ public class StandShootEnemy : Enemy
         --count;
         if(count <= 0)
         {
+            sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/SpearThrow");
+            sFXPlayer.Play();
             GameObject projectile = Instantiate(Resources.Load<GameObject>("Projectiles/" + projectileName), transform.position, new Quaternion());
             float angle = Mathf.Rad2Deg * Mathf.Atan((Data.playerPos.y - transform.position.y) / (Data.playerPos.x - transform.position.x));
             if(Data.playerPos.x < transform.position.x)
