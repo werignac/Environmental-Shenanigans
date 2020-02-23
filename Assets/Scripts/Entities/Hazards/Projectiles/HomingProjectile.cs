@@ -10,6 +10,7 @@ public class HomingProjectile : AcceleratingProjectileController
 
     public override void OnStart()
     {
+        base.OnStart();
         accelerationMag = acceleration.magnitude;
         target = GameObject.FindGameObjectWithTag("Player").transform;
     }
