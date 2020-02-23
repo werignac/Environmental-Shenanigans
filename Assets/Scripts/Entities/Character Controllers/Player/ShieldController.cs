@@ -24,7 +24,7 @@ public class ShieldController : MonoBehaviour
 
     public float reflectionDelay;
     private float timer;
-
+    public AudioSource sFXPlayer;
     public SpriteRenderer headColor;
     /// <summary>
     /// Stores the initialScale;
@@ -95,6 +95,8 @@ public class ShieldController : MonoBehaviour
         {
             if (timer == 0)
             {
+                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/Bounce");
+                sFXPlayer.Play();
                 anim.SetTrigger("Hit");
                 HazardController hazard = encounter.GetComponent<HazardController>();
                 if (hazard == null)
