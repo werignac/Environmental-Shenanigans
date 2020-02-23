@@ -1,0 +1,976 @@
+fileFormatVersion: 2
+guid: 8a8d86e39e11610449aafcc30f29667f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4624401244681980453
+    second: castleTest_0
+  - first:
+      213: 8563935610644331953
+    second: castleTest_1
+  - first:
+      213: 3510256907494845476
+    second: castleTest_2
+  - first:
+      213: 8796904674415318548
+    second: castleTest_3
+  - first:
+      213: -2720038856485354967
+    second: castleTest_4
+  - first:
+      213: 2529346749814783980
+    second: castleTest_5
+  - first:
+      213: 5934792401094264483
+    second: castleTest_6
+  - first:
+      213: 6412103295353817865
+    second: castleTest_7
+  - first:
+      213: 6689274909244467400
+    second: castleTest_8
+  - first:
+      213: 1416758762749038783
+    second: castleTest_9
+  - first:
+      213: 7622975749563821598
+    second: castleTest_10
+  - first:
+      213: -3605030276513171468
+    second: castleTest_11
+  - first:
+      213: -8385031097772157141
+    second: castleTest_12
+  - first:
+      213: 3732925902892609042
+    second: castleTest_13
+  - first:
+      213: 6358915540869391502
+    second: castleTest_14
+  - first:
+      213: -3889192383230572270
+    second: castleTest_15
+  - first:
+      213: -8482218992969143816
+    second: castleTest_16
+  - first:
+      213: -1925140002721411524
+    second: castleTest_17
+  - first:
+      213: -3730194244141603879
+    second: castleTest_18
+  - first:
+      213: -664564013573182846
+    second: castleTest_19
+  - first:
+      213: -6668407629716343236
+    second: castleTest_20
+  - first:
+      213: 4701850856088919337
+    second: castleTest_21
+  - first:
+      213: -5150484791743640115
+    second: castleTest_22
+  - first:
+      213: 2191766141613315927
+    second: castleTest_23
+  - first:
+      213: -64941619648320028
+    second: castleTest_24
+  - first:
+      213: 2948575849199908715
+    second: castleTest_25
+  - first:
+      213: -6154352199684217501
+    second: castleTest_26
+  - first:
+      213: -3476424507324618465
+    second: castleTest_27
+  - first:
+      213: 9114529085187287655
+    second: castleTest_28
+  - first:
+      213: 7248260165784622166
+    second: castleTest_29
+  - first:
+      213: 7386476713826395733
+    second: castleTest_30
+  - first:
+      213: 497730980869081313
+    second: castleTest_31
+  - first:
+      213: -7834031329633300298
+    second: castleTest_32
+  - first:
+      213: -267769952473051224
+    second: castleTest_33
+  - first:
+      213: -838093439478428360
+    second: castleTest_34
+  - first:
+      213: 4673131995936553923
+    second: castleTest_35
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: castleTest_0
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 4386
+        width: 800
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783243a78674dd94b947da12fbfa2c3e
+      internalID: -4624401244681980453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_1
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 4389
+        width: 797
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc65c45ba254004f8a9fcda8348426d
+      internalID: 8563935610644331953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_2
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 4406
+        width: 797
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc560551c265dd04e959d5bdfca6dce4
+      internalID: 3510256907494845476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_3
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 4352
+        width: 798
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccfe1b99585e04439b7ae4dc1e95933
+      internalID: 8796904674415318548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_4
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 4318
+        width: 797
+        height: 872
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47251b587849ffe43bcff5a4d8d6ec67
+      internalID: -2720038856485354967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_5
+      rect:
+        serializedVersion: 2
+        x: 4768
+        y: 4315
+        width: 800
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef43351d26c13574988a7a2c71db5ab0
+      internalID: 2529346749814783980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_6
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 3518
+        width: 800
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b69ed816bf8784188fa4c1307d7259
+      internalID: 5934792401094264483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_7
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 3428
+        width: 799
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8290cd64ac2fd4faa5b062eabcef23
+      internalID: 6412103295353817865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_8
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 3468
+        width: 800
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987b931372b45684c85959484aefc5f5
+      internalID: 6689274909244467400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_9
+      rect:
+        serializedVersion: 2
+        x: 2947
+        y: 3419
+        width: 800
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a88bf7d6d84ad44a39ff86fca208d1
+      internalID: 1416758762749038783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_10
+      rect:
+        serializedVersion: 2
+        x: 3948
+        y: 3365
+        width: 800
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b945e7f984204d4c8f7edc0d86f0220
+      internalID: 7622975749563821598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_11
+      rect:
+        serializedVersion: 2
+        x: 4912
+        y: 3382
+        width: 800
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa62f9f00f741ad4fa074a75ec47ec56
+      internalID: -3605030276513171468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2506
+        width: 800
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73eb994a917cee4fa368e868842b04f
+      internalID: -8385031097772157141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_13
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 2481
+        width: 829
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e155b7a504e0cf4fb1bf4ba86561006
+      internalID: 3732925902892609042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_14
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 2478
+        width: 840
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12945b5cd0324146be7d236ced83666
+      internalID: 6358915540869391502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_15
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 2447
+        width: 848
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0b4d015002ae94faf895713b9e4da0
+      internalID: -3889192383230572270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_16
+      rect:
+        serializedVersion: 2
+        x: 3897
+        y: 2404
+        width: 848
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8a25052d86cd242bc2147f67a2eff3
+      internalID: -8482218992969143816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_17
+      rect:
+        serializedVersion: 2
+        x: 4881
+        y: 2461
+        width: 851
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2bf33b5eb3b4240b7032a0e9668db7
+      internalID: -1925140002721411524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1678
+        width: 849
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc41996861d71de4ba400dc99e90dad6
+      internalID: -3730194244141603879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_19
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1681
+        width: 851
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4645a8a3ef7e44c99367a49d325557
+      internalID: -664564013573182846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_20
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 1686
+        width: 849
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f533ee3ead8139489e407c87d10a35e
+      internalID: -6668407629716343236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_21
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 1647
+        width: 848
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dcc8fbd016de642818711a0796e6d1
+      internalID: 4701850856088919337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_22
+      rect:
+        serializedVersion: 2
+        x: 3917
+        y: 1610
+        width: 851
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f602400f49bd847a3fc78f38fc6865
+      internalID: -5150484791743640115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_23
+      rect:
+        serializedVersion: 2
+        x: 4935
+        y: 1647
+        width: 851
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4a260b9b618f245a767c88ca42acd2
+      internalID: 2191766141613315927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 847
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75bc4efadf0f43488a4dba04e8541a6
+      internalID: -64941619648320028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_25
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 864
+        width: 848
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2379eaba88f5e1042ae641818f248ea9
+      internalID: 2948575849199908715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_26
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 864
+        width: 851
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db92c3c8470637845acaf7a8e108979e
+      internalID: -6154352199684217501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_27
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 844
+        width: 850
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bb8a5ddf6d876489d98874d69ce429
+      internalID: -3476424507324618465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_28
+      rect:
+        serializedVersion: 2
+        x: 3931
+        y: 807
+        width: 848
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2842c03d149fe524db52ba2fb6783ad1
+      internalID: 9114529085187287655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_29
+      rect:
+        serializedVersion: 2
+        x: 4895
+        y: 844
+        width: 895
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247f0368f252e74438733e2890513b3b
+      internalID: 7248260165784622166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 895
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df5ff053fba69a489431847cf92d940
+      internalID: 7386476713826395733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_31
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 61
+        width: 851
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430ae3a8ad5fa8049a241fd8e5493195
+      internalID: 497730980869081313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_32
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 0
+        width: 850
+        height: 855
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c3dedd63062054ab2111213c8afa77
+      internalID: -7834031329633300298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_33
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 7
+        width: 851
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795885605be5e914a805af5237d23e64
+      internalID: -267769952473051224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_34
+      rect:
+        serializedVersion: 2
+        x: 3988
+        y: 0
+        width: 851
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cd7f0dbf7f78845be110d6b77c3963
+      internalID: -838093439478428360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castleTest_35
+      rect:
+        serializedVersion: 2
+        x: 4943
+        y: 19
+        width: 847
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466689c3de9ee3d4daaac7ef225b488c
+      internalID: 4673131995936553923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 76806fbb2e7c07b4285c39f2ccb67ef6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

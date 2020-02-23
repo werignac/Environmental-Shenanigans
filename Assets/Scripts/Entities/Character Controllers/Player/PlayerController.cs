@@ -182,9 +182,12 @@ public class PlayerController : MonoBehaviour
         }
         if(numDash < maxDash && Input.GetKeyDown(KeyCode.Space))
         {
-            ++numDash;
-            horizontal *= dashSpeedX;
-            vertical = v * dashSpeedY;
+            if (horizontal != 0 && v != 0)
+            {
+                ++numDash;
+                horizontal *= dashSpeedX;
+                vertical = v * dashSpeedY;
+            }
         }
         Move(horizontal, vertical);
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);
