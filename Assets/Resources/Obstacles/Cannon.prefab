@@ -149,6 +149,7 @@ MonoBehaviour:
   initialCount: 0
   triggered: 0
   sFXPlayer: {fileID: 0}
+  animator: {fileID: 2496970162337477847}
   projectileName: Cannonball
   angle: 180
   speed: 20

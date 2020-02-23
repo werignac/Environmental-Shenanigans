@@ -9,7 +9,7 @@ public abstract class ProjectileShooterAbstract : MonoBehaviour
     public float initialCount;
     public bool triggered;
     public AudioSource sFXPlayer;
-
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +37,10 @@ public abstract class ProjectileShooterAbstract : MonoBehaviour
     {
         if(sFXPlayer!=null)
         sFXPlayer.Play();
+        if(animator != null)
+        {
+            animator.SetTrigger("Fire");
+        }
     }
     public abstract void Move();
 }
