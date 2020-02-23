@@ -1,8 +1,13 @@
 Name,Width,RoomType,NextRoomType
 ArrowWalls,30,2,2
 BasicNormalRoom,20,2,2
+<<<<<<< Updated upstream
 BasicStartRoom,15,0,2
 Boss1,30,1,2
+=======
+BossCastle,50,1,2
+CannonTower,40,2,3
+>>>>>>> Stashed changes
 DoubleBoomerang,10,2,2
 DoubleCompass,15,2,2
 Goombas,30,2,2

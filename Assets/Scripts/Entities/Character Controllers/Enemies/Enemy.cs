@@ -5,7 +5,7 @@ using UnityEngine;
 public abstract class Enemy : MonoBehaviour
 {
     public int maxHealth;
-    private int health;
+    public int health;
     public int maxSpeedX;
     public Rigidbody2D rigid;
     public Vector2 accelCoeff;
@@ -29,7 +29,7 @@ public abstract class Enemy : MonoBehaviour
         health = maxHealth;
     }
 
-    public void Damage()
+    public virtual void Damage()
     {
         --health;
         if (health <= 0)
