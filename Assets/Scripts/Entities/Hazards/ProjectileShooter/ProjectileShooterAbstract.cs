@@ -35,6 +35,7 @@ public abstract class ProjectileShooterAbstract : MonoBehaviour
 
     public virtual void ShootProjectile()
     {
+        if(sFXPlayer!=null)
         sFXPlayer.Play();
     }
     public abstract void Move();
