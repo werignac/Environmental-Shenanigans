@@ -8,6 +8,7 @@ public class ImmobileShooter : ProjectileShooterAbstract
     public float angle;
     public float speed;
     public float range;
+    public float angleVariation;
     public override void Move()
     {
         return;
