@@ -16,6 +16,7 @@ public class CastleBoss : Enemy
     public float trebuchetDelay;
     public int trebuchetBullets;
     private int projectileNumber;
+
     public override void Move()
     {
         ++count;
@@ -59,6 +60,7 @@ public class CastleBoss : Enemy
                         ++projectileNumber;
                     }
                 }
+            }
         }
         else
         {
