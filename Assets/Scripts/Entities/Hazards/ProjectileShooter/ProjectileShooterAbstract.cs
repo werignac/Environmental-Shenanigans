@@ -8,9 +8,13 @@ public abstract class ProjectileShooterAbstract : MonoBehaviour
     public float delay;
     public float initialCount;
     public bool triggered;
+    public AudioSource sFXPlayer;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        sFXPlayer = GetComponent<AudioSource>();
         count = initialCount;
     }
 
@@ -29,6 +33,9 @@ public abstract class ProjectileShooterAbstract : MonoBehaviour
         }
     }
 
-    public abstract void ShootProjectile();
+    public virtual void ShootProjectile()
+    {
+        sFXPlayer.Play();
+    }
     public abstract void Move();
 }
