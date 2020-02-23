@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour
     /// The maximum vertical velocity the main character can reach.
     /// </summary>
     public float maxSpeedY;
-    public bool walkSoundCooldown;
     private bool jump;
     private int numGround;
     private int numJumps;
@@ -148,8 +147,16 @@ public class PlayerController : MonoBehaviour
             {
                 rigid.velocity = new Vector2(rigid.velocity.x, 0);
             }
-            sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
-            sFXPlayer.Play();
+            if (airJump == true)
+            {
+                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
+                sFXPlayer.Play();
+            }
+            else 
+            {
+                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/WingSwoosh");
+                sFXPlayer.Play();
+            }
         }
         if (onGround && v < 0 && crouchCount <= 0 && canCrouch)
         {
@@ -175,9 +182,12 @@ public class PlayerController : MonoBehaviour
         }
         if(numDash < maxDash && Input.GetKeyDown(KeyCode.Space))
         {
-            ++numDash;
-            horizontal *= dashSpeedX;
-            vertical = v * dashSpeedY;
+            if (horizontal != 0 && v != 0)
+            {
+                ++numDash;
+                horizontal *= dashSpeedX;
+                vertical = v * dashSpeedY;
+            }
         }
         Move(horizontal, vertical);
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);

@@ -27,6 +27,8 @@ public abstract class ProjectileController : MovingHazardController
     /// <param name="encounter">The reflecting surface.</param>
     public override void OnShieldCollision(GameObject encounter)
     {
+        reflected = true;
+
         float shieldAngle = encounter.GetComponent<Transform>().eulerAngles.z;
         Vector2 projectileMove = GetMoveDirection();
         float projectileAngle = Mathf.Atan2(projectileMove.y, projectileMove.x) * Mathf.Rad2Deg;
@@ -62,8 +64,6 @@ public abstract class ProjectileController : MovingHazardController
         }
         projectileAngle *= Mathf.Deg2Rad;
         SetMoveDirection(new Vector2(Mathf.Cos(projectileAngle), Mathf.Sin(projectileAngle)) * projectileMove.magnitude);
-
-        reflected = true;
     }
 
     public bool GetReflected()

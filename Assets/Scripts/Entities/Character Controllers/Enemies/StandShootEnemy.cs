@@ -5,6 +5,7 @@ using UnityEngine;
 public class StandShootEnemy : Enemy
 {
     public int delay;
+    public float initialCount;
     public string projectileName;
     public int speed;
     public int range;
@@ -13,7 +14,7 @@ public class StandShootEnemy : Enemy
     public override void OnStart()
     {
         base.OnStart();
-        count = (int)(delay * Data.frameRate);
+        count = (int)(delay * Data.frameRate) - (int)(initialCount * Data.frameRate);
     }
     public override void Move()
     {
