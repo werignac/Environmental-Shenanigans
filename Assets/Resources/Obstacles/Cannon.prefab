@@ -67,8 +67,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1601250861
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -5333349321414413341, guid: 8e2302b1e09e8bc44bacecce35709fb2,
     type: 3}
@@ -127,7 +127,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8767523333710411194}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 3318468215328631578}
@@ -149,6 +149,7 @@ MonoBehaviour:
   initialCount: 0
   triggered: 0
   sFXPlayer: {fileID: 0}
+  animator: {fileID: 2496970162337477847}
   projectileName: Cannonball
   angle: 180
   speed: 20
