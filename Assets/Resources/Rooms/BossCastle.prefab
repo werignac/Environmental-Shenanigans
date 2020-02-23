@@ -99,8 +99,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1628043861
-  m_SortingLayer: 4
+  m_SortingLayerID: 1601250861
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -4624401244681980453, guid: 8a8d86e39e11610449aafcc30f29667f,
     type: 3}
@@ -171,7 +171,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8, y: 7.880979}
+    oldSize: {x: 8.092831, y: 8.07}
     newSize: {x: 8, y: 7.880979}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4cdca2d7d38fcc45b883389abf9a4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 45
+  maxHealth: 18
   health: 0
   maxSpeedX: 0
   rigid: {fileID: 0}
@@ -235,6 +235,7 @@ MonoBehaviour:
   cannonDifference: 0.5
   trebuchetDelay: 6
   trebuchetBullets: 4
+  animator: {fileID: 406931800}
 --- !u!1 &730796099
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,6 +16,7 @@ public class CastleBoss : Enemy
     public float trebuchetDelay;
     public int trebuchetBullets;
     private int projectileNumber;
+    public Animator animator;
 
     public override void Move()
     {
@@ -26,7 +27,7 @@ public class CastleBoss : Enemy
             {
                 int archerCount = count - (int)(archerDelay * Data.frameRate);
                 int aDelay = (int)(archerDifference * Data.frameRate);
-                if (archerCount / aDelay >= archers.Length - 1)
+                if (archerCount / aDelay > archers.Length - 1)
                 {
                     count = 0;
                     projectileNumber = 0;
@@ -47,16 +48,17 @@ public class CastleBoss : Enemy
             {
                 int cannonCount = count - (int)(cannonDelay * Data.frameRate);
                 int cDelay = (int)(cannonDifference * Data.frameRate);
-                if (cannonCount / cDelay >= cannons.Length - 1)
+                if (cannonCount / cDelay > cannons.Length - 1)
                 {
                     count = 0;
                     projectileNumber = 0;
                 }
                 else
                 {
+                    animator.SetTrigger("Cannon");
                     if (cannonCount / cDelay >= projectileNumber)
                     {
-                        cannons[projectileNumber].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
+                        cannons[projectileNumber].GetComponentInChildren<ProjectileShooterAbstract>().ShootProjectile();
                         ++projectileNumber;
                     }
                 }
@@ -77,6 +79,8 @@ public class CastleBoss : Enemy
                     trebuchet[num].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                     nums.Remove(num);
                 }
+                count = 0;
+                animator.SetTrigger("Trebuchet");
             }
         }
     }

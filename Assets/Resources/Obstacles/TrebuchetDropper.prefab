@@ -48,7 +48,8 @@ MonoBehaviour:
   triggered: 1
   sFXPlayer: {fileID: 0}
   animator: {fileID: 0}
-  projectileName: TrebuchetAmmo
+  projectileName: Trebuchet Ammo
   angle: -90
   speed: 5
   range: 30
+  angleVariation: 0
