@@ -128,8 +128,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -771588647
+  m_SortingLayer: 4
   m_SortingOrder: 6
   m_Sprite: {fileID: 8067870565023210626, guid: 42f6b77fed8fb9f41bce67d0e1545827,
     type: 3}
@@ -463,11 +463,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4300337020420672054}
     m_Modifications:
-    - target: {fileID: 714368479422813945, guid: ef628e76e34afc64898d678d56aef7fc,
-        type: 3}
-      propertyPath: m_Name
-      value: ShieldRotatorBird
-      objectReference: {fileID: 0}
     - target: {fileID: 714368479422813950, guid: ef628e76e34afc64898d678d56aef7fc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -537,6 +532,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 714368479422813945, guid: ef628e76e34afc64898d678d56aef7fc,
+        type: 3}
+      propertyPath: m_Name
+      value: ShieldRotatorBird
       objectReference: {fileID: 0}
     - target: {fileID: 714368479290992555, guid: ef628e76e34afc64898d678d56aef7fc,
         type: 3}

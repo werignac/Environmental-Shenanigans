@@ -59,6 +59,9 @@ TagManager:
   - name: Platforms
     uniqueID: 300141925
     locked: 0
+  - name: Player
+    uniqueID: 3523378649
+    locked: 0
   - name: UI Sprites
     uniqueID: 3280376823
     locked: 0

@@ -6,22 +6,27 @@ public abstract class ProjectileShooterAbstract : MonoBehaviour
 {
     float count;
     public float delay;
+    public float initialCount;
+    public bool triggered;
     // Start is called before the first frame update
     void Start()
     {
-        count = 0;
+        count = initialCount;
     }
 
     // Update is called once per frame
     void Update()
     {
-        count += Time.deltaTime;
-        if(count > delay)
+        if (!triggered)
         {
-            ShootProjectile();
-            count = 0;
+            count += Time.deltaTime;
+            if (count > delay)
+            {
+                ShootProjectile();
+                count = 0;
+            }
+            Move();
         }
-        Move();
     }
 
     public abstract void ShootProjectile();

@@ -33,6 +33,8 @@ public abstract class MovingHazardController : HazardController
     /// </summary>
     private void DebugDisplay()
     {
+#if UNITY_EDITOR
         Debug.DrawLine(transform.position, transform.position + ((Vector3)GetMoveDirection()),Color.red);
+#endif
     }
 }

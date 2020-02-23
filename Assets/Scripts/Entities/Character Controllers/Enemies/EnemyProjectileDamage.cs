@@ -18,7 +18,7 @@ public class EnemyProjectileDamage : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Projectile") && enemy != null)
+        if (other.gameObject.CompareTag("Projectile") && enemy != null && !other.GetComponent<ProjectileController>().GetReflected())
         {
             Destroy(other.gameObject);
             enemy.Damage();
