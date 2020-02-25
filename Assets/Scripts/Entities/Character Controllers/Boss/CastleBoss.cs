@@ -7,7 +7,7 @@ public class CastleBoss : Enemy
     public GameObject[] archers;
     public GameObject[] cannons;
     public GameObject[] trebuchet;
-    private int count;
+    private float count;
     private int phase;
     public float archerDelay;
     public float archerDifference;
@@ -20,21 +20,25 @@ public class CastleBoss : Enemy
 
     public override void Move()
     {
-        ++count;
+        count += Time.deltaTime;
         if (phase == 0)
         {
-            if (count >= (int)(archerDelay * Data.frameRate))
+            if (count >= archerDelay)
             {
-                int archerCount = count - (int)(archerDelay * Data.frameRate);
-                int aDelay = (int)(archerDifference * Data.frameRate);
-                if (archerCount / aDelay > archers.Length - 1)
+                float archerCount = count - archerDelay;
+                if (archerCount / archerDifference > archers.Length - 1)
                 {
+                    while(projectileNumber < archers.Length)
+                    {
+                        archers[projectileNumber].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
+                        ++projectileNumber;
+                    }
                     count = 0;
                     projectileNumber = 0;
                 }
                 else
                 {
-                    if (archerCount / aDelay >= projectileNumber)
+                    if (archerCount / archerDifference >= projectileNumber)
                     {
                         archers[projectileNumber].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                         ++projectileNumber;
@@ -44,19 +48,23 @@ public class CastleBoss : Enemy
         }
         else if (phase == 1)
         {
-            if (count >= (int)(cannonDelay * Data.frameRate))
+            if (count >= cannonDelay)
             {
-                int cannonCount = count - (int)(cannonDelay * Data.frameRate);
-                int cDelay = (int)(cannonDifference * Data.frameRate);
-                if (cannonCount / cDelay > cannons.Length - 1)
+                float cannonCount = count - cannonDelay;
+                if (cannonCount / cannonDifference > cannons.Length - 1)
                 {
+                    while(projectileNumber < cannons.Length)
+                    {
+                        cannons[projectileNumber].GetComponentInChildren<ProjectileShooterAbstract>().ShootProjectile();
+                        ++projectileNumber;
+                    }
                     count = 0;
                     projectileNumber = 0;
+                    animator.SetTrigger("Attack1");
                 }
                 else
                 {
-                    animator.SetTrigger("Attack1");
-                    if (cannonCount / cDelay >= projectileNumber)
+                    if (cannonCount / cannonDifference >= projectileNumber)
                     {
                         cannons[projectileNumber].GetComponentInChildren<ProjectileShooterAbstract>().ShootProjectile();
                         ++projectileNumber;
@@ -66,7 +74,7 @@ public class CastleBoss : Enemy
         }
         else
         {
-            if (count >= (int)(trebuchetDelay * Data.frameRate))
+            if (count >= trebuchetDelay)
             {
                 List<int> nums = new List<int>();
                 for (int i = 0; i < trebuchet.Length; ++i)
@@ -93,12 +101,14 @@ public class CastleBoss : Enemy
             phase = 1;
             count = 0;
             projectileNumber = 0;
+            animator.SetTrigger("Attack1");
         }
         if(health < maxHealth / 3)
         {
             phase = 2;
             count = 0;
             projectileNumber = 0;
+            animator.SetTrigger("Attack2");
         }
     }
 }
