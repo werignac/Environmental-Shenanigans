@@ -10,6 +10,7 @@ public class MovingPlatform : MonoBehaviour
     private Vector2 destination;
     private bool toOrgin;
     private float angle;
+    private List<GameObject> touching;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class MovingPlatform : MonoBehaviour
         {
             angle += Mathf.PI;
         }
+        touching = new List<GameObject>();
     }
 
     // Update is called once per frame
@@ -40,6 +42,10 @@ public class MovingPlatform : MonoBehaviour
             distance = speed / Data.frameRate;
         }
         transform.Translate(distance * Mathf.Cos(angle), distance * Mathf.Sin(angle), 0);
+        foreach(GameObject touch in touching)
+        {
+            touch.transform.Translate(distance * Mathf.Cos(angle), distance * Mathf.Sin(angle), 0);
+        }
         if (!toOrgin)
         {
             if (((destination.x > orgin.x && transform.position.x >= destination.x) || (destination.x < orgin.x && transform.position.x <= destination.x) || destination.x == orgin.x) && 
@@ -58,5 +64,15 @@ public class MovingPlatform : MonoBehaviour
                 angle -= Mathf.PI;
             }
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        touching.Add(collision.gameObject);
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        touching.Remove(collision.gameObject);
     }
 }
