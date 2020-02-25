@@ -134,6 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 1
+  health: 0
   maxSpeedX: 0
   rigid: {fileID: 0}
   accelCoeff: {x: 0, y: 0}
@@ -155,7 +156,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0f64d98f72674de40b4556bec1aba965, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.455
   m_Pitch: 1
   Loop: 0
   Mute: 0
