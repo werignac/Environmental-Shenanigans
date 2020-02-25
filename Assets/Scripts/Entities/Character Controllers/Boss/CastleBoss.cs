@@ -55,7 +55,7 @@ public class CastleBoss : Enemy
                 }
                 else
                 {
-                    animator.SetTrigger("Cannon");
+                    animator.SetTrigger("Attack1");
                     if (cannonCount / cDelay >= projectileNumber)
                     {
                         cannons[projectileNumber].GetComponentInChildren<ProjectileShooterAbstract>().ShootProjectile();
@@ -80,7 +80,7 @@ public class CastleBoss : Enemy
                     nums.Remove(num);
                 }
                 count = 0;
-                animator.SetTrigger("Trebuchet");
+                animator.SetTrigger("Attack2");
             }
         }
     }

@@ -26,6 +26,24 @@ TextureImporter:
   - first:
       213: -8801034275348707029
     second: BirdBody_7
+  - first:
+      213: -55502095404993388
+    second: BirdBody_8
+  - first:
+      213: 2800397192895525066
+    second: BirdBody_9
+  - first:
+      213: 6341854482779146545
+    second: BirdBody_10
+  - first:
+      213: 5121178750209197056
+    second: BirdBody_11
+  - first:
+      213: 6315352136663093034
+    second: BirdBody_12
+  - first:
+      213: -935584393088090236
+    second: BirdBody_13
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -144,18 +162,18 @@ TextureImporter:
       name: BirdBody_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 907
-        width: 570
-        height: 757
+        x: 80
+        y: 3590
+        width: 803
+        height: 1062
       alignment: 9
-      pivot: {x: 0.7023826, y: 0.8104212}
+      pivot: {x: 0.6700247, y: 0.78701603}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e18d9ce1c68f484fae3c505430d15a7
+      spriteID: d5f0eb085cd05f7479af7daddcc2fbc5
       internalID: 8067870565023210626
       vertices: []
       indices: 
@@ -165,18 +183,18 @@ TextureImporter:
       name: BirdBody_1
       rect:
         serializedVersion: 2
-        x: 735
-        y: 941
-        width: 586
-        height: 759
+        x: 1111
+        y: 3639
+        width: 820
+        height: 1079
       alignment: 9
-      pivot: {x: 0.68956625, y: 0.8152325}
+      pivot: {x: 0.662996, y: 0.7758943}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d7d96b4a6ab75243b17f34bfbfffdae
+      spriteID: cf28922f63d36bd46b33df27d3b4c492
       internalID: 4132342091239223574
       vertices: []
       indices: 
@@ -186,18 +204,18 @@ TextureImporter:
       name: BirdBody_2
       rect:
         serializedVersion: 2
-        x: 1559
-        y: 958
-        width: 641
-        height: 754
+        x: 2283
+        y: 3662
+        width: 881
+        height: 1056
       alignment: 9
-      pivot: {x: 0.6799663, y: 0.81165636}
+      pivot: {x: 0.6517105, y: 0.78765637}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8eba59f1a675a34e99604614bd3aa22
+      spriteID: d91e072ce12b11a4b8c32f2a2336c94b
       internalID: 7200092259175213484
       vertices: []
       indices: 
@@ -207,18 +225,18 @@ TextureImporter:
       name: BirdBody_3
       rect:
         serializedVersion: 2
-        x: 2394
-        y: 927
-        width: 613
-        height: 765
+        x: 3433
+        y: 3620
+        width: 862
+        height: 1071
       alignment: 9
-      pivot: {x: 0.688187, y: 0.818345}
+      pivot: {x: 0.6621029, y: 0.8063183}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17736ceb295f8e7438ba44689c1b3d7a
+      spriteID: 402c41316d0e3f2409ef17957b9c3368
       internalID: 3926326280082879311
       vertices: []
       indices: 
@@ -228,18 +246,18 @@ TextureImporter:
       name: BirdBody_4
       rect:
         serializedVersion: 2
-        x: 10
-        y: 29
-        width: 572
-        height: 756
+        x: 96
+        y: 2360
+        width: 801
+        height: 1060
       alignment: 9
-      pivot: {x: 0.73155284, y: 0.79952866}
+      pivot: {x: 0.6820319, y: 0.7865711}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60e31faa85a988c4dad2b57061e325be
+      spriteID: 016965a46a8e51b4c8c40668f171bd94
       internalID: -301514572946286667
       vertices: []
       indices: 
@@ -249,18 +267,18 @@ TextureImporter:
       name: BirdBody_5
       rect:
         serializedVersion: 2
-        x: 688
-        y: 9
-        width: 643
-        height: 779
+        x: 1047
+        y: 2333
+        width: 898
+        height: 1091
       alignment: 9
-      pivot: {x: 0.6528275, y: 0.8126236}
+      pivot: {x: 0.6217771, y: 0.80070245}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c93df84653c90344bb4945089232b23a
+      spriteID: 961d1c59690c9864d99398cebae615c0
       internalID: 8290806263237001351
       vertices: []
       indices: 
@@ -270,18 +288,18 @@ TextureImporter:
       name: BirdBody_6
       rect:
         serializedVersion: 2
-        x: 1589
-        y: 0
-        width: 648
-        height: 780
+        x: 2307
+        y: 2317
+        width: 907
+        height: 1098
       alignment: 9
-      pivot: {x: 0.66483563, y: 0.8122228}
+      pivot: {x: 0.6205689, y: 0.79325247}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d9cf7d85fc69d84aa56b893ce894038
+      spriteID: d7514a11a054cd8448f6c612ed23b460
       internalID: 1455146095925669253
       vertices: []
       indices: 
@@ -291,19 +309,145 @@ TextureImporter:
       name: BirdBody_7
       rect:
         serializedVersion: 2
-        x: 2425
-        y: 30
-        width: 581
-        height: 756
+        x: 3477
+        y: 2363
+        width: 813
+        height: 1059
       alignment: 9
-      pivot: {x: 0.77208906, y: 0.8108317}
+      pivot: {x: 0.6793452, y: 0.7868417}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8c1d76fc79bae54f915ad0a6ae6cfa0
+      spriteID: e3568175044fb8e459ecb04e66e665ed
       internalID: -8801034275348707029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdBody_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1142
+        width: 830
+        height: 1073
+      alignment: 9
+      pivot: {x: 0.69031096, y: 0.7944229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffa73f52b62b8e428dcb7fb5c0a7a57
+      internalID: -55502095404993388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdBody_9
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1126
+        width: 852
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.65687424, y: 0.79775286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78dc871c0ed33645adbb3694eb73fa1
+      internalID: 2800397192895525066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdBody_10
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 1146
+        width: 898
+        height: 1067
+      alignment: 9
+      pivot: {x: 0.62177694, y: 0.79607874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6abd58d1e82bcc40a1b2ca74e4753b1
+      internalID: 6341854482779146545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdBody_11
+      rect:
+        serializedVersion: 2
+        x: 3516
+        y: 1132
+        width: 987
+        height: 1030
+      alignment: 9
+      pivot: {x: 0.56770885, y: 0.8067146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c915737fea0ce4f91a6549b38c6f6c
+      internalID: 5121178750209197056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdBody_12
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 8
+        width: 1068
+        height: 1011
+      alignment: 9
+      pivot: {x: 0.54550797, y: 0.8004601}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c52969dd963c064db2249832724972e
+      internalID: 6315352136663093034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdBody_13
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 0
+        width: 1190
+        height: 955
+      alignment: 9
+      pivot: {x: 0.5510531, y: 0.80535567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8946e0e028ffccd4191941ee4e6114bf
+      internalID: -935584393088090236
       vertices: []
       indices: 
       edges: []

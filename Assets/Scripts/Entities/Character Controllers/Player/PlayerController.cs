@@ -116,7 +116,7 @@ public class PlayerController : MonoBehaviour
             }
             body.transform.localScale = mirrorScale;
         }
-        else
+        else if (onGround)
         {
             bodyAnim.Play("birdIdleAnimation");
         }
@@ -138,6 +138,7 @@ public class PlayerController : MonoBehaviour
         }
         if ((onGround || airJump) && v > 0 && hitJump)
         {
+            bodyAnim.Play("birdJumpAnimation");
             ++numJumps;
             onGround = false;
             jump = true;
@@ -273,6 +274,7 @@ public class PlayerController : MonoBehaviour
                 if (contactPoint.y <= (transform.position.y - ((GetComponent<CapsuleCollider2D>().size.y / 2 - GetComponent<CapsuleCollider2D>().size.x / 2)))) //Second statement makes sure it's under the player.
                 {
                     onGround = true;
+                    bodyAnim.SetBool("OnGround", true);
                     numJumps = 0;
                     numDash = 0;
                 }
@@ -328,6 +330,7 @@ public class PlayerController : MonoBehaviour
             if (numGround <= 0)
             {
                 onGround = false;
+                bodyAnim.SetBool("OnGround", false);
                 jump = false;
             }
         }
