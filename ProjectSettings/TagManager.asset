@@ -10,6 +10,7 @@ TagManager:
   - Shield
   - Platform
   - Enemy
+  - Health
   layers:
   - Default
   - TransparentFX

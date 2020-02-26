@@ -17,13 +17,24 @@ public class Level
             nextRoom = rooms[i].NextRoom;
         }
         float pos = 0;
-        for(int i = 0; i < numRooms; ++i)
+        int healthCount = Random.Range(4, 6);
+        for (int i = 0; i < numRooms; ++i)
         {
             rooms[i].SetPos(pos);
             pos += rooms[i].Width / 2;
             if(i < numRooms - 1)
             {
                 pos += rooms[i + 1].Width / 2;
+            }
+            --healthCount;
+            if(healthCount <= 0)
+            {
+                healthCount = Random.Range(2, 5);
+                rooms[i].HealthRoom();
+            }
+            else
+            {
+                rooms[i].NormalRoom();
             }
         }
     }

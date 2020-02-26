@@ -309,6 +309,11 @@ public class PlayerController : MonoBehaviour
         {
             GetComponentInChildren<HitArea>().Damage();
         }
+        else if (collision.gameObject.CompareTag("Health"))
+        {
+            GetComponentInChildren<HitArea>().Heal(collision.gameObject.GetComponent<HealthPack>().heal);
+            Destroy(collision.gameObject);
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
