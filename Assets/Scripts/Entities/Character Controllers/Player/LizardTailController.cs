@@ -5,15 +5,16 @@ using UnityEngine;
 public class LizardTailController : MonoBehaviour
 {
     private List<GameObject> segments;
-    public float angle;
     public Transform copyRot;
     public float offset;
+    public float radius;
+    public float flip = 1;
 
     // Start is called before the first frame update
     void Start()
     {
         segments = new List<GameObject>();
-        GameObject segment = gameObject;
+        GameObject segment = transform.GetChild(0).gameObject;
         while (segment != null)
         {
             segments.Add(segment);
@@ -21,18 +22,31 @@ public class LizardTailController : MonoBehaviour
         }
     }
 
-    private void SetRots(float angle)
+    private void GetCurve(float radius, float theta)
     {
+        float innerCoef = Mathf.Pow(0.460421f, theta + 0.827743f) + 0.368267f;
+        float outerCoef = radius / (1 + Mathf.Cos(innerCoef * theta));
+        float maxAngle = Mathf.Acos(-1) / innerCoef;
+        float lastAngle = maxAngle;
+
         foreach (GameObject segment in segments)
         {
-            segment.transform.localRotation = Quaternion.Euler(0, 0, angle);
+
+            SpriteRenderer sprite = segment.GetComponent<SpriteRenderer>();
+
+            float length = sprite.size.y*segment.transform.lossyScale.y;
+
+            lastAngle = Mathf.Acos(length / outerCoef - 1) / innerCoef; //- lastAngle;
+
+            Debug.Log("Angle: " + lastAngle * Mathf.Rad2Deg);
+
+            segment.transform.localRotation = Quaternion.Euler(0, 0, lastAngle*Mathf.Rad2Deg*flip + offset);
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        SetRots(angle / segments.Count);
-        segments[0].transform.localRotation = Quaternion.Euler(0, 0, copyRot.rotation.eulerAngles.z + offset);
+        GetCurve(radius , copyRot.eulerAngles.z*Mathf.Deg2Rad);
     }
 }
