@@ -1,0 +1,568 @@
+fileFormatVersion: 2
+guid: 25faf365501088a479d74794ca8a348b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1992189772134727991
+    second: lizardDash_0
+  - first:
+      213: -2709688290298627859
+    second: lizardDash_1
+  - first:
+      213: 6637509393158023086
+    second: lizardDash_2
+  - first:
+      213: 2127920854391095256
+    second: lizardDash_3
+  - first:
+      213: -900035952919194740
+    second: lizardDash_4
+  - first:
+      213: -1044428542003703218
+    second: lizardDash_5
+  - first:
+      213: -55286336049713824
+    second: lizardDash_6
+  - first:
+      213: 1918544430703842059
+    second: lizardDash_7
+  - first:
+      213: -7174974046535313460
+    second: lizardDash_8
+  - first:
+      213: -6181789045194824861
+    second: lizardDash_9
+  - first:
+      213: 7425810151960671712
+    second: lizardDash_10
+  - first:
+      213: 5868890397145005335
+    second: lizardDash_11
+  - first:
+      213: -601108105501735903
+    second: lizardDash_12
+  - first:
+      213: 7155769296626188020
+    second: lizardDash_13
+  - first:
+      213: 3347194095625472027
+    second: lizardDash_14
+  - first:
+      213: -2303265002812463237
+    second: lizardDash_15
+  - first:
+      213: 2728600308009057001
+    second: lizardDash_16
+  - first:
+      213: 7424208691093090777
+    second: lizardDash_17
+  - first:
+      213: -7705047422401387136
+    second: lizardDash_18
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lizardDash_0
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 4661
+        width: 1082
+        height: 919
+      alignment: 9
+      pivot: {x: 0.39551243, y: 0.5076887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b13d062104f9204cb2b92b47cd38d9b
+      internalID: -1992189772134727991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_1
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 4642
+        width: 1145
+        height: 914
+      alignment: 9
+      pivot: {x: 0.40126154, y: 0.5309236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814731c4385ecf14e8dea2bf2d50e8b9
+      internalID: -2709688290298627859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_2
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 4672
+        width: 1294
+        height: 908
+      alignment: 9
+      pivot: {x: 0.41809157, y: 0.5311279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ab7fd7755c249499b46d2b91613a4d
+      internalID: 6637509393158023086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_3
+      rect:
+        serializedVersion: 2
+        x: 4207
+        y: 4610
+        width: 1469
+        height: 884
+      alignment: 9
+      pivot: {x: 0.49037996, y: 0.531973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5003fe31f08c8e54e95481b878c3a361
+      internalID: 2127920854391095256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3627
+        width: 1602
+        height: 761
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56499594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffc93471eb2ca944bbdb0da791fe666
+      internalID: -900035952919194740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_5
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 3696
+        width: 1611
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6009424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943021c1e30475740a6682e516299599
+      internalID: -1044428542003703218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_6
+      rect:
+        serializedVersion: 2
+        x: 3997
+        y: 3755
+        width: 1714
+        height: 728
+      alignment: 9
+      pivot: {x: 0.4299174, y: 0.43205816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027fd71281316794682c3be43a089c10
+      internalID: -55286336049713824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_7
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2567
+        width: 1232
+        height: 1012
+      alignment: 9
+      pivot: {x: 0.5573537, y: 0.50000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b76231b2ebbb04ea7d57bf1c348ed6
+      internalID: 1918544430703842059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_8
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 2586
+        width: 1107
+        height: 1043
+      alignment: 9
+      pivot: {x: 0.5829789, y: 0.6016201}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ca5074475cd0e44b4fccced266783d
+      internalID: -7174974046535313460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_9
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 2595
+        width: 1104
+        height: 979
+      alignment: 9
+      pivot: {x: 0.55760306, y: 0.66600364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f73516b9f09544089cfba8b47522c1
+      internalID: -6181789045194824861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_10
+      rect:
+        serializedVersion: 2
+        x: 4594
+        y: 2581
+        width: 971
+        height: 881
+      alignment: 9
+      pivot: {x: 0.55093914, y: 0.7085305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8f85c6d3b2ff241a116a48e34c973e
+      internalID: 7425810151960671712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1410
+        width: 1061
+        height: 961
+      alignment: 9
+      pivot: {x: 0.7264307, y: 0.59558576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b879a59f80f724eac21c2a9adc2490
+      internalID: 5868890397145005335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_12
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1493
+        width: 727
+        height: 1035
+      alignment: 9
+      pivot: {x: 0.84017754, y: 0.42490283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202d713e77b9bcb4c9e44d3ea39dcc09
+      internalID: -601108105501735903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_13
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 1482
+        width: 1112
+        height: 806
+      alignment: 9
+      pivot: {x: 0.614377, y: 0.2983659}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2638d83672adb19448a6cec5c43a9d32
+      internalID: 7155769296626188020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_14
+      rect:
+        serializedVersion: 2
+        x: 4491
+        y: 1460
+        width: 1220
+        height: 633
+      alignment: 9
+      pivot: {x: 0.44787398, y: 0.1986082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ccb264414fff74696b9536fe1f7e31
+      internalID: 3347194095625472027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 1093
+        height: 1161
+      alignment: 9
+      pivot: {x: 0.344846, y: 0.45739725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22952f4e724b734dae41833793b375d
+      internalID: -2303265002812463237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_16
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 27
+        width: 953
+        height: 1285
+      alignment: 9
+      pivot: {x: 0.38136867, y: 0.4505109}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8e1955d041fce43ae5ccc17031b048
+      internalID: 2728600308009057001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_17
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 0
+        width: 962
+        height: 1342
+      alignment: 9
+      pivot: {x: 0.39145055, y: 0.43083316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aeddda7fd62a346a3f3a4ac5b40158
+      internalID: 7424208691093090777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardDash_18
+      rect:
+        serializedVersion: 2
+        x: 4332
+        y: 60
+        width: 1088
+        height: 1205
+      alignment: 9
+      pivot: {x: 0.4893359, y: 0.48074228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aafa267385cb804488d2c42c58b3359
+      internalID: -7705047422401387136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2f693d3127754c44ab89fe10cbca7f50
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
