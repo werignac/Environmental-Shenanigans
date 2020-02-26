@@ -30,6 +30,17 @@ public class HitArea : MonoBehaviour
 
     public void Damage()
     {
-        healthPoints.Hit();
+        if (healthPoints != null)
+        {
+            healthPoints.Hit();
+        }
+    }
+
+    public void Heal(int n)
+    {
+        if (healthPoints != null)
+        {
+            healthPoints.AddHitPoints(n);
+        }
     }
 }

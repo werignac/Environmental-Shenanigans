@@ -107,7 +107,7 @@ public abstract class HealthPoints : MonoBehaviour
     /// Adds multiple hit points.
     /// </summary>
     /// <param name="n">The number of hit points to add.</param>
-    private void AddHitPoint(int n)
+    public void AddHitPoints(int n)
     {
         for (int i = 0; i < n; i++)
         {

@@ -52,4 +52,14 @@ public class Room
     {
         model.SetActive(false);
     }
+
+    public void HealthRoom()
+    {
+        model.GetComponent<RoomData>().HealthRoom();
+    }
+
+    public void NormalRoom()
+    {
+        model.GetComponent<RoomData>().NormalRoom();
+    }
 }

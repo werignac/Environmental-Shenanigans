@@ -129,6 +129,10 @@ public class PlayerController : MonoBehaviour
         {
             v = 0.85f;
         }
+        if(v < 0.05 && v >= 0 && !hitJump)
+        {
+            v = 0;
+        }
         if(v == 0)
         {
             if (numJumps < maxJumps)
@@ -308,6 +312,11 @@ public class PlayerController : MonoBehaviour
         else if (collision.gameObject.CompareTag("Enemy"))
         {
             GetComponentInChildren<HitArea>().Damage();
+        }
+        else if (collision.gameObject.CompareTag("Health"))
+        {
+            GetComponentInChildren<HitArea>().Heal(collision.gameObject.GetComponent<HealthPack>().heal);
+            Destroy(collision.gameObject);
         }
     }
 

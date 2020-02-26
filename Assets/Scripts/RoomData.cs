@@ -9,6 +9,8 @@ public class RoomData : MonoBehaviour
     public float width;
     public int roomType;
     public int nextRoomType;
+    public GameObject healthSection;
+    public GameObject hideSection;
 
     private void Update()
     {
@@ -25,5 +27,29 @@ public class RoomData : MonoBehaviour
     public string GetRoomData()
     {
         return (roomName + "," + width + "," + roomType + "," + nextRoomType);
+    }
+
+    public void HealthRoom()
+    {
+        if (healthSection != null)
+        {
+            healthSection.SetActive(true);
+        }
+        if (hideSection != null)
+        {
+            hideSection.SetActive(false);
+        }
+    }
+
+    public void NormalRoom()
+    {
+        if (healthSection != null)
+        {
+            healthSection.SetActive(false);
+        }
+        if (hideSection != null)
+        {
+            hideSection.SetActive(true);
+        }
     }
 }
