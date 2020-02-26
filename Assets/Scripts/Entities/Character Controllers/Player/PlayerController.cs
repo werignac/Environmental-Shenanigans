@@ -129,6 +129,10 @@ public class PlayerController : MonoBehaviour
         {
             v = 0.85f;
         }
+        if(v < 0.05 && v >= 0 && !hitJump)
+        {
+            v = 0;
+        }
         if(v == 0)
         {
             if (numJumps < maxJumps)
