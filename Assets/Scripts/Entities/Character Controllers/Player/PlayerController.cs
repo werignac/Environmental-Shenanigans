@@ -51,6 +51,8 @@ public class PlayerController : MonoBehaviour
 
     public AudioSource sFXPlayer;
 
+    public string idleAnimationName = "birdIdleAnimation";
+
     public enum CharacterType
     {
         TESTING = 0,
@@ -118,7 +120,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (onGround)
         {
-            bodyAnim.Play("birdIdleAnimation");
+            bodyAnim.Play(idleAnimationName);
         }
 
         //hitJump added to prevent wasting double jump.
@@ -128,6 +130,10 @@ public class PlayerController : MonoBehaviour
         if (v < 0.85 && v > 0 && hitJump)
         {
             v = 0.85f;
+        }
+        if(v < 0.05 && v >= 0 && !hitJump)
+        {
+            v = 0;
         }
         if(v == 0)
         {
@@ -308,6 +314,11 @@ public class PlayerController : MonoBehaviour
         else if (collision.gameObject.CompareTag("Enemy"))
         {
             GetComponentInChildren<HitArea>().Damage();
+        }
+        else if (collision.gameObject.CompareTag("Health"))
+        {
+            GetComponentInChildren<HitArea>().Heal(collision.gameObject.GetComponent<HealthPack>().heal);
+            Destroy(collision.gameObject);
         }
     }
 
