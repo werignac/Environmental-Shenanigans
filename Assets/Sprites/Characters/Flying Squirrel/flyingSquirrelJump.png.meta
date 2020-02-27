@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: 4be457fc73c251b45b5780369166deaf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7752382538300843044
+    second: flyingSquirrelJump_0
+  - first:
+      213: 4796915524903105659
+    second: flyingSquirrelJump_1
+  - first:
+      213: -7672128171939904398
+    second: flyingSquirrelJump_2
+  - first:
+      213: -6336657827124467588
+    second: flyingSquirrelJump_3
+  - first:
+      213: 5579282112669603421
+    second: flyingSquirrelJump_4
+  - first:
+      213: -3364833480655227364
+    second: flyingSquirrelJump_5
+  - first:
+      213: 6810722078247033587
+    second: flyingSquirrelJump_6
+  - first:
+      213: -3716933522888931748
+    second: flyingSquirrelJump_7
+  - first:
+      213: 2611543783211000201
+    second: flyingSquirrelJump_8
+  - first:
+      213: 5682391665286606539
+    second: flyingSquirrelJump_9
+  - first:
+      213: -6368810885399574731
+    second: flyingSquirrelJump_10
+  - first:
+      213: 2271218172569475908
+    second: flyingSquirrelJump_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flyingSquirrelJump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6212
+        width: 1440
+        height: 1921
+      alignment: 9
+      pivot: {x: 0.12871616, y: 0.49999973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b7a1f98c8881247b12e942493bdb98
+      internalID: -7752382538300843044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingSquirrelJump_1
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 6106
+        width: 1322
+        height: 1941
+      alignment: 9
+      pivot: {x: 0.08368095, y: 0.55671006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94be08dd1519fbd4098934ad1299a39c
+      internalID: 4796915524903105659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingSquirrelJump_2
+      rect:
+        serializedVersion: 2
+        x: 4117
+        y: 6087
+        width: 1308
+        height: 2046
+      alignment: 9
+      pivot: {x: 0.06720251, y: 0.5768568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de343eb4e7d25c14d923203621d46d3a
+      internalID: -7672128171939904398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingSquirrelJump_3
+      rect:
+        serializedVersion: 2
+        x: 6086
+        y: 5939
+        width: 1350
+        height: 2090
+      alignment: 9
+      pivot: {x: 0.08066732, y: 0.5902865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00fbbf486cac9d4faa14ef0ef3c1bad
+      internalID: -6336657827124467588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingSquirrelJump_4
+      rect:
+        serializedVersion: 2
+        x: 8125
+        y: 5782
+        width: 1343
+        height: 2242
+      alignment: 9
+      pivot: {x: 0.12531704, y: 0.61222064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a64a004615d664c8ea46c7694d57b9
+      internalID: 5579282112669603421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingSquirrelJump_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3086
+        width: 1343
+        height: 2354
+      alignment: 9
+      pivot: {x: 0.12531736, y: 0.6402819}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867eb8d85ada73b44977705bd45c2bdb
+      internalID: -3364833480655227364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingSquirrelJump_6
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 3003
+        width: 1350
+        height: 2386
+      alignment: 9
+      pivot: {x: 0.15055628, y: 0.65158147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10ec872cde18df46901fbf5afa8e341
+      internalID: 6810722078247033587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingSquirrelJump_7
+      rect:
+        serializedVersion: 2
+        x: 4140
+        y: 2855
+        width: 1331
+        height: 2363
+      alignment: 9
+      pivot: {x: 0.12193898, y: 0.6330931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d66c9b88e45dc48b918c38fbc396d4
+      internalID: -3716933522888931748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingSquirrelJump_8
+      rect:
+        serializedVersion: 2
+        x: 6276
+        y: 2795
+        width: 1336
+        height: 2326
+      alignment: 9
+      pivot: {x: 0.14689408, y: 0.64197063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db140832843ea764db3789f17038d1aa
+      internalID: 2611543783211000201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingSquirrelJump_9
+      rect:
+        serializedVersion: 2
+        x: 8181
+        y: 2795
+        width: 1287
+        height: 2279
+      alignment: 9
+      pivot: {x: 0.08457699, y: 0.6172987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba06c67cb393eb45b54a1067e8c5fa0
+      internalID: 5682391665286606539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingSquirrelJump_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 1276
+        height: 2212
+      alignment: 9
+      pivot: {x: 0.09331999, y: 0.606634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629aeea871f84ca44bc8ba787dabe15f
+      internalID: -6368810885399574731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingSquirrelJump_11
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 0
+        width: 1283
+        height: 2180
+      alignment: 9
+      pivot: {x: 0.071025796, y: 0.5937725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8575d085d0a0eb4fa316969ebd34040
+      internalID: 2271218172569475908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f6c54237058e85d4cb5d090375a41992
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -55,6 +55,8 @@ public class PlayerController : MonoBehaviour
 
     public AudioSource sFXPlayer;
 
+    public string idleAnimationName = "birdIdleAnimation";
+
     public enum CharacterType
     {
         TESTING = 0,
@@ -123,7 +125,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (onGround)
         {
-            bodyAnim.Play("birdIdleAnimation");
+            bodyAnim.Play(idleAnimationName);
         }
 
         //hitJump added to prevent wasting double jump.
