@@ -41,6 +41,7 @@ public static class Data
         while ((line = reader.ReadLine()) != null)
         {
             row = line.Split(',');
+            Debug.Log(row.Length);
             p.Add(new PlayerData(row[0], float.Parse(row[1]), float.Parse(row[2]), float.Parse(row[3]), float.Parse(row[4]), int.Parse(row[5]), float.Parse(row[6]), bool.Parse(row[7]), int.Parse(row[8]), float.Parse(row[9]), float.Parse(row[10]), float.Parse(row[11]), bool.Parse(row[12])));
         }
         playerDatas = new PlayerData[p.Count];
