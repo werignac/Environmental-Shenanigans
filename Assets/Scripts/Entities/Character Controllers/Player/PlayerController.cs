@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
     private float releaseCount;
     private bool prevHorzPositive;
     private bool prevVertPositive;
+    public bool canGlide;
 
     public GameObject body;
 
@@ -60,7 +61,9 @@ public class PlayerController : MonoBehaviour
     public enum CharacterType
     {
         TESTING = 0,
-        BIRD = 1
+        BIRD = 1,
+        LIZARD = 2,
+        SQUIREL = 3
     }
 
     /// <summary>
@@ -93,6 +96,7 @@ public class PlayerController : MonoBehaviour
                 dashSpeedX = data.dashSpeedX;
                 dashSpeedY = data.dashSpeedY;
                 mass = data.mass;
+                canGlide = data.canGlide;
             }
         }
     }
@@ -153,29 +157,6 @@ public class PlayerController : MonoBehaviour
                 airJump = true;
             }
         }
-        if ((onGround || airJump) && v > 0 && hitJump)
-        {
-            bodyAnim.Play("birdJumpAnimation");
-            ++numJumps;
-            onGround = false;
-            jump = true;
-            airJump = false;
-            vertical = v;
-            if (rigid.velocity.y > 0)
-            {
-                rigid.velocity = new Vector2(rigid.velocity.x, 0);
-            }
-            if (airJump == true)
-            {
-                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
-                sFXPlayer.Play();
-            }
-            else 
-            {
-                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/WingSwoosh");
-                sFXPlayer.Play();
-            }
-        }
         if (onGround && v < 0 && crouchCount <= 0 && canCrouch)
         {
             if (crouch)
@@ -198,7 +179,30 @@ public class PlayerController : MonoBehaviour
         {
             --crouchCount;
         }
-        if(numDash < maxDash && releaseCount > 0 && releaseCount < 0.8)
+        if ((onGround || airJump) && v > 0 && hitJump)
+        {
+            bodyAnim.Play("birdJumpAnimation");
+            ++numJumps;
+            onGround = false;
+            jump = true;
+            airJump = false;
+            vertical = v;
+            if (rigid.velocity.y > 0)
+            {
+                rigid.velocity = new Vector2(rigid.velocity.x, 0);
+            }
+            if (airJump == true)
+            {
+                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
+                sFXPlayer.Play();
+            }
+            else
+            {
+                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/WingSwoosh");
+                sFXPlayer.Play();
+            }
+        }
+        else if (numDash < maxDash && releaseCount > 0 && releaseCount < 0.8)
         {
             if (((horizontal > 0 && prevHorzPositive) || (horizontal < 0 && !prevHorzPositive)) || ((v > 0 && prevVertPositive) || (v < 0 && !prevVertPositive)))
             {
@@ -222,6 +226,10 @@ public class PlayerController : MonoBehaviour
             {
                 prevVertPositive = v > 0;
             }
+        }
+        if(canGlide && vertical == 0 && v > 0)
+        {
+            vertical = v * -0.5f * Physics.gravity.y;
         }
         Move(horizontal, vertical);
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);
