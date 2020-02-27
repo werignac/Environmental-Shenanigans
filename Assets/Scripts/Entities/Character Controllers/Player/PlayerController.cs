@@ -44,6 +44,10 @@ public class PlayerController : MonoBehaviour
     public float dashSpeedX;
     public float dashSpeedY;
     public float mass;
+    private bool releaseJump;
+    private float releaseCount;
+    private bool prevHorzPositive;
+    private bool prevVertPositive;
 
     public GameObject body;
 
@@ -63,6 +67,7 @@ public class PlayerController : MonoBehaviour
     /// 
     private void Start()
     {
+        releaseJump = true;
         jump = false;
         rigid = GetComponent<Rigidbody2D>();
         numGround = 0;
@@ -122,19 +127,25 @@ public class PlayerController : MonoBehaviour
         }
 
         //hitJump added to prevent wasting double jump.
-        bool hitJump = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow);
         float vertical = 0;
         float v = Input.GetAxis("Vertical");
-        if (v < 0.85 && v > 0 && hitJump)
+        bool hitJump = false;
+        if (v < 0.85 && v >= 0.1)
         {
             v = 0.85f;
+            if (releaseJump)
+            {
+                hitJump = true;
+                releaseJump = false;
+            }
         }
-        if(v < 0.05 && v >= 0 && !hitJump)
+        if(v < 0.1 && v >= 0)
         {
             v = 0;
         }
-        if(v == 0)
+        if(v <= 0)
         {
+            releaseJump = true;
             if (numJumps < maxJumps)
             {
                 airJump = true;
@@ -185,13 +196,29 @@ public class PlayerController : MonoBehaviour
         {
             --crouchCount;
         }
-        if(numDash < maxDash && Input.GetKeyDown(KeyCode.Space))
+        if(numDash < maxDash && releaseCount > 0 && releaseCount < 0.8)
         {
-            if (horizontal != 0 && v != 0)
+            if (((horizontal > 0 && prevHorzPositive) || (horizontal < 0 && !prevHorzPositive)) || ((v > 0 && prevVertPositive) || (v < 0 && !prevVertPositive)))
             {
                 ++numDash;
                 horizontal *= dashSpeedX;
                 vertical = v * dashSpeedY;
+            }
+        }
+        if (horizontal == 0 && v == 0)
+        {
+            releaseCount += Time.deltaTime;
+        }
+        else
+        {
+            releaseCount = 0;
+            if(horizontal != 0)
+            {
+                prevHorzPositive = horizontal > 0;
+            }
+            if(v != 0)
+            {
+                prevVertPositive = v > 0;
             }
         }
         Move(horizontal, vertical);
