@@ -389,8 +389,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roomName: Room
   width: 30
-  roomType: 1
+  roomType: 2
   nextRoomType: 2
+  healthSection: {fileID: 0}
+  hideSection: {fileID: 0}
 --- !u!4 &1651489308
 Transform:
   m_ObjectHideFlags: 0

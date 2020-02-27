@@ -17,6 +17,10 @@ public class CastleBoss : Enemy
     public int trebuchetBullets;
     private int projectileNumber;
     public Animator animator;
+    public float cannonAnimationStart;
+    public float cannonAnimationEnd;
+    public float trebuchetAnimationStart;
+    private bool animating;
 
     public override void Move()
     {
@@ -48,10 +52,15 @@ public class CastleBoss : Enemy
         }
         else if (phase == 1)
         {
+            if(count >= cannonAnimationStart && !animating)
+            {
+                animator.SetTrigger("Attack1");
+                animating = true;
+            }
             if (count >= cannonDelay)
             {
                 float cannonCount = count - cannonDelay;
-                if (cannonCount / cannonDifference > cannons.Length - 1)
+                if (cannonCount / cannonDifference > cannons.Length - 1 && count >= cannonAnimationEnd)
                 {
                     while(projectileNumber < cannons.Length)
                     {
@@ -60,11 +69,11 @@ public class CastleBoss : Enemy
                     }
                     count = 0;
                     projectileNumber = 0;
-                    animator.SetTrigger("Attack1");
+                    animating = false;
                 }
                 else
                 {
-                    if (cannonCount / cannonDifference >= projectileNumber)
+                    if (cannonCount / cannonDifference >= projectileNumber && projectileNumber < cannons.Length)
                     {
                         cannons[projectileNumber].GetComponentInChildren<ProjectileShooterAbstract>().ShootProjectile();
                         ++projectileNumber;
@@ -74,6 +83,11 @@ public class CastleBoss : Enemy
         }
         else
         {
+            if(count >= cannonAnimationStart && !animating)
+            {
+                animator.SetTrigger("Attack2");
+                animating = true;
+            }
             if (count >= trebuchetDelay)
             {
                 List<int> nums = new List<int>();
@@ -88,7 +102,7 @@ public class CastleBoss : Enemy
                     nums.Remove(num);
                 }
                 count = 0;
-                animator.SetTrigger("Attack2");
+                animating = false;
             }
         }
     }
@@ -101,14 +115,14 @@ public class CastleBoss : Enemy
             phase = 1;
             count = 0;
             projectileNumber = 0;
-            animator.SetTrigger("Attack1");
+            animating = false;
         }
         if(health < maxHealth / 3)
         {
             phase = 2;
             count = 0;
             projectileNumber = 0;
-            animator.SetTrigger("Attack2");
+            animating = false;
         }
     }
 }
