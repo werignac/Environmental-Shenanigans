@@ -45,10 +45,14 @@ public class PlayerController : MonoBehaviour
     public float dashSpeedY;
     public float mass;
     private bool releaseJump;
-    private float releaseCount;
-    private bool prevHorzPositive;
-    private bool prevVertPositive;
+    private float horizontalReleaseCount;
+    private float verticalReleaseCount;
+    private float prevHorz;
+    private float prevVert;
+    private float horzChange;
+    private float vertChange;
     public bool canGlide;
+    private bool horizontalDash;
 
     public GameObject body;
 
@@ -149,7 +153,7 @@ public class PlayerController : MonoBehaviour
         {
             v = 0;
         }
-        if(v <= 0)
+        if(v <= 0 || v < prevVert - 0.05)
         {
             releaseJump = true;
             if (numJumps < maxJumps)
@@ -202,32 +206,37 @@ public class PlayerController : MonoBehaviour
                 sFXPlayer.Play();
             }
         }
-        else if (numDash < maxDash && releaseCount > 0 && releaseCount < 0.8)
+        else if (numDash < maxDash && ((horizontalReleaseCount > 0 && horizontalReleaseCount < 0.8f) || (verticalReleaseCount > 0 && verticalReleaseCount < 0.8f)))
         {
-            if (((horizontal > 0 && prevHorzPositive) || (horizontal < 0 && !prevHorzPositive)) || ((v > 0 && prevVertPositive) || (v < 0 && !prevVertPositive)))
+            if (((horzChange <= 0 && horizontal > 0) || (horizontal < 0 && horzChange >= 0)) || ((v > 0 && vertChange <= 0) || (v < 0 && vertChange >= 0)))
             {
                 ++numDash;
                 horizontal *= dashSpeedX;
                 vertical = v * dashSpeedY;
+                horizontalDash = true;
             }
         }
-        if (horizontal == 0 && v == 0)
+        vertChange = v - prevHorz;
+        horzChange = horizontal - prevHorz;
+        prevVert = v;
+        prevHorz = horizontal;
+        if (horizontal == 0 || (horizontal < 0 && horzChange > 0) || (horizontal > 0 && horzChange < 0))
         {
-            releaseCount += Time.deltaTime;
+            horizontalReleaseCount += Time.deltaTime;
         }
         else
         {
-            releaseCount = 0;
-            if(horizontal != 0)
-            {
-                prevHorzPositive = horizontal > 0;
-            }
-            if(v != 0)
-            {
-                prevVertPositive = v > 0;
-            }
+            horizontalReleaseCount = 0;
         }
-        if(canGlide && vertical == 0 && v > 0)
+        if (v == 0 || (v < 0 && vertChange > 0) || (v > 0 && vertChange < 0))
+        {
+            verticalReleaseCount += Time.deltaTime;
+        }
+        else
+        {
+            verticalReleaseCount = 0;
+        }
+        if (canGlide && vertical == 0 && v > 0)
         {
             vertical = v * -0.5f * Physics.gravity.y;
         }
@@ -260,10 +269,11 @@ public class PlayerController : MonoBehaviour
         {
             xSpeed = maxSpeedX * -1;
         }
-        if (xSpeed != 0 && horizontal / xSpeed > 0)
+        if (xSpeed != 0 && horizontal / xSpeed > 0 && !horizontalDash)
         {
             horizontal *= Mathf.Pow(maxSpeedX - Mathf.Abs(xSpeed), 0.1f);
         }
+        horizontalDash = false;
 
         float ySpeed = rigid.velocity.y;
         if (ySpeed > maxSpeedY)
