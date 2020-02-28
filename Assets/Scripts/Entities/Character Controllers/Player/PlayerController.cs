@@ -236,9 +236,9 @@ public class PlayerController : MonoBehaviour
         {
             verticalReleaseCount = 0;
         }
-        if (canGlide && vertical == 0 && v > 0)
+        if (canGlide && rigid.velocity.y < 0  && Mathf.Abs(rigid.velocity.x) > 0 && vertical == 0 && v > 0)
         {
-            vertical = v * -0.5f * Physics.gravity.y;
+            vertical = v * -0.0008f * Physics.gravity.y;
         }
         Move(horizontal, vertical);
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);

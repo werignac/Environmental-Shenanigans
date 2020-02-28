@@ -91,7 +91,7 @@ public class ShieldController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider)
     {
         GameObject encounter = collider.gameObject;
-        if (encounter.CompareTag("Hazard") || encounter.CompareTag("Projectile") || encounter.CompareTag("Enemy"))
+        if (encounter.CompareTag("Hazard") || encounter.CompareTag("Projectile") || encounter.CompareTag("Enemy") || encounter.CompareTag("Explosion"))
         {
             if (timer == 0)
             {
@@ -107,7 +107,13 @@ public class ShieldController : MonoBehaviour
                 {
                     hazard = encounter.GetComponentInChildren<HazardController>();
                 }
-
+                Vector2 speed = hazard.GetMoveDirection();
+                if (encounter.CompareTag("Explosion"))
+                {
+                    speed = encounter.transform.position - player.transform.position;
+                    speed.Normalize();
+                    speed *= encounter.GetComponent<ExplosionController>().speed;
+                }
                 Impact(hazard.GetMoveDirection(), hazard.mass);
 
                 hazard.OnShieldCollision(gameObject);
