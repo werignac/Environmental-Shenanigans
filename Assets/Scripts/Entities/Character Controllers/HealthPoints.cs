@@ -27,6 +27,7 @@ public abstract class HealthPoints : MonoBehaviour
     private int divider;
     public float soundTime;
     private float soundTimer;
+    public int startDamage;
     //public AudioSource sFXHealth;
 
     // Start is called before the first frame update
@@ -39,7 +40,11 @@ public abstract class HealthPoints : MonoBehaviour
             hitPoints[i] = child.gameObject;
             i++;
         }
-        divider = hitPoints.Length - 1;
+        divider = hitPoints.Length - 1 - startDamage;
+        for(int a = divider +1; a < hitPoints.Length; ++a)
+        {
+            hitPoints[a].SetActive(false);
+        }
         invincTimer = invincTime;
     }
 

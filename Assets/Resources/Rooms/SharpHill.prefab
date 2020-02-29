@@ -569,6 +569,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cannon
       objectReference: {fileID: 0}
+    - target: {fileID: 2672536287864176377, guid: 5c675982aabfa3346af46f8329e7ba95,
+        type: 3}
+      propertyPath: m_TagString
+      value: Platform
+      objectReference: {fileID: 0}
     - target: {fileID: 3318468215328631578, guid: 5c675982aabfa3346af46f8329e7ba95,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -632,7 +637,7 @@ PrefabInstance:
     - target: {fileID: 7311105751259027136, guid: 5c675982aabfa3346af46f8329e7ba95,
         type: 3}
       propertyPath: angle
-      value: 210
+      value: 205
       objectReference: {fileID: 0}
     - target: {fileID: 7311105751259027136, guid: 5c675982aabfa3346af46f8329e7ba95,
         type: 3}

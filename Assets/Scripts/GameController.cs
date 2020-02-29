@@ -70,6 +70,7 @@ public class GameController : MonoBehaviour
                 level.Destroy();
                 level = new Level(Data.rooms, l * 10);
                 player.transform.position = new Vector3(0, 2);
+                player.GetComponentInChildren<HitArea>().Heal(10);
             }
         }
     }
