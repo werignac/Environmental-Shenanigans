@@ -18,7 +18,7 @@ public class GameController : MonoBehaviour
 
             player.GetComponentInChildren<HitArea>().healthPoints = playerHealth;
         }
-        level = new Level(Data.rooms);
+        level = new Level(Data.rooms, 0);
     }
 
     // Update is called once per frame

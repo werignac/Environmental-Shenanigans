@@ -20,5 +20,13 @@ public class ImmobileShooter : ProjectileShooterAbstract
         GameObject projectile = Instantiate(Resources.Load<GameObject>("Projectiles/" + projectileName), transform.position, new Quaternion());
         projectile.GetComponent<ProjectileController>().SetMoveDirection(new Vector2(speed * Mathf.Cos((transform.rotation.eulerAngles.x + angle) * Mathf.Deg2Rad), speed * Mathf.Sin((transform.rotation.eulerAngles.x + angle) * Mathf.Deg2Rad)));
         projectile.GetComponent<ProjectileController>().range = range;
+        if (givesAcceleration)
+        {
+            AcceleratingProjectileController a = projectile.GetComponent<AcceleratingProjectileController>();
+            if(a != null)
+            {
+                a.acceleration = acceleration;
+            }
+        }
     }
 }

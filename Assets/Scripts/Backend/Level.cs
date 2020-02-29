@@ -5,11 +5,11 @@ using UnityEngine;
 public class Level
 {
     Room[] rooms;
-    public Level(int numRooms)
+    public Level(int numRooms, int addedRoomNum)
     {
         rooms = new Room[numRooms];
-        rooms[0] = Data.GetRoom(0);
-        rooms[numRooms - 1] = Data.GetRoom(1);
+        rooms[0] = Data.GetRoom(addedRoomNum);
+        rooms[numRooms - 1] = Data.GetRoom(1 + addedRoomNum);
         int nextRoom = rooms[0].NextRoom;
         for(int i = 1; i < numRooms - 1; ++i)
         {
@@ -17,7 +17,7 @@ public class Level
             nextRoom = rooms[i].NextRoom;
         }
         float pos = 0;
-        int healthCount = Random.Range(4, 6);
+        int healthCount = Random.Range(5, 7);
         for (int i = 0; i < numRooms; ++i)
         {
             rooms[i].SetPos(pos);
@@ -29,7 +29,7 @@ public class Level
             --healthCount;
             if(healthCount <= 0)
             {
-                healthCount = Random.Range(2, 5);
+                healthCount = Random.Range(3, 6);
                 rooms[i].HealthRoom();
             }
             else

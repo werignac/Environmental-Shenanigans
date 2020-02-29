@@ -10,6 +10,8 @@ public abstract class ProjectileShooterAbstract : MonoBehaviour
     public bool triggered;
     public AudioSource sFXPlayer;
     public Animator animator;
+    public bool givesAcceleration;
+    public Vector2 acceleration;
 
     // Start is called before the first frame update
     void Start()
