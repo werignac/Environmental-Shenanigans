@@ -17,7 +17,7 @@ public class Level
             nextRoom = rooms[i].NextRoom;
         }
         float pos = 0;
-        int healthCount = Random.Range(5, 7);
+        int healthCount = Random.Range(4, 6);
         for (int i = 0; i < numRooms; ++i)
         {
             rooms[i].SetPos(pos);
@@ -29,7 +29,7 @@ public class Level
             --healthCount;
             if(healthCount <= 0)
             {
-                healthCount = Random.Range(3, 6);
+                healthCount = Random.Range(2, 5);
                 rooms[i].HealthRoom();
             }
             else
