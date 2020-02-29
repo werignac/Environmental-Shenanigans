@@ -99,7 +99,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="167.09405"
+     inkscape:cx="-71.477379"
      inkscape:cy="1091.0566"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -117,7 +117,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -144,7 +144,9 @@
        transform="matrix(1.0298963,0,0,1.0298963,-12.316907,7.7033372)" />
     <g
        transform="translate(0,-14.314155)"
-       id="g870-1">
+       id="g870-1"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700">
       <path
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
@@ -167,7 +169,9 @@
     </g>
     <g
        transform="translate(15.904438,-14.314155)"
-       id="g870-6-1">
+       id="g870-6-1"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700">
       <path
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
@@ -190,7 +194,9 @@
     </g>
     <g
        transform="translate(-4.7330785,-7.2081998)"
-       id="g870-6-8-4">
+       id="g870-6-8-4"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700">
       <path
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
@@ -213,7 +219,9 @@
     </g>
     <g
        transform="translate(19.608607,-7.2081998)"
-       id="g870-6-8">
+       id="g870-6-8"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700">
       <path
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
@@ -235,7 +243,9 @@
          style="opacity:1;fill:#333333;fill-opacity:1;stroke:#000000;stroke-width:1.89568889;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
-       id="g870">
+       id="g870"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700">
       <path
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
@@ -258,7 +268,9 @@
     </g>
     <g
        transform="translate(15.904438)"
-       id="g870-6">
+       id="g870-6"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700">
       <path
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
@@ -284,22 +296,30 @@
        d="m 43.599552,-2.4516373 c 8.409971,-3.3072915 10.394347,0.5669646 10.961311,7.1815476 l -0.32128,5.2916667 7.843006,23.056546"
        id="path980"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 46.207589,33.172619 54.239583,10.021577 41.482887,26.085565"
        id="path982"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 45.735118,19.281993 8.504465,-9.260416 7.654018,8.976934"
        id="path984"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 54.239583,10.021577 65.389881,25.707589"
        id="path986"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
     <path
        sodipodi:type="star"
        style="opacity:1;fill:url(#radialGradient1008);fill-opacity:1;stroke:#000000;stroke-width:0.47681308;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1172)"
