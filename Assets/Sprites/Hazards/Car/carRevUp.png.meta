@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: a4e92e0e5c3801c4fa701fe975b61e40
+guid: cc27fae7e0bcdb74889632348bed2e33
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8030835215644163416
-    second: car_0
+      213: -3415232603287917625
+    second: carRevUp_0
   - first:
-      213: 6656177661250876350
-    second: car_1
+      213: 1764061300003429350
+    second: carRevUp_1
   - first:
-      213: -6623931398525493558
-    second: car_2
+      213: -8135484813304811935
+    second: carRevUp_2
   - first:
-      213: 5390159895719797930
-    second: car_3
+      213: 4491018985968293972
+    second: carRevUp_3
   - first:
-      213: 7200212785383552425
-    second: car_4
+      213: -8295320302040576696
+    second: carRevUp_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,28 +96,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Lumin
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -132,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: car_0
+      name: carRevUp_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1828
-        width: 1145
-        height: 731
+        y: 0
+        width: 1455
+        height: 1108
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,92 +124,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7312daee4e6f0254fa0f20501018f927
-      internalID: -8030835215644163416
+      spriteID: ea32467b8f717b54a81833491b69dc2f
+      internalID: -3415232603287917625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: car_1
+      name: carRevUp_1
       rect:
         serializedVersion: 2
-        x: 2736
-        y: 854
-        width: 1208
-        height: 704
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 1679
+        width: 1698
+        height: 1145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7311024886a46a741ab04cdd519d0fa6
-      internalID: 6656177661250876350
+      spriteID: df599465fedd78e4e9f3a4f6d518601d
+      internalID: 1764061300003429350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: car_2
+      name: carRevUp_2
       rect:
         serializedVersion: 2
-        x: 125
-        y: 819
-        width: 1211
-        height: 736
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2167
+        y: 1
+        width: 1389
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 848f23df77d3047419afd5b160167e4c
-      internalID: -6623931398525493558
+      spriteID: 1b6bf4c024c27d144b77fd39b6e83f5f
+      internalID: -8135484813304811935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: car_3
+      name: carRevUp_3
       rect:
         serializedVersion: 2
-        x: 1428
-        y: 815
-        width: 1211
-        height: 719
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2183
+        y: 1721
+        width: 1512
+        height: 1062
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb9dfb771ea6fa04888f2fa39a37fae9
-      internalID: 5390159895719797930
+      spriteID: e255cc415dfe86349af64fe23a09ed93
+      internalID: 4491018985968293972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: car_4
+      name: carRevUp_4
       rect:
         serializedVersion: 2
-        x: 88
-        y: 0
-        width: 1211
-        height: 673
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3975
+        y: 1750
+        width: 1487
+        height: 1074
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66edcda94931a4e4ab4668e77bd867a0
-      internalID: 7200212785383552425
+      spriteID: f6d7571dda302074bae67c50b1b04c39
+      internalID: -8295320302040576696
       vertices: []
       indices: 
       edges: []
@@ -239,7 +217,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f538058fb1e0bfe40ad3a726becd9154
+    spriteID: e6360d0b23e575d41bd53fcb29a73066
     internalID: 0
     vertices: []
     indices: 
