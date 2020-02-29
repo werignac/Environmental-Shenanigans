@@ -22,7 +22,7 @@ public class HitArea : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         GameObject collidee = other.gameObject;
-        if (collidee.CompareTag("Projectile") && healthPoints != null && collidee.GetComponent<ProjectileController>().GetReflected() == reflectOnly)
+        if ((collidee.CompareTag("Projectile") || collidee.CompareTag("Explosion")) && healthPoints != null && collidee.GetComponent<ProjectileController>().GetReflected() == reflectOnly)
         {
             Damage();
         }

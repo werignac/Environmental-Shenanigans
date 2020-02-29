@@ -77,6 +77,7 @@ public class CastleBoss : Enemy
                     {
                         cannons[projectileNumber].GetComponentInChildren<ProjectileShooterAbstract>().ShootProjectile();
                         ++projectileNumber;
+                        archers[Random.Range(0, archers.Length)].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                     }
                 }
             }
@@ -100,6 +101,7 @@ public class CastleBoss : Enemy
                     int num = nums[Random.Range(0, nums.Count)];
                     trebuchet[num].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                     nums.Remove(num);
+                    archers[Random.Range(0, archers.Length)].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                 }
                 count = 0;
                 animating = false;

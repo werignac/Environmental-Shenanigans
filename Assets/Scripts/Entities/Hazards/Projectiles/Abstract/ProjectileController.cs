@@ -21,6 +21,7 @@ public abstract class ProjectileController : MovingHazardController
     public RotationType rotType;
     public float angularVelocity;
     private bool reflected = false;
+    public string deathSummonName;
     /// <summary>
     /// Switches the <c>Projectile</c>'s direction if it encounters a reflecting surface. 
     /// </summary>
@@ -160,6 +161,11 @@ public abstract class ProjectileController : MovingHazardController
 
         if (distance > range)
         {
+            if (deathSummonName != null && deathSummonName != "")
+            {
+                GameObject g = Instantiate(Resources.Load<GameObject>("Projectiles/" + deathSummonName), transform.position, new Quaternion());
+                g.GetComponent<ProjectileController>().reflected = reflected;
+            }
             Destroy(gameObject);
         }
     }

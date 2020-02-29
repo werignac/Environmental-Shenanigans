@@ -245,6 +245,8 @@ public class PlayerController : MonoBehaviour
 
         Move(horizontal, vertical);
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);
+        Data.playerJumps = maxJumps - numJumps;
+        Data.playerDashes = maxDash - numDash;
     }
 
     /// <summary>
@@ -393,5 +395,20 @@ public class PlayerController : MonoBehaviour
                 jump = false;
             }
         }
+    }
+
+    public bool OnGround()
+    {
+        return (onGround);
+    }
+
+    public bool AddDash()
+    {
+        if(numDash > 0)
+        {
+            --numDash;
+            return (true);
+        }
+        return (false);
     }
 }

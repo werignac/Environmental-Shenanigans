@@ -11,6 +11,8 @@ public static class Data
     public static int player;
     public static int rooms;
     public static Vector2 playerPos;
+    public static int playerJumps;
+    public static int playerDashes;
 
     public static void LoadRoomDatas()
     {
