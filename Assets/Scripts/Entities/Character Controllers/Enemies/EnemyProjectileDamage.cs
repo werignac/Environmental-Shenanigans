@@ -14,7 +14,10 @@ public class EnemyProjectileDamage : MonoBehaviour
         {
             Destroy(other.gameObject);
             enemy.Damage();
-            bossPoints.RemoveHitPoint();
+            if (bossPoints != null)
+            {
+                bossPoints.RemoveHitPoint();
+            }
         }
     }
 }
