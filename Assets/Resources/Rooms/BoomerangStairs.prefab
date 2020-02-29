@@ -89,7 +89,7 @@ MonoBehaviour:
   roomType: 2
   nextRoomType: 3
   healthSection: {fileID: 197231269}
-  hideSection: {fileID: 2232943470054339025}
+  hideSection: {fileID: 2232943469444446490}
   spawnPoint: {fileID: 4606856836474974136}
 --- !u!1 &4606856836474974136
 GameObject:
@@ -535,6 +535,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3474126de355deb4cab1451f168f5656, type: 3}
+--- !u!1 &2232943469444446490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2232943468457295632, guid: 3474126de355deb4cab1451f168f5656,
+    type: 3}
+  m_PrefabInstance: {fileID: 992953866}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4841713831000465742 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4841713830647015236, guid: 3474126de355deb4cab1451f168f5656,
@@ -700,12 +706,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3474126de355deb4cab1451f168f5656, type: 3}
---- !u!1 &2232943470054339025 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2232943468457295632, guid: 3474126de355deb4cab1451f168f5656,
-    type: 3}
-  m_PrefabInstance: {fileID: 1626410689}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4841713832248125829 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4841713830647015236, guid: 3474126de355deb4cab1451f168f5656,

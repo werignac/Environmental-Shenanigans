@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ExplosionController : HazardController
+public class ExplosionController : ProjectileController
 {
     public float duration;
     public float speed;
