@@ -40,20 +40,12 @@ public class PlayerController : MonoBehaviour
     public CharacterType character;
     public bool canCrouch;
     public int maxDash;
-    private int numDashX;
-    private int numDashY;
+    private int numDash;
     public float dashSpeedX;
     public float dashSpeedY;
     public float mass;
     private bool releaseJump;
-    private float horizontalReleaseCount;
-    private float verticalReleaseCount;
-    private float prevHorz;
     private float prevVert;
-    private float horzChange;
-    private float vertChange;
-    private DashDirectionHoriz directDashH;
-    private DashDirectionVert directDashV;
     public bool canGlide;
     private bool horizontalDash;
     public float dashInterval = 0.8f;
@@ -70,16 +62,6 @@ public class PlayerController : MonoBehaviour
     public string glideAnimationName = "flyingSquirrelGlide";
 
     private bool hasGlided;
-
-    private enum DashDirectionHoriz
-    {
-        Right, Left
-    }
-
-    private enum DashDirectionVert
-    {
-        Up, Down
-    }
 
     public enum CharacterType
     {
@@ -103,8 +85,7 @@ public class PlayerController : MonoBehaviour
         numJumps = 0;
         crouch = false;
         crouchCount = 0;
-        numDashX = 0;
-        numDashY = 0;
+        numDash = 0;
         if (character >= 0)
         {
             PlayerData data = Data.GetPlayerData((int) character);
@@ -227,69 +208,18 @@ public class PlayerController : MonoBehaviour
                 sFXPlayer.Play();
             }
         }
-        else if (numDashY < maxDash && (verticalReleaseCount > 0 && verticalReleaseCount < dashInterval))
+        if (numDash < maxDash && Input.GetMouseButtonDown(0))
         {
-            if (((v > prevVert && vertChange <= 0) || (v < prevVert && vertChange >= 0)))
+            if (horizontal != 0 || v != 0)
             {
-                ++numDashY;
-                vertical = v * dashSpeedY;
-                bodyAnim.Play(dashAnimationName);
-            }
-        }
-        if (numDashX < maxDash && (horizontalReleaseCount > 0 && horizontalReleaseCount < dashInterval))
-        {
-            if ((horzChange <= 0 && horizontal > prevHorz) || (horizontal < prevHorz && horzChange >= 0))
-            {
-                ++numDashX;
-                horzChange = horizontal - prevHorz;
-                if (!onGround)
-                {
-                    horzChange = (horizontal * 5) - prevHorz;
-                }
-                prevHorz = horizontal;
-                if (!onGround)
-                {
-                    prevHorz *= 5;
-                }
+                ++numDash;
                 horizontal = dashSpeedX * horizontal / Mathf.Abs(horizontal);
+                vertical = v * dashSpeedY;
                 horizontalDash = true;
                 bodyAnim.Play(dashAnimationName);
             }
         }
-        vertChange = v - prevHorz;
-        if (!horizontalDash)
-        {
-            horzChange = horizontal - prevHorz;
-            if (!onGround)
-            {
-                horzChange = Input.GetAxis("Horizontal") - prevHorz;
-            }
-        }
         prevVert = v;
-        if (!horizontalDash)
-        {
-            prevHorz = horizontal;
-            if (!onGround)
-            {
-                prevHorz *= 5;
-            }
-        }
-        if (horizontal == 0 || (horizontal < 0 && horzChange > 0) || (horizontal > 0 && horzChange < 0))
-        {
-            horizontalReleaseCount += Time.deltaTime;
-        }
-        else
-        {
-            horizontalReleaseCount = 0;
-        }
-        if (v == 0 || (v < 0 && vertChange > 0) || (v > 0 && vertChange < 0))
-        {
-            verticalReleaseCount += Time.deltaTime;
-        }
-        else
-        {
-            verticalReleaseCount = 0;
-        }
         
 
         if (canGlide && rigid.velocity.y < 0  && Mathf.Abs(rigid.velocity.x) > 0 && vertical == 0 && v > 0)
@@ -393,8 +323,7 @@ public class PlayerController : MonoBehaviour
                     onGround = true;
                     bodyAnim.SetBool("OnGround", true);
                     numJumps = 0;
-                    numDashX = 0;
-                    numDashY = 0;
+                    numDash = 0;
                 }
                 else
                 {
@@ -402,8 +331,7 @@ public class PlayerController : MonoBehaviour
                     if (onGround)
                     {
                         numJumps = 0;
-                        numDashX = 0;
-                        numDashY = 0;
+                        numDash = 0;
                     }
                     return;
                 }
