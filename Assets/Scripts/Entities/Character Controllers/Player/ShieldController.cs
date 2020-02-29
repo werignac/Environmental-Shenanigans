@@ -97,7 +97,10 @@ public class ShieldController : MonoBehaviour
             {
                 sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/Bounce");
                 sFXPlayer.Play();
-                anim.SetTrigger("Hit");
+                if (anim != null)
+                {
+                    anim.SetTrigger("Hit");
+                }
                 HazardController hazard = encounter.GetComponent<HazardController>();
                 if (hazard == null)
                 {

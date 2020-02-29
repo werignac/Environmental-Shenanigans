@@ -217,6 +217,10 @@ public class PlayerController : MonoBehaviour
                 vertical = v * dashSpeedY;
                 horizontalDash = true;
                 bodyAnim.Play(dashAnimationName);
+                if (rigid.velocity.y > 0)
+                {
+                    rigid.velocity = new Vector2(rigid.velocity.x, 0);
+                }
             }
         }
         prevVert = v;
