@@ -396,4 +396,19 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    public bool OnGround()
+    {
+        return (onGround);
+    }
+
+    public bool AddDash()
+    {
+        if(numDash > 0)
+        {
+            --numDash;
+            return (true);
+        }
+        return (false);
+    }
 }

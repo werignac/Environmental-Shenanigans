@@ -26,6 +26,8 @@ public class ShieldController : MonoBehaviour
     private float timer;
     public AudioSource sFXPlayer;
     public SpriteRenderer headColor;
+    private int projectileCount;
+    private PlayerController pC;
     /// <summary>
     /// Stores the initialScale;
     /// </summary>
@@ -66,7 +68,8 @@ public class ShieldController : MonoBehaviour
         if (first)
         {
             first = false;
-            mass = player.gameObject.GetComponent<PlayerController>().mass;
+            pC = player.gameObject.GetComponent<PlayerController>();
+            mass = pC.mass;
         }
 
         if (timer > 0)
@@ -89,6 +92,10 @@ public class ShieldController : MonoBehaviour
                     }
                 }
             }
+        }
+        if (pC.OnGround())
+        {
+            projectileCount = 0;
         }
     }
 
@@ -138,6 +145,14 @@ public class ShieldController : MonoBehaviour
                 hazard.OnShieldCollision(gameObject);
 
                 timer = reflectionDelay;
+                projectileCount++;
+                if(projectileCount >= 5)
+                {
+                    if (pC.AddDash())
+                    {
+                        projectileCount = 0;
+                    }
+                }
 
                 headColor.color = new Color(0, 0, 255);
                 if (headColor.transform.childCount > 0)
