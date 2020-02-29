@@ -52,8 +52,11 @@ public class PlayerController : MonoBehaviour
     private float prevVert;
     private float horzChange;
     private float vertChange;
+    private DashDirectionHoriz directDashH;
+    private DashDirectionVert directDashV;
     public bool canGlide;
     private bool horizontalDash;
+    public float dashInterval = 0.8f;
 
     public GameObject body;
 
@@ -62,6 +65,21 @@ public class PlayerController : MonoBehaviour
     public AudioSource sFXPlayer;
 
     public string idleAnimationName = "birdIdleAnimation";
+    public string jumpAnimationName = "birdJumpAnimation";
+    public string dashAnimationName = "lizardDashAnimation";
+    public string glideAnimationName = "flyingSquirrelGlide";
+
+    private bool hasGlided;
+
+    private enum DashDirectionHoriz
+    {
+        Right, Left
+    }
+
+    private enum DashDirectionVert
+    {
+        Up, Down
+    }
 
     public enum CharacterType
     {
@@ -185,9 +203,10 @@ public class PlayerController : MonoBehaviour
         {
             --crouchCount;
         }
+
         if ((onGround || airJump) && v > 0 && hitJump)
         {
-            bodyAnim.SetTrigger("Jump"); //William?!
+            bodyAnim.Play(jumpAnimationName);
             ++numJumps;
             onGround = false;
             jump = true;
@@ -208,18 +227,18 @@ public class PlayerController : MonoBehaviour
                 sFXPlayer.Play();
             }
         }
-        else if (numDashY < maxDash && (verticalReleaseCount > 0 && verticalReleaseCount < 0.8f))
+        else if (numDashY < maxDash && (verticalReleaseCount > 0 && verticalReleaseCount < dashInterval))
         {
             if (((v > prevVert && vertChange <= 0) || (v < prevVert && vertChange >= 0)))
             {
                 ++numDashY;
                 vertical = v * dashSpeedY;
-                bodyAnim.SetTrigger("Dash");
+                bodyAnim.Play(dashAnimationName);
             }
         }
-        if (numDashX < maxDash && ((horizontalReleaseCount > 0 && horizontalReleaseCount < 0.8f)))
+        if (numDashX < maxDash && (horizontalReleaseCount > 0 && horizontalReleaseCount < dashInterval))
         {
-            if (((horzChange <= 0 && horizontal > prevHorz) || (horizontal < prevHorz && horzChange >= 0)))
+            if ((horzChange <= 0 && horizontal > prevHorz) || (horizontal < prevHorz && horzChange >= 0))
             {
                 ++numDashX;
                 horzChange = horizontal - prevHorz;
@@ -234,7 +253,7 @@ public class PlayerController : MonoBehaviour
                 }
                 horizontal = dashSpeedX * horizontal / Mathf.Abs(horizontal);
                 horizontalDash = true;
-                bodyAnim.SetTrigger("Dash");
+                bodyAnim.Play(dashAnimationName);
             }
         }
         vertChange = v - prevHorz;
@@ -243,7 +262,7 @@ public class PlayerController : MonoBehaviour
             horzChange = horizontal - prevHorz;
             if (!onGround)
             {
-                horzChange = (horizontal * 5) - prevHorz;
+                horzChange = Input.GetAxis("Horizontal") - prevHorz;
             }
         }
         prevVert = v;
@@ -271,11 +290,22 @@ public class PlayerController : MonoBehaviour
         {
             verticalReleaseCount = 0;
         }
+        
+
         if (canGlide && rigid.velocity.y < 0  && Mathf.Abs(rigid.velocity.x) > 0 && vertical == 0 && v > 0)
         {
             vertical = v * -0.0008f * Physics.gravity.y;
-            bodyAnim.SetTrigger("Glide");
+            if (! hasGlided)
+            {
+                bodyAnim.Play(glideAnimationName);
+                hasGlided = true;
+            }
         }
+        else
+        {
+            hasGlided = false;
+        }
+
         Move(horizontal, vertical);
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);
     }
@@ -340,6 +370,10 @@ public class PlayerController : MonoBehaviour
         }*/
     }
 
+    private void Dash()
+    {
+
+    }
 
     /// <summary>
     /// Checks if the player hit the ground.
