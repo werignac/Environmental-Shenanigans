@@ -231,7 +231,7 @@ public class PlayerController : MonoBehaviour
 
         if (canGlide && rigid.velocity.y < 0  && Mathf.Abs(rigid.velocity.x) > 0 && vertical == 0 && v > 0)
         {
-            vertical = v * -0.0008f * Physics.gravity.y;
+            vertical = v * -0.005f * (Physics.gravity.y * rigid.mass);
             if (! hasGlided)
             {
                 bodyAnim.Play(glideAnimationName);
