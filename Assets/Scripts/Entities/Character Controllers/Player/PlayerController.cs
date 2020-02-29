@@ -187,7 +187,7 @@ public class PlayerController : MonoBehaviour
         }
         if ((onGround || airJump) && v > 0 && hitJump)
         {
-            bodyAnim.Play("birdJumpAnimation");
+            bodyAnim.SetTrigger("Jump"); //William?!
             ++numJumps;
             onGround = false;
             jump = true;
@@ -208,38 +208,52 @@ public class PlayerController : MonoBehaviour
                 sFXPlayer.Play();
             }
         }
-        else if (numDashY < maxDash && (verticalReleaseCount > 0 && verticalReleaseCount < 2f))
+        else if (numDashY < maxDash && (verticalReleaseCount > 0 && verticalReleaseCount < 0.8f))
         {
             if (((v > prevVert && vertChange <= 0) || (v < prevVert && vertChange >= 0)))
             {
                 ++numDashY;
                 vertical = v * dashSpeedY;
+                bodyAnim.SetTrigger("Dash");
             }
         }
-        if (numDashX < maxDash && ((horizontalReleaseCount > 0 && horizontalReleaseCount < 2f)))
+        if (numDashX < maxDash && ((horizontalReleaseCount > 0 && horizontalReleaseCount < 0.8f)))
         {
             if (((horzChange <= 0 && horizontal > prevHorz) || (horizontal < prevHorz && horzChange >= 0)))
             {
                 ++numDashX;
-                horizontal *= dashSpeedX;
+                horzChange = horizontal - prevHorz;
                 if (!onGround)
                 {
-                    horizontal *= 5;
+                    horzChange = (horizontal * 5) - prevHorz;
                 }
+                prevHorz = horizontal;
+                if (!onGround)
+                {
+                    prevHorz *= 5;
+                }
+                horizontal = dashSpeedX * horizontal / Mathf.Abs(horizontal);
                 horizontalDash = true;
+                bodyAnim.SetTrigger("Dash");
             }
         }
         vertChange = v - prevHorz;
-        horzChange = horizontal - prevHorz;
-        if (!onGround)
+        if (!horizontalDash)
         {
-            horzChange = (horizontal * 5) - prevHorz;
+            horzChange = horizontal - prevHorz;
+            if (!onGround)
+            {
+                horzChange = (horizontal * 5) - prevHorz;
+            }
         }
         prevVert = v;
-        prevHorz = horizontal;
-        if (!onGround)
+        if (!horizontalDash)
         {
-            prevHorz *= 5;
+            prevHorz = horizontal;
+            if (!onGround)
+            {
+                prevHorz *= 5;
+            }
         }
         if (horizontal == 0 || (horizontal < 0 && horzChange > 0) || (horizontal > 0 && horzChange < 0))
         {
@@ -260,6 +274,7 @@ public class PlayerController : MonoBehaviour
         if (canGlide && rigid.velocity.y < 0  && Mathf.Abs(rigid.velocity.x) > 0 && vertical == 0 && v > 0)
         {
             vertical = v * -0.0008f * Physics.gravity.y;
+            bodyAnim.SetTrigger("Glide");
         }
         Move(horizontal, vertical);
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);
