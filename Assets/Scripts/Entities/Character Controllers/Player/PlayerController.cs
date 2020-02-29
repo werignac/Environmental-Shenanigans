@@ -278,10 +278,6 @@ public class PlayerController : MonoBehaviour
         }
         Move(horizontal, vertical);
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);
-        if(transform.position.y < -50)
-        {
-            SceneManager.LoadScene("Lose");
-        }
     }
 
     /// <summary>

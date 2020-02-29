@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4899386329871927591}
   - component: {fileID: 597735200302750570}
   - component: {fileID: 7064278077057753960}
+  - component: {fileID: 8597544732386293339}
+  - component: {fileID: 4181258185872524194}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -49,6 +51,8 @@ MonoBehaviour:
   triggered: 0
   sFXPlayer: {fileID: 0}
   animator: {fileID: 8252238830845575744}
+  givesAcceleration: 0
+  acceleration: {x: 0, y: 0}
   projectileName: Compass
   angle: 0
   speed: 1
@@ -150,6 +154,35 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!70 &8597544732386293339
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2636760907245343278}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.5, y: 1}
+  m_Direction: 0
+--- !u!114 &4181258185872524194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2636760907245343278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 382c17d7e3aec8d42b0a4377e0829580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 26640620293392378}
 --- !u!1 &5726116851892255852
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,9 +197,10 @@ GameObject:
   - component: {fileID: 3061469783867420902}
   - component: {fileID: 1360193189847113249}
   - component: {fileID: 26640620293392378}
+  - component: {fileID: 2351760710933411897}
   m_Layer: 0
   m_Name: Thrower
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -308,3 +342,18 @@ MonoBehaviour:
   maxSpeedX: 0
   rigid: {fileID: 0}
   accelCoeff: {x: 0, y: 0}
+--- !u!114 &2351760710933411897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5726116851892255852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 326bd11325083a2428198aec3c3a36f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDirection: {x: 0, y: 0}
+  mass: 0
+  enemy: {fileID: 26640620293392378}

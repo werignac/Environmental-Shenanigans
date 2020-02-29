@@ -62,4 +62,9 @@ public class Room
     {
         model.GetComponent<RoomData>().NormalRoom();
     }
+
+    public Vector2 GetSpawnPoint()
+    {
+        return (model.GetComponent<RoomData>().GetSpawnPoint());
+    }
 }

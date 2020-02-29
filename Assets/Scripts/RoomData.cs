@@ -53,4 +53,9 @@ public class RoomData : MonoBehaviour
             hideSection.SetActive(true);
         }
     }
+
+    public Vector2 GetSpawnPoint()
+    {
+        return (spawnPoint.transform.position);
+    }
 }

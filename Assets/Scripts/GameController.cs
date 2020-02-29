@@ -49,5 +49,11 @@ public class GameController : MonoBehaviour
             }
             pos += room.Width;
         }
+        if (player.transform.position.y < -50)
+        {
+            player.transform.position = level.GetRoom(r).GetSpawnPoint();
+            player.GetComponent<Rigidbody2D>().velocity = new Vector2();
+            player.GetComponentInChildren<HitArea>().Damage();
+        }
     }
 }
