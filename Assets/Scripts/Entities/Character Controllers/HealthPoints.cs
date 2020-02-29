@@ -20,18 +20,18 @@ public abstract class HealthPoints : MonoBehaviour
     /// <summary>
     /// The visual hitpoints.
     /// </summary>
-    private GameObject[] hitPoints;
+    public GameObject[] hitPoints;
     /// <summary>
     /// The index of the last "available" / "on" hitpoint.
     /// </summary>
-    private int divider;
+    public int divider;
     public float soundTime;
     private float soundTimer;
     public int startDamage;
     //public AudioSource sFXHealth;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         hitPoints = new GameObject[transform.childCount];
         int i = 0;
@@ -80,7 +80,7 @@ public abstract class HealthPoints : MonoBehaviour
     /// <summary>
     /// Removes one hit point. When there are no more hitpoints, NoHealth is called.
     /// </summary>
-    private void RemoveHitPoint()
+    public void RemoveHitPoint()
     {
         hitPoints[divider].SetActive(false);
         

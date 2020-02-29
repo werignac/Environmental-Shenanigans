@@ -82,14 +82,7 @@ public class ShieldController : MonoBehaviour
                 
                 if (headColor.transform.childCount > 0)
                 {
-                    SpriteRenderer child = headColor.transform.GetChild(0).GetComponent<SpriteRenderer>();
-
-                    while (child.transform.childCount > 0)
-                    {
-                        child.color = new Color(255, 255, 255);
-
-                        child = child.transform.GetChild(0).GetComponent<SpriteRenderer>();
-                    }
+                    changeTailColor(new Color(255, 255, 255));
                 }
             }
         }
@@ -97,6 +90,19 @@ public class ShieldController : MonoBehaviour
         {
             projectileCount = 0;
         }
+    }
+
+    private void changeTailColor(Color c)
+    {
+        SpriteRenderer child = headColor.transform.GetChild(0).GetComponent<SpriteRenderer>();
+
+        while (child.transform.childCount > 0)
+        {
+            child.color = c;
+
+            child = child.transform.GetChild(0).GetComponent<SpriteRenderer>();
+        }
+        child.color = c;
     }
 
     /// <summary>
@@ -157,14 +163,7 @@ public class ShieldController : MonoBehaviour
                 headColor.color = new Color(0, 0, 255);
                 if (headColor.transform.childCount > 0)
                 {
-                    SpriteRenderer child = headColor.transform.GetChild(0).GetComponent<SpriteRenderer>();
-
-                    while (child.transform.childCount > 0)
-                    {
-                        child.color = new Color(0, 0, 255);
-
-                        child = child.transform.GetChild(0).GetComponent<SpriteRenderer>();
-                    }
+                    changeTailColor(new Color(0, 0, 255));
                 }
             }
         }
