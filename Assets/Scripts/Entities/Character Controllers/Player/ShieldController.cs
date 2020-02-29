@@ -76,6 +76,18 @@ public class ShieldController : MonoBehaviour
             {
                 timer = 0;
                 headColor.color = new Color(255,255,255);
+                
+                if (headColor.transform.childCount > 0)
+                {
+                    SpriteRenderer child = headColor.transform.GetChild(0).GetComponent<SpriteRenderer>();
+
+                    while (child.transform.childCount > 0)
+                    {
+                        child.color = new Color(255, 255, 255);
+
+                        child = child.transform.GetChild(0).GetComponent<SpriteRenderer>();
+                    }
+                }
             }
         }
     }
@@ -122,7 +134,19 @@ public class ShieldController : MonoBehaviour
                 hazard.OnShieldCollision(gameObject);
 
                 timer = reflectionDelay;
+
                 headColor.color = new Color(0, 0, 255);
+                if (headColor.transform.childCount > 0)
+                {
+                    SpriteRenderer child = headColor.transform.GetChild(0).GetComponent<SpriteRenderer>();
+
+                    while (child.transform.childCount > 0)
+                    {
+                        child.color = new Color(0, 0, 255);
+
+                        child = child.transform.GetChild(0).GetComponent<SpriteRenderer>();
+                    }
+                }
             }
         }
     }

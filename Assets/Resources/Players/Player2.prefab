@@ -829,7 +829,7 @@ MonoBehaviour:
   player: {fileID: 4713778224438313781}
   reflectionDelay: 0.3
   sFXPlayer: {fileID: 576633481773555553}
-  headColor: {fileID: 4713778224832341556}
+  headColor: {fileID: 5685062376963950402}
 --- !u!61 &5225097005491267970
 BoxCollider2D:
   m_ObjectHideFlags: 0
