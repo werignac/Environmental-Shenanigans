@@ -1,15 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
     private Level level;
     public GameObject player;
     public HealthPoints playerHealth;
+    private int l;
     // Start is called before the first frame update
     void Start()
     {
+        l = 0;
         Data.LoadRoomDatas();
         Data.LoadPlayerDatas();
         if(player == null)
@@ -54,6 +57,20 @@ public class GameController : MonoBehaviour
             player.transform.position = level.GetRoom(r).GetSpawnPoint();
             player.GetComponent<Rigidbody2D>().velocity = new Vector2();
             player.GetComponentInChildren<HitArea>().Damage();
+        }
+        if (player.transform.position.x > level.GetRoom(0).Width && r == 0)
+        {
+            ++l;
+            if (l >= 2)
+            {
+                SceneManager.LoadScene("Win");
+            }
+            else
+            {
+                level.Destroy();
+                level = new Level(Data.rooms, l * 10);
+                player.transform.position = new Vector3(0, 2);
+            }
         }
     }
 }

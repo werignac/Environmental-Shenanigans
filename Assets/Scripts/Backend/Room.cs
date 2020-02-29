@@ -67,4 +67,9 @@ public class Room
     {
         return (model.GetComponent<RoomData>().GetSpawnPoint());
     }
+
+    public void Destroy()
+    {
+        GameObject.Destroy(model);
+    }
 }

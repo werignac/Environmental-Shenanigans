@@ -46,4 +46,11 @@ public class Level
     {
         return (rooms[pos]);
     }
+    public void Destroy()
+    {
+        for(int i = 0; i < rooms.Length; ++i)
+        {
+            rooms[i].Destroy();
+        }
+    }
 }
