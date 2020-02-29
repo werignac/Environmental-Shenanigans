@@ -14,6 +14,7 @@ public class DashDisplay : MonoBehaviour
         foreach (Transform child in transform)
         {
             dashDisplays[i] = child.gameObject;
+            child.gameObject.SetActive(false);
             i++;
         }
     }
