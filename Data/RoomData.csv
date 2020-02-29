@@ -1,4 +1,5 @@
 Name,Width,RoomType,NextRoomType
+AngryMob,50,12,12
 ArrowWalls,30,2,2
 BasicNormalRoom,20,2,2
 BoomerangStairs,50,2,3
