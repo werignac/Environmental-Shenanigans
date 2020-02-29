@@ -122,12 +122,16 @@ public class ShieldController : MonoBehaviour
                 {
                     hazard = encounter.GetComponentInChildren<HazardController>();
                 }
-                Vector2 speed = hazard.GetMoveDirection();
-                if (encounter.CompareTag("Explosion"))
+                Vector2 speed = new Vector2();
+                if(hazard != null)
                 {
-                    speed = encounter.transform.position - player.transform.position;
-                    speed.Normalize();
-                    speed *= encounter.GetComponent<ExplosionController>().speed;
+                    speed = hazard.GetMoveDirection();
+                    if (encounter.CompareTag("Explosion"))
+                    {
+                        speed = encounter.transform.position - player.transform.position;
+                        speed.Normalize();
+                        speed *= encounter.GetComponent<ExplosionController>().speed;
+                    }
                 }
                 Impact(hazard.GetMoveDirection(), hazard.mass);
 
