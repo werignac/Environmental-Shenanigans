@@ -1,0 +1,424 @@
+fileFormatVersion: 2
+guid: e167f759715614648afe972906510af6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8425721777251567424
+    second: carDrive_0
+  - first:
+      213: 4987736684306406536
+    second: carDrive_1
+  - first:
+      213: -6002781470215499449
+    second: carDrive_2
+  - first:
+      213: 6916477402444911717
+    second: carDrive_3
+  - first:
+      213: -3667116854167765021
+    second: carDrive_4
+  - first:
+      213: 3853811321564428280
+    second: carDrive_5
+  - first:
+      213: -6580205677514673839
+    second: carDrive_6
+  - first:
+      213: -1021209474853833680
+    second: carDrive_7
+  - first:
+      213: 5863472344178316443
+    second: carDrive_8
+  - first:
+      213: -1088942993694349578
+    second: carDrive_9
+  - first:
+      213: -2783683149646207787
+    second: carDrive_10
+  - first:
+      213: 791233133766768082
+    second: carDrive_11
+  - first:
+      213: 4119065352462153824
+    second: carDrive_12
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: carDrive_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5775
+        width: 1517
+        height: 1169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b654a7d2b04d642866aaf461cc5e0c
+      internalID: -8425721777251567424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carDrive_1
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 5867
+        width: 1600
+        height: 1048
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fc98da7a420ad42a19651cb6ddb2e8
+      internalID: 4987736684306406536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carDrive_2
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 5912
+        width: 2303
+        height: 1032
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03205c3064e96d4fbcf41ae32e33b31
+      internalID: -6002781470215499449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carDrive_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 4355
+        width: 1665
+        height: 1034
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8240f9f675a9a40a0faeace46539e0
+      internalID: 6916477402444911717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carDrive_4
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 4328
+        width: 1698
+        height: 1183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fae38e7e439d440a9a544fa9c1225d
+      internalID: -3667116854167765021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carDrive_5
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 4325
+        width: 1671
+        height: 1305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a74c62c6b493148aadb3b495a63f3a
+      internalID: 3853811321564428280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carDrive_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2826
+        width: 1671
+        height: 1305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a0cdf7b7912834eac5c8edfe520b90
+      internalID: -6580205677514673839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carDrive_7
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 2721
+        width: 1671
+        height: 1305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c2330e282f06f44a914f1aa8bcb8d4
+      internalID: -1021209474853833680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carDrive_8
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2799
+        width: 1671
+        height: 1304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce94ce46ff8fcb449dfedac083e541e
+      internalID: 5863472344178316443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carDrive_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1307
+        width: 1791
+        height: 1304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30f6e552fa4b2947b387a95663b18e0
+      internalID: -1088942993694349578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carDrive_10
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 1125
+        width: 1701
+        height: 1184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7755ac39606cb43b3a480b10c8b22d
+      internalID: -2783683149646207787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carDrive_11
+      rect:
+        serializedVersion: 2
+        x: 4694
+        y: 1253
+        width: 1730
+        height: 1007
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06ba5b8c66e427409e814f13a44d950
+      internalID: 791233133766768082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carDrive_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 1733
+        height: 1005
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089f586a488fe1848979284124d9631e
+      internalID: 4119065352462153824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 44be022e78f86fa4a9e5c0664ec6ad65
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
