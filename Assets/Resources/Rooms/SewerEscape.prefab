@@ -61,6 +61,30 @@ MonoBehaviour:
   healthSection: {fileID: 7991960037644786982}
   hideSection: {fileID: 0}
   spawnPoint: {fileID: 6300013166293105463}
+--- !u!114 &3864484850344715487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3652976013966792116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 705ef50023afe614f8000ab7be754776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
+  initialCount: 0
+  triggered: 0
+  sFXPlayer: {fileID: 0}
+  animator: {fileID: 7251786305766540762}
+  givesAcceleration: 0
+  acceleration: {x: 0, y: 0}
+  projectileName: GlassShard
+  angle: 0
+  speed: 16
+  range: 30
+  angleVariation: 5
 --- !u!1 &6300013166293105463
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,18 +377,31 @@ PrefabInstance:
     - target: {fileID: 597735200302750570, guid: 0f5a984251d5258499841bceecc1a4a5,
         type: 3}
       propertyPath: projectileName
-      value: Axe from Left
+      value: GlassShard
       objectReference: {fileID: 0}
     - target: {fileID: 597735200302750570, guid: 0f5a984251d5258499841bceecc1a4a5,
         type: 3}
       propertyPath: speed
       value: 12
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 597735200302750570, guid: 0f5a984251d5258499841bceecc1a4a5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0f5a984251d5258499841bceecc1a4a5, type: 3}
 --- !u!4 &9127986493325129126 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7533199589282198076, guid: 0f5a984251d5258499841bceecc1a4a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1596053585605265306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7251786305766540762 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8252238830845575744, guid: 0f5a984251d5258499841bceecc1a4a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1596053585605265306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3652976013966792116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2636760907245343278, guid: 0f5a984251d5258499841bceecc1a4a5,
     type: 3}
   m_PrefabInstance: {fileID: 1596053585605265306}
   m_PrefabAsset: {fileID: 0}
