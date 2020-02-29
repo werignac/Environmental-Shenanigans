@@ -29,6 +29,8 @@ public class LizardTailController : MonoBehaviour
         float maxAngle = Mathf.Acos(-1) / innerCoef;
         float lastAngle = maxAngle;
 
+        float angleDivisions = maxAngle / segments.Count;
+
         foreach (GameObject segment in segments)
         {
 
@@ -38,9 +40,9 @@ public class LizardTailController : MonoBehaviour
 
             lastAngle = Mathf.Acos(length / outerCoef - 1) / innerCoef; //- lastAngle;
 
-            Debug.Log("Angle: " + lastAngle * Mathf.Rad2Deg);
-
             segment.transform.localRotation = Quaternion.Euler(0, 0, lastAngle*Mathf.Rad2Deg*flip + offset);
+
+            lastAngle -= angleDivisions;
         }
     }
 

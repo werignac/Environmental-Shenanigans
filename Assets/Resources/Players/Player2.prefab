@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4713778224438313779}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children:
   - {fileID: 4713778226113696658}
   - {fileID: 5225097005491267968}
@@ -83,11 +83,14 @@ MonoBehaviour:
   dashSpeedY: 0
   mass: 0
   canGlide: 0
+  dashInterval: 0.8
   body: {fileID: 4713778226113696657}
   bodyAnim: {fileID: 4713778224832341557}
   sFXPlayer: {fileID: 4713778224438313769}
   idleAnimationName: lizardIdleAnimation
   jumpAnimationName: lizardJumpAnimation
+  dashAnimationName: lizardDashAnimation
+  glideAnimationName: flyingSquirrelGlide
 --- !u!70 &4713778224438313782
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
