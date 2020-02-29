@@ -5,10 +5,12 @@ using UnityEngine;
 public class RoomTesting : MonoBehaviour
 {
     public RoomData room;
+    public int player;
+    public float height;
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(Resources.Load("Players/Player1"), new Vector3(-0.5f * room.width, 2), new Quaternion());
+        Instantiate(Resources.Load("Players/Player" + player), new Vector3(-0.5f * room.width, height), new Quaternion());
     }
 
     // Update is called once per frame
