@@ -163,7 +163,8 @@ public abstract class ProjectileController : MovingHazardController
         {
             if (deathSummonName != null && deathSummonName != "")
             {
-                Instantiate(Resources.Load("Projectiles/" + deathSummonName), transform.position, new Quaternion());
+                GameObject g = Instantiate(Resources.Load<GameObject>("Projectiles/" + deathSummonName), transform.position, new Quaternion());
+                g.GetComponent<ProjectileController>().reflected = reflected;
             }
             Destroy(gameObject);
         }

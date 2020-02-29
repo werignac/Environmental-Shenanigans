@@ -245,6 +245,8 @@ public class PlayerController : MonoBehaviour
 
         Move(horizontal, vertical);
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);
+        Data.playerJumps = maxJumps - numJumps;
+        Data.playerDashes = maxDash - numDash;
     }
 
     /// <summary>
