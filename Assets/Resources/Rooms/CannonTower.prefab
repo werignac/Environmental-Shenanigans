@@ -4487,7 +4487,7 @@ PrefabInstance:
     - target: {fileID: 7311105751259027136, guid: 5c675982aabfa3346af46f8329e7ba95,
         type: 3}
       propertyPath: delay
-      value: 5
+      value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: 7311105751259027136, guid: 5c675982aabfa3346af46f8329e7ba95,
         type: 3}
@@ -4672,7 +4672,7 @@ PrefabInstance:
     - target: {fileID: 7311105751259027136, guid: 5c675982aabfa3346af46f8329e7ba95,
         type: 3}
       propertyPath: delay
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7311105751259027136, guid: 5c675982aabfa3346af46f8329e7ba95,
         type: 3}
@@ -5520,7 +5520,7 @@ PrefabInstance:
     - target: {fileID: 7311105751259027136, guid: 5c675982aabfa3346af46f8329e7ba95,
         type: 3}
       propertyPath: delay
-      value: 5
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 7311105751259027136, guid: 5c675982aabfa3346af46f8329e7ba95,
         type: 3}
@@ -5685,7 +5685,7 @@ PrefabInstance:
     - target: {fileID: 7311105751259027136, guid: 5c675982aabfa3346af46f8329e7ba95,
         type: 3}
       propertyPath: delay
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7311105751259027136, guid: 5c675982aabfa3346af46f8329e7ba95,
         type: 3}
@@ -7043,7 +7043,7 @@ PrefabInstance:
     - target: {fileID: 7311105751259027136, guid: 5c675982aabfa3346af46f8329e7ba95,
         type: 3}
       propertyPath: delay
-      value: 5
+      value: 4.1
       objectReference: {fileID: 0}
     - target: {fileID: 7311105751259027136, guid: 5c675982aabfa3346af46f8329e7ba95,
         type: 3}
