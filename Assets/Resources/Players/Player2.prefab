@@ -86,7 +86,7 @@ MonoBehaviour:
   body: {fileID: 4713778226113696657}
   bodyAnim: {fileID: 4713778224832341557}
   sFXPlayer: {fileID: 4713778224438313769}
-  idleAnimationName: birdIdleAnimation
+  idleAnimationName: lizardIdleAnimation
 --- !u!70 &4713778224438313782
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

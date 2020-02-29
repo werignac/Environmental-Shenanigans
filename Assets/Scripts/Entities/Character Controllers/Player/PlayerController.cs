@@ -40,7 +40,8 @@ public class PlayerController : MonoBehaviour
     public CharacterType character;
     public bool canCrouch;
     public int maxDash;
-    private int numDash;
+    private int numDashX;
+    private int numDashY;
     public float dashSpeedX;
     public float dashSpeedY;
     public float mass;
@@ -84,7 +85,8 @@ public class PlayerController : MonoBehaviour
         numJumps = 0;
         crouch = false;
         crouchCount = 0;
-        numDash = 0;
+        numDashX = 0;
+        numDashY = 0;
         if (character >= 0)
         {
             PlayerData data = Data.GetPlayerData((int) character);
@@ -206,20 +208,39 @@ public class PlayerController : MonoBehaviour
                 sFXPlayer.Play();
             }
         }
-        else if (numDash < maxDash && ((horizontalReleaseCount > 0 && horizontalReleaseCount < 0.8f) || (verticalReleaseCount > 0 && verticalReleaseCount < 0.8f)))
+        else if (numDashY < maxDash && (verticalReleaseCount > 0 && verticalReleaseCount < 2f))
         {
-            if (((horzChange <= 0 && horizontal > 0) || (horizontal < 0 && horzChange >= 0)) || ((v > 0 && vertChange <= 0) || (v < 0 && vertChange >= 0)))
+            if (((v > prevVert && vertChange <= 0) || (v < prevVert && vertChange >= 0)))
             {
-                ++numDash;
-                horizontal *= dashSpeedX;
+                ++numDashY;
                 vertical = v * dashSpeedY;
+            }
+        }
+        if (numDashX < maxDash && ((horizontalReleaseCount > 0 && horizontalReleaseCount < 2f)))
+        {
+            if (((horzChange <= 0 && horizontal > prevHorz) || (horizontal < prevHorz && horzChange >= 0)))
+            {
+                ++numDashX;
+                horizontal *= dashSpeedX;
+                if (!onGround)
+                {
+                    horizontal *= 5;
+                }
                 horizontalDash = true;
             }
         }
         vertChange = v - prevHorz;
         horzChange = horizontal - prevHorz;
+        if (!onGround)
+        {
+            horzChange = (horizontal * 5) - prevHorz;
+        }
         prevVert = v;
         prevHorz = horizontal;
+        if (!onGround)
+        {
+            prevHorz *= 5;
+        }
         if (horizontal == 0 || (horizontal < 0 && horzChange > 0) || (horizontal > 0 && horzChange < 0))
         {
             horizontalReleaseCount += Time.deltaTime;
@@ -327,7 +348,8 @@ public class PlayerController : MonoBehaviour
                     onGround = true;
                     bodyAnim.SetBool("OnGround", true);
                     numJumps = 0;
-                    numDash = 0;
+                    numDashX = 0;
+                    numDashY = 0;
                 }
                 else
                 {
@@ -335,7 +357,8 @@ public class PlayerController : MonoBehaviour
                     if (onGround)
                     {
                         numJumps = 0;
-                        numDash = 0;
+                        numDashX = 0;
+                        numDashY = 0;
                     }
                     return;
                 }
