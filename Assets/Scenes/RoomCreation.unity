@@ -968,7 +968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 1651489307}
-  player: 1
+  player: 2
   height: 1
 --- !u!114 &1119067279
 MonoBehaviour:
@@ -2052,6 +2052,13 @@ MonoBehaviour:
   - {fileID: 1572663606}
   dynamiteDelay: 3
   dynamiteDifferance: 0.8
+  pollutionDifferance: 0.5
+  jumpDuration: 2
+  jumpHeight: 7
+  revTime: 1
+  driveTime: 10
+  driveDistance: 50
+  jumpDelay: 1
 --- !u!61 &1986967286
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2135,11 +2142,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986967282}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 100
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -2147,7 +2154,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!1001 &2051831312
 PrefabInstance:
   m_ObjectHideFlags: 0
