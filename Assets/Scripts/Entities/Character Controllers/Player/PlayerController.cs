@@ -213,7 +213,10 @@ public class PlayerController : MonoBehaviour
             if (horizontal != 0 || v != 0)
             {
                 ++numDash;
-                horizontal = dashSpeedX * horizontal / Mathf.Abs(horizontal);
+                if (horizontal != 0)
+                {
+                    horizontal = dashSpeedX * horizontal / Mathf.Abs(horizontal);
+                }
                 vertical = v * dashSpeedY;
                 horizontalDash = true;
                 bodyAnim.Play(dashAnimationName);

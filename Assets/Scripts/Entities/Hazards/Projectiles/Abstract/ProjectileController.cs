@@ -36,7 +36,9 @@ public abstract class ProjectileController : MovingHazardController
         {
             projectileAngle += 360;
         }
-        if(Mathf.Abs(projectileAngle - shieldAngle) <= 90 || Mathf.Abs(projectileAngle - shieldAngle) >= 270)
+        shieldAngle *= Mathf.Deg2Rad;
+        SetMoveDirection(new Vector2(Mathf.Cos(shieldAngle), Mathf.Sin(shieldAngle)) * projectileMove.magnitude);
+        /*if(Mathf.Abs(projectileAngle - shieldAngle) <= 90 || Mathf.Abs(projectileAngle - shieldAngle) >= 270)
         {
             shieldAngle *= Mathf.Deg2Rad;
             SetMoveDirection(new Vector2(Mathf.Cos(shieldAngle), Mathf.Sin(shieldAngle)) * projectileMove.magnitude);
@@ -63,7 +65,7 @@ public abstract class ProjectileController : MovingHazardController
             projectileAngle -= 360;
         }
         projectileAngle *= Mathf.Deg2Rad;
-        SetMoveDirection(new Vector2(Mathf.Cos(projectileAngle), Mathf.Sin(projectileAngle)) * projectileMove.magnitude);
+        SetMoveDirection(new Vector2(Mathf.Cos(projectileAngle), Mathf.Sin(projectileAngle)) * projectileMove.magnitude);*/
     }
 
     public bool GetReflected()
