@@ -5,7 +5,7 @@ using UnityEngine;
 public class AdvancedImmobileAim : ImmobileShooter
 {
     private bool accelerating;
-    private float acceleration;
+    private float accelerate;
     public override void ShootProjectile()
     {
         float x = Data.playerPos.x - transform.position.x;
@@ -30,13 +30,13 @@ public class AdvancedImmobileAim : ImmobileShooter
                 }
             }
             else angle = 90;*/
-            if (Mathf.Abs(x * acceleration) > Mathf.Abs(Mathf.Pow(speed, 2)))
+            if (Mathf.Abs(x * accelerate) > Mathf.Abs(Mathf.Pow(speed, 2)))
             {
                 angle = 45;
             }
             else
             {
-                angle = Mathf.Rad2Deg * Mathf.Asin(x * acceleration / Mathf.Pow(speed, 2));
+                angle = Mathf.Rad2Deg * Mathf.Asin(x * accelerate / Mathf.Pow(speed, 2));
             }
             if(Data.playerPos.x < transform.position.x)
             {
@@ -54,12 +54,12 @@ public class AdvancedImmobileAim : ImmobileShooter
         if (p == null)
         {
             accelerating = true;
-            acceleration = p.acceleration.y;
+            accelerate = p.acceleration.y;
         }
         else
         {
             accelerating = false;
-            acceleration = 0;
+            accelerate = 0;
         }
     }
 }

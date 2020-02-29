@@ -11,6 +11,7 @@ public class RoomData : MonoBehaviour
     public int nextRoomType;
     public GameObject healthSection;
     public GameObject hideSection;
+    public GameObject spawnPoint;
 
     private void Update()
     {
