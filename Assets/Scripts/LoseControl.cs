@@ -5,20 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class LoseControl : MonoBehaviour
 {
-    int count;
-    // Start is called before the first frame update
-    void Start()
-    {
-        count = 300;
-    }
+    public float closeTime;
 
     // Update is called once per frame
     void Update()
     {
-        --count;
-        if(count <= 0)
+        closeTime -= Time.deltaTime;
+        if(closeTime <= 0)
         {
-            SceneManager.LoadScene("MainMenu");//Return to main menu after 300 frames.
+            SceneManager.LoadScene("MainMenu");//Return to main menu after closeTime seconds.
         }
     }
 }

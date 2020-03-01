@@ -155,7 +155,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.000030517578, y: 45}
-  m_SizeDelta: {x: 500, y: 100}
+  m_SizeDelta: {x: 619.42, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &711082407
 MonoBehaviour:
@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You lost, this time...
+  m_Text: Humnaity Won, for now...
 --- !u!222 &711082408
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -311,6 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07bfd6e3d5dfb19499cb4a3bfd6528f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  closeTime: 4
 --- !u!4 &983001979
 Transform:
   m_ObjectHideFlags: 0
