@@ -161,12 +161,17 @@ public abstract class ProjectileController : MovingHazardController
 
         if (distance > range)
         {
-            if (deathSummonName != null && deathSummonName != "")
-            {
-                GameObject g = Instantiate(Resources.Load<GameObject>("Projectiles/" + deathSummonName), transform.position, new Quaternion());
-                g.GetComponent<ProjectileController>().reflected = reflected;
-            }
-            Destroy(gameObject);
+            Destroy();
         }
+    }
+
+    public void Destroy()
+    {
+        if (deathSummonName != null && deathSummonName != "")
+        {
+            GameObject g = Instantiate(Resources.Load<GameObject>("Projectiles/" + deathSummonName), transform.position, new Quaternion());
+            g.GetComponent<ProjectileController>().reflected = reflected;
+        }
+        Destroy(gameObject);
     }
 }
