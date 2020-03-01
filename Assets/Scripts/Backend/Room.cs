@@ -53,12 +53,12 @@ public class Room
         model.SetActive(false);
     }
 
-    public void HealthRoom()
+    public void HealthRoom()//Set model so that healthPacks are available.
     {
         model.GetComponent<RoomData>().HealthRoom();
     }
 
-    public void NormalRoom()
+    public void NormalRoom()//SetModel so that healthpacks aren't available.
     {
         model.GetComponent<RoomData>().NormalRoom();
     }

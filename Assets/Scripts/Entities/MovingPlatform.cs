@@ -28,6 +28,7 @@ public class MovingPlatform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Display the path of the moving platform during editor.
 #if UNITY_EDITOR
         Debug.DrawLine(orgin, destination);
 #endif
@@ -42,10 +43,11 @@ public class MovingPlatform : MonoBehaviour
             distance = speed / Data.frameRate;
         }
         transform.Translate(distance * Mathf.Cos(angle), distance * Mathf.Sin(angle), 0);
-        foreach(GameObject touch in touching)
+        foreach(GameObject touch in touching)//Move any touching objects, like players or enemies.
         {
             touch.transform.Translate(distance * Mathf.Cos(angle), distance * Mathf.Sin(angle), 0);
         }
+        //Once past destination change direction.
         if (!toOrgin)
         {
             if (((destination.x > orgin.x && transform.position.x >= destination.x) || (destination.x < orgin.x && transform.position.x <= destination.x) || destination.x == orgin.x) && 

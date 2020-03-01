@@ -13,7 +13,7 @@ public class RoomData : MonoBehaviour
     public GameObject hideSection;
     public GameObject spawnPoint;
 
-    private void Update()
+    private void Update()//Display room borders during editing for ease of room creation.
     {
 #if UNITY_EDITOR
         Color color = new Color(0, 255, 0);
@@ -30,7 +30,7 @@ public class RoomData : MonoBehaviour
         return (roomName + "," + width + "," + roomType + "," + nextRoomType);
     }
 
-    public void HealthRoom()
+    public void HealthRoom()//Set the active areas such that health packs are available.
     {
         if (healthSection != null)
         {
@@ -42,7 +42,7 @@ public class RoomData : MonoBehaviour
         }
     }
 
-    public void NormalRoom()
+    public void NormalRoom()//Set the active areas such that health packs aren't available.
     {
         if (healthSection != null)
         {
@@ -54,7 +54,7 @@ public class RoomData : MonoBehaviour
         }
     }
 
-    public Vector2 GetSpawnPoint()
+    public Vector2 GetSpawnPoint()//Get respawn position.
     {
         return (spawnPoint.transform.position);
     }

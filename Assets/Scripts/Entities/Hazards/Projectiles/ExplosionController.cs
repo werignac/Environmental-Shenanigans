@@ -10,6 +10,7 @@ public class ExplosionController : ProjectileController
 
     void Update()
     {
+        //Grow the explosion each frame.
         float scale = (speed / 10) / Data.frameRate;
         transform.localScale = new Vector3(transform.localScale.x + scale, transform.localScale.y + scale, transform.localScale.z);
         count += Time.deltaTime;

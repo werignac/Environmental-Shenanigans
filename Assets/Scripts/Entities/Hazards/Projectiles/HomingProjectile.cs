@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HomingProjectile : AcceleratingProjectileController
 {
-    private float accelerationMag;
+    private float accelerationMag;//How fast it accelerates.
     private Transform target;
     public float targetDist;
 
