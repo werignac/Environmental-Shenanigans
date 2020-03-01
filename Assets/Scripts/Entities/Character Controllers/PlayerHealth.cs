@@ -15,4 +15,16 @@ public class PlayerHealth : HealthPoints
     {
         SceneManager.LoadScene(2);
     }
+
+    public override void Start()
+    {
+        base.Start();
+        float xPos = -Camera.main.orthographicSize * Screen.width / Screen.height;
+        for (int i = 0; i < hitPoints.Length; ++i)
+        {
+            xPos += hitPoints[i].GetComponent<SpriteRenderer>().bounds.size.x / 2;
+            hitPoints[i].transform.position = new Vector3(xPos, hitPoints[i].transform.position.y);
+            xPos += hitPoints[i].GetComponent<SpriteRenderer>().bounds.size.x / 2;
+        }
+    }
 }

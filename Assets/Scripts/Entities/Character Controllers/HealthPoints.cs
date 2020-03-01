@@ -31,17 +31,13 @@ public abstract class HealthPoints : MonoBehaviour
     //public AudioSource sFXHealth;
 
     // Start is called before the first frame update
-    public void Start()
+    public virtual void Start()
     {
         hitPoints = new GameObject[transform.childCount];
         int i = 0;
-        float xPos = -Camera.main.orthographicSize * Screen.width / Screen.height;
         foreach (Transform child in transform)
         {
             hitPoints[i] = child.gameObject;
-            xPos += hitPoints[i].GetComponent<SpriteRenderer>().bounds.size.x / 2;
-            hitPoints[i].transform.position = new Vector3(xPos, hitPoints[i].transform.position.y);
-            xPos += hitPoints[i].GetComponent<SpriteRenderer>().bounds.size.x / 2;
             i++;
         }
         divider = hitPoints.Length - 1 - startDamage;

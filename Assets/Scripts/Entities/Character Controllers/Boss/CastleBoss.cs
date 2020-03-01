@@ -23,10 +23,21 @@ public class CastleBoss : Enemy
     public float trebuchetAnimationStart;//When the trebuchet animation starts.
     private bool animating;
     public AudioSource sFXPlayer;
+    private float damageTimer;
+
 
     public override void Move()
     {
         count += Time.deltaTime;
+        if (damageTimer > 0)
+        {
+            damageTimer -= Time.deltaTime;
+            if (damageTimer <= 0)
+            {
+                damageTimer = 0;
+                GetComponent<SpriteRenderer>().color = new Color(255, 255, 255);
+            }
+        }
         if (phase == 0)
         {
             if (count >= archerDelay)
@@ -117,6 +128,8 @@ public class CastleBoss : Enemy
     {
         sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/StoneCrumble");
         sFXPlayer.Play();
+        GetComponent<SpriteRenderer>().color = new Color(255, 0, 0);
+        damageTimer = 0.5f;
         base.Damage();
         if(health <= maxHealth * 2 / 3 && phase == 0)
         {

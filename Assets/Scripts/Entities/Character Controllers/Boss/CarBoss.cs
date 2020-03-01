@@ -31,6 +31,7 @@ public class CarBoss : MonoBehaviour
     public float jumpDelay;//Time before first car jump, and in between each jump.
     private float startX;//Initial x position which car returns to before driving.
     public AudioSource sFXPlayer;
+    private float damageTimer;
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +50,8 @@ public class CarBoss : MonoBehaviour
         {
             sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/MetalClink");
             sFXPlayer.Play();
+            GetComponent<SpriteRenderer>().color = new Color(255, 0, 0);
+            damageTimer = 0.5f;
             health = enemy.health;
             if (health <= enemy.maxHealth * 2 / 3 && phase == 0)
             {
@@ -69,6 +72,15 @@ public class CarBoss : MonoBehaviour
             }
         }
         count += Time.deltaTime;
+        if (damageTimer > 0)
+        {
+            damageTimer -= Time.deltaTime;
+            if (damageTimer <= 0)
+            {
+                damageTimer = 0;
+                GetComponent<SpriteRenderer>().color = new Color(255, 255, 255);
+            }
+        }
         if (phase == 0)
         {
             if (count >= dynamiteDelay)
