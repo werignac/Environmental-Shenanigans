@@ -4,22 +4,23 @@ using UnityEngine;
 
 public class CastleBoss : Enemy
 {
+    //All times are in seconds.
     public GameObject[] archers;
     public GameObject[] cannons;
     public GameObject[] trebuchet;
     private float count;
     private int phase;
-    public float archerDelay;
-    public float archerDifference;
-    public float cannonDelay;
-    public float cannonDifference;
-    public float trebuchetDelay;
-    public int trebuchetBullets;
-    private int projectileNumber;
+    public float archerDelay;//The time before the first arrow.
+    public float archerDifference;//The time between arrows.
+    public float cannonDelay;//The time before the first cannon shot.
+    public float cannonDifference;//The time between cannon shots.
+    public float trebuchetDelay;//The time before the trebuchet shots.
+    public int trebuchetBullets;//The number of trebuchet bullets dropped.
+    private int projectileNumber;//A tracker for number of projectiles fired.
     public Animator animator;
-    public float cannonAnimationStart;
-    public float cannonAnimationEnd;
-    public float trebuchetAnimationStart;
+    public float cannonAnimationStart;//When to start the cannon animation.
+    public float cannonAnimationEnd;//When the cannon animation ends.
+    public float trebuchetAnimationStart;//When the trebuchet animation starts.
     private bool animating;
     public AudioSource sFXPlayer;
 
@@ -33,7 +34,7 @@ public class CastleBoss : Enemy
                 float archerCount = count - archerDelay;
                 if (archerCount / archerDifference > archers.Length - 1)
                 {
-                    while (projectileNumber < archers.Length)
+                    while(projectileNumber < archers.Length)//Fire any arrows not yet fired.
                     {
                         archers[projectileNumber].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                         ++projectileNumber;

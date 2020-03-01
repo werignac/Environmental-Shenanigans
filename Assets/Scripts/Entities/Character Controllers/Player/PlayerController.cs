@@ -88,6 +88,7 @@ public class PlayerController : MonoBehaviour
         numDash = 0;
         if (character >= 0)
         {
+            //Sets the player using data from file.
             PlayerData data = Data.GetPlayerData((int) character);
             if (data != null)
             {
@@ -113,7 +114,7 @@ public class PlayerController : MonoBehaviour
     {
         float horizontal = Input.GetAxis("Horizontal");
 
-        if (horizontal != 0 && onGround)
+        if (horizontal != 0 && onGround) //Play sounds and animation if player's on ground
         {
             bodyAnim.SetTrigger("Walking");
             Vector3 mirrorScale = body.transform.localScale;
@@ -137,24 +138,23 @@ public class PlayerController : MonoBehaviour
             bodyAnim.Play(idleAnimationName);
         }
 
-        //hitJump added to prevent wasting double jump.
-        float vertical = 0;
+        float vertical = 0;//Vertical is zero until we know you jump.
         float v = Input.GetAxis("Vertical");
-        bool hitJump = false;
+        bool hitJump = false;//hitJump added to prevent wasting double jump.
         if (v < 0.85 && v >= 0.1)
         {
             v = 0.85f;
-            if (releaseJump)
+            if (releaseJump)//Only jump if you've released jump.
             {
                 hitJump = true;
                 releaseJump = false;
             }
         }
-        if(v < 0.1 && v >= 0)
+        if(v < 0.1 && v >= 0)//Discount tiny presses.
         {
             v = 0;
         }
-        if(v <= 0 || v < prevVert - 0.005)
+        if(v <= 0 || v < prevVert - 0.005)//Detecting released jump.
         {
             releaseJump = true;
             if (numJumps < maxJumps)
@@ -162,7 +162,7 @@ public class PlayerController : MonoBehaviour
                 airJump = true;
             }
         }
-        if (onGround && v < 0 && crouchCount <= 0 && canCrouch)
+        if (onGround && v < 0 && crouchCount <= 0 && canCrouch)//Crouch when pressing down.
         {
             if (crouch)
             {
@@ -176,7 +176,7 @@ public class PlayerController : MonoBehaviour
             }
             crouchCount = (int)Data.frameRate / 2;
         }
-        if(!onGround)
+        if(!onGround)//Slow acceleration while in the air.
         {
             horizontal /= 5;
         }
@@ -185,7 +185,7 @@ public class PlayerController : MonoBehaviour
             --crouchCount;
         }
 
-        if ((onGround || airJump) && v > 0 && hitJump)
+        if ((onGround || airJump) && v > 0 && hitJump)//Jump if player is capable.
         {
             bodyAnim.Play(jumpAnimationName);
             ++numJumps;
@@ -197,7 +197,7 @@ public class PlayerController : MonoBehaviour
             {
                 rigid.velocity = new Vector2(rigid.velocity.x, 0);
             }
-            if (airJump == true)
+            if (airJump == true)//Play sound effect depending on if the player is jumping off ground or in the air.
             {
                 sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
                 sFXPlayer.Play();
@@ -208,28 +208,25 @@ public class PlayerController : MonoBehaviour
                 sFXPlayer.Play();
             }
         }
-        if (numDash < maxDash && Input.GetMouseButtonDown(0))
+        if (numDash < maxDash && Input.GetMouseButtonDown(0))//Dash when mouse is pressed
         {
-            if (horizontal != 0 || v != 0)
+            if (horizontal != 0 || v != 0)//Don't waste dash if neither horizontal or vertical button is being pressed.
             {
                 ++numDash;
                 if (horizontal != 0)
                 {
-                    horizontal = dashSpeedX * horizontal / Mathf.Abs(horizontal);
+                    horizontal = dashSpeedX * horizontal / Mathf.Abs(horizontal);//Dash speed is independant of how much the direction is being pressed.
                 }
                 vertical = v * dashSpeedY;
                 horizontalDash = true;
                 bodyAnim.Play(dashAnimationName);
-                if (rigid.velocity.y > 0)
-                {
-                    rigid.velocity = new Vector2(rigid.velocity.x, 0);
-                }
+                rigid.velocity = new Vector2(rigid.velocity.x, 0);//Reset vertical velocity before dashing.
             }
         }
         prevVert = v;
         
 
-        if (canGlide && rigid.velocity.y < 0  && Mathf.Abs(rigid.velocity.x) > 0 && vertical == 0 && v > 0)
+        if (canGlide && rigid.velocity.y < 0  && Mathf.Abs(rigid.velocity.x) > 0 && vertical == 0 && v > 0)//Enable gliding if the player is moving down, and horizontally and they're pressing up.
         {
             vertical = v * -0.005f * (Physics.gravity.y * rigid.mass);
             if (! hasGlided)
@@ -249,6 +246,7 @@ public class PlayerController : MonoBehaviour
             numJumps = 0;
             numDash = 0;
         }
+        //Set the static data file to update the displays.
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);
         Data.playerJumps = maxJumps - numJumps;
         Data.playerDashes = maxDash - numDash;
@@ -263,6 +261,7 @@ public class PlayerController : MonoBehaviour
     {
         if (crouch)
         {
+            //Apply the slow from crouching.
             horizontal *= crouchSlow;
         }
         
@@ -277,6 +276,7 @@ public class PlayerController : MonoBehaviour
         }
         if (xSpeed != 0 && horizontal / xSpeed > 0 && !horizontalDash)
         {
+            //Set horizontal so you can't exceed max speed x by your own movement.
             horizontal *= Mathf.Pow(maxSpeedX - Mathf.Abs(xSpeed), 0.1f);
         }
         horizontalDash = false;
@@ -292,7 +292,7 @@ public class PlayerController : MonoBehaviour
         }
         rigid.AddForce(new Vector2(horizontal * accelCoeff.x, vertical * accelCoeff.y));
 
-        /*
+        /*Old movement method
         float currentSpeed = rigid.velocity.x;
         float maxX = maxSpeedX;
         if (crouch)
@@ -327,9 +327,9 @@ public class PlayerController : MonoBehaviour
     {
         GameObject obj = collision.gameObject;
         bool g = onGround;
-        if (obj.CompareTag("Platform") || obj.CompareTag("Hazard"))
+        if (obj.CompareTag("Platform") || obj.CompareTag("Hazard"))//Only land if what you stand on is a ground object.
         {
-            for (int i = 0; i < collision.contactCount; ++i)
+            for (int i = 0; i < collision.contactCount; ++i)//Ensure the platform is below you.
             {
                 Vector2 contactPoint = collision.GetContact(i).point;
                 if (contactPoint.y <= (transform.position.y - ((GetComponent<CapsuleCollider2D>().size.y / 2 - GetComponent<CapsuleCollider2D>().size.x / 2)))) //Second statement makes sure it's under the player.
