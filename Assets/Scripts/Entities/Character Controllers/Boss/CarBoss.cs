@@ -50,20 +50,22 @@ public class CarBoss : MonoBehaviour
             sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/MetalClink");
             sFXPlayer.Play();
             health = enemy.health;
-            if (health < enemy.maxHealth * 2 / 3 && phase == 0)
+            if (health <= enemy.maxHealth * 2 / 3 && phase == 0)
             {
                 phase = 1;
                 count = 0;
                 projectileNumber = 0;
                 animating = false;
+                Data.healthPack = true;
             }
-            if (health < enemy.maxHealth / 3 && phase == 1)
+            if (health <= enemy.maxHealth / 3 && phase == 1)
             {
                 phase = 2;
                 count = 0;
                 projectileNumber = 0;
                 animating = false;
                 transform.position = new Vector3(startX, endHeight, 0);
+                Data.healthPack = true;
             }
         }
         count += Time.deltaTime;
