@@ -19,7 +19,11 @@ public class HitArea : MonoBehaviour
     /// <summary>
     /// Tells the health points when the entity has been hit.
     /// </summary>
+    public AudioSource sFXPlayer;
+
     private void OnTriggerEnter2D(Collider2D other)
+
+
     {
         GameObject collidee = other.gameObject;
         if ((collidee.CompareTag("Projectile") || collidee.CompareTag("Explosion")) && healthPoints != null && collidee.GetComponent<ProjectileController>().GetReflected() == reflectOnly)//Damage when hit by unreflected projectiles and explosions.
@@ -32,7 +36,10 @@ public class HitArea : MonoBehaviour
     {
         if (healthPoints != null)
         {
-            healthPoints.Hit();
+            if (healthPoints.Hit())
+            {
+                sFXPlayer.Play();
+            }
         }
     }
 
