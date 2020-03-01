@@ -13,6 +13,7 @@ public static class Data
     public static Vector2 playerPos;
     public static int playerJumps;
     public static int playerDashes;
+    public static bool fightingBoss;
 
     public static void LoadRoomDatas()
     {
