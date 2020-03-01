@@ -14,8 +14,8 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="burningCoal.svg">
+   sodipodi:docname="burningCoal.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="98.602309"
-     inkscape:cy="975.05693"
+     inkscape:cx="189.79642"
+     inkscape:cy="1015.9212"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -64,5 +63,14 @@
        id="path815"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#ffcc00;stroke:#f77600;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 40.821427,100.26339 44.979166,0 -16.252976,29.10417 H 92.982141 L 66.145832,179.4494 64.066964,145.99851 H 50.081843 Z"
+       id="path2287"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="D:\Environmental-Shenanigans\Assets\Sprites\lightingTheSequel.png"
+       inkscape:export-xdpi="700.40002"
+       inkscape:export-ydpi="700.40002" />
   </g>
 </svg>
