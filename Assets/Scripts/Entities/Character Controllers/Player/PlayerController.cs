@@ -394,7 +394,7 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         GameObject obj = collision.gameObject;
-        if (obj.CompareTag("Platform"))
+        if (obj.CompareTag("Platform") || obj.CompareTag("Hazard"))
         {
             --numGround;
             if (numGround <= 0)
