@@ -115,6 +115,8 @@ public class CastleBoss : Enemy
 
     public override void Damage()
     {
+        sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/StoneCrumble");
+        sFXPlayer.Play();
         base.Damage();
         if(health < maxHealth * 2 / 3)
         {
