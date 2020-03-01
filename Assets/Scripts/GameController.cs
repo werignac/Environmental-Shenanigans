@@ -68,6 +68,7 @@ public class GameController : MonoBehaviour
         {
             GameObject hP = Instantiate(Resources.Load<GameObject>("Obstacles/HealthPack"), level.GetRoom(level.RoomNum - 1).GetSpawnPoint(), new Quaternion());
             hP.GetComponent<HealthPack>().heal = 2;
+            Data.healthPack = false;
         }
         if (player.transform.position.y < -50)
         {
