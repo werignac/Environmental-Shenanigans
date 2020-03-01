@@ -48,7 +48,7 @@ public class CarBoss : MonoBehaviour
     {
         if(health != enemy.health)
         {
-            sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/MetalClink");
+            sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/CarBreak");
             sFXPlayer.Play();
             GetComponent<SpriteRenderer>().color = new Color(255, 0, 0);
             damageTimer = 0.5f;
