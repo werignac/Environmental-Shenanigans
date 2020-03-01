@@ -136,7 +136,8 @@ public class ShieldController : MonoBehaviour
                     hazard = encounter.GetComponentInChildren<HazardController>();
                 }
                 Vector2 speed = new Vector2();
-                if(hazard != null)
+                float hMass = 1;
+                if (hazard != null)
                 {
                     speed = hazard.GetMoveDirection();
                     if (encounter.CompareTag("Explosion"))
@@ -145,10 +146,13 @@ public class ShieldController : MonoBehaviour
                         speed.Normalize();
                         speed *= encounter.GetComponent<ExplosionController>().speed;
                     }
+                    hMass = hazard.mass;
                 }
-                Impact(hazard.GetMoveDirection(), hazard.mass);
-
-                hazard.OnShieldCollision(gameObject);
+                Impact(speed, hMass);
+                if (hazard != null)
+                {
+                    hazard.OnShieldCollision(gameObject);
+                }
 
                 timer = reflectionDelay;
                 projectileCount++;

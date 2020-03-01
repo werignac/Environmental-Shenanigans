@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4851043320041178248}
   m_Layer: 0
   m_Name: GlassShard
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: {x: 0, y: 0}
-  mass: 1
+  mass: 6
   range: 15
   rotType: 2
   angularVelocity: 1

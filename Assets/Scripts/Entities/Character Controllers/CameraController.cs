@@ -22,5 +22,6 @@ public class CameraController : MonoBehaviour
             player = GameObject.FindGameObjectWithTag("Player");
         }
         transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
+        
     }
 }
