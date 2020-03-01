@@ -6,12 +6,14 @@ public class DashDisplay : MonoBehaviour
 {
     private int numDash;
     private GameObject[] dashDisplays;
+
+    public float offset;
     // Start is called before the first frame update
     void Start()
     {
         dashDisplays = new GameObject[transform.childCount];
         int i = 0;
-        float xPos = Camera.main.orthographicSize * Screen.width / Screen.height;
+        float xPos = Camera.main.orthographicSize * Screen.width / Screen.height + offset / Screen.width;
         foreach (Transform child in transform)
         {
             dashDisplays[i] = child.gameObject;

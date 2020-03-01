@@ -6,12 +6,14 @@ public class JumpDisplay : MonoBehaviour
 {
     private int numJumps;
     private GameObject[] jumpDisplays;
+
+    public float offset;
     // Start is called before the first frame update
     void Start()
     {
         jumpDisplays = new GameObject[transform.childCount];
         int i = 0;
-        float xPos = Camera.main.orthographicSize * Screen.width / Screen.height;
+        float xPos = Camera.main.orthographicSize * Screen.width / Screen.height + offset/Screen.width;
         foreach (Transform child in transform)
         {
             jumpDisplays[i] = child.gameObject;

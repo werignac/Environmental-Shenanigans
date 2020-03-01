@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class PlayerHealth : HealthPoints
 {
+    public float offset;
     /// <summary>
     /// Loads the first scene when the player dies.
     /// </summary>
@@ -19,7 +20,7 @@ public class PlayerHealth : HealthPoints
     public override void Start()
     {
         base.Start();
-        float xPos = -Camera.main.orthographicSize * Screen.width / Screen.height;
+        float xPos = -Camera.main.orthographicSize * Screen.width / Screen.height + offset / Screen.width;
         for (int i = 0; i < hitPoints.Length; ++i)
         {
             xPos += hitPoints[i].GetComponent<SpriteRenderer>().bounds.size.x / 2;
