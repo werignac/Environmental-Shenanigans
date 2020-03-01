@@ -100,8 +100,8 @@ MonoBehaviour:
   rotType: 0
   angularVelocity: 0
   deathSummonName: 
-  duration: 0.6
-  speed: 4
+  duration: 0.3
+  speed: 6
 --- !u!58 &3351062091678676020
 CircleCollider2D:
   m_ObjectHideFlags: 0
