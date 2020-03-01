@@ -716,7 +716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthPoints: {fileID: 0}
   reflectOnly: 0
-  sFXPlayer: {fileID: 0}
+  sFXPlayer: {fileID: 4941595342963966313}
 --- !u!58 &4143904195253666268
 CircleCollider2D:
   m_ObjectHideFlags: 0
