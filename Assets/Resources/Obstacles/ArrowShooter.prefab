@@ -48,8 +48,10 @@ MonoBehaviour:
   triggered: 1
   sFXPlayer: {fileID: 0}
   animator: {fileID: 0}
-  projectileName: Arrow
+  givesAcceleration: 0
+  acceleration: {x: 0, y: -5}
+  projectileName: Arrow Fast
   angle: 0
-  speed: 5
-  range: 40
+  speed: 10
+  range: 50
   angleVariation: 30

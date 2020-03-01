@@ -410,6 +410,11 @@ PrefabInstance:
       propertyPath: range
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 8369028700730925474, guid: 3590ce8a5c99a8549aa31e83bc17eaf7,
+        type: 3}
+      propertyPath: delay
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3590ce8a5c99a8549aa31e83bc17eaf7, type: 3}
 --- !u!4 &4551085776625312550 stripped
@@ -568,12 +573,17 @@ PrefabInstance:
     - target: {fileID: 8369028700730925474, guid: 3590ce8a5c99a8549aa31e83bc17eaf7,
         type: 3}
       propertyPath: delay
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8369028700730925474, guid: 3590ce8a5c99a8549aa31e83bc17eaf7,
         type: 3}
       propertyPath: range
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369028700730925474, guid: 3590ce8a5c99a8549aa31e83bc17eaf7,
+        type: 3}
+      propertyPath: initialCount
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3590ce8a5c99a8549aa31e83bc17eaf7, type: 3}
@@ -1045,6 +1055,11 @@ PrefabInstance:
       propertyPath: range
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 8369028700730925474, guid: 3590ce8a5c99a8549aa31e83bc17eaf7,
+        type: 3}
+      propertyPath: delay
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3590ce8a5c99a8549aa31e83bc17eaf7, type: 3}
 --- !u!4 &4551085777415699951 stripped
@@ -1128,7 +1143,7 @@ PrefabInstance:
     - target: {fileID: 8369028700730925474, guid: 3590ce8a5c99a8549aa31e83bc17eaf7,
         type: 3}
       propertyPath: delay
-      value: 3.3
+      value: 4.3
       objectReference: {fileID: 0}
     - target: {fileID: 8369028700730925474, guid: 3590ce8a5c99a8549aa31e83bc17eaf7,
         type: 3}
@@ -1298,7 +1313,7 @@ PrefabInstance:
     - target: {fileID: 8369028700730925474, guid: 3590ce8a5c99a8549aa31e83bc17eaf7,
         type: 3}
       propertyPath: delay
-      value: 2.4
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 8369028700730925474, guid: 3590ce8a5c99a8549aa31e83bc17eaf7,
         type: 3}
