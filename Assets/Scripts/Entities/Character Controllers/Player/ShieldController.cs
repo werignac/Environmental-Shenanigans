@@ -96,7 +96,7 @@ public class ShieldController : MonoBehaviour
 
     private void changeTailColor(bool on)
     {
-        SpriteRenderer child = headColor.transform.GetChild(0).GetComponent<SpriteRenderer>();
+        SpriteRenderer child = headColor;
 
         while (child.transform.childCount > 1)
         {
