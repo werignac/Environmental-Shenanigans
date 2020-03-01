@@ -169,7 +169,7 @@ public class CarBoss : MonoBehaviour
                     if(projectileCount >= pollutionDifferance)
                     {
                         pollutionRight.GetComponent<ProjectileShooterAbstract>().ShootProjectile();
-                        for(int i = 0; i < dynamites.Length / 2; ++i)
+                        for(int i = 0; i < dynamites.Length / 4; ++i)
                         {
                             dynamites[Random.Range(0, dynamites.Length)].GetComponent<ProjectileShooterAbstract>().ShootProjectile();//Shoot two random dynamites when pollution is spewwed.
                         }
@@ -183,9 +183,9 @@ public class CarBoss : MonoBehaviour
                     if (projectileCount >= pollutionDifferance)
                     {
                         pollutionLeft.GetComponent<ProjectileShooterAbstract>().ShootProjectile();
-                        for (int i = 0; i < dynamites.Length; ++i)
+                        for (int i = 0; i < dynamites.Length / 2; ++i)
                         {
-                            dynamites[i].GetComponent<ProjectileShooterAbstract>().ShootProjectile();//Shoot all dynamites when pollution is spewwed.
+                            dynamites[Random.Range(0, dynamites.Length)].GetComponent<ProjectileShooterAbstract>().ShootProjectile();//Shoot all dynamites when pollution is spewwed.
                         }
                         projectileCount = 0;
                     }
