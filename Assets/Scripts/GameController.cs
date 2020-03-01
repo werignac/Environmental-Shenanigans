@@ -64,6 +64,11 @@ public class GameController : MonoBehaviour
         {
             Data.fightingBoss = true;//Set fighting boss such that boss music starts playing.
         }
+        if (Data.healthPack)
+        {
+            GameObject hP = Instantiate(Resources.Load<GameObject>("Obstacles/HealthPack"), level.GetRoom(level.RoomNum - 1).GetSpawnPoint(), new Quaternion());
+            hP.GetComponent<HealthPack>().heal = 2;
+        }
         if (player.transform.position.y < -50)
         {
             //Respawn the player at the start of the room when the player falls off the bottom of the map.

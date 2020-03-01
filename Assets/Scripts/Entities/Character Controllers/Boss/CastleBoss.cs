@@ -118,19 +118,21 @@ public class CastleBoss : Enemy
         sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/StoneCrumble");
         sFXPlayer.Play();
         base.Damage();
-        if(health < maxHealth * 2 / 3 && phase == 0)
+        if(health <= maxHealth * 2 / 3 && phase == 0)
         {
             phase = 1;
             count = 0;
             projectileNumber = 0;
             animating = false;
+            Data.healthPack = true;
         }
-        if(health < maxHealth / 3 && phase == 1)
+        if(health <= maxHealth / 3 && phase == 1)
         {
             phase = 2;
             count = 0;
             projectileNumber = 0;
             animating = false;
+            Data.healthPack = true;
         }
     }
 }

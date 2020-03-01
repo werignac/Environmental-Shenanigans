@@ -17,6 +17,7 @@ public static class Data
     public static int playerJumps;
     public static int playerDashes;
     public static bool fightingBoss;
+    public static bool healthPack;
 
     public static void LoadRoomDatas()
     {
