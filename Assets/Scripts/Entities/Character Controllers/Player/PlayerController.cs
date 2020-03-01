@@ -107,6 +107,8 @@ public class PlayerController : MonoBehaviour
                 canGlide = data.canGlide;
             }
         }
+        accelCoeff.x *= 60;
+        glideCoeff *= 60;
     }
 
     /// <summary>
@@ -230,7 +232,7 @@ public class PlayerController : MonoBehaviour
 
         if (canGlide && rigid.velocity.y < 0  && Mathf.Abs(rigid.velocity.x) > 0 && vertical == 0 && v > 0)//Enable gliding if the player is moving down, and horizontally and they're pressing up.
         {
-            vertical = v * rigid.velocity.y * glideCoeff * (Physics.gravity.y * rigid.mass);
+            vertical = v * rigid.velocity.y * glideCoeff * (Physics.gravity.y * rigid.mass) * Time.deltaTime;
             if (! hasGlided)
             {
                 bodyAnim.Play(glideAnimationName);
@@ -292,7 +294,7 @@ public class PlayerController : MonoBehaviour
         {
             vertical *= Mathf.Pow(maxSpeedY - Mathf.Abs(ySpeed), 0.1f);
         }
-        rigid.AddForce(new Vector2(horizontal * accelCoeff.x, vertical * accelCoeff.y));
+        rigid.AddForce(new Vector2(horizontal * accelCoeff.x * Time.deltaTime, vertical * accelCoeff.y));
 
         /*Old movement method
         float currentSpeed = rigid.velocity.x;
