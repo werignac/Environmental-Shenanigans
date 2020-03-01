@@ -342,10 +342,14 @@ MonoBehaviour:
   dashSpeedY: 0
   mass: 0
   canGlide: 0
+  dashInterval: 0.8
   body: {fileID: 4300337018736908943}
   bodyAnim: {fileID: 4300337020009885483}
   sFXPlayer: {fileID: 4300337020420672055}
   idleAnimationName: birdIdleAnimation
+  jumpAnimationName: birdJumpAnimation
+  dashAnimationName: lizardDashAnimation
+  glideAnimationName: flyingSquirrelGlide
 --- !u!70 &4300337020420672040
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -470,7 +474,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1af91f0162a5bdf4b8c70c8c390cece4, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.15
+  m_Volume: 0.08
   m_Pitch: 1
   Loop: 0
   Mute: 0

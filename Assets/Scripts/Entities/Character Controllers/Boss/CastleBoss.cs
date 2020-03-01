@@ -21,6 +21,7 @@ public class CastleBoss : Enemy
     public float cannonAnimationEnd;
     public float trebuchetAnimationStart;
     private bool animating;
+    public AudioSource sFXPlayer;
 
     public override void Move()
     {
@@ -32,7 +33,7 @@ public class CastleBoss : Enemy
                 float archerCount = count - archerDelay;
                 if (archerCount / archerDifference > archers.Length - 1)
                 {
-                    while(projectileNumber < archers.Length)
+                    while (projectileNumber < archers.Length)
                     {
                         archers[projectileNumber].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                         ++projectileNumber;
@@ -88,6 +89,8 @@ public class CastleBoss : Enemy
             {
                 animator.SetTrigger("Attack2");
                 animating = true;
+                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/TrebuchetWoosh");
+                sFXPlayer.Play();
             }
             if (count >= trebuchetDelay)
             {
