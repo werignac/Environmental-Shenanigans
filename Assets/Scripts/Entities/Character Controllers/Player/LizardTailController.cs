@@ -36,7 +36,6 @@ public class LizardTailController : MonoBehaviour
     //Set curve based on the angle the shield is pointing in.
     private void GetCurve(float radius, float theta)
     {
-        Debug.Log(theta);
         bool isNegative = theta > Mathf.PI;
         if (isNegative)
         {
