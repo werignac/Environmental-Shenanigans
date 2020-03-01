@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class HealthPack : MonoBehaviour
 {
-    public int heal;
+    public int heal;//How much to heal.
 }

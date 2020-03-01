@@ -13,7 +13,7 @@ public class Level
         int nextRoom = rooms[0].NextRoom;
         for(int i = 1; i < numRooms - 1; ++i)
         {
-            rooms[i] = Data.GetRoom(nextRoom);
+            rooms[i] = Data.GetRoom(nextRoom);//Spawn rooms based on previous rooms next room type.
             nextRoom = rooms[i].NextRoom;
         }
         float pos = 0;
@@ -30,7 +30,7 @@ public class Level
             if(healthCount <= 0)
             {
                 healthCount = Random.Range(2, 5);
-                rooms[i].HealthRoom();
+                rooms[i].HealthRoom();//Set a room to have a health pack.
             }
             else
             {
@@ -46,6 +46,8 @@ public class Level
     {
         return (rooms[pos]);
     }
+
+    //Destroy all room models.
     public void Destroy()
     {
         for(int i = 0; i < rooms.Length; ++i)

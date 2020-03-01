@@ -16,20 +16,20 @@ public class CarBoss : MonoBehaviour
     private int projectileNumber;
     private bool animating;
     public GameObject[] dynamites;
-    public float dynamiteDelay;
-    public float dynamiteDifferance;
-    public float pollutionDifferance;
-    public float jumpDuration;
-    private float jumpDestination;
-    public float jumpHeight;
-    private float endHeight;
-    private float jumpStart;
-    public float revTime;
-    public float driveTime;
-    public float driveDistance;
+    public float dynamiteDelay;//Time before first dynamite is shot.
+    public float dynamiteDifferance;//Time between dynamite shots.
+    public float pollutionDifferance;//Time between pollution spewwing.
+    public float jumpDuration;//How long the car jumps for.
+    private float jumpDestination;//Stores where the car tries to land.
+    public float jumpHeight;//How high the car jumps.
+    private float endHeight;//Stores height of car destination.
+    private float jumpStart;//Stores original jump x Position.
+    public float revTime;//How long the car revvs up.
+    public float driveTime;//How long it takes for the car to drive across the screen.
+    public float driveDistance;//How far the car drives.
     private float projectileCount;
-    public float jumpDelay;
-    private float startX;
+    public float jumpDelay;//Time before first car jump, and in between each jump.
+    private float startX;//Initial x position which car returns to before driving.
 
     // Start is called before the first frame update
     void Start()
@@ -71,7 +71,7 @@ public class CarBoss : MonoBehaviour
                 float dynamiteCount = count - dynamiteDelay;
                 if (dynamiteCount / dynamiteDifferance > dynamites.Length - 1)
                 {
-                    while (projectileNumber < dynamites.Length)
+                    while (projectileNumber < dynamites.Length)//Fire any dynamite that hasn't been fired.
                     {
                         dynamites[projectileNumber].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                         ++projectileNumber;
@@ -83,6 +83,7 @@ public class CarBoss : MonoBehaviour
                 {
                     if (dynamiteCount / dynamiteDifferance >= projectileNumber)
                     {
+                        //Fire dynamite.
                         dynamites[projectileNumber].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                         ++projectileNumber;
                     }
@@ -104,17 +105,18 @@ public class CarBoss : MonoBehaviour
                     jumpDestination = Data.playerPos.x;
                     jumpStart = transform.position.x;
                 }
-                if (jumpCount <= jumpDuration * 2 / 3)
+                if (jumpCount <= jumpDuration * 2 / 3)//Jump up for 2/3rd of the time.
                 {
                     transform.Translate((jumpDestination - jumpStart) * Time.deltaTime / jumpDuration, jumpHeight * Time.deltaTime / (jumpDuration  * 2 / 3), 0);
                 }
-                else if (jumpCount <= jumpDuration)
+                else if (jumpCount <= jumpDuration)//Fall down for 1/3rd of the time.
                 {
                     transform.Translate((jumpDestination - jumpStart) * Time.deltaTime / jumpDuration, jumpHeight * Time.deltaTime / (jumpDuration / -3), 0);
                 }
                 else
                 {
                     transform.position = new Vector3(jumpDestination, endHeight);
+                    //Shoot out oil when landing.
                     oilLeft.GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                     oilRight.GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                     count = 0;
@@ -135,12 +137,12 @@ public class CarBoss : MonoBehaviour
             {
                 if (!animating)
                 {
-                    animator.SetTrigger("Drive");
+                    animator.SetTrigger("Drive");//Start drive animation when we start moving.
                     animating = true;
                 }
                 projectileCount += Time.deltaTime;
                 float revCount = count - revTime;
-                if (revCount <= driveTime)
+                if (revCount <= driveTime)//Move left for the duration.
                 {
                     transform.Translate(-1 * driveDistance * Time.deltaTime / driveTime, 0, 0);
                     if(projectileCount >= pollutionDifferance)
@@ -148,12 +150,12 @@ public class CarBoss : MonoBehaviour
                         pollutionRight.GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                         for(int i = 0; i < dynamites.Length / 2; ++i)
                         {
-                            dynamites[Random.Range(0, dynamites.Length)].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
+                            dynamites[Random.Range(0, dynamites.Length)].GetComponent<ProjectileShooterAbstract>().ShootProjectile();//Shoot two random dynamites when pollution is spewwed.
                         }
                         projectileCount = 0;
                     }
                 }
-                else if(revCount <= driveTime * 2)
+                else if(revCount <= driveTime * 2)//Move right for the duration.
                 {
                     transform.rotation = Quaternion.Euler(0, 180, 0);
                     transform.Translate(-1 * driveDistance * Time.deltaTime / driveTime, 0, 0);
@@ -162,7 +164,7 @@ public class CarBoss : MonoBehaviour
                         pollutionLeft.GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                         for (int i = 0; i < dynamites.Length; ++i)
                         {
-                            dynamites[i].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
+                            dynamites[i].GetComponent<ProjectileShooterAbstract>().ShootProjectile();//Shoot all dynamites when pollution is spewwed.
                         }
                         projectileCount = 0;
                     }
@@ -174,7 +176,7 @@ public class CarBoss : MonoBehaviour
                     {
                         dynamites[i].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                     }
-                    transform.rotation = Quaternion.Euler(0, 0, 0);
+                    transform.rotation = Quaternion.Euler(0, 0, 0);//Rotate back to the left.
                     transform.position = new Vector3(startX, endHeight, 0);
                     projectileCount = 0;
                     count = 0;

@@ -34,6 +34,7 @@ public abstract class ProjectileShooterAbstract : MonoBehaviour
         }
     }
 
+    //Play the sound effect, and the animation, if they exist.
     public virtual void ShootProjectile()
     {
         if (sFXPlayer != null)

@@ -17,6 +17,7 @@ public class BossHealthPoints : HealthPoints
         currentHealth = healthIntervals;
     }
 
+    //When boss takes damage reduce size of heart possible to zero.
     public new void RemoveHitPoint()
     {
         currentHealth--;

@@ -44,7 +44,7 @@ public class CastleBoss : Enemy
                 }
                 else
                 {
-                    if (archerCount / archerDifference >= projectileNumber)
+                    if (archerCount / archerDifference >= projectileNumber)//Fire an arrow every archerDifference seconds.
                     {
                         archers[projectileNumber].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                         ++projectileNumber;
@@ -57,14 +57,14 @@ public class CastleBoss : Enemy
             if(count >= cannonAnimationStart && !animating)
             {
                 animator.SetTrigger("Attack1");
-                animating = true;
+                animating = true;//Set this so the animation doesn't loop and get offset.
             }
             if (count >= cannonDelay)
             {
                 float cannonCount = count - cannonDelay;
                 if (cannonCount / cannonDifference > cannons.Length - 1 && count >= cannonAnimationEnd)
                 {
-                    while(projectileNumber < cannons.Length)
+                    while(projectileNumber < cannons.Length)//Fire any cannonball not fired yet, to ensure all three fire.
                     {
                         cannons[projectileNumber].GetComponentInChildren<ProjectileShooterAbstract>().ShootProjectile();
                         ++projectileNumber;
@@ -75,7 +75,7 @@ public class CastleBoss : Enemy
                 }
                 else
                 {
-                    if (cannonCount / cannonDifference >= projectileNumber && projectileNumber < cannons.Length)
+                    if (cannonCount / cannonDifference >= projectileNumber && projectileNumber < cannons.Length)//Fire one cannonball every cannonDifference.
                     {
                         cannons[projectileNumber].GetComponentInChildren<ProjectileShooterAbstract>().ShootProjectile();
                         ++projectileNumber;
@@ -102,7 +102,7 @@ public class CastleBoss : Enemy
                 }
                 for(int i = 0; i < trebuchetBullets; ++i)
                 {
-                    int num = nums[Random.Range(0, nums.Count)];
+                    int num = nums[Random.Range(0, nums.Count)];//Chose a random Trebuchet dropper to trigger.
                     trebuchet[num].GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                     nums.Remove(num);
                     archers[Random.Range(0, archers.Length)].GetComponent<ProjectileShooterAbstract>().ShootProjectile();

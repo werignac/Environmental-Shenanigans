@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HomingProjectile : AcceleratingProjectileController
 {
-    private float accelerationMag;
+    private float accelerationMag;//How fast it accelerates.
     private Transform target;
     public float targetDist;
 
@@ -17,7 +17,7 @@ public class HomingProjectile : AcceleratingProjectileController
 
     public override void OnUpdate()
     {
-        if (getDistance() < targetDist)
+        if (getDistance() < targetDist)//If it hasn't traveled the target distance yet it accelerates towards player, otherwise it maintains speed.
         {
             Vector2 difference = target.position - transform.position;
             float ratio = accelerationMag / difference.magnitude;

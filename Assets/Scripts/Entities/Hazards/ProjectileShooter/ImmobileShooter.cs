@@ -14,6 +14,7 @@ public class ImmobileShooter : ProjectileShooterAbstract
         return;
     }
 
+    //Shoots a projectile towards the angle given. 0 degrees is straight right. 90 degrees is straight up.
     public override void ShootProjectile()
     {
         base.ShootProjectile();
