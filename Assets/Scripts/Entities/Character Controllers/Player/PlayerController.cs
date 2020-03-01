@@ -132,12 +132,18 @@ public class PlayerController : MonoBehaviour
             if (horizontal > 0)
             {
                 mirrorScale.x = Mathf.Abs(mirrorScale.x);
-                tail.SetFlip(false);
+                if (tail != null)
+                {
+                    tail.SetFlip(false);
+                }
             }
             else if (horizontal < 0)
             {
                 mirrorScale.x = -Mathf.Abs(mirrorScale.x);
-                tail.SetFlip(true);
+                if (tail != null)
+                {
+                    tail.SetFlip(true);
+                }
             }
             body.transform.localScale = mirrorScale;
         }
