@@ -24,10 +24,17 @@ public class CameraController : MonoBehaviour
             player = GameObject.FindGameObjectWithTag("Player");
         }
         transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
-        if (playingBossMusic == false && Data.fightingBoss)
+        if (!playingBossMusic && Data.fightingBoss)
         {
             playingBossMusic = true;
             bGM.clip = Resources.Load<AudioClip>("Sounds/CastleBossMusic");
+            bGM.loop = true;
+            bGM.Play();
+        }
+        if (playingBossMusic && !Data.fightingBoss)
+        {
+            playingBossMusic = false;
+            bGM.clip = Resources.Load<AudioClip>("Sounds/TestMainMenu");
             bGM.loop = true;
             bGM.Play();
         }

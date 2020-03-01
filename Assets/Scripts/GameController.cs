@@ -71,6 +71,7 @@ public class GameController : MonoBehaviour
             }
             else
             {
+                Data.fightingBoss = false;
                 level.Destroy();
                 level = new Level(Data.rooms, l * 10);
                 player.transform.position = new Vector3(0, 2);
