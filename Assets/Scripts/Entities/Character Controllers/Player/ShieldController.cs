@@ -78,11 +78,13 @@ public class ShieldController : MonoBehaviour
             if (timer <= 0)
             {
                 timer = 0;
-                headColor.color = new Color(255,255,255);
-                
-                if (headColor.transform.childCount > 0)
+                if (headColor.transform.childCount > 1)
                 {
-                    changeTailColor(new Color(255, 255, 255));
+                    changeTailColor(true);
+                }
+                else
+                {
+                    headColor.transform.GetChild(0).gameObject.SetActive(true);
                 }
             }
         }
@@ -92,17 +94,18 @@ public class ShieldController : MonoBehaviour
         }
     }
 
-    private void changeTailColor(Color c)
+    private void changeTailColor(bool on)
     {
         SpriteRenderer child = headColor.transform.GetChild(0).GetComponent<SpriteRenderer>();
 
-        while (child.transform.childCount > 0)
+        while (child.transform.childCount > 1)
         {
-            child.color = c;
+            GameObject glow = child.transform.GetChild(1).gameObject;
+            glow.SetActive(on);
 
             child = child.transform.GetChild(0).GetComponent<SpriteRenderer>();
         }
-        child.color = c;
+        child.transform.GetChild(0).gameObject.SetActive(on);
     }
 
     /// <summary>
@@ -164,10 +167,13 @@ public class ShieldController : MonoBehaviour
                     }
                 }
 
-                headColor.color = new Color(0, 0, 255);
-                if (headColor.transform.childCount > 0)
+                if (headColor.transform.childCount > 1)
                 {
-                    changeTailColor(new Color(0, 0, 255));
+                    changeTailColor(false);
+                }
+                else
+                {
+                    headColor.transform.GetChild(0).gameObject.SetActive(false);
                 }
             }
         }
