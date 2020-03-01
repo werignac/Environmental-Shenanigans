@@ -1343,6 +1343,7 @@ MonoBehaviour:
   dashAnimationName: flyingSquirrelDash
   glideAnimationName: flyingSquirrelGlide
   glideCoeff: 0.002
+  tail: {fileID: 9143226830418561949}
 --- !u!70 &4143904196803744126
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

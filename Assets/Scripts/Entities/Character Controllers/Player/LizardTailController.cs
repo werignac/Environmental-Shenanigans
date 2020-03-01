@@ -10,6 +10,8 @@ public class LizardTailController : MonoBehaviour
     public float radius;
     public float innerMultiply;
 
+    private bool flipped;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,13 +24,29 @@ public class LizardTailController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Sets whether the tail is flipped or not.
+    /// </summary>
+    /// <param name="b">Whether the tail is flipped or not.</param>
+    public void SetFlip(bool b)
+    {
+        flipped = b;
+    }
+
     //Set curve based on the angle the shield is pointing in.
     private void GetCurve(float radius, float theta)
     {
+        Debug.Log(theta);
         bool isNegative = theta > Mathf.PI;
         if (isNegative)
         {
             theta = theta - 2 * (theta - Mathf.PI);
+        }
+
+        if (theta < 0)
+        {
+            theta *= -1;
+            isNegative = true;
         }
 
         float innerCoef = Mathf.Pow(0.460421f, theta + 0.827743f) + 0.368267f;
@@ -57,6 +75,11 @@ public class LizardTailController : MonoBehaviour
 
             float slopeAngle = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
 
+            if (flipped)
+            {
+                slopeAngle = 180 - slopeAngle;
+            }
+
             if (isNegative)
             {
                 slopeAngle *= -1;
@@ -68,6 +91,13 @@ public class LizardTailController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetCurve(radius , copyRot.eulerAngles.z*Mathf.Deg2Rad);
+        float theta = copyRot.eulerAngles.z * Mathf.Deg2Rad;
+
+        if (flipped)
+        {
+            theta = Mathf.PI - theta;
+        }
+
+        GetCurve(radius , theta);
     }
 }
