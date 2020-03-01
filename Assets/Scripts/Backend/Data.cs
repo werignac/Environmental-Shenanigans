@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
+/// <summary>
+/// This is where we store data from files, and between scenes.
+/// </summary>
 public static class Data
 {
     private static Room[] roomDatas;
