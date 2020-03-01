@@ -532,8 +532,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.0487165, y: -26}
-  m_SizeDelta: {x: 444.1, y: 200}
+  m_AnchoredPosition: {x: -2.0487165, y: -10}
+  m_SizeDelta: {x: 444.1, y: 259.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &242400199
 MonoBehaviour:
@@ -3223,7 +3223,7 @@ GameObject:
   - component: {fileID: 1282270297}
   - component: {fileID: 1282270296}
   m_Layer: 5
-  m_Name: Image (4)
+  m_Name: SoundSlide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

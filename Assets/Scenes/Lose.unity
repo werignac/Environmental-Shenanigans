@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Humnaity Won, for now...
+  m_Text: Humanity won, for now...
 --- !u!222 &711082408
 CanvasRenderer:
   m_ObjectHideFlags: 0
