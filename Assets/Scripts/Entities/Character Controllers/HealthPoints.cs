@@ -35,9 +35,13 @@ public abstract class HealthPoints : MonoBehaviour
     {
         hitPoints = new GameObject[transform.childCount];
         int i = 0;
+        float xPos = -Camera.main.orthographicSize * Screen.width / Screen.height;
         foreach (Transform child in transform)
         {
             hitPoints[i] = child.gameObject;
+            xPos += hitPoints[i].GetComponent<SpriteRenderer>().bounds.size.x / 2;
+            hitPoints[i].transform.position = new Vector3(xPos, hitPoints[i].transform.position.y);
+            xPos += hitPoints[i].GetComponent<SpriteRenderer>().bounds.size.x / 2;
             i++;
         }
         divider = hitPoints.Length - 1 - startDamage;

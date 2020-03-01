@@ -11,9 +11,13 @@ public class DashDisplay : MonoBehaviour
     {
         dashDisplays = new GameObject[transform.childCount];
         int i = 0;
+        float xPos = Camera.main.orthographicSize * Screen.width / Screen.height;
         foreach (Transform child in transform)
         {
             dashDisplays[i] = child.gameObject;
+            xPos -= dashDisplays[i].GetComponent<SpriteRenderer>().bounds.size.x / 2;
+            dashDisplays[i].transform.position = new Vector3(xPos, dashDisplays[i].transform.position.y);
+            xPos -= dashDisplays[i].GetComponent<SpriteRenderer>().bounds.size.x / 2;
             child.gameObject.SetActive(false);
             i++;
         }

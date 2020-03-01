@@ -11,9 +11,13 @@ public class JumpDisplay : MonoBehaviour
     {
         jumpDisplays = new GameObject[transform.childCount];
         int i = 0;
+        float xPos = Camera.main.orthographicSize * Screen.width / Screen.height;
         foreach (Transform child in transform)
         {
             jumpDisplays[i] = child.gameObject;
+            xPos -= jumpDisplays[i].GetComponent<SpriteRenderer>().bounds.size.x / 2;
+            jumpDisplays[i].transform.position = new Vector3(xPos, jumpDisplays[i].transform.position.y);
+            xPos -= jumpDisplays[i].GetComponent<SpriteRenderer>().bounds.size.x / 2;
             i++;
         }
     }
