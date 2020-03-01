@@ -11,6 +11,7 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         playingBossMusic = false;
+        Data.fightingBoss = false;
         bGM.clip = Resources.Load<AudioClip>("Sounds/TestMainMenu");
         bGM.loop = true;
         bGM.Play();
