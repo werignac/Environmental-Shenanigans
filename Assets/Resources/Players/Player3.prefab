@@ -922,6 +922,7 @@ MonoBehaviour:
   jumpAnimationName: flyingSquirrelJump
   dashAnimationName: flyingSquirrelDash
   glideAnimationName: flyingSquirrelGlide
+  glideCoeff: 0.002
 --- !u!70 &4143904196803744126
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

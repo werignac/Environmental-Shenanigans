@@ -63,6 +63,8 @@ public class PlayerController : MonoBehaviour
 
     private bool hasGlided;
 
+    public float glideCoeff = 0.005f;
+
     public enum CharacterType
     {
         TESTING = 0,
@@ -228,7 +230,7 @@ public class PlayerController : MonoBehaviour
 
         if (canGlide && rigid.velocity.y < 0  && Mathf.Abs(rigid.velocity.x) > 0 && vertical == 0 && v > 0)//Enable gliding if the player is moving down, and horizontally and they're pressing up.
         {
-            vertical = v * -0.005f * (Physics.gravity.y * rigid.mass);
+            vertical = v * rigid.velocity.y * glideCoeff * (Physics.gravity.y * rigid.mass);
             if (! hasGlided)
             {
                 bodyAnim.Play(glideAnimationName);
