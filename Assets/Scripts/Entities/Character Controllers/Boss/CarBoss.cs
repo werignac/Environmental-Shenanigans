@@ -135,11 +135,15 @@ public class CarBoss : MonoBehaviour
                 jumpStart = transform.position.x;
                 jumpDestination = transform.position.x;
                 animator.SetTrigger("Rev");
+                sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/CarStall");
+                sFXPlayer.Play();
             }
             if (count >= revTime)
             {
                 if (!animating)
                 {
+                    sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/CarRev");
+                    sFXPlayer.Play();
                     animator.SetTrigger("Drive");//Start drive animation when we start moving.
                     animating = true;
                 }
