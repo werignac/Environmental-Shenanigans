@@ -93,6 +93,11 @@ public class CarBoss : MonoBehaviour
         {
             if (count >= jumpDelay)
             {
+                if (!animating)
+                {
+                    animator.SetTrigger("Jump");
+                    animating = true;
+                }
                 float jumpCount = count - jumpDelay;
                 if (jumpDestination == -1)
                 {
@@ -114,6 +119,7 @@ public class CarBoss : MonoBehaviour
                     oilRight.GetComponent<ProjectileShooterAbstract>().ShootProjectile();
                     count = 0;
                     jumpDestination = -1;
+                    animating = false;
                 }
             }
         }
@@ -123,9 +129,15 @@ public class CarBoss : MonoBehaviour
             {
                 jumpStart = transform.position.x;
                 jumpDestination = transform.position.x;
+                animator.SetTrigger("Rev");
             }
             if (count >= revTime)
             {
+                if (!animating)
+                {
+                    animator.SetTrigger("Drive");
+                    animating = true;
+                }
                 projectileCount += Time.deltaTime;
                 float revCount = count - revTime;
                 if (revCount <= driveTime)
@@ -168,6 +180,7 @@ public class CarBoss : MonoBehaviour
                     count = 0;
                     jumpDestination = -1;
                     jumpStart = -1;
+                    animating = false;
                 }
             }
         }
