@@ -52,6 +52,10 @@ public class GameController : MonoBehaviour
             }
             pos += room.Width;
         }
+        if(r == level.RoomNum - 1)
+        {
+            Data.fightingBoss = true;
+        }
         if (player.transform.position.y < -50)
         {
             player.transform.position = level.GetRoom(r).GetSpawnPoint();
