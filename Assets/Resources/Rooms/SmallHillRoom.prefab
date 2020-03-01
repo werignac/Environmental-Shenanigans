@@ -262,11 +262,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1651489308}
     m_Modifications:
-    - target: {fileID: 1002156763385092672, guid: c969e70d46e57e841811471761278963,
-        type: 3}
-      propertyPath: m_Name
-      value: HealthPack
-      objectReference: {fileID: 0}
     - target: {fileID: 1002156763385092674, guid: c969e70d46e57e841811471761278963,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -321,6 +316,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002156763385092672, guid: c969e70d46e57e841811471761278963,
+        type: 3}
+      propertyPath: m_Name
+      value: HealthPack
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c969e70d46e57e841811471761278963, type: 3}
@@ -549,6 +549,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 2e9e06f503fc66340814d2410b656b0b,
         type: 3}
+    - target: {fileID: 6441288891301897640, guid: 551d2479b5d0c494b911dad984273c7c,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6441288891301897640, guid: 551d2479b5d0c494b911dad984273c7c,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 300141925
+      objectReference: {fileID: 0}
+    - target: {fileID: 6441288891301897640, guid: 551d2479b5d0c494b911dad984273c7c,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 551d2479b5d0c494b911dad984273c7c, type: 3}
 --- !u!4 &6369864308524603317 stripped
