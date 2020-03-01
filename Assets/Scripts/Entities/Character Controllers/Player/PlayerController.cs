@@ -244,6 +244,11 @@ public class PlayerController : MonoBehaviour
         }
 
         Move(horizontal, vertical);
+        if (onGround)
+        {
+            numJumps = 0;
+            numDash = 0;
+        }
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);
         Data.playerJumps = maxJumps - numJumps;
         Data.playerDashes = maxDash - numDash;
