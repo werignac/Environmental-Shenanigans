@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     public GameObject player;
     public HealthPoints playerHealth;
     private int l;
+    public GameObject[] backdrops;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,11 @@ public class GameController : MonoBehaviour
             player.GetComponentInChildren<HitArea>().healthPoints = playerHealth;
         }
         level = new Level(Data.rooms, 0);
+        backdrops[0].SetActive(true);
+        for(int i = 1; i < backdrops.Length; ++i)
+        {
+            backdrops[i].SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -64,6 +70,7 @@ public class GameController : MonoBehaviour
         }
         if (player.transform.position.x > level.GetRoom(0).Width && r == 0)
         {
+            backdrops[l].SetActive(false);
             ++l;
             if (l >= 2)
             {
@@ -71,6 +78,7 @@ public class GameController : MonoBehaviour
             }
             else
             {
+                backdrops[l].SetActive(true);
                 Data.fightingBoss = false;
                 level.Destroy();
                 level = new Level(Data.rooms, l * 10);

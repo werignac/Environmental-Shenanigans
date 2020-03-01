@@ -154,7 +154,7 @@ public class PlayerController : MonoBehaviour
         {
             v = 0;
         }
-        if(v <= 0 || v < prevVert - 0.05)
+        if(v <= 0 || v < prevVert - 0.005)
         {
             releaseJump = true;
             if (numJumps < maxJumps)
