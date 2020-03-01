@@ -53,5 +53,5 @@ MonoBehaviour:
   projectileName: Trebuchet Ammo
   angle: -90
   speed: 1
-  range: 30
+  range: 50
   angleVariation: 0
