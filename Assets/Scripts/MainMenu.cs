@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Data.rooms = 15;
+        Data.rooms = 2;
     }
 
     // Update is called once per frame
