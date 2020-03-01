@@ -23,7 +23,8 @@ public class CameraController : MonoBehaviour
         {
             player = GameObject.FindGameObjectWithTag("Player");
         }
-        transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
+        transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);//Camera follows player.
+        //Switch between boss music and not boss music.
         if (!playingBossMusic && Data.fightingBoss)
         {
             playingBossMusic = true;

@@ -18,7 +18,7 @@ public class LoseControl : MonoBehaviour
         --count;
         if(count <= 0)
         {
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("MainMenu");//Return to main menu after 300 frames.
         }
     }
 }

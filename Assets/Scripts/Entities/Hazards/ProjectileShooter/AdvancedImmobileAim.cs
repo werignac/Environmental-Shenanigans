@@ -10,7 +10,7 @@ public class AdvancedImmobileAim : ImmobileShooter
     {
         float x = Data.playerPos.x - transform.position.x;
         float y = Data.playerPos.y - transform.position.y;
-        if (!accelerating)
+        if (!accelerating)//If projectile doesn't accelerate, fire directly at player.
         {
             angle = Mathf.Rad2Deg * Mathf.Atan((Data.playerPos.y - transform.position.y) / (Data.playerPos.x - transform.position.x));
             if (Data.playerPos.x < transform.position.x)
@@ -30,20 +30,20 @@ public class AdvancedImmobileAim : ImmobileShooter
                 }
             }
             else angle = 90;*/
-            if (Mathf.Abs(x * accelerate) > Mathf.Abs(Mathf.Pow(speed, 2)))
+            if (Mathf.Abs(x * accelerate) > Mathf.Abs(Mathf.Pow(speed, 2)))//When the player is too far away to hit it fires up at a 45 degree angle for maximum distance.
             {
                 angle = 45;
             }
             else
             {
-                angle = Mathf.Rad2Deg * Mathf.Asin(x * accelerate / Mathf.Pow(speed, 2));
+                angle = Mathf.Rad2Deg * Mathf.Asin(x * accelerate / Mathf.Pow(speed, 2)); //This is using the range equation, assuming the player is at the same height as the projectile shooter.
             }
             if(Data.playerPos.x < transform.position.x)
             {
                 angle += 90;
             }
         }
-        angle += Random.Range(angleVariation * -1, angleVariation);
+        angle += Random.Range(angleVariation * -1, angleVariation);//Use angle variation for more interesting fights, where you don't just stand still and point at the boss.
         base.ShootProjectile();
     }
 
