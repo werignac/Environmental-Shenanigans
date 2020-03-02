@@ -567,7 +567,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sound Sources:'
+  m_Text: 'Sound Sources:
+
+    https://rhythm-lab.com/filtered/
+
+    https://theproaudiofiles.com/free-sample-pack/
+
+    http://www.boxedear.com/free.html
+
+    https://cymatics.fm/pages/free-download-vault
+
+    FL Studio 20''s sound generators
+
+    Edited personal recordings'
 --- !u!222 &242400200
 CanvasRenderer:
   m_ObjectHideFlags: 0
