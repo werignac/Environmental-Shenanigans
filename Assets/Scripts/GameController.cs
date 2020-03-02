@@ -70,14 +70,9 @@ public class GameController : MonoBehaviour
             hP.GetComponent<HealthPack>().heal = 2;
             Data.healthPack = false;
         }
-        if (r == 0)
-        {
-            Debug.Log("Why is r zero when the x pos is " + player.transform.position.x + "?");
-        }
         if (player.transform.position.y < -50)
         {
             //Respawn the player at the start of the room when the player falls off the bottom of the map.
-            Debug.Log(r);
             player.transform.position = level.GetRoom(r).GetSpawnPoint();
             player.GetComponent<Rigidbody2D>().velocity = new Vector2();
             player.GetComponentInChildren<HitArea>().Damage();
