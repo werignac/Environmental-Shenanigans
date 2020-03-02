@@ -15,9 +15,23 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="shield.svg">
+   sodipodi:docname="shield.svg"
+   inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Characters\shield.png"
+   inkscape:export-xdpi="700"
+   inkscape:export-ydpi="700">
   <defs
      id="defs4">
+    <linearGradient
+       id="linearGradient4120">
+      <stop
+         style="stop-color:#56d45f;stop-opacity:1;"
+         offset="0"
+         id="stop4122" />
+      <stop
+         style="stop-color:#06cc15;stop-opacity:0;"
+         offset="1"
+         id="stop4124" />
+    </linearGradient>
     <linearGradient
        id="linearGradient3777">
       <stop
@@ -289,6 +303,16 @@
        y1="397.54974"
        x2="376.29263"
        y2="416.92856" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4120"
+       id="radialGradient4126"
+       cx="632.95612"
+       cy="150.3997"
+       fx="632.95612"
+       fy="150.3997"
+       r="111.76732"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -297,9 +321,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.5389499"
-     inkscape:cx="340.39223"
-     inkscape:cy="697.50228"
+     inkscape:zoom="0.88473747"
+     inkscape:cx="277.72134"
+     inkscape:cy="1010.3177"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -329,5 +353,17 @@
        d="m 368.45108,280.48683 -4.43422,4.24606 6.88626,-1.58463 c -0.7966,-0.89906 -1.61321,-1.78708 -2.45204,-2.66143 z m 4.52835,5.12414 -8.37871,1.90509 -2.97417,9.61352 6.87795,7.32074 9.7732,-2.21237 1.96182,-6.46602 c -2.15741,-3.51553 -4.57404,-6.90434 -7.26009,-10.16096 z m -11.14314,1.22009 -58.25728,55.9094 64.0995,63.02833 c 0.97357,-0.98984 1.91514,-2.00139 2.8338,-3.02364 l -0.76449,0.17265 -9.05219,-9.77026 3.65048,-11.9979 -7.6339,-8.1962 3.87692,-12.68645 -7.6339,-8.1962 3.9193,-12.74201 11.69978,-2.6411 2.81199,-9.26266 -8.45124,-9.08334 3.6096,-11.783 -8.07986,-8.69458 3.37149,-11.03304 z m 20.3467,12.269 -1.4155,4.59771 6.97154,7.49759 c -1.54644,-4.13071 -3.38047,-8.18128 -5.55604,-12.0953 z m -3.33296,6.65051 -9.77905,2.24307 -2.97417,9.61352 6.84141,7.3456 9.80974,-2.23723 2.94932,-9.65007 -6.84725,-7.31489 z m 10.06064,8.81695 -2.80031,9.20125 6.55044,7.03576 c -0.73551,-5.4883 -2.00094,-10.93022 -3.75013,-16.23701 z m -5.04663,11.47778 -9.78488,2.27377 -2.92012,9.49657 6.92183,7.42452 9.71181,-2.22405 2.91277,-9.62521 -6.84141,-7.3456 z m 9.3213,10.36225 -2.45557,8.05804 2.56315,2.7462 c 0.17891,-3.59724 0.14074,-7.21076 -0.10758,-10.80424 z m -24.41308,3.08531 -9.68111,2.22989 -2.94348,9.61937 6.84141,7.34559 9.80975,-2.23723 2.85872,-9.50825 -6.88529,-7.44937 z m 19.63947,6.79027 -9.77905,2.24307 -2.97418,9.61352 6.84141,7.3456 8.51318,-1.94313 c 0.96141,-4.07134 1.60888,-8.19511 1.99856,-12.34398 l -4.59992,-4.91508 z m -15.78455,14.0792 -9.77905,2.24307 -2.94347,9.61937 6.84141,7.3456 9.80974,-2.23723 2.91278,-9.62521 -6.84141,-7.3456 z m 17.60013,6.30685 -7.74869,1.77047 -2.97417,9.61353 4.51366,4.86686 c 2.61636,-5.24253 4.68205,-10.68652 6.2092,-16.25086 z m -13.61671,13.88725 -9.78489,2.27377 -2.97418,9.61352 6.87795,7.32074 2.89279,-0.65844 c 3.23751,-4.00954 6.06762,-8.24371 8.51087,-12.6319 l -5.52254,-5.91769 z"
        id="path2985"
        inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4126);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4118"
+       sodipodi:cx="632.95612"
+       sodipodi:cy="150.3997"
+       sodipodi:rx="110.76732"
+       sodipodi:ry="110.76732"
+       d="m 743.72343,150.3997 a 110.76732,110.76732 0 1 1 -221.53463,0 110.76732,110.76732 0 1 1 221.53463,0 z"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Characters\greenGlow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
   </g>
 </svg>
