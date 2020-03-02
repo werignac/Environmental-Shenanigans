@@ -148,12 +148,15 @@ MonoBehaviour:
   delay: 6
   initialCount: 0
   triggered: 0
-  sFXPlayer: {fileID: 0}
+  sFXPlayer: {fileID: 8001623476458869328}
   animator: {fileID: 2496970162337477847}
+  givesAcceleration: 0
+  acceleration: {x: 0, y: 0}
   projectileName: Cannonball
   angle: 180
   speed: 20
   range: 30
+  angleVariation: 0
 --- !u!82 &8001623476458869328
 AudioSource:
   m_ObjectHideFlags: 0
@@ -164,9 +167,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: be077a282f6c2484eb34d98109504e3b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a0d54c8bf6a80a6479428146bfba27c8, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.499
+  m_Volume: 0.681
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -175,7 +178,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 200
+  MaxDistance: 100
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
