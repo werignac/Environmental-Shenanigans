@@ -14,7 +14,7 @@
    height="1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="balcony.svg">
   <defs
      id="defs4">
@@ -176,15 +176,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="379.25391"
-     inkscape:cy="548.67433"
+     inkscape:cx="188.41213"
+     inkscape:cy="751.94817"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="987"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -194,7 +194,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -232,7 +232,7 @@
        inkscape:export-ydpi="700" />
     <g
        id="g3820"
-       transform="translate(136.3706,0)"
+       transform="translate(136.3706,-2)"
        inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
        inkscape:export-xdpi="700"
        inkscape:export-ydpi="700">
@@ -242,17 +242,17 @@
          height="88.74514"
          width="8.4580078"
          id="rect3785-7-0-9"
-         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
          id="rect4369"
-         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 l 4.83298,0 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 l 0,12.02876 -12.02877,0 z"
-         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 h 4.83298 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 v 12.02876 h -12.02877 z"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
        id="g3820-7"
-       transform="translate(205.06097,0)"
+       transform="translate(205.06097,-2)"
        inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
        inkscape:export-xdpi="700"
        inkscape:export-ydpi="700">
@@ -262,17 +262,17 @@
          height="88.74514"
          width="8.4580078"
          id="rect3785-7-0-9-4"
-         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
          id="rect4369-0"
-         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 l 4.83298,0 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 l 0,12.02876 -12.02877,0 z"
-         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 h 4.83298 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 v 12.02876 h -12.02877 z"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
        id="g3820-9"
-       transform="translate(273.75135,0)"
+       transform="translate(273.75135,-2)"
        inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
        inkscape:export-xdpi="700"
        inkscape:export-ydpi="700">
@@ -282,17 +282,17 @@
          height="88.74514"
          width="8.4580078"
          id="rect3785-7-0-9-48"
-         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
          id="rect4369-8"
-         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 l 4.83298,0 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 l 0,12.02876 -12.02877,0 z"
-         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 h 4.83298 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 v 12.02876 h -12.02877 z"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
        id="g3820-2"
-       transform="translate(1.6885499,0)"
+       transform="translate(1.6885499,-2)"
        inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
        inkscape:export-xdpi="700"
        inkscape:export-ydpi="700">
@@ -302,17 +302,17 @@
          height="88.74514"
          width="8.4580078"
          id="rect3785-7-0-9-45"
-         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
          id="rect4369-5"
-         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 l 4.83298,0 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 l 0,12.02876 -12.02877,0 z"
-         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 h 4.83298 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 v 12.02876 h -12.02877 z"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
        id="g3820-1"
-       transform="translate(66.547522,0)"
+       transform="translate(66.547522,-2)"
        inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
        inkscape:export-xdpi="700"
        inkscape:export-ydpi="700">
@@ -322,31 +322,31 @@
          height="88.74514"
          width="8.4580078"
          id="rect3785-7-0-9-7"
-         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
          id="rect4369-1"
-         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 l 4.83298,0 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 l 0,12.02876 -12.02877,0 z"
-         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 h 4.83298 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 v 12.02876 h -12.02877 z"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <rect
-       style="fill:#6c5d53;fill-opacity:1;stroke:#000000;stroke-width:2.01492977000000020;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#6c5d53;fill-opacity:1;stroke:#000000;stroke-width:2.01492977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3933"
        width="302.48508"
        height="8.5564985"
        x="192.20934"
-       y="377.36966"
+       y="375.36966"
        inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
        inkscape:export-xdpi="700"
        inkscape:export-ydpi="700" />
     <rect
-       style="fill:#6c5d53;fill-opacity:1;stroke:#000000;stroke-width:2.01492977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#6c5d53;fill-opacity:1;stroke:#000000;stroke-width:2.01492977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3933-1"
        width="302.48508"
        height="8.5564985"
        x="192.20934"
-       y="335.22678"
+       y="333.22678"
        inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
        inkscape:export-xdpi="700"
        inkscape:export-ydpi="700" />
@@ -777,8 +777,8 @@
        inkscape:export-xdpi="700"
        inkscape:export-ydpi="700" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.54999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 631.04289,712.44289 0,57.52651"
+       style="fill:none;stroke:#000000;stroke-width:1.54999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 630.06075,713.42503 v 57.52651"
        id="path4824-3-7-8-5"
        inkscape:connector-curvature="0"
        inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
@@ -868,16 +868,16 @@
        inkscape:export-xdpi="700"
        inkscape:export-ydpi="700" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.85000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 706.77666,716.18454 0,57.52651"
+       style="fill:none;stroke:#000000;stroke-width:1.85000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 708.20523,715.8274 v 57.52651"
        id="path4824-3-2-43-2-2"
        inkscape:connector-curvature="0"
        inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
        inkscape:export-xdpi="700"
        inkscape:export-ydpi="700" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.625;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 716.32977,711.6412 0,58.38033"
+       style="fill:none;stroke:#000000;stroke-width:1.625;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 718.45994,709.07992 v 58.38033"
        id="path4824-3-2-4-13-0-22"
        inkscape:connector-curvature="0"
        inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
@@ -959,8 +959,8 @@
        inkscape:export-xdpi="700"
        inkscape:export-ydpi="700" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 796.01208,709.3616 0,58.38033"
+       style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 796.54779,708.82589 v 58.38033"
        id="path4824-3-2-4-13-9"
        inkscape:connector-curvature="0"
        inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
