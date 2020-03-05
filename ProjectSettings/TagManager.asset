@@ -67,6 +67,9 @@ TagManager:
   - name: Shield
     uniqueID: 1721335229
     locked: 0
+  - name: Foreground
+    uniqueID: 291000063
+    locked: 0
   - name: UI Sprites
     uniqueID: 3280376823
     locked: 0
