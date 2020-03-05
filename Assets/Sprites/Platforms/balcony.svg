@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="balcony.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4814">
+      <stop
+         style="stop-color:#90725e;stop-opacity:1;"
+         offset="0"
+         id="stop4816" />
+      <stop
+         id="stop4822"
+         offset="0.5"
+         style="stop-color:#5d4b3e;stop-opacity:1;" />
+      <stop
+         style="stop-color:#7c6556;stop-opacity:1;"
+         offset="1"
+         id="stop4818" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4814"
+       id="linearGradient4820"
+       x1="586.42859"
+       y1="610.39789"
+       x2="643.93152"
+       y2="610.39789"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       gradientTransform="translate(83.857704,0.32810531)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4814-9"
+       id="linearGradient4820-2"
+       x1="586.42859"
+       y1="610.39789"
+       x2="643.93152"
+       y2="610.39789"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4814-9">
+      <stop
+         style="stop-color:#90725e;stop-opacity:1;"
+         offset="0"
+         id="stop4816-0" />
+      <stop
+         id="stop4822-8"
+         offset="0.5"
+         style="stop-color:#5d4b3e;stop-opacity:1;" />
+      <stop
+         style="stop-color:#7c6556;stop-opacity:1;"
+         offset="1"
+         id="stop4818-7" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(170.21069,2.7661626)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4814-9-0"
+       id="linearGradient4820-2-3"
+       x1="586.42859"
+       y1="610.39789"
+       x2="643.93152"
+       y2="610.39789"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4814-9-0">
+      <stop
+         style="stop-color:#90725e;stop-opacity:1;"
+         offset="0"
+         id="stop4816-0-1" />
+      <stop
+         id="stop4822-8-9"
+         offset="0.5"
+         style="stop-color:#5d4b3e;stop-opacity:1;" />
+      <stop
+         style="stop-color:#7c6556;stop-opacity:1;"
+         offset="1"
+         id="stop4818-7-0" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(0.02405606,130.1327)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4814-9-0-9"
+       id="linearGradient4820-2-3-5"
+       x1="586.42859"
+       y1="610.39789"
+       x2="643.93152"
+       y2="610.39789"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4814-9-0-9">
+      <stop
+         style="stop-color:#90725e;stop-opacity:1;"
+         offset="0"
+         id="stop4816-0-1-3" />
+      <stop
+         id="stop4822-8-9-2"
+         offset="0.5"
+         style="stop-color:#5d4b3e;stop-opacity:1;" />
+      <stop
+         style="stop-color:#7c6556;stop-opacity:1;"
+         offset="1"
+         id="stop4818-7-0-8" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(86.952326,128.27762)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4814-9-0-9-8"
+       id="linearGradient4820-2-3-5-6"
+       x1="586.42859"
+       y1="610.39789"
+       x2="643.93152"
+       y2="610.39789"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4814-9-0-9-8">
+      <stop
+         style="stop-color:#90725e;stop-opacity:1;"
+         offset="0"
+         id="stop4816-0-1-3-9" />
+      <stop
+         id="stop4822-8-9-2-2"
+         offset="0.5"
+         style="stop-color:#5d4b3e;stop-opacity:1;" />
+      <stop
+         style="stop-color:#7c6556;stop-opacity:1;"
+         offset="1"
+         id="stop4818-7-0-8-9" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(164.6669,127.63269)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4814-9-0-9-8-0"
+       id="linearGradient4820-2-3-5-6-7"
+       x1="586.42859"
+       y1="610.39789"
+       x2="643.93152"
+       y2="610.39789"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4814-9-0-9-8-0">
+      <stop
+         style="stop-color:#90725e;stop-opacity:1;"
+         offset="0"
+         id="stop4816-0-1-3-9-3" />
+      <stop
+         id="stop4822-8-9-2-2-1"
+         offset="0.5"
+         style="stop-color:#5d4b3e;stop-opacity:1;" />
+      <stop
+         style="stop-color:#7c6556;stop-opacity:1;"
+         offset="1"
+         id="stop4818-7-0-8-9-3" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="379.25391"
+     inkscape:cy="548.67433"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#916f6f;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985"
+       width="318.19806"
+       height="21.213203"
+       x="184.35284"
+       y="407.37979"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyBottom.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483737;fill-opacity:1;stroke:#000000;stroke-width:1.55075741;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 237.04499,470.16063 212.81377,0 c 0,18.23343 -10.37807,17.12141 -10.37807,33.31908 l -192.05763,0 c 0,-15.04082 -10.37807,-13.76127 -10.37807,-33.31908 z"
+       id="rect3755"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyBottom.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483737;fill-opacity:1;stroke:#000000;stroke-width:1.94756162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 209.81784,428.56678 267.26807,0 c 0,28.56426 -6.66534,41.84469 -13.0336,41.84469 l -241.20087,0 c -5.6823,0 -13.0336,-3.28585 -13.0336,-41.84469 z"
+       id="rect3755-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyBottom.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <g
+       id="g3820"
+       transform="translate(136.3706,0)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700">
+      <rect
+         y="318.77841"
+         x="202.85226"
+         height="88.74514"
+         width="8.4580078"
+         id="rect3785-7-0-9"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="rect4369"
+         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 l 4.83298,0 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 l 0,12.02876 -12.02877,0 z"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       id="g3820-7"
+       transform="translate(205.06097,0)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700">
+      <rect
+         y="318.77841"
+         x="202.85226"
+         height="88.74514"
+         width="8.4580078"
+         id="rect3785-7-0-9-4"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="rect4369-0"
+         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 l 4.83298,0 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 l 0,12.02876 -12.02877,0 z"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       id="g3820-9"
+       transform="translate(273.75135,0)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700">
+      <rect
+         y="318.77841"
+         x="202.85226"
+         height="88.74514"
+         width="8.4580078"
+         id="rect3785-7-0-9-48"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="rect4369-8"
+         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 l 4.83298,0 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 l 0,12.02876 -12.02877,0 z"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       id="g3820-2"
+       transform="translate(1.6885499,0)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700">
+      <rect
+         y="318.77841"
+         x="202.85226"
+         height="88.74514"
+         width="8.4580078"
+         id="rect3785-7-0-9-45"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="rect4369-5"
+         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 l 4.83298,0 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 l 0,12.02876 -12.02877,0 z"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       id="g3820-1"
+       transform="translate(66.547522,0)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700">
+      <rect
+         y="318.77841"
+         x="202.85226"
+         height="88.74514"
+         width="8.4580078"
+         id="rect3785-7-0-9-7"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.7124716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="rect4369-1"
+         d="m 201.06689,307.15368 c 2.16775,-2.16774 3.61579,-6.55137 3.6516,-9.98819 l 4.83298,0 c 0,3.45188 1.17165,7.61566 3.54419,9.98819 l 0,12.02876 -12.02877,0 z"
+         style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.4794668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <rect
+       style="fill:#6c5d53;fill-opacity:1;stroke:#000000;stroke-width:2.01492977000000020;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3933"
+       width="302.48508"
+       height="8.5564985"
+       x="192.20934"
+       y="377.36966"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <rect
+       style="fill:#6c5d53;fill-opacity:1;stroke:#000000;stroke-width:2.01492977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3933-1"
+       width="302.48508"
+       height="8.5564985"
+       x="192.20934"
+       y="335.22678"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\balconyTop.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#6c5d53;fill-opacity:1;stroke:#000000;stroke-width:1.70250154;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M 342.84375 -139.78125 L 333.03125 -130.5 L 321.5 -137.53125 L 312.9375 -127.09375 L 300.625 -132.65625 L 293.40625 -121.21875 L 280.5 -125.15625 L 274.78125 -112.90625 L 261.5 -115.21875 L 257.34375 -102.34375 L 243.875 -102.96875 L 241.375 -89.6875 L 227.90625 -88.625 L 227.125 -75.125 L 213.90625 -72.375 L 214.78125 -58.90625 L 202.03125 -54.5 L 204.59375 -41.25 L 192.46875 -35.28125 L 196.71875 -22.4375 L 185.4375 -15.03125 L 191.21875 -2.8125 L 180.96875 5.96875 L 188.25 17.34375 L 179.15625 27.34375 L 187.8125 37.71875 L 180.0625 48.78125 L 189.9375 58 L 183.65625 69.9375 L 194.59375 77.84375 L 189.84375 90.5 L 201.71875 96.96875 L 198.5625 110.09375 L 211.15625 115.03125 L 209.6875 128.4375 L 222.78125 131.75 L 223.03125 145.28125 L 236.4375 146.90625 L 238.34375 160.28125 L 251.84375 160.21875 L 255.4375 173.25 L 268.84375 171.5 L 274.03125 183.96875 L 287.09375 180.5625 L 293.8125 192.3125 L 306.34375 187.28125 L 314.46875 198.0625 L 326.28125 191.53125 L 335.6875 201.1875 L 346.59375 193.21875 L 357.15625 201.65625 L 366.96875 192.375 L 378.5 199.40625 L 387.0625 188.96875 L 399.375 194.5 L 406.59375 183.0625 L 419.5 187.03125 L 425.21875 174.78125 L 438.5 177.09375 L 442.65625 164.21875 L 456.125 164.84375 L 458.625 151.5625 L 472.09375 150.46875 L 472.875 137 L 486.09375 134.25 L 485.21875 120.75 L 497.96875 116.375 L 495.40625 103.09375 L 507.53125 97.15625 L 503.28125 84.3125 L 514.5625 76.875 L 508.78125 64.6875 L 519.03125 55.90625 L 511.75 44.53125 L 520.84375 34.5 L 512.1875 24.125 L 519.9375 13.0625 L 510.0625 3.875 L 516.34375 -8.09375 L 505.40625 -15.96875 L 510.15625 -28.625 L 498.28125 -35.09375 L 501.4375 -48.21875 L 488.84375 -53.15625 L 490.3125 -66.59375 L 477.21875 -69.90625 L 476.96875 -83.40625 L 463.5625 -85.03125 L 461.65625 -98.40625 L 448.15625 -98.375 L 444.5625 -111.375 L 431.15625 -109.65625 L 425.96875 -122.125 L 412.90625 -118.71875 L 406.1875 -130.4375 L 393.65625 -125.40625 L 385.53125 -136.1875 L 373.71875 -129.65625 L 364.3125 -139.34375 L 353.40625 -131.34375 L 342.84375 -139.78125 z M 350.6875 -86.28125 C 353.99016 -86.301072 357.29895 -86.165461 360.625 -85.875 C 378.24499 -52.84671 373.92941 -22.861912 360.0625 5.03125 C 356.94154 3.8166222 353.55055 3.1875 350 3.1875 C 348.04895 3.1875 346.14992 3.3983974 344.3125 3.78125 C 329.34737 -22.750883 298.93313 -41.167967 268.125 -46.46875 C 288.36637 -71.606603 318.76183 -86.089635 350.6875 -86.28125 z M 395.8125 -73.75 C 429.44013 -62.025528 455.00551 -34.302128 464 0.15625 C 438.67359 27.988855 408.82148 33.908356 377.71875 30.09375 C 377.56271 24.849263 375.98779 19.968236 373.3125 15.84375 C 393.88265 -7.1497194 401.2351 -42.543465 395.8125 -73.75 z M 261.0625 -17.8125 C 289.25535 -17.771867 310.9614 -5.4537771 329.0625 12.71875 C 325.17954 17.172748 322.71539 22.853742 322.3125 29.125 C 293.06203 34.961857 266.35904 57.091741 251.375 83.75 C 232.72406 53.411517 230.41198 15.76389 245.21875 -16.625 C 250.71595 -17.446782 255.99889 -17.819798 261.0625 -17.8125 z M 350 15.71875 C 358.41044 15.71875 365.21875 22.52706 365.21875 30.9375 C 365.21875 39.34794 358.41044 46.15625 350 46.15625 C 341.58956 46.15625 334.78125 39.34794 334.78125 30.9375 C 334.78125 22.52706 341.58956 15.71875 350 15.71875 z M 464.375 42.96875 C 463.06729 78.557667 444.09726 111.16822 413.8125 129.90625 C 379.99808 114.00612 365.5008 87.452301 359.90625 56.875 C 364.76336 55.016016 368.98989 51.847946 372.09375 47.78125 C 400.12921 60.698775 436.13018 57.344427 464.375 42.96875 z M 326.6875 46.03125 C 329.83573 50.884856 334.47457 54.683862 339.9375 56.8125 C 334.84799 86.610112 346.49288 119.88701 366.65625 143.4375 C 331.75707 150.53172 295.61283 139.75057 270.28125 114.71875 C 277.61907 78.936661 299.18776 58.722772 326.6875 46.03125 z "
+       id="path3955"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\gear1.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#6c5353;fill-opacity:1;stroke:#000000;stroke-width:2.48337388;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M 350 -118.3125 C 267.56549 -118.3125 200.75 -51.497013 200.75 30.9375 C 200.75 113.37201 267.56549 180.1875 350 180.1875 C 432.43451 180.1875 499.25 113.37201 499.25 30.9375 C 499.25 -51.497013 432.43451 -118.3125 350 -118.3125 z M 350 -102.75 C 423.82735 -102.75 483.6875 -42.889854 483.6875 30.9375 C 483.6875 104.76485 423.82735 164.625 350 164.625 C 276.17265 164.625 216.3125 104.76485 216.3125 30.9375 C 216.3125 -42.889854 276.17265 -102.75 350 -102.75 z "
+       id="path3957"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\gear1.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <rect
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4597"
+       width="193.9493"
+       height="48.487324"
+       x="84.852814"
+       y="567.48895"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorTread.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:2.70770816;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.73863204,0,0,0.73863204,77.764573,140.85649)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorTread.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:2.70770816;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.73863204,0,0,0.73863204,271.71386,140.85649)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorTread.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#6c5d53;fill-opacity:1;stroke:#000000;stroke-width:3.79385891;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-5"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.3953758,0,0,0.3953758,275.0079,350.38713)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorTread.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#6c5d53;fill-opacity:1;stroke:#000000;stroke-width:3.793859;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-5-4"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.3953758,0,0,0.3953758,81.058614,350.38713)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorTread.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 181.82746,568.39966 0,46.6659"
+       id="path4657"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorTread.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 224.64286,567.5068 c -14.82143,16.33595 -12.14286,34.71134 0,48.45162"
+       id="path4657-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorTread.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 138.75,567.38951 c 12.85714,14.73832 13.21429,31.33965 0,48.6862"
+       id="path4657-0-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorTread.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.29302371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 598.09375,606.72874 0,48.5625 c -0.0597,0.39786 -0.0937,0.80834 -0.0937,1.21875 0,5.68224 5.86869,10.28125 13.125,10.28125 7.25631,0 13.15625,-4.59901 13.15625,-10.28125 0,-0.41041 -0.0341,-0.82089 -0.0937,-1.21875 l 0,-48.5625 -26.09375,0 z"
+       id="rect4737-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:url(#linearGradient4820);fill-opacity:1;stroke:#000000;stroke-width:1.21096504000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 586.20186,570.72462 0,58.84863 c -0.0216,0.15596 -0.0315,0.3109 -0.0315,0.46883 0,9.33953 11.19256,16.47385 24.98591,16.47385 13.79335,0 24.95448,-7.13432 24.95448,-16.47385 0,-0.15793 -0.0101,-0.31287 -0.0315,-0.46883 l 0,-58.84863 -49.87753,0 z"
+       id="rect4716"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssscccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:2.70755577;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-0"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.74153423,0,0,0.5593791,604.0262,229.46869)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.244;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 611.15619,560.80333 c -3.59584,0 -6.85817,0.96731 -9.24403,2.5526 l -3.89058,0 0,5.25535 c -0.0748,0.38811 -0.1245,0.79919 -0.1245,1.20122 0,4.98178 5.94724,9.00917 13.25911,9.00917 7.31186,0 13.22798,-4.02739 13.22798,-9.00917 0,-0.40203 -0.0497,-0.81311 -0.1245,-1.20122 l 0,-5.25535 -3.89058,0 c -2.38586,-1.58529 -5.61706,-2.5526 -9.2129,-2.5526 z"
+       id="path4599-5-5-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:3.79364562;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-5-3-1"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.39593661,0,0,0.30815539,607.34276,374.52568)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 611.64737,589.96485 0,56.06347"
+       id="path4824"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 625.91577,585.95033 0,57.52651"
+       id="path4824-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 597.37896,586.20287 0,57.52651"
+       id="path4824-3-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 588.54013,578.76803 0,58.38033"
+       id="path4824-3-2-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 632.98684,579.46251 0,58.38033"
+       id="path4824-3-2-4-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.29302371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 681.95146,607.05684 0,48.56251 c -0.0597,0.39786 -0.0937,0.80834 -0.0937,1.21875 0,5.68224 5.86869,10.28125 13.125,10.28125 7.25631,0 13.15625,-4.59901 13.15625,-10.28125 0,-0.41041 -0.0341,-0.82089 -0.0937,-1.21875 l 0,-48.56251 -26.09375,0 z"
+       id="rect4737-7-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:url(#linearGradient4820-2);fill-opacity:1;stroke:#000000;stroke-width:1.21096504;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 670.05957,571.05272 0,58.84863 c -0.0216,0.15596 -0.0315,0.3109 -0.0315,0.46883 0,9.33953 11.19256,16.47385 24.98591,16.47385 13.79335,0 24.95448,-7.13432 24.95448,-16.47385 0,-0.15793 -0.0101,-0.31287 -0.0315,-0.46883 l 0,-58.84863 -49.87753,0 z"
+       id="rect4716-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssscccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:2.70755577;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-0-6"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.74153423,0,0,0.5593791,687.88391,229.7968)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.24399996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 695.0139,561.13143 c -3.59584,0 -6.85817,0.96731 -9.24403,2.5526 l -3.89058,0 0,5.25535 c -0.0748,0.38811 -0.1245,0.79919 -0.1245,1.20122 0,4.98178 5.94724,9.00917 13.25911,9.00917 7.31186,0 13.22798,-4.02739 13.22798,-9.00917 0,-0.40203 -0.0497,-0.81311 -0.1245,-1.20122 l 0,-5.25535 -3.89058,0 c -2.38586,-1.58529 -5.61706,-2.5526 -9.2129,-2.5526 z"
+       id="path4599-5-5-3-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:3.79364562;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-5-3-1-0"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.39593661,0,0,0.30815539,691.20047,374.85379)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.89999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 697.65165,590.29295 0,56.06347"
+       id="path4824-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.64999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 711.92005,584.51066 0,57.52651"
+       id="path4824-3-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 683.38324,587.41485 0,57.52651"
+       id="path4824-3-2-43"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 674.54441,581.49524 0,58.38033"
+       id="path4824-3-2-4-13"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 718.99112,576.50761 0,58.38033"
+       id="path4824-3-2-4-1-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.29302371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 768.30445,609.4949 0,48.56251 c -0.0597,0.39786 -0.0937,0.80834 -0.0937,1.21875 0,5.68224 5.86869,10.28125 13.125,10.28125 7.25631,0 13.15625,-4.59901 13.15625,-10.28125 0,-0.41041 -0.0341,-0.82089 -0.0937,-1.21875 l 0,-48.56251 -26.09375,0 z"
+       id="rect4737-7-4-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:url(#linearGradient4820-2-3);fill-opacity:1;stroke:#000000;stroke-width:1.21096504;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 756.41256,573.49078 0,58.84863 c -0.0216,0.15596 -0.0315,0.3109 -0.0315,0.46883 0,9.33953 11.19256,16.47385 24.98591,16.47385 13.79335,0 24.95448,-7.13432 24.95448,-16.47385 0,-0.15793 -0.0101,-0.31287 -0.0315,-0.46883 l 0,-58.84863 -49.87753,0 z"
+       id="rect4716-5-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssscccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:2.70755577;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-0-6-9"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.74153423,0,0,0.5593791,774.2369,232.23486)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.24399996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 781.36689,563.56949 c -3.59584,0 -6.85817,0.96731 -9.24403,2.5526 l -3.89058,0 0,5.25535 c -0.0748,0.38811 -0.1245,0.79919 -0.1245,1.20122 0,4.98178 5.94724,9.00917 13.25911,9.00917 7.31186,0 13.22798,-4.02739 13.22798,-9.00917 0,-0.40203 -0.0497,-0.81311 -0.1245,-1.20122 l 0,-5.25535 -3.89058,0 c -2.38586,-1.58529 -5.61706,-2.5526 -9.2129,-2.5526 z"
+       id="path4599-5-5-3-8-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:3.79364562;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-5-3-1-0-1"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.39593661,0,0,0.30815539,777.55346,377.29185)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.87;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 785.77241,592.73101 0,56.06347"
+       id="path4824-7-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 798.79081,586.72682 0,57.52651"
+       id="path4824-3-7-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.85000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 771.86114,590.73679 0,57.52651"
+       id="path4824-3-2-43-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.625;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 762.30803,585.1833 0,58.38033"
+       id="path4824-3-2-4-13-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.29302371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 598.11781,736.86143 0,48.56251 c -0.0597,0.39786 -0.0937,0.80834 -0.0937,1.21875 0,5.68224 5.86869,10.28125 13.125,10.28125 7.25631,0 13.15625,-4.59901 13.15625,-10.28125 0,-0.41041 -0.0341,-0.82089 -0.0937,-1.21875 l 0,-48.56251 -26.09375,0 z"
+       id="rect4737-7-4-4-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:url(#linearGradient4820-2-3-5);fill-opacity:1;stroke:#000000;stroke-width:1.21096504;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 586.22592,700.85731 0,58.84863 c -0.0216,0.15596 -0.0315,0.3109 -0.0315,0.46883 0,9.33953 11.19256,16.47385 24.98591,16.47385 13.79335,0 24.95448,-7.13432 24.95448,-16.47385 0,-0.15793 -0.0101,-0.31287 -0.0315,-0.46883 l 0,-58.84863 -49.87753,0 z"
+       id="rect4716-5-2-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssscccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:2.70755577;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-0-6-9-8"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.74153423,0,0,0.5593791,604.05026,359.60139)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.24399996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 611.18025,690.93602 c -3.59584,0 -6.85817,0.96731 -9.24403,2.5526 l -3.89058,0 0,5.25535 c -0.0748,0.38811 -0.1245,0.79919 -0.1245,1.20122 0,4.98178 5.94724,9.00917 13.25911,9.00917 7.31186,0 13.22798,-4.02739 13.22798,-9.00917 0,-0.40203 -0.0497,-0.81311 -0.1245,-1.20122 l 0,-5.25535 -3.89058,0 c -2.38586,-1.58529 -5.61706,-2.5526 -9.2129,-2.5526 z"
+       id="path4599-5-5-3-8-3-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:3.79364562;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-5-3-1-0-1-4"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.39593661,0,0,0.30815539,607.36682,504.65838)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 617.84592,719.69707 0,56.06347"
+       id="path4824-7-4-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.54999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 631.04289,712.44289 0,57.52651"
+       id="path4824-3-7-8-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.87;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 602.9245,718.46046 0,57.52651"
+       id="path4824-3-2-43-2-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.64999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 592.46584,713.71619 0,57.68539"
+       id="path4824-3-2-4-13-0-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.29302371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 685.04608,735.00636 0,48.56251 c -0.0597,0.39786 -0.0937,0.80834 -0.0937,1.21875 0,5.68224 5.86869,10.28125 13.125,10.28125 7.25631,0 13.15625,-4.59901 13.15625,-10.28125 0,-0.41041 -0.0341,-0.82089 -0.0937,-1.21875 l 0,-48.56251 -26.09375,0 z"
+       id="rect4737-7-4-4-7-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:url(#linearGradient4820-2-3-5-6);fill-opacity:1;stroke:#000000;stroke-width:1.21096504;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 673.15419,699.00224 0,58.84863 c -0.0216,0.15596 -0.0315,0.3109 -0.0315,0.46883 0,9.33953 11.19256,16.47385 24.98591,16.47385 13.79335,0 24.95448,-7.13432 24.95448,-16.47385 0,-0.15793 -0.0101,-0.31287 -0.0315,-0.46883 l 0,-58.84863 -49.87753,0 z"
+       id="rect4716-5-2-4-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssscccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:2.70755577;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-0-6-9-8-4"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.74153423,0,0,0.5593791,690.97853,357.74632)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.24399996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 698.10852,689.08095 c -3.59584,0 -6.85817,0.96731 -9.24403,2.5526 l -3.89058,0 0,5.25535 c -0.0748,0.38811 -0.1245,0.79919 -0.1245,1.20122 0,4.98178 5.94724,9.00917 13.25911,9.00917 7.31186,0 13.22798,-4.02739 13.22798,-9.00917 0,-0.40203 -0.0497,-0.81311 -0.1245,-1.20122 l 0,-5.25535 -3.89058,0 c -2.38586,-1.58529 -5.61706,-2.5526 -9.2129,-2.5526 z"
+       id="path4599-5-5-3-8-3-1-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:3.79364562;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-5-3-1-0-1-4-0"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.39593661,0,0,0.30815539,694.29509,502.80331)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.87;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 692.86539,718.17876 0,56.06347"
+       id="path4824-7-4-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 679.84699,712.17457 0,57.52651"
+       id="path4824-3-7-8-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.85000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 706.77666,716.18454 0,57.52651"
+       id="path4824-3-2-43-2-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.625;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 716.32977,711.6412 0,58.38033"
+       id="path4824-3-2-4-13-0-22"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.29302371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 762.76068,734.36144 0,48.56251 c -0.06,0.39786 -0.094,0.80834 -0.094,1.21875 0,5.68224 5.8686,10.28125 13.125,10.28125 7.2563,0 13.1562,-4.59901 13.1562,-10.28125 0,-0.41041 -0.034,-0.82089 -0.094,-1.21875 l 0,-48.56251 -26.0937,0 z"
+       id="rect4737-7-4-4-7-5-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:url(#linearGradient4820-2-3-5-6-7);fill-opacity:1;stroke:#000000;stroke-width:1.21096504;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 750.86878,698.35732 0,58.84863 c -0.022,0.15596 -0.032,0.3109 -0.032,0.46883 0,9.33953 11.1925,16.47385 24.9859,16.47385 13.7933,0 24.9545,-7.13432 24.9545,-16.47385 0,-0.15793 -0.01,-0.31287 -0.032,-0.46883 l 0,-58.84863 -49.8776,0 z"
+       id="rect4716-5-2-4-9-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssscccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:2.70755577;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-0-6-9-8-4-0"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.74153423,0,0,0.5593791,768.69308,357.1014)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:1.24399996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 775.82308,688.43603 c -3.5958,0 -6.8582,0.96731 -9.244,2.5526 l -3.8906,0 0,5.25535 c -0.075,0.38811 -0.1245,0.79919 -0.1245,1.20122 0,4.98178 5.9472,9.00917 13.2591,9.00917 7.3119,0 13.228,-4.02739 13.228,-9.00917 0,-0.40203 -0.05,-0.81311 -0.1245,-1.20122 l 0,-5.25535 -3.8906,0 c -2.3859,-1.58529 -5.6171,-2.5526 -9.2129,-2.5526 z"
+       id="path4599-5-5-3-8-3-1-5-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#483e37;fill-opacity:1;stroke:#000000;stroke-width:3.79364562;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4599-5-5-3-1-0-1-4-0-5"
+       sodipodi:cx="9.5964489"
+       sodipodi:cy="610.42047"
+       sodipodi:rx="33.335033"
+       sodipodi:ry="33.335033"
+       d="m 42.931482,610.42047 a 33.335033,33.335033 0 1 1 -66.670067,0 33.335033,33.335033 0 1 1 66.670067,0 z"
+       transform="matrix(0.39593661,0,0,0.30815539,772.00968,502.15839)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.89999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 771.65488,717.73718 0,56.06347"
+       id="path4824-7-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.64999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 758.45788,712.11179 0,57.52651"
+       id="path4824-3-7-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 785.92328,714.85908 0,57.52651"
+       id="path4824-3-2-43-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 796.01208,709.3616 0,58.38033"
+       id="path4824-3-2-4-13-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\conveyorWheel.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+  </g>
+</svg>
