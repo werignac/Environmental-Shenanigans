@@ -171,6 +171,7 @@ MonoBehaviour:
   range: 100
   rotType: 1
   angularVelocity: 0
+  deathSummonName: 
   acceleration: {x: 0, y: 4}
   targetDist: 20
 --- !u!4 &38446744
