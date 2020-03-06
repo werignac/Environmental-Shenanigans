@@ -149,8 +149,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74ec8ed8657f1fe4e9c22991583f92e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backdrops: []
-  moveSpeed: []
+  backdrops:
+  - {fileID: 2108044550}
+  moveSpeed:
+  - 0.1
 --- !u!4 &26159259
 Transform:
   m_ObjectHideFlags: 0
@@ -262,6 +264,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bGM: {fileID: 0}
+  lockX: 0
+  lockY: 0
+  buffer: {x: 2.5, y: 2.5}
+  moveSpeed: 1
 --- !u!1 &347186771
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,7 +633,7 @@ MonoBehaviour:
   copyRot: {fileID: 5449719133254291396}
   offset: 0
   radius: 5
-  flip: 1
+  innerMultiply: 0
 --- !u!212 &1087178238
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1597,6 +1603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthPoints: {fileID: 0}
   reflectOnly: 0
+  sFXPlayer: {fileID: 0}
 --- !u!212 &4776270768694378608
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1705,8 +1712,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4776270769373586807}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.7, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 0, y: -0.64, z: 0}
+  m_LocalScale: {x: 1.642, y: 1.642, z: 1.642}
   m_Children:
   - {fileID: 4776270767694050774}
   - {fileID: 5449719133254291396}
@@ -1834,9 +1841,17 @@ MonoBehaviour:
   dashSpeedX: 0
   dashSpeedY: 0
   mass: 0
+  canGlide: 0
+  dashInterval: 0.8
   body: {fileID: 4776270767694050773}
   bodyAnim: {fileID: 4776270768694378609}
   sFXPlayer: {fileID: 4776270769373586797}
+  idleAnimationName: birdIdleAnimation
+  jumpAnimationName: birdJumpAnimation
+  dashAnimationName: lizardDashAnimation
+  glideAnimationName: flyingSquirrelGlide
+  glideCoeff: 0.005
+  tail: {fileID: 0}
 --- !u!50 &4776270769373586801
 Rigidbody2D:
   serializedVersion: 4
