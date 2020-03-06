@@ -130,7 +130,7 @@ public class CameraController : MonoBehaviour
         else if (timeOutTimer < timeOut + moveSpeed)
         {
             timeOutTimer += Time.deltaTime;
-            if (timeOutTimer > timeOut)
+            if (timeOutTimer > timeOut && ! lockX)
             {
                 newPosition.x = Mathf.Lerp(transform.position.x, playerPos.x, (timeOutTimer - timeOut) / moveSpeed);
             }
