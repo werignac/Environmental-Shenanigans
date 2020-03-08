@@ -13,7 +13,7 @@ public class RotatingPlatform : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         rigid.MoveRotation(rigid.rotation + speed * Time.fixedDeltaTime);
     }
