@@ -23,9 +23,13 @@ public class CameraController : MonoBehaviour
 
     private Vector2 lastPlayerPos;
     private float lastVel;
+    private float camSpeed;
     private Rigidbody2D pRigid;
 
     public float changeVMin = 5;
+
+    public float maxSpeed;
+    public float maxVelDiff;
 
 
     // Start is called before the first frame update
@@ -50,7 +54,21 @@ public class CameraController : MonoBehaviour
             lastPlayerPos = player.transform.position;
         }
 
-        Vector2 playerPos = player.transform.position;
+        float vel = Mathf.Clamp(pRigid.velocity.x / 4, -maxSpeed, maxSpeed);
+        vel = Mathf.SmoothDamp(lastVel, vel, ref camSpeed, 0.2f);
+        /*float velDiff = vel - lastVel;
+        if (velDiff > maxVelDiff)
+        {
+            vel = lastVel + maxVelDiff;
+        }
+        else if (velDiff < maxVelDiff * -1)
+        {
+            vel = lastVel - maxVelDiff;
+        }*/
+        transform.position = new Vector3(player.transform.position.x + vel, player.transform.position.y, transform.position.z);
+        lastVel = vel;
+
+        /*Vector2 playerPos = player.transform.position;
 
         Vector3 newPosition = transform.position;
 
@@ -139,7 +157,7 @@ public class CameraController : MonoBehaviour
         transform.position = newPosition;//Camera follows player.
 
         lastPlayerPos = playerPos;
-        lastVel = pRigid.velocity.x;
+        lastVel = pRigid.velocity.x;*/
 
         //Switch between boss music and not boss music.
         if (!playingBossMusic && Data.fightingBoss)

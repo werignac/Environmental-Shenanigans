@@ -2569,6 +2569,9 @@ MonoBehaviour:
   buffer: {x: 3, y: 2.5}
   moveSpeed: 2
   timeOut: 3
+  changeVMin: 5
+  maxSpeed: 5
+  maxVelDiff: 0.05
 --- !u!81 &2025682133
 AudioListener:
   m_ObjectHideFlags: 0
