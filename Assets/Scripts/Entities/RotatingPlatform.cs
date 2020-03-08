@@ -15,6 +15,6 @@ public class RotatingPlatform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rigid.angularVelocity = speed;
+        rigid.MoveRotation(rigid.rotation + speed * Time.fixedDeltaTime);
     }
 }
