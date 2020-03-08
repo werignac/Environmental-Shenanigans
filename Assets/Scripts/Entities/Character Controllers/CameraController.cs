@@ -27,6 +27,8 @@ public class CameraController : MonoBehaviour
 
     public float changeVMin = 5;
 
+    public float maxSpeed;
+
 
     // Start is called before the first frame update
     void Start()
@@ -50,7 +52,18 @@ public class CameraController : MonoBehaviour
             lastPlayerPos = player.transform.position;
         }
 
-        Vector2 playerPos = player.transform.position;
+        float vel = pRigid.velocity.x / 5;
+        if(vel > maxSpeed)
+        {
+            vel = maxSpeed;
+        }
+        if(vel < maxSpeed * -1)
+        {
+            vel = maxSpeed * -1;
+        }
+        transform.position = new Vector3(Data.playerPos.x + vel, Data.playerPos.y, transform.position.z);
+
+        /*Vector2 playerPos = player.transform.position;
 
         Vector3 newPosition = transform.position;
 
@@ -139,7 +152,7 @@ public class CameraController : MonoBehaviour
         transform.position = newPosition;//Camera follows player.
 
         lastPlayerPos = playerPos;
-        lastVel = pRigid.velocity.x;
+        lastVel = pRigid.velocity.x;*/
 
         //Switch between boss music and not boss music.
         if (!playingBossMusic && Data.fightingBoss)
