@@ -23,11 +23,13 @@ public class CameraController : MonoBehaviour
 
     private Vector2 lastPlayerPos;
     private float lastVel;
+    private float camSpeed;
     private Rigidbody2D pRigid;
 
     public float changeVMin = 5;
 
     public float maxSpeed;
+    public float maxVelDiff;
 
 
     // Start is called before the first frame update
@@ -52,16 +54,19 @@ public class CameraController : MonoBehaviour
             lastPlayerPos = player.transform.position;
         }
 
-        float vel = pRigid.velocity.x / 5;
-        if(vel > maxSpeed)
+        float vel = Mathf.Clamp(pRigid.velocity.x / 4, -maxSpeed, maxSpeed);
+        vel = Mathf.SmoothDamp(lastVel, vel, ref camSpeed, 0.2f);
+        /*float velDiff = vel - lastVel;
+        if (velDiff > maxVelDiff)
         {
-            vel = maxSpeed;
+            vel = lastVel + maxVelDiff;
         }
-        if(vel < maxSpeed * -1)
+        else if (velDiff < maxVelDiff * -1)
         {
-            vel = maxSpeed * -1;
-        }
-        transform.position = new Vector3(Data.playerPos.x + vel, Data.playerPos.y, transform.position.z);
+            vel = lastVel - maxVelDiff;
+        }*/
+        transform.position = new Vector3(player.transform.position.x + vel, player.transform.position.y, transform.position.z);
+        lastVel = vel;
 
         /*Vector2 playerPos = player.transform.position;
 
