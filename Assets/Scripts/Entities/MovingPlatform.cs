@@ -11,6 +11,7 @@ public class MovingPlatform : MonoBehaviour
     private bool toOrgin;
     private float angle;
     private List<GameObject> touching;
+    private Rigidbody2D rigid;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,7 @@ public class MovingPlatform : MonoBehaviour
             angle += Mathf.PI;
         }
         touching = new List<GameObject>();
+        rigid = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -33,7 +35,7 @@ public class MovingPlatform : MonoBehaviour
         Debug.DrawLine(orgin, destination);
 #endif
         float s = speed;
-        float distance = 0;
+        /*float distance = 0;
         if (Data.frameRate <= 0)
         {
             distance = speed / 30;
@@ -46,7 +48,10 @@ public class MovingPlatform : MonoBehaviour
         foreach(GameObject touch in touching)//Move any touching objects, like players or enemies.
         {
             touch.transform.Translate(distance * Mathf.Cos(angle), distance * Mathf.Sin(angle), 0);
-        }
+        }*/
+
+        rigid.velocity = new Vector3(speed * Mathf.Cos(angle), speed * Mathf.Sin(angle), 0);
+
         //Once past destination change direction.
         if (!toOrgin)
         {

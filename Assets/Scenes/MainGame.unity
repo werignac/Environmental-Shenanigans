@@ -2573,6 +2573,8 @@ MonoBehaviour:
   moveSpeed: 10
   timeOut: 3
   changeVMin: 5
+  maxSpeed: 5
+  maxVelDiff: 0.05
 --- !u!81 &2025682133
 AudioListener:
   m_ObjectHideFlags: 0
