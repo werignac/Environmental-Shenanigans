@@ -255,6 +255,8 @@ MonoBehaviour:
   moveSpeed: 1
   timeOut: 5
   changeVMin: 5
+  maxSpeed: 0
+  maxVelDiff: 0
 --- !u!81 &597020186
 AudioListener:
   m_ObjectHideFlags: 0
@@ -333,7 +335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomName: Room
-  width: 60
+  width: 15
   roomType: 3
   nextRoomType: 3
   healthSection: {fileID: 0}
