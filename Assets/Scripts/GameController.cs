@@ -81,7 +81,7 @@ public class GameController : MonoBehaviour
         {
             backdrops[l].SetActive(false);//Deactivate old backdrop.
             ++l;
-            if (l >= 2)
+            if (l >= 3)
             {
                 SceneManager.LoadScene("Win");
             }
