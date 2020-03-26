@@ -207,10 +207,7 @@ public class PlayerController : MonoBehaviour
             jump = true;
             airJump = false;
             vertical = v;
-            if (rigid.velocity.y > 0)
-            {
-                rigid.velocity = new Vector2(rigid.velocity.x, 0);
-            }
+            rigid.velocity = new Vector2(rigid.velocity.x, 0);
             if (airJump == true)//Play sound effect depending on if the player is jumping off ground or in the air.
             {
                 sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/JumpSwoop");
