@@ -419,6 +419,7 @@ MonoBehaviour:
   room: {fileID: 989822784}
   player: 1
   height: 16
+  horizontalOffset: 0
 --- !u!114 &1119067279
 MonoBehaviour:
   m_ObjectHideFlags: 0
