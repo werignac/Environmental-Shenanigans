@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.67328947"
-     inkscape:cx="132.47486"
-     inkscape:cy="1484.9625"
+     inkscape:cx="128.30264"
+     inkscape:cy="141.24938"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -613,6 +613,60 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc"
        inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\Projectiles\pin.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#5aa02c;fill-opacity:1;stroke:#6ddd24;stroke-width:10;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -147.94325,-138.30115 -2.21601,43.30905 -49.22149,7.9722 0,82.8750001 49.02455,7.972202 1.97545,43.5902979 83.6875,0 1.97545,-43.4045469 49.0558,-7.751703 0,-83.6875001 -49.21991,-7.7517 -2.21759,-43.1233 z"
+       id="rect2985-1-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\stemQuadconnect.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#5aa02c;fill-opacity:1;stroke:none"
+       d="m -142.9745,-143.30115 -4.20091,57.08034 -57.08034,4.20091 0,72.9062501 57.08034,4.200908 4.20091,57.0803419 72.90625,0 4.20091,-57.0803419 57.0803404,-4.200908 0,-72.9062501 -57.0803404,-4.20091 -4.20091,-57.08034 z"
+       id="rect3756-7-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\stemQuadconnect.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#5aa02c;fill-opacity:1;stroke:#6ddd24;stroke-width:10;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -147.40128,101.14897 -2.21601,43.30905 c 0,61.90442 18.42398,99.00515 87.44146,99.00515 l 49.05581,-7.7517 0,-83.6875 c 0,0 -29.70527,1.44102 -40.8181,-10.90238 -9.6305,-10.69693 -10.61941,-39.97262 -10.61941,-39.97262 z"
+       id="rect2985-1-0-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccscc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\stemCorner.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#5aa02c;fill-opacity:1;stroke:none"
+       d="m -142.43253,96.148972 1.05023,57.080338 c 12.13402,45.2848 18.9986,87.6607 76.05693,81.30807 l 57.0803504,-4.20091 0,-74.7628 c 0,0 -35.7660704,3.57144 -49.2564204,-9.91892 C -70.99179,132.1644 -67.70158,96.148972 -67.70158,96.148972 z"
+       id="rect3756-7-9-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccscc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\stemCorner.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#5aa02c;fill-opacity:1;stroke:#6ddd24;stroke-width:10;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -453.11086,54.207128 -2.21601,43.309054 c -5.90998,24.938898 -7.75111,65.020208 -0.19694,98.819398 l 1.97545,43.5903 83.6875,0 1.97545,-43.40455 49.0558,-7.7517 0,-83.6875 -49.21991,-7.751698 -2.21759,-43.123304 z"
+       id="rect2985-1-0-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\stemTriconnect.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#5aa02c;fill-opacity:1;stroke:none"
+       d="m -448.14211,49.207128 -4.20091,57.080342 c -1.41905,24.17567 -1.1663,47.63289 0,81.30807 l 4.20091,57.08034 72.90625,0 4.20091,-57.08034 57.08034,-4.20091 0,-72.90625 -57.08034,-4.20091 -4.20091,-57.080342 z"
+       id="rect3756-7-9-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\stemTriconnect.png"
        inkscape:export-xdpi="700"
        inkscape:export-ydpi="700" />
   </g>
