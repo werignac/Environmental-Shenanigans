@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: 930803bcca4f7bf4d86a226c2c2f5831
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8499486100103286426
+    second: lazerCannon_0
+  - first:
+      213: 851632172267089682
+    second: lazerCannon_1
+  - first:
+      213: 2311241286333876866
+    second: lazerCannon_2
+  - first:
+      213: 6310874271668981547
+    second: lazerCannon_3
+  - first:
+      213: -3794054505716383377
+    second: lazerCannon_4
+  - first:
+      213: -2506270476792145684
+    second: lazerCannon_5
+  - first:
+      213: -8724406982567752405
+    second: lazerCannon_6
+  - first:
+      213: 251050141293778798
+    second: lazerCannon_7
+  - first:
+      213: 1246212262477060259
+    second: lazerCannon_8
+  - first:
+      213: -8342958496241761608
+    second: lazerCannon_9
+  - first:
+      213: -5572474528957002708
+    second: lazerCannon_10
+  - first:
+      213: 1723853401700700521
+    second: lazerCannon_11
+  - first:
+      213: -5126239961824018443
+    second: lazerCannon_12
+  - first:
+      213: 1144556694696491718
+    second: lazerCannon_13
+  - first:
+      213: -9127464660231193446
+    second: lazerCannon_14
+  - first:
+      213: 1309041404495808697
+    second: lazerCannon_15
+  - first:
+      213: -4428183808273908384
+    second: lazerCannon_16
+  - first:
+      213: -2094876444283564375
+    second: lazerCannon_17
+  - first:
+      213: 2420685006220168828
+    second: lazerCannon_18
+  - first:
+      213: -6538600542889187388
+    second: lazerCannon_19
+  - first:
+      213: -8822435321832464477
+    second: lazerCannon_20
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lazerCannon_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5404
+        width: 2035
+        height: 834
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bae326852a2a4f498b1adcfa4348639
+      internalID: -8499486100103286426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_1
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 5422
+        width: 2026
+        height: 809
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71646965c51eec4f968c45233854343
+      internalID: 851632172267089682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_2
+      rect:
+        serializedVersion: 2
+        x: 4545
+        y: 5430
+        width: 2026
+        height: 808
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae7bdf8404fc7e4ebc1be2cbea39259
+      internalID: 2311241286333876866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_3
+      rect:
+        serializedVersion: 2
+        x: 6913
+        y: 5413
+        width: 2026
+        height: 814
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa638556a08ce640878b091473f97f1
+      internalID: 6310874271668981547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4415
+        width: 2022
+        height: 810
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbfa5eb487cf53489d5b987b397e1aa
+      internalID: -3794054505716383377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_5
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 4424
+        width: 2026
+        height: 814
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105d355da57cff544852ff294b89a588
+      internalID: -2506270476792145684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_6
+      rect:
+        serializedVersion: 2
+        x: 4545
+        y: 4441
+        width: 2031
+        height: 814
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb448578b9d08f498aee2c3863a5936
+      internalID: -8724406982567752405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_7
+      rect:
+        serializedVersion: 2
+        x: 6777
+        y: 4380
+        width: 2186
+        height: 814
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7850b4e1c3bac04283012489c21804c
+      internalID: 251050141293778798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_8
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 3189
+        width: 2232
+        height: 810
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9af866311f003342af82905824bbfae
+      internalID: 1246212262477060259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_9
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 3172
+        width: 2280
+        height: 809
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03978a4cd1a527843bbf6acc860bcb01
+      internalID: -8342958496241761608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_10
+      rect:
+        serializedVersion: 2
+        x: 5889
+        y: 3158
+        width: 2350
+        height: 815
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1f12ab2c9051d4e8e257e4bfd5d6d1
+      internalID: -5572474528957002708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2073
+        width: 2389
+        height: 831
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0816ad17441b1442bed0e86206ffef4
+      internalID: 1723853401700700521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_12
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 2055
+        width: 1960
+        height: 810
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb9f40d73047754ea8638bc6f654abe
+      internalID: -5126239961824018443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_13
+      rect:
+        serializedVersion: 2
+        x: 5731
+        y: 2060
+        width: 1917
+        height: 814
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b2ca72d89c0384db3491a1dcd4566b
+      internalID: 1144556694696491718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 983
+        width: 1890
+        height: 814
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47d7993688aa3e42a9723bf3338dda9
+      internalID: -9127464660231193446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_15
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 978
+        width: 1890
+        height: 815
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5885f809c3235634d81946bceb8c4bf2
+      internalID: 1309041404495808697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_16
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 983
+        width: 2013
+        height: 814
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9b59081d556224f9db4008e3731cbc
+      internalID: -4428183808273908384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_17
+      rect:
+        serializedVersion: 2
+        x: 6554
+        y: 942
+        width: 2095
+        height: 828
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fab4c94397db649a6d5bf2250b284a
+      internalID: -2094876444283564375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2107
+        height: 808
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea917f5d0e1b6f4b94dab69f4f31603
+      internalID: 2420685006220168828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_19
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 13
+        width: 2236
+        height: 812
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d865e66e369914b834f9113be358fb
+      internalID: -6538600542889187388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazerCannon_20
+      rect:
+        serializedVersion: 2
+        x: 5057
+        y: 0
+        width: 2298
+        height: 851
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1b4e5df7c69d84ea263cc6f194893e
+      internalID: -8822435321832464477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8482d26131f3fd241bf5034e49a72788
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
