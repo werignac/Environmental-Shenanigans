@@ -49,6 +49,7 @@ public class PlayerController : MonoBehaviour
     public bool canGlide;
     private bool horizontalDash;
     public float dashInterval = 0.8f;
+    public float jumpCount;
 
     public GameObject body;
 
@@ -109,6 +110,7 @@ public class PlayerController : MonoBehaviour
                 canGlide = data.canGlide;
             }
         }
+        maxJumps = 1;
         accelCoeff.x *= 60;
         glideCoeff *= 60;
     }
@@ -124,7 +126,7 @@ public class PlayerController : MonoBehaviour
         {
             bodyAnim.SetTrigger("Walking");
             Vector3 mirrorScale = body.transform.localScale;
-            if(!sFXPlayer.isPlaying)
+            if (!sFXPlayer.isPlaying)
             {
                 sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/LeafWalk");
                 sFXPlayer.Play();
@@ -154,27 +156,10 @@ public class PlayerController : MonoBehaviour
 
         float vertical = 0;//Vertical is zero until we know you jump.
         float v = Input.GetAxis("Vertical");
-        bool hitJump = false;//hitJump added to prevent wasting double jump.
-        if (v < 0.85 && v >= 0.1)
-        {
-            v = 0.85f;
-            if (releaseJump)//Only jump if you've released jump.
-            {
-                hitJump = true;
-                releaseJump = false;
-            }
-        }
-        if(v < 0.1 && v >= 0)//Discount tiny presses.
-        {
-            v = 0;
-        }
-        if(v <= 0 || v < prevVert - 0.005)//Detecting released jump.
+        bool hitJump = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow);
+        if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
         {
             releaseJump = true;
-            if (numJumps < maxJumps)
-            {
-                airJump = true;
-            }
         }
         if (onGround && v < 0 && crouchCount <= 0 && canCrouch)//Crouch when pressing down.
         {
@@ -190,23 +175,21 @@ public class PlayerController : MonoBehaviour
             }
             crouchCount = (int)Data.frameRate / 2;
         }
-        if(!onGround)//Slow acceleration while in the air.
+        if (!onGround)//Slow acceleration while in the air.
         {
             horizontal /= 5;
         }
-        if(crouchCount > 0)
+        if (crouchCount > 0)
         {
             --crouchCount;
         }
 
-        if ((onGround || airJump) && v > 0 && hitJump)//Jump if player is capable.
+        if ((onGround || airJump) && hitJump)//Jump if player is capable.
         {
             bodyAnim.Play(jumpAnimationName);
             ++numJumps;
             onGround = false;
             jump = true;
-            airJump = false;
-            vertical = v;
             rigid.velocity = new Vector2(rigid.velocity.x, 0);
             if (airJump == true)//Play sound effect depending on if the player is jumping off ground or in the air.
             {
@@ -218,6 +201,12 @@ public class PlayerController : MonoBehaviour
                 sFXPlayer.clip = Resources.Load<AudioClip>("Sounds/WingSwoosh");
                 sFXPlayer.Play();
             }
+            airJump = false;
+        }
+        if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) && !releaseJump)
+        {
+            vertical = Mathf.Pow(2, -3000 * jumpCount);
+            jumpCount += Time.deltaTime;
         }
         if (numDash < maxDash && Input.GetMouseButtonDown(0))//Dash when mouse is pressed
         {
@@ -235,12 +224,12 @@ public class PlayerController : MonoBehaviour
             }
         }
         prevVert = v;
-        
 
-        if (canGlide && rigid.velocity.y < 0  && Mathf.Abs(rigid.velocity.x) > 0 && vertical == 0 && v > 0)//Enable gliding if the player is moving down, and horizontally and they're pressing up.
+
+        if (canGlide && rigid.velocity.y < 0 && Mathf.Abs(rigid.velocity.x) > 0 && vertical == 0 && v > 0)//Enable gliding if the player is moving down, and horizontally and they're pressing up.
         {
             vertical = v * rigid.velocity.y * glideCoeff * (Physics.gravity.y * rigid.mass) * Time.deltaTime;
-            if (! hasGlided)
+            if (!hasGlided)
             {
                 bodyAnim.Play(glideAnimationName);
                 hasGlided = true;
@@ -256,6 +245,8 @@ public class PlayerController : MonoBehaviour
         {
             numJumps = 0;
             numDash = 0;
+            releaseJump = false;
+            jumpCount = 0;
         }
         //Set the static data file to update the displays.
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);
