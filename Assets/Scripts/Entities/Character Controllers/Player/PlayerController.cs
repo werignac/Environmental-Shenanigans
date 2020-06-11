@@ -203,9 +203,10 @@ public class PlayerController : MonoBehaviour
             }
             airJump = false;
         }
-        if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) && !releaseJump)
+        if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) && !releaseJump && jump)
         {
-            vertical = Mathf.Pow(2, -3000 * jumpCount);
+            Debug.Log(Mathf.Pow(2, -500 * jumpCount));
+            vertical = Mathf.Pow(2, -500 * jumpCount);
             jumpCount += Time.deltaTime;
         }
         if (numDash < maxDash && Input.GetMouseButtonDown(0))//Dash when mouse is pressed
@@ -247,6 +248,8 @@ public class PlayerController : MonoBehaviour
             numDash = 0;
             releaseJump = false;
             jumpCount = 0;
+            jump = false;
+            airJump = false;
         }
         //Set the static data file to update the displays.
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);
@@ -399,7 +402,6 @@ public class PlayerController : MonoBehaviour
             {
                 onGround = false;
                 bodyAnim.SetBool("OnGround", false);
-                jump = false;
             }
         }
     }
@@ -417,5 +419,16 @@ public class PlayerController : MonoBehaviour
             return (true);
         }
         return (false);
+    }
+
+    public void Impact()
+    {
+        if(character == CharacterType.BIRD)
+        {
+            numJumps = 0;
+            airJump = true;
+            jumpCount = 0;
+            releaseJump = false;
+        }
     }
 }

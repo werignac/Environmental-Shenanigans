@@ -189,6 +189,7 @@ public class ShieldController : MonoBehaviour
         player.velocity = angle * (-1 * player.velocity.magnitude);
         player.AddForce(angle * (-2 * projMass * velocity.magnitude));
         player.AddForce(projMass * velocity);
+        pC.Impact();
     }
 
 }
