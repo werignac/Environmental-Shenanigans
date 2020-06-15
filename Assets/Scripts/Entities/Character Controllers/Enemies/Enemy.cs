@@ -34,6 +34,7 @@ public abstract class Enemy : MonoBehaviour
         --health;
         if (health <= 0)
         {
+            Data.killedEnemy = true;
             Destroy(gameObject);
         }
     }

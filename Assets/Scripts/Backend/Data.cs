@@ -18,6 +18,7 @@ public static class Data
     public static int playerDashes;
     public static bool fightingBoss;
     public static bool healthPack;
+    public static bool killedEnemy;
 
     public static void LoadRoomDatas()
     {

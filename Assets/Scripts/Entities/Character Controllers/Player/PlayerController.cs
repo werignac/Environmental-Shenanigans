@@ -205,8 +205,7 @@ public class PlayerController : MonoBehaviour
         }
         if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) && !releaseJump && jump)
         {
-            Debug.Log(Mathf.Pow(2, -500 * jumpCount));
-            vertical = Mathf.Pow(2, -500 * jumpCount);
+            vertical = Mathf.Pow(2, -200 * jumpCount);
             jumpCount += Time.deltaTime;
         }
         if (numDash < maxDash && Input.GetMouseButtonDown(0))//Dash when mouse is pressed
@@ -250,6 +249,11 @@ public class PlayerController : MonoBehaviour
             jumpCount = 0;
             jump = false;
             airJump = false;
+        }
+        if (Data.killedEnemy)
+        {
+            Data.killedEnemy = false;
+            AddDash();
         }
         //Set the static data file to update the displays.
         Data.playerPos = new Vector2(transform.position.x, transform.position.y);
