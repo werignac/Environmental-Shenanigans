@@ -110,8 +110,8 @@ public class PlayerController : MonoBehaviour
                 canGlide = data.canGlide;
             }
         }
-        maxJumps = 1;
         accelCoeff.x *= 60;
+        accelCoeff.y *= 60;
         glideCoeff *= 60;
     }
 
@@ -205,7 +205,7 @@ public class PlayerController : MonoBehaviour
         }
         if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) && !releaseJump && jump)
         {
-            vertical = Mathf.Pow(2, -200 * jumpCount);
+            vertical = Mathf.Pow(2, -27 * jumpCount);
             jumpCount += Time.deltaTime;
         }
         if (numDash < maxDash && Input.GetMouseButtonDown(0))//Dash when mouse is pressed
@@ -299,7 +299,7 @@ public class PlayerController : MonoBehaviour
         {
             vertical *= Mathf.Pow(maxSpeedY - Mathf.Abs(ySpeed), 0.1f);
         }
-        rigid.AddForce(new Vector2(horizontal * accelCoeff.x * Time.deltaTime, vertical * accelCoeff.y));
+        rigid.AddForce(new Vector2(horizontal * accelCoeff.x * Time.deltaTime, vertical * accelCoeff.y * Time.deltaTime));
 
         /*Old movement method
         float currentSpeed = rigid.velocity.x;
@@ -378,11 +378,6 @@ public class PlayerController : MonoBehaviour
         else if (collision.gameObject.CompareTag("Enemy"))
         {
             GetComponentInChildren<HitArea>().Damage();
-        }
-        else if (collision.gameObject.CompareTag("Health"))
-        {
-            GetComponentInChildren<HitArea>().Heal(collision.gameObject.GetComponent<HealthPack>().heal);
-            Destroy(collision.gameObject);
         }
     }
 

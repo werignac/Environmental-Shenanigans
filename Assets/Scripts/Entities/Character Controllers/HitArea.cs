@@ -30,6 +30,11 @@ public class HitArea : MonoBehaviour
         {
             Damage();
         }
+        else if (collidee.CompareTag("Health"))
+        {
+            Heal(collidee.gameObject.GetComponent<HealthPack>().heal);
+            Destroy(collidee.gameObject);
+        }
     }
 
     public void Damage()

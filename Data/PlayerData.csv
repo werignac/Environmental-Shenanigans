@@ -1,5 +1,5 @@
 Name,AccelerationX,AccelerationY,MaxSpeedX,MaxSpeedY,MaxJumps,CrouchSlow,CanCrouch,MaxDash,DashSpeedX,DashSpeedY,Mass,CanGlide
 TestPlayer,80,600,10,20,1000,5,TRUE,100,10,2,1,TRUE
-Bird,50,350,4,20,5,1,FALSE,0,1,1,5,FALSE
-Lizard,60,600,5,26,1,0.7,TRUE,2,2,0.6,5,FALSE
-FlyingSquirle,40,500,4,23,2,1,FALSE,0,1,1,2,TRUE
+Bird,50,120,4,20,1,1,FALSE,0,1,1,5,FALSE
+Lizard,60,180,5,26,1,0.7,TRUE,2,2,0.6,5,FALSE
+FlyingSquirle,40,150,4,23,1,1,FALSE,0,1,1,2,TRUE

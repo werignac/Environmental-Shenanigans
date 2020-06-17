@@ -177,6 +177,11 @@ public class ShieldController : MonoBehaviour
                 }
             }
         }
+        else if (encounter.CompareTag("Health"))
+        {
+            player.GetComponentInChildren<HitArea>().Heal(encounter.gameObject.GetComponent<HealthPack>().heal);
+            Destroy(encounter.gameObject);
+        }
     }
 
     /// <summary>
