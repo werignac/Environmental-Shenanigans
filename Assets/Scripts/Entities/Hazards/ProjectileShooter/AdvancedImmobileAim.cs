@@ -43,7 +43,6 @@ public class AdvancedImmobileAim : ImmobileShooter
                 angle += 90;
             }
         }
-        angle += Random.Range(angleVariation * -1, angleVariation);//Use angle variation for more interesting fights, where you don't just stand still and point at the boss.
         base.ShootProjectile();
     }
 

@@ -12,7 +12,6 @@ public class ImmobileAiming : ImmobileShooter
         {
             angle += 180;
         }
-        angle += Random.Range(angleVariation * -1, angleVariation);
         base.ShootProjectile();
     }
 }
