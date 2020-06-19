@@ -45,10 +45,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: {x: -4, y: 0}
-  mass: 25
+  mass: 6
   range: 100
   rotType: 2
   angularVelocity: 150
+  deathSummonName: 
 --- !u!1 &1057841441594222352
 GameObject:
   m_ObjectHideFlags: 0

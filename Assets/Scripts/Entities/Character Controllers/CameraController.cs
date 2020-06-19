@@ -53,7 +53,6 @@ public class CameraController : MonoBehaviour
             pRigid = player.GetComponent<Rigidbody2D>();
             lastPlayerPos = player.transform.position;
         }
-
         float vel = Mathf.Clamp(pRigid.velocity.x / 4, -maxSpeed, maxSpeed);
         vel = Mathf.SmoothDamp(lastVel, vel, ref camSpeed, 0.2f);
         /*float velDiff = vel - lastVel;
@@ -173,6 +172,17 @@ public class CameraController : MonoBehaviour
             bGM.clip = Resources.Load<AudioClip>("Sounds/TestMainMenu");
             bGM.loop = true;
             bGM.Play();
+        }
+        if(Data.cameraMaxX > Data.cameraMinX)
+        {
+            if(transform.position.x > Data.cameraMaxX)
+            {
+                transform.position = new Vector3(Data.cameraMaxX, transform.position.y, transform.position.z);
+            }
+            if (transform.position.x < Data.cameraMinX)
+            {
+                transform.position = new Vector3(Data.cameraMinX, transform.position.y, transform.position.z);
+            }
         }
     }
 }

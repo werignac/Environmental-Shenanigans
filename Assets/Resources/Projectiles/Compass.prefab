@@ -46,10 +46,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: {x: 0, y: 0}
-  mass: 5
+  mass: 3
   range: 100
   rotType: 1
   angularVelocity: 0
+  deathSummonName: 
   acceleration: {x: 0, y: 4}
   targetDist: 20
 --- !u!58 &4117548218897258414

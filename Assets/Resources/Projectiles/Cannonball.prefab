@@ -94,10 +94,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: {x: -2, y: -0.001}
-  mass: 20
+  mass: 8
   range: 0
   rotType: 0
   angularVelocity: 0
+  deathSummonName: 
 --- !u!58 &8508973324256339279
 CircleCollider2D:
   m_ObjectHideFlags: 0

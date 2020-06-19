@@ -19,6 +19,9 @@ public static class Data
     public static bool fightingBoss;
     public static bool healthPack;
     public static bool killedEnemy;
+    public static float cameraMinX;
+    public static float cameraMaxX;
+
 
     public static void LoadRoomDatas()
     {

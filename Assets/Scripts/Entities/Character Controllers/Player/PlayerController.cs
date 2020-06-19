@@ -159,7 +159,10 @@ public class PlayerController : MonoBehaviour
         bool hitJump = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow);
         if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
         {
-            releaseJump = true;
+            if (airJump == false)
+            {
+                releaseJump = true;
+            }
         }
         if (onGround && v < 0 && crouchCount <= 0 && canCrouch)//Crouch when pressing down.
         {
@@ -177,7 +180,7 @@ public class PlayerController : MonoBehaviour
         }
         if (!onGround)//Slow acceleration while in the air.
         {
-            horizontal /= 5;
+            horizontal /= 3;
         }
         if (crouchCount > 0)
         {
@@ -400,6 +403,10 @@ public class PlayerController : MonoBehaviour
             if (numGround <= 0)
             {
                 onGround = false;
+                if(numJumps < maxJumps)
+                {
+                    airJump = true;
+                }
                 bodyAnim.SetBool("OnGround", false);
             }
         }
@@ -427,6 +434,7 @@ public class PlayerController : MonoBehaviour
             numJumps = 0;
             airJump = true;
             jumpCount = 0;
+            jump = false;
             releaseJump = false;
         }
     }

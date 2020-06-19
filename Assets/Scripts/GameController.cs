@@ -42,6 +42,8 @@ public class GameController : MonoBehaviour
             if(player.transform.position.x >= pos && player.transform.position.x < pos + room.Width)
             {
                 r = i;//Find which room the player is in.
+                Data.cameraMinX = pos + 20;
+                Data.cameraMaxX = pos + room.Width - 20;
             }
             pos += room.Width;
         }
