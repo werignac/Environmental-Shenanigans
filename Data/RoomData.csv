@@ -4,6 +4,10 @@ Bird1-2,100,21,22
 Bird1-3,100,22,23
 Bird1-4,100,23,3
 BossCastle1,50,3,-1
+CarBoss,60,7,-1
+SecondStartRoomBird,15,4,80
+SecondStartRoomLizard,15,5,100
+SecondStartRoomSquirel,15,6,120
 StartRoomBird,15,0,20
 StartRoomLizard,15,1,40
 StartRoomSquriel,15,2,50

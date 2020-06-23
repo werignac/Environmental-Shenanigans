@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1651489306
+--- !u!1 &362972703065546548
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,60 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1651489308}
-  - component: {fileID: 1651489307}
-  m_Layer: 0
-  m_Name: SecondStartRoom
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1651489308
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1651489306}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6385110328906098102}
-  - {fileID: 2108055292846009255}
-  - {fileID: 7502690652046304719}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1651489307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1651489306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 686010878ed07524ca5abf00e84d71aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  roomName: SecondStartRoom
-  width: 15
-  roomType: 10
-  nextRoomType: 12
-  healthSection: {fileID: 0}
-  hideSection: {fileID: 0}
-  spawnPoint: {fileID: 3581792244626276407}
---- !u!1 &3581792244626276407
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7502690652046304719}
+  - component: {fileID: 6675027015609711308}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -69,26 +16,79 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7502690652046304719
+--- !u!4 &6675027015609711308
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3581792244626276407}
+  m_GameObject: {fileID: 362972703065546548}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.23892531, y: 6.420334, z: -3.1434405}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1651489308}
+  m_Father: {fileID: 3800084610130371871}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1638321885401697630
+--- !u!1 &3800084610130371865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3800084610130371871}
+  - component: {fileID: 3800084610130371864}
+  m_Layer: 0
+  m_Name: SecondStartRoomSquirel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3800084610130371871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3800084610130371865}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7791478948016192181}
+  - {fileID: 3025800815310255268}
+  - {fileID: 6675027015609711308}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3800084610130371864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3800084610130371865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 686010878ed07524ca5abf00e84d71aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomName: SecondStartRoomSquirel
+  width: 15
+  roomType: 6
+  nextRoomType: 120
+  healthSection: {fileID: 0}
+  hideSection: {fileID: 0}
+  spawnPoint: {fileID: 362972703065546548}
+--- !u!1001 &2450206423889318493
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1651489308}
+    m_TransformParent: {fileID: 3800084610130371871}
     m_Modifications:
     - target: {fileID: 4884574351207347993, guid: aa63c7447e67dac40bd6c294047e1558,
         type: 3}
@@ -157,18 +157,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa63c7447e67dac40bd6c294047e1558, type: 3}
---- !u!4 &2108055292846009255 stripped
+--- !u!4 &3025800815310255268 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 863895140688340729, guid: aa63c7447e67dac40bd6c294047e1558,
     type: 3}
-  m_PrefabInstance: {fileID: 1638321885401697630}
+  m_PrefabInstance: {fileID: 2450206423889318493}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &8461065102117758053
+--- !u!1001 &4744297224320498534
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1651489308}
+    m_TransformParent: {fileID: 3800084610130371871}
     m_Modifications:
     - target: {fileID: 1482576047521141889, guid: 551d2479b5d0c494b911dad984273c7c,
         type: 3}
@@ -288,9 +288,9 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 551d2479b5d0c494b911dad984273c7c, type: 3}
---- !u!4 &6385110328906098102 stripped
+--- !u!4 &7791478948016192181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3312333625794413011, guid: 551d2479b5d0c494b911dad984273c7c,
     type: 3}
-  m_PrefabInstance: {fileID: 8461065102117758053}
+  m_PrefabInstance: {fileID: 4744297224320498534}
   m_PrefabAsset: {fileID: 0}

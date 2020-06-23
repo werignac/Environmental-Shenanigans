@@ -62,8 +62,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roomName: CarBoss
   width: 60
-  roomType: 11
-  nextRoomType: 12
+  roomType: 7
+  nextRoomType: -1
   healthSection: {fileID: 0}
   hideSection: {fileID: 0}
   spawnPoint: {fileID: 4498141084333858024}
