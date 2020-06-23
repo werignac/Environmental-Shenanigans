@@ -44,6 +44,10 @@ public class Room
     {
         model.transform.position = new Vector3(pos, 0);
     }
+    public float GetPos()
+    {
+        return (model.transform.position.x);
+    }
     public void Spawn()
     {
         model.SetActive(true);

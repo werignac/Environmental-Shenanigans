@@ -77,6 +77,7 @@ public class GameController : MonoBehaviour
             player.GetComponent<Rigidbody2D>().velocity = new Vector2();
             player.GetComponentInChildren<HitArea>().SetHealth(1);
             Data.currentDeaths++;
+            level.RespawnRoom(r);
             Data.died = false;
         }
         if (player.transform.position.x > level.GetRoom(0).Width && r == 0)

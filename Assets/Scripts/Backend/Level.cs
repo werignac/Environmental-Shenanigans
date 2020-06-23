@@ -84,4 +84,12 @@ public class Level
             rooms[i].Destroy();
         }
     }
+
+    public void RespawnRoom(int r)
+    {
+        float pos = rooms[r].GetPos();
+        rooms[r].Destroy();
+        rooms[r] = Data.GetRoom(rooms[r].RoomType);
+        rooms[r].SetPos(pos);
+    }
 }
