@@ -21,6 +21,11 @@ public static class Data
     public static bool killedEnemy;
     public static float cameraMinX;
     public static float cameraMaxX;
+    public static int startRoom;
+    public static int level;
+    public static int[][] levelDeaths;
+    public static int currentDeaths;
+    public static bool died;
 
 
     public static void LoadRoomDatas()
@@ -92,5 +97,14 @@ public static class Data
             return (null);
         }
         return (playerDatas[pos]);
+    }
+
+    public static void SetDeaths()
+    {
+        if(levelDeaths[player - 1][level] < 0 || levelDeaths[player - 1][level] > currentDeaths)
+        {
+            levelDeaths[player - 1][level] = currentDeaths;
+        }
+        currentDeaths = 0;
     }
 }

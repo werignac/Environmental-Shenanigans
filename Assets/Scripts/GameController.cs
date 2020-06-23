@@ -8,12 +8,10 @@ public class GameController : MonoBehaviour
     private Level level;
     public GameObject player;
     public HealthPoints playerHealth;
-    private int l;
     public GameObject[] backdrops;
     // Start is called before the first frame update
     void Start()
     {
-        l = 0;
         Data.LoadRoomDatas();
         Data.LoadPlayerDatas();
         if(player == null)
@@ -22,9 +20,9 @@ public class GameController : MonoBehaviour
 
             player.GetComponentInChildren<HitArea>().healthPoints = playerHealth;
         }
-        level = new Level(Data.rooms, 0);
+        level = new Level(Data.rooms, Data.startRoom);
         //Only set the first backdrop active.
-        backdrops[0].SetActive(true);
+        backdrops[Data.level].SetActive(true);
         for(int i = 1; i < backdrops.Length; ++i)
         {
             backdrops[i].SetActive(false);
@@ -72,31 +70,19 @@ public class GameController : MonoBehaviour
             hP.GetComponent<HealthPack>().heal = 2;
             Data.healthPack = false;
         }
-        if (player.transform.position.y < -50)
+        if (Data.died || player.transform.position.y < -50)
         {
             //Respawn the player at the start of the room when the player falls off the bottom of the map.
             player.transform.position = level.GetRoom(r).GetSpawnPoint();
             player.GetComponent<Rigidbody2D>().velocity = new Vector2();
-            player.GetComponentInChildren<HitArea>().Damage();
+            player.GetComponentInChildren<HitArea>().SetHealth(1);
+            Data.currentDeaths++;
+            Data.died = false;
         }
         if (player.transform.position.x > level.GetRoom(0).Width && r == 0)
         {
-            backdrops[l].SetActive(false);//Deactivate old backdrop.
-            ++l;
-            if (l >= 3)
-            {
-                SceneManager.LoadScene("Win");
-            }
-            else
-            {
-                //Reset scene for next level.
-                backdrops[l].SetActive(true);
-                Data.fightingBoss = false;
-                level.Destroy();
-                level = new Level(Data.rooms, l * 10);
-                player.transform.position = new Vector3(0, 2);
-                player.GetComponentInChildren<HitArea>().Heal(10);
-            }
+            Data.SetDeaths();
+            SceneManager.LoadScene("Win");
         }
     }
 }

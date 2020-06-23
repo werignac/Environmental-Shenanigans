@@ -14,7 +14,7 @@ public class PlayerHealth : HealthPoints
     /// </summary>
     public override void NoHealth()
     {
-        SceneManager.LoadScene(2);
+        Data.died = true;
     }
 
     public override void Start()

@@ -1191,10 +1191,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 686010878ed07524ca5abf00e84d71aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomName: Bird1-2
+  roomName: Bird1-3
   width: 100
-  roomType: 100
-  nextRoomType: 101
+  roomType: 101
+  nextRoomType: 102
   healthSection: {fileID: 640994684}
   hideSection: {fileID: 0}
   spawnPoint: {fileID: 342725179}
@@ -1209,7 +1209,7 @@ GameObject:
   - component: {fileID: 989822791}
   - component: {fileID: 989822784}
   m_Layer: 0
-  m_Name: Bird1-2
+  m_Name: Bird1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1390,8 +1390,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   room: {fileID: 989822784}
   player: 1
-  height: 21
-  horizontalOffset: 50
+  height: 1
+  horizontalOffset: 0
 --- !u!114 &1119067279
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -8,10 +8,6 @@ public class Level
     public Level(int numRooms, int addedRoomNum)
     {
         rooms = new Room[numRooms];
-        if(addedRoomNum >= 20)
-        {
-            addedRoomNum += 2 * (Data.player - 1);
-        }
         rooms[0] = Data.GetRoom(addedRoomNum);
         rooms[numRooms - 1] = Data.GetRoom(1 + addedRoomNum);
         int nextRoom = rooms[0].NextRoom;

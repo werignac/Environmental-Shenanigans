@@ -146,4 +146,17 @@ public abstract class HealthPoints : MonoBehaviour
     /// the game is reset.
     /// </summary>
     public abstract void NoHealth();
+
+    public void SetHealth(int h)
+    {
+        while(divider + 1 > h)
+        {
+            Hit();
+            invincTimer = 0;
+        }
+        if(divider + 1 < h)
+        {
+            AddHitPoints(h - divider - 1);
+        }
+    }
 }

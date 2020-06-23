@@ -1096,7 +1096,7 @@ MonoBehaviour:
   hitPoints: []
   divider: 0
   soundTime: 0
-  startDamage: 2
+  startDamage: 4
   offset: 1000
 --- !u!1 &1162999257
 GameObject:

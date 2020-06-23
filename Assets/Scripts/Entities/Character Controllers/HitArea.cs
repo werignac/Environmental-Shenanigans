@@ -55,4 +55,9 @@ public class HitArea : MonoBehaviour
             healthPoints.AddHitPoints(n);
         }
     }
+
+    public void SetHealth(int h)
+    {
+        healthPoints.SetHealth(h);
+    }
 }
