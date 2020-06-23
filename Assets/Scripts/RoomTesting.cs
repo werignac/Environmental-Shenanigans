@@ -13,6 +13,8 @@ public class RoomTesting : MonoBehaviour
     void Start()
     {
         p = Instantiate(Resources.Load<GameObject>("Players/Player" + player), new Vector3(-0.5f * room.width + horizontalOffset, height), new Quaternion());
+        Data.cameraMinX = -0.5f * room.width + 20;
+        Data.cameraMaxX = 0.5f * room.width - 20;
     }
 
     // Update is called once per frame

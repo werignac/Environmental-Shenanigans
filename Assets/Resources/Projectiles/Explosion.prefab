@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: {x: 0, y: 0}
-  mass: 8
+  mass: 5
   range: 1
   rotType: 0
   angularVelocity: 0

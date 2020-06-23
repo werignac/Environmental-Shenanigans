@@ -1,6 +1,8 @@
 Name,Width,RoomType,NextRoomType
 Bird1-1,100,20,21
 Bird1-2,100,21,22
+Bird1-3,100,22,23
+Bird1-4,100,23,3
 BossCastle1,50,3,-1
 StartRoomBird,15,0,20
 StartRoomLizard,15,1,40

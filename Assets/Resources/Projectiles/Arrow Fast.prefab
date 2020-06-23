@@ -94,10 +94,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: {x: -3, y: 2}
-  mass: 3
+  mass: 4
   range: 100
   rotType: 1
   angularVelocity: 0
+  deathSummonName: 
   acceleration: {x: 0, y: -3}
 --- !u!61 &450092486794398246
 BoxCollider2D:
