@@ -98,6 +98,7 @@ MonoBehaviour:
   range: 100
   rotType: 1
   angularVelocity: 0
+  deathSummonName: 
   acceleration: {x: 0, y: -1}
 --- !u!61 &5863076692179840229
 BoxCollider2D:

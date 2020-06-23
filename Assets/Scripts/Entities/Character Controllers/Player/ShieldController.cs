@@ -193,8 +193,8 @@ public class ShieldController : MonoBehaviour
         Vector2 angle = new Vector2(Mathf.Cos(Mathf.Deg2Rad * transform.rotation.eulerAngles.z), Mathf.Sin(Mathf.Deg2Rad * transform.rotation.eulerAngles.z));
         //player.velocity = angle * (-1 * player.velocity.magnitude);
         player.velocity = new Vector2();
-        player.AddForce(angle * (-12 * projMass * velocity.magnitude));
-        player.AddForce(projMass * velocity);
+        player.AddForce(angle * (-20 * projMass * velocity.magnitude));
+        player.AddForce(2 * projMass * velocity);
         pC.Impact();
     }
 

@@ -208,7 +208,7 @@ public class PlayerController : MonoBehaviour
         }
         if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) && !releaseJump && jump)
         {
-            vertical = Mathf.Pow(2, -27 * jumpCount);
+            vertical = Mathf.Pow(2, -35 * jumpCount);
             jumpCount += Time.deltaTime;
         }
         if (numDash < maxDash && Input.GetMouseButtonDown(0))//Dash when mouse is pressed
