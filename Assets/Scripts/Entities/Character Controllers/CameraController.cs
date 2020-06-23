@@ -184,5 +184,9 @@ public class CameraController : MonoBehaviour
                 transform.position = new Vector3(Data.cameraMinX, transform.position.y, transform.position.z);
             }
         }
+        else
+        {
+            transform.position = new Vector3((Data.cameraMaxX + Data.cameraMinX) / 2, transform.position.y, transform.position.z);
+        }
     }
 }
