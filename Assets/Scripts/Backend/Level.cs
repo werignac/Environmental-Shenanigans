@@ -38,6 +38,35 @@ public class Level
             }
         }
     }
+    public Level(int startingRoom)
+    {
+        List<Room> r = new List<Room>();
+        r.Add(Data.GetRoom(startingRoom));
+        while(r[r.Count - 1].NextRoom >= 0)
+        {
+            Room room = Data.GetRoom(r[r.Count - 1].NextRoom);
+            if(room == null)
+            {
+                break;
+            }
+            r.Add(room);
+        }
+        rooms = new Room[r.Count];
+        for(int i = 0; i < rooms.Length; ++i)
+        {
+            rooms[i] = r[i];
+        }
+        float pos = 0;
+        for (int i = 0; i < rooms.Length; ++i)
+        {
+            rooms[i].SetPos(pos);
+            pos += rooms[i].Width / 2;
+            if (i < rooms.Length - 1)
+            {
+                pos += rooms[i + 1].Width / 2;
+            }
+        }
+    }
     public int RoomNum
     {
         get { return (rooms.Length); }

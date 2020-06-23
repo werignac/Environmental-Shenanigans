@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour
 
             player.GetComponentInChildren<HitArea>().healthPoints = playerHealth;
         }
-        level = new Level(Data.rooms, Data.startRoom);
+        level = new Level(Data.startRoom);
         //Only set the first backdrop active.
         backdrops[Data.level].SetActive(true);
         for(int i = 1; i < backdrops.Length; ++i)

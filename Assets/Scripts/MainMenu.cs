@@ -17,9 +17,14 @@ public class MainMenu : MonoBehaviour
         
     }
 
-    public void StartGame(int player)
+    public void SetPlayer(int player)
     {
         Data.player = player;
+    }
+
+    public void StartGame(int level)
+    {
+        Data.level = level + Data.player - 1;
         SceneManager.LoadScene("MainGame");
     }
 }

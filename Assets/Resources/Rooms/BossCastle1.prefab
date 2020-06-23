@@ -53,8 +53,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roomName: BossCastle1
   width: 50
-  roomType: 1
-  nextRoomType: 2
+  roomType: 3
+  nextRoomType: -1
   healthSection: {fileID: 0}
   hideSection: {fileID: 0}
   spawnPoint: {fileID: 6129854466885000829}
@@ -572,6 +572,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1651489308}
     m_Modifications:
+    - target: {fileID: 7617512055443562176, guid: b403765f407dca747998ac6ae864e1a6,
+        type: 3}
+      propertyPath: m_Name
+      value: castleTest_0
+      objectReference: {fileID: 0}
     - target: {fileID: 7617512055443562177, guid: b403765f407dca747998ac6ae864e1a6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -626,11 +631,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7617512055443562176, guid: b403765f407dca747998ac6ae864e1a6,
-        type: 3}
-      propertyPath: m_Name
-      value: castleTest_0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b403765f407dca747998ac6ae864e1a6, type: 3}
