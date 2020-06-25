@@ -51,6 +51,7 @@ public class PlayerController : MonoBehaviour
     public float dashInterval = 0.8f;
     public float jumpCount;
     private bool hitJump;
+    private bool hitDash;
 
     public GameObject body;
 
@@ -93,6 +94,7 @@ public class PlayerController : MonoBehaviour
         crouchCount = 0;
         numDash = 0;
         hitJump = false;
+        hitDash = false;
         if (character >= 0)
         {
             //Sets the player using data from file.
@@ -120,6 +122,17 @@ public class PlayerController : MonoBehaviour
         if (hitJump == false)
         {
             hitJump = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow);
+        }
+        if (Input.GetMouseButtonDown(0))
+        {
+            hitDash = true;
+        }
+        if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
+        {
+            if (airJump == false)
+            {
+                releaseJump = true;
+            }
         }
         if (onGround)
         {
@@ -181,13 +194,6 @@ public class PlayerController : MonoBehaviour
 
         float vertical = 0;//Vertical is zero until we know you jump.
         float v = Input.GetAxis("Vertical");
-        if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
-        {
-            if (airJump == false)
-            {
-                releaseJump = true;
-            }
-        }
         if (onGround && v < 0 && crouchCount <= 0 && canCrouch)//Crouch when pressing down.
         {
             if (crouch)
@@ -236,7 +242,7 @@ public class PlayerController : MonoBehaviour
             vertical = Mathf.Pow(2, -35 * jumpCount);
             jumpCount += Time.fixedDeltaTime;
         }
-        if (numDash < maxDash && Input.GetMouseButtonDown(0))//Dash when mouse is pressed
+        if (numDash < maxDash && hitDash)//Dash when mouse is pressed
         {
             if (horizontal != 0 || v != 0)//Don't waste dash if neither horizontal or vertical button is being pressed.
             {
@@ -271,6 +277,7 @@ public class PlayerController : MonoBehaviour
                 jump = false;
             }
         }
+        hitDash = false;
         prevVert = v;
 
 
