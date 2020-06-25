@@ -216,13 +216,29 @@ public class PlayerController : MonoBehaviour
             if (horizontal != 0 || v != 0)//Don't waste dash if neither horizontal or vertical button is being pressed.
             {
                 ++numDash;
-                if (horizontal != 0)
+                /*if (horizontal != 0)
                 {
                     horizontal = dashSpeedX * horizontal / Mathf.Abs(horizontal);//Dash speed is independant of how much the direction is being pressed.
                 }
                 if (v != 0)
                 {
                     vertical = v * dashSpeedY / Mathf.Abs(v);
+                }*/
+                if (horizontal < 0)
+                {
+                    horizontal = dashSpeedX * -1;
+                }
+                else if(horizontal > 0)
+                {
+                    horizontal = dashSpeedX;
+                }
+                if(v > 0)
+                {
+                    vertical = dashSpeedY;
+                }
+                else if(v < 0)
+                {
+                    vertical = -1 * dashSpeedY;
                 }
                 horizontalDash = true;
                 bodyAnim.Play(dashAnimationName);
