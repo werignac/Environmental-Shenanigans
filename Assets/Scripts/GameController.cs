@@ -23,9 +23,12 @@ public class GameController : MonoBehaviour
         level = new Level(Data.startRoom);
         //Only set the first backdrop active.
         backdrops[Data.level].SetActive(true);
-        for(int i = 1; i < backdrops.Length; ++i)
+        for(int i = 0; i < backdrops.Length; ++i)
         {
-            backdrops[i].SetActive(false);
+            if (i != Data.level)
+            {
+                backdrops[i].SetActive(false);
+            }
         }
     }
 

@@ -24,7 +24,8 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame(int level)
     {
-        Data.level = level + Data.player - 1;
+        Data.level = level / 4;
+        Data.startRoom = level + Data.player - 1;
         SceneManager.LoadScene("MainGame");
     }
 }

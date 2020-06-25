@@ -220,10 +220,14 @@ public class PlayerController : MonoBehaviour
                 {
                     horizontal = dashSpeedX * horizontal / Mathf.Abs(horizontal);//Dash speed is independant of how much the direction is being pressed.
                 }
-                vertical = v * dashSpeedY;
+                if (v != 0)
+                {
+                    vertical = v * dashSpeedY / Mathf.Abs(v);
+                }
                 horizontalDash = true;
                 bodyAnim.Play(dashAnimationName);
-                rigid.velocity = new Vector2(rigid.velocity.x, 0);//Reset vertical velocity before dashing.
+                rigid.velocity = new Vector2(0, 0);//Reset velocity before dashing.
+                jump = false;
             }
         }
         prevVert = v;
@@ -291,17 +295,17 @@ public class PlayerController : MonoBehaviour
             //Set horizontal so you can't exceed max speed x by your own movement.
             horizontal *= Mathf.Pow(maxSpeedX - Mathf.Abs(xSpeed), 0.1f);
         }
-        horizontalDash = false;
 
         float ySpeed = rigid.velocity.y;
         if (ySpeed > maxSpeedY)
         {
             ySpeed = maxSpeedY;
         }
-        if (ySpeed != 0 && vertical / xSpeed > 0)
+        if (ySpeed != 0 && vertical / xSpeed > 0 && !horizontalDash)
         {
             vertical *= Mathf.Pow(maxSpeedY - Mathf.Abs(ySpeed), 0.1f);
         }
+        horizontalDash = false;
         rigid.AddForce(new Vector2(horizontal * accelCoeff.x * Time.deltaTime, vertical * accelCoeff.y * Time.deltaTime));
 
         /*Old movement method
