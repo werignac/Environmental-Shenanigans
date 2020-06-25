@@ -306,7 +306,8 @@ public class PlayerController : MonoBehaviour
             vertical *= Mathf.Pow(maxSpeedY - Mathf.Abs(ySpeed), 0.1f);
         }
         horizontalDash = false;
-        rigid.AddForce(new Vector2(horizontal * accelCoeff.x * Time.deltaTime, vertical * accelCoeff.y * Time.deltaTime));
+        rigid.AddForce(new Vector2(horizontal * accelCoeff.x * Time.deltaTime, 0));
+        rigid.AddForce(new Vector2(0, vertical * accelCoeff.y * Time.deltaTime));
 
         /*Old movement method
         float currentSpeed = rigid.velocity.x;
