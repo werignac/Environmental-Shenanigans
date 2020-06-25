@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
     private bool horizontalDash;
     public float dashInterval = 0.8f;
     public float jumpCount;
+    private bool hitJump;
 
     public GameObject body;
 
@@ -91,6 +92,7 @@ public class PlayerController : MonoBehaviour
         crouch = false;
         crouchCount = 0;
         numDash = 0;
+        hitJump = false;
         if (character >= 0)
         {
             //Sets the player using data from file.
@@ -110,15 +112,38 @@ public class PlayerController : MonoBehaviour
                 canGlide = data.canGlide;
             }
         }
-        accelCoeff.x *= 60;
-        accelCoeff.y *= 60;
-        glideCoeff *= 60;
     }
 
+
+    void Update()
+    {
+        if (hitJump == false)
+        {
+            hitJump = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow);
+        }
+        if (onGround)
+        {
+            numJumps = 0;
+            numDash = 0;
+            releaseJump = false;
+            jumpCount = 0;
+            jump = false;
+            airJump = false;
+        }
+        if (Data.killedEnemy)
+        {
+            Data.killedEnemy = false;
+            AddDash();
+        }
+        //Set the static data file to update the displays.
+        Data.playerPos = new Vector2(transform.position.x, transform.position.y);
+        Data.playerJumps = maxJumps - numJumps;
+        Data.playerDashes = maxDash - numDash;
+    }
     /// <summary>
     /// Moves the main character based on the player's input.
     /// </summary>
-    void Update()
+    void FixedUpdate()
     {
         float horizontal = Input.GetAxis("Horizontal");
 
@@ -156,7 +181,6 @@ public class PlayerController : MonoBehaviour
 
         float vertical = 0;//Vertical is zero until we know you jump.
         float v = Input.GetAxis("Vertical");
-        bool hitJump = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow);
         if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
         {
             if (airJump == false)
@@ -206,10 +230,11 @@ public class PlayerController : MonoBehaviour
             }
             airJump = false;
         }
+        hitJump = false;
         if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) && !releaseJump && jump)
         {
             vertical = Mathf.Pow(2, -35 * jumpCount);
-            jumpCount += Time.deltaTime;
+            jumpCount += Time.fixedDeltaTime;
         }
         if (numDash < maxDash && Input.GetMouseButtonDown(0))//Dash when mouse is pressed
         {
@@ -251,7 +276,7 @@ public class PlayerController : MonoBehaviour
 
         if (canGlide && rigid.velocity.y < 0 && Mathf.Abs(rigid.velocity.x) > 0 && vertical == 0 && v > 0)//Enable gliding if the player is moving down, and horizontally and they're pressing up.
         {
-            vertical = v * rigid.velocity.y * glideCoeff * (Physics.gravity.y * rigid.mass) * Time.deltaTime;
+            vertical = v * rigid.velocity.y * glideCoeff * (Physics.gravity.y * rigid.mass);
             if (!hasGlided)
             {
                 bodyAnim.Play(glideAnimationName);
@@ -264,24 +289,6 @@ public class PlayerController : MonoBehaviour
         }
 
         Move(horizontal, vertical);
-        if (onGround)
-        {
-            numJumps = 0;
-            numDash = 0;
-            releaseJump = false;
-            jumpCount = 0;
-            jump = false;
-            airJump = false;
-        }
-        if (Data.killedEnemy)
-        {
-            Data.killedEnemy = false;
-            AddDash();
-        }
-        //Set the static data file to update the displays.
-        Data.playerPos = new Vector2(transform.position.x, transform.position.y);
-        Data.playerJumps = maxJumps - numJumps;
-        Data.playerDashes = maxDash - numDash;
     }
 
     /// <summary>
@@ -322,8 +329,8 @@ public class PlayerController : MonoBehaviour
             vertical *= Mathf.Pow(maxSpeedY - Mathf.Abs(ySpeed), 0.1f);
         }
         horizontalDash = false;
-        rigid.AddForce(new Vector2(horizontal * accelCoeff.x * Time.deltaTime, 0));
-        rigid.AddForce(new Vector2(0, vertical * accelCoeff.y * Time.deltaTime));
+        rigid.AddForce(new Vector2(horizontal * accelCoeff.x, 0));
+        rigid.AddForce(new Vector2(0, vertical * accelCoeff.y));
 
         /*Old movement method
         float currentSpeed = rigid.velocity.x;
