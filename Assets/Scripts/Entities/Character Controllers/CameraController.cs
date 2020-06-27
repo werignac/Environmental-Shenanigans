@@ -31,6 +31,9 @@ public class CameraController : MonoBehaviour
     public float maxSpeed;
     public float maxVelDiff;
 
+    private Vector2 lastPosition;
+    public Vector2 lastVelocity;
+
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +45,8 @@ public class CameraController : MonoBehaviour
         bGM.Play();
 
         moveTime = moveSpeed;
+        lastPosition = new Vector2();
+        lastVelocity = new Vector2();
     }
 
     // Update is called once per frame
@@ -188,5 +193,7 @@ public class CameraController : MonoBehaviour
         {
             transform.position = new Vector3((Data.cameraMaxX + Data.cameraMinX) / 2, transform.position.y, transform.position.z);
         }
+        lastVelocity = (new Vector2(transform.position.x, transform.position.y) - lastPosition) / Time.deltaTime;
+        lastPosition = new Vector2(transform.position.x, transform.position.y);
     }
 }

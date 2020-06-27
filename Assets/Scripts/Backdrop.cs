@@ -32,8 +32,9 @@ public class Backdrop : MonoBehaviour
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if(player != null)
         {
-            float pos = GameObject.FindGameObjectWithTag("MainCamera").transform.position.x;
-            float velocity = player.GetComponent<Rigidbody2D>().velocity.x / Data.frameRate;
+            GameObject cam = GameObject.FindGameObjectWithTag("MainCamera");
+            float pos = cam.transform.position.x;
+            float velocity = cam.GetComponent<CameraController>().lastVelocity.x / Data.frameRate;
             for (int i = 0; i < backdrops.Length; ++i)//Move backdrops to make parralax.
             {
                 backdrops[i].transform.Translate(new Vector3(velocity * moveSpeed[i], 0));
