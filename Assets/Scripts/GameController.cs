@@ -35,6 +35,7 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Data.time += Time.deltaTime;
         float pos = level.GetRoom(0).Width / -2;
         int r = 0;
         for (int i = 0; i < level.RoomNum; ++i)
@@ -85,7 +86,7 @@ public class GameController : MonoBehaviour
         }
         if (player.transform.position.x > level.GetRoom(0).Width && r == 0)
         {
-            Data.SetDeaths();
+            Data.SetScore();
             SceneManager.LoadScene("Win");
         }
     }

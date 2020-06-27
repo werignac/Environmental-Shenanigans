@@ -23,9 +23,10 @@ public static class Data
     public static float cameraMaxX;
     public static int startRoom;
     public static int level;
-    public static int[][] levelDeaths;
+    public static Score[][][] levelScores;
     public static int currentDeaths;
     public static bool died;
+    public static float time;
 
 
     public static void LoadRoomDatas()
@@ -68,6 +69,40 @@ public static class Data
         reader.Close();
     }
 
+    public static void LoadScoreData()
+    {
+        StreamReader reader = new StreamReader("Data/ScoreData.csv");
+        levelScores = new Score[3][][];
+        string line = reader.ReadLine();
+        string[] row;
+        for (int i = 0; i < levelScores.Length; ++i)
+        {
+            levelScores[i] = new Score[3][];
+            for(int j = 0; j < levelScores[i].Length; ++j)
+            {
+                line = reader.ReadLine();
+                if(line == null)
+                {
+                    reader.Close();
+                    return;
+                }
+                row = line.Split(',');
+                levelScores[i][j] = new Score[2];
+                if(row.Length <= 1)
+                {
+                    levelScores[i][j][0] = null;
+                    levelScores[i][j][1] = null;
+                }
+                else
+                {
+                    levelScores[i][j][0] = new Score(int.Parse(row[0]), float.Parse(row[1]));
+                    levelScores[i][j][1] = new Score(int.Parse(row[2]), float.Parse(row[3]));
+                }
+            }
+        }
+        reader.Close();
+    }
+
     //Returns a room of the corrisponding type. 0 is a starting room, 1 is an ending room, 2 is a normal room.
     public static Room GetRoom(int type)
     {
@@ -99,12 +134,41 @@ public static class Data
         return (playerDatas[pos]);
     }
 
-    public static void SetDeaths()
+    public static void SetScore()
     {
-        if(levelDeaths[player - 1][level] < 0 || levelDeaths[player - 1][level] > currentDeaths)
+        bool write = false;
+        if(levelScores[player - 1][level][0] == null || levelScores[player - 1][level][0].deaths > currentDeaths)
         {
-            levelDeaths[player - 1][level] = currentDeaths;
+            levelScores[player - 1][level][0] = new Score(currentDeaths, time);
+            write = true;
+        }
+        if(levelScores[player - 1][level][1] == null || levelScores[player - 1][level][0].time > time)
+        {
+            levelScores[player - 1][level][1] = new Score(currentDeaths, time);
+            write = true;
+        }
+        if (write)
+        {
+            StreamWriter writer = new StreamWriter("Data/ScoreData.csv");
+            writer.WriteLine("LDDeaths,LDTime,LTDeaths,LTTime");
+            for(int i = 0; i < levelScores.Length; ++i)
+            {
+                for(int j = 0; j < levelScores[i].Length; ++j)
+                {
+                    for(int k = 0; k < levelScores[i][j].Length; ++k)
+                    {
+                        if (k != 0)
+                        {
+                            writer.Write(",");
+                        }
+                        writer.Write(levelScores[i][j][k].deaths + "," + levelScores[i][j][k].time);
+                    }
+                    writer.Write("\n");
+                }
+            }
+            writer.Close();
         }
         currentDeaths = 0;
+        time = 0;
     }
 }
