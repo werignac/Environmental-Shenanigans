@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: {x: 0, y: 0}
-  mass: 0
+  mass: 2
   enemy: {fileID: 6340326085122835741}
 --- !u!1 &8301349523141300425
 GameObject:

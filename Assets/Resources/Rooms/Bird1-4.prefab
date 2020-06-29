@@ -112,8 +112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roomName: Bird1-4
   width: 100
-  roomType: 23
-  nextRoomType: 3
+  roomType: 22
+  nextRoomType: 23
   healthSection: {fileID: 0}
   hideSection: {fileID: 0}
   spawnPoint: {fileID: 342725179}

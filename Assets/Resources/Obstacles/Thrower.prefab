@@ -183,6 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 26640620293392378}
+  bossPoints: {fileID: 0}
 --- !u!1 &5726116851892255852
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,5 +356,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: {x: 0, y: 0}
-  mass: 0
+  mass: 2
   enemy: {fileID: 26640620293392378}

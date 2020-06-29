@@ -155,13 +155,20 @@ public static class Data
             {
                 for(int j = 0; j < levelScores[i].Length; ++j)
                 {
-                    for(int k = 0; k < levelScores[i][j].Length; ++k)
+                    if (levelScores[i][j][0] == null)
                     {
-                        if (k != 0)
+                        writer.Write("-");
+                    }
+                    else
+                    {
+                        for (int k = 0; k < levelScores[i][j].Length; ++k)
                         {
-                            writer.Write(",");
+                            if (k != 0)
+                            {
+                                writer.Write(",");
+                            }
+                            writer.Write(levelScores[i][j][k].deaths + "," + levelScores[i][j][k].time);
                         }
-                        writer.Write(levelScores[i][j][k].deaths + "," + levelScores[i][j][k].time);
                     }
                     writer.Write("\n");
                 }
