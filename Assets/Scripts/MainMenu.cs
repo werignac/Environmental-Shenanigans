@@ -25,15 +25,15 @@ public class MainMenu : MonoBehaviour
         Data.player = player;
         for(int i = 0; i < scoreTexts.Length; ++i)
         {
-            if (Data.levelScores[player][i][0] == null)
+            if (Data.levelScores[player - 1][i][0] == null)
             {
                 scoreTexts[i].text = "-";
             }
             else
             {
                 scoreTexts[i].text = "Least Deaths\n";
-                scoreTexts[i].text += Data.levelScores[player][i][0].getText();
-                scoreTexts[i].text += "\nFastest Run\n" + Data.levelScores[player][i][1].getText();
+                scoreTexts[i].text += Data.levelScores[player - 1][i][0].getText();
+                scoreTexts[i].text += "\nFastest Run\n" + Data.levelScores[player - 1][i][1].getText();
             }
         }
     }
