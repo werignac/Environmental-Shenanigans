@@ -142,7 +142,7 @@ public static class Data
             levelScores[player - 1][level][0] = new Score(currentDeaths, time);
             write = true;
         }
-        if(levelScores[player - 1][level][1] == null || levelScores[player - 1][level][0].time > time)
+        if(levelScores[player - 1][level][1] == null || levelScores[player - 1][level][1].time > time)
         {
             levelScores[player - 1][level][1] = new Score(currentDeaths, time);
             write = true;
