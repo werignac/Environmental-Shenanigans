@@ -32,7 +32,9 @@ public class EnemySpawner : MonoBehaviour
             if(count > spawnTime)
             {
                 count = 0;
-                enemies.Add(Instantiate(enemyType, transform.position, transform.rotation));
+                enemies.Add(Instantiate(enemyType, transform));
+                enemies[enemies.Count - 1].transform.position = transform.position;
+                enemies[enemies.Count - 1].transform.rotation = transform.rotation;
             }
         }
     }
