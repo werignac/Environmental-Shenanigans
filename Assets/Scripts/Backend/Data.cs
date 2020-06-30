@@ -137,12 +137,12 @@ public static class Data
     public static void SetScore()
     {
         bool write = false;
-        if(levelScores[player - 1][level][0] == null || levelScores[player - 1][level][0].deaths > currentDeaths)
+        if(levelScores[player - 1][level][0] == null || levelScores[player - 1][level][0].deaths > currentDeaths || (levelScores[player - 1][level][0].deaths == currentDeaths && levelScores[player - 1][level][0].time > time))
         {
             levelScores[player - 1][level][0] = new Score(currentDeaths, time);
             write = true;
         }
-        if(levelScores[player - 1][level][1] == null || levelScores[player - 1][level][1].time > time)
+        if(levelScores[player - 1][level][1] == null || levelScores[player - 1][level][1].time > time || (levelScores[player - 1][level][1].deaths > currentDeaths && levelScores[player - 1][level][1].time == time))
         {
             levelScores[player - 1][level][1] = new Score(currentDeaths, time);
             write = true;
