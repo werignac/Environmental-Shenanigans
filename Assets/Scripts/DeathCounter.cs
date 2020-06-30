@@ -9,6 +9,7 @@ public class DeathCounter : MonoBehaviour
     void Start()
     {
         display = GetComponent<TextMesh>();
+        GetComponent<MeshRenderer>().sortingLayerName = "UI Sprites";
     }
 
     // Update is called once per frame

@@ -24,7 +24,7 @@ public class Timer : MonoBehaviour
     {
         display = GetComponent<TextMesh>();
         DontDestroyOnLoad(gameObject);
-
+        GetComponent<MeshRenderer>().sortingLayerName = "UI Sprites";
         camPos = Camera.main.transform;
         offset = transform.position - camPos.position;
     }
