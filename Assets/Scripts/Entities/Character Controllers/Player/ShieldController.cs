@@ -119,7 +119,7 @@ public class ShieldController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider)
     {
         GameObject encounter = collider.gameObject;
-        if (encounter.CompareTag("Hazard") || encounter.CompareTag("Projectile") || encounter.CompareTag("Enemy") || encounter.CompareTag("Explosion"))
+        if (encounter.CompareTag("Hazard") || encounter.CompareTag("Projectile") || encounter.CompareTag("Enemy") || encounter.CompareTag("Explosion") || encounter.CompareTag("Vaccum"))
         {
             if (timer == 0)
             {
@@ -151,7 +151,7 @@ public class ShieldController : MonoBehaviour
                     }
                     hMass = hazard.mass;
                 }
-                Impact(speed, hMass);
+                Impact(speed, hMass, encounter.CompareTag("Vaccum"));
                 if (hazard != null)
                 {
                     hazard.OnShieldCollision(gameObject);
@@ -188,9 +188,14 @@ public class ShieldController : MonoBehaviour
     /// Sends the player flying in the opposite direction with an additional velocity.
     /// </summary>
     /// <param name="velocity">The additional velocity.</param>
-    public void Impact(Vector2 velocity, float projMass)
+    public void Impact(Vector2 velocity, float projMass, bool reverse)
     {
         Vector2 angle = new Vector2(Mathf.Cos(Mathf.Deg2Rad * transform.rotation.eulerAngles.z), Mathf.Sin(Mathf.Deg2Rad * transform.rotation.eulerAngles.z));
+        if (reverse)
+        {
+            angle = new Vector2(-1 * angle.x, -1 * angle.y);
+            velocity = new Vector2(-1 * velocity.x, -1 * velocity.y);
+        }
         //player.velocity = angle * (-1 * player.velocity.magnitude);
         player.velocity = new Vector2();
         player.AddForce(angle * (-20 * projMass * Mathf.Max(velocity.magnitude, 1)));

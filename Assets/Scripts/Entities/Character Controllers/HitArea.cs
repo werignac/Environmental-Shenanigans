@@ -26,7 +26,8 @@ public class HitArea : MonoBehaviour
 
     {
         GameObject collidee = other.gameObject;
-        if ((collidee.CompareTag("Projectile") || collidee.CompareTag("Explosion")) && healthPoints != null && collidee.GetComponent<ProjectileController>().GetReflected() == reflectOnly)//Damage when hit by unreflected projectiles and explosions.
+        if (((collidee.CompareTag("Projectile") || collidee.CompareTag("Explosion") || collidee.CompareTag("ShieldBreaker") || collidee.CompareTag("Vaccum")) && healthPoints != null 
+            && collidee.GetComponent<ProjectileController>().GetReflected() == reflectOnly) || collidee.CompareTag("Hazard"))//Damage when hit by unreflected projectiles and explosions.
         {
             Damage();
         }
