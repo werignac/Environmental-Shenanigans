@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="744.09448819"
@@ -16,7 +17,81 @@
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="Metal Platforms.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <linearGradient
+       id="linearGradient5338">
+      <stop
+         style="stop-color:#414b49;stop-opacity:1;"
+         offset="0"
+         id="stop5340" />
+      <stop
+         style="stop-color:#93aca7;stop-opacity:1;"
+         offset="1"
+         id="stop5342" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5338"
+       id="radialGradient5344"
+       cx="-32.012451"
+       cy="-68.503082"
+       fx="-32.012451"
+       fy="-68.503082"
+       r="89.852814"
+       gradientTransform="matrix(-1.6417227,0,-3.1199117e-7,-1.9443534,-136.45762,-198.06073)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5338-3"
+       id="radialGradient5344-9"
+       cx="-32.012451"
+       cy="-68.503082"
+       fx="-32.012451"
+       fy="-68.503082"
+       r="89.852814"
+       gradientTransform="matrix(-1.6417227,0,-3.1199117e-7,-1.9443534,-136.45762,-198.06073)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient5338-3">
+      <stop
+         style="stop-color:#414b49;stop-opacity:1;"
+         offset="0"
+         id="stop5340-1" />
+      <stop
+         style="stop-color:#93aca7;stop-opacity:1;"
+         offset="1"
+         id="stop5342-9" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5338"
+       id="linearGradient5456"
+       x1="-86.606003"
+       y1="-69.022057"
+       x2="-133.34096"
+       y2="-69.022057"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5338-2"
+       id="linearGradient5456-9"
+       x1="-86.606003"
+       y1="-69.022057"
+       x2="-133.34096"
+       y2="-69.022057"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient5338-2">
+      <stop
+         style="stop-color:#414b49;stop-opacity:1;"
+         offset="0"
+         id="stop5340-8" />
+      <stop
+         style="stop-color:#93aca7;stop-opacity:1;"
+         offset="1"
+         id="stop5342-2" />
+    </linearGradient>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,8 +100,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="195.12657"
-     inkscape:cy="-5.5904179"
+     inkscape:cx="107.67323"
+     inkscape:cy="1181.1427"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -51,6 +126,15 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       style="fill:#a6aa00;fill-opacity:1;stroke:#d7d50d;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m -378.01198,439.66089 c 75.84562,-0.50508 143.95778,36.01547 224.50641,36.54136 77.360849,0.50508 153.71154906,-32.50075 224.506409,-36.54136 l 0,21.71828 c -68.2694799,4.54569 -139.56941,37.04644 -224.506409,36.54136 -80.54892,-0.47898 -152.7014,-32.50075 -224.50641,-36.54136 z"
+       id="rect5202-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccscc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\wires.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
     <rect
        style="fill:#93aca7;fill-opacity:1;stroke:#374845;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect2985"
@@ -3427,6 +3511,241 @@
        x="935.30243"
        y="1410.2604"
        inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\lazerCannon.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#aa0000;fill-opacity:1;stroke:#d7400d;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m -378.01198,459.38479 c 75.84562,-0.50508 143.95778,60.30118 224.50641,60.82707 77.360849,0.50508 153.71154906,-56.78646 224.506409,-60.82707 l 0,21.71828 c -68.2694799,4.54569 -139.56941,61.33215 -224.506409,60.82707 -80.54892,-0.47898 -152.7014,-56.78646 -224.50641,-60.82707 z"
+       id="rect5202"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccscc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\wires.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#218c1e;fill-opacity:1;stroke:#25bf2c;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m -378.01198,378.06745 c 293.967189,0 108.42219,47.98225 449.012819,47.98225 l 0,21.71828 c -342.785069,0 -154.39408,-47.98225 -449.012819,-47.98225 z"
+       id="rect5202-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\wires.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#14146a;fill-opacity:1;stroke:#292e97;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 72.263519,378.0675 c -293.967189,0 -108.42219,47.98225 -449.012819,47.98225 l 0,21.71828 c 342.785069,0 154.39408,-47.98225 449.012819,-47.98225 z"
+       id="rect5202-1-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\wires.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#50146a;fill-opacity:1;stroke:#4b2997;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 72.267859,400.28125 c -37.13038,0 -84.29249,11.27113 -130.15625,22.34375 23.66693,1.58222 52.6298301,2.7197 88.65625,3.1875 14.63497,-2.34117 28.61505,-3.8125 41.5,-3.8125 l 0,-21.71875 z m -449.031249,2.53125 0,21.71875 c 30.98133,0 163.16513,45.85359 230.65625,38.65625 28.11412,-2.99813 59.824469,-10.63318 91.781249,-18.53125 -29.61168,-1.85041 -51.179429,-4.43762 -67.937499,-7.40625 -8.51787,1.66495 -16.76409,3.12406 -24.625,4.21875 -65.28481,9.09137 -199.99089,-38.65625 -229.875,-38.65625 z"
+       id="rect5202-1-1-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\wires.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <rect
+       style="fill:#93aca7;fill-opacity:1;stroke:#374845;stroke-width:5.03579092;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985-2-7"
+       width="77.107056"
+       height="127.82133"
+       x="-442.12494"
+       y="371.30865"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\wires.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#4b5d59;fill-opacity:1;stroke:#374845;stroke-opacity:1"
+       d="m -425.41964,337.25 c -8.2323,0 -14.90625,6.67394 -14.90625,14.90625 0,8.2323 6.67395,14.90625 14.90625,14.90625 6.4559,0 11.95939,-4.13341 14.03125,-9.875 l -11.1875,0 0,-10.09375 11.1875,0 c -2.07186,-5.7416 -7.57535,-9.84375 -14.03125,-9.84375 z"
+       id="path4606"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\wires.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#4b5d59;fill-opacity:1;stroke:#374845;stroke-opacity:1"
+       d="m -425.41964,503.31992 c -8.2323,0 -14.90625,6.67395 -14.90625,14.90625 0,8.23231 6.67395,14.90625 14.90625,14.90625 6.4559,0 11.95939,-4.1334 14.03125,-9.875 l -11.1875,0 0,-10.09375 11.1875,0 c -2.07186,-5.74159 -7.57535,-9.84375 -14.03125,-9.84375 z"
+       id="path4606-9"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\wires.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <rect
+       style="fill:#93aca7;fill-opacity:1;stroke:#374845;stroke-width:6.74578285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985-2"
+       width="88.254211"
+       height="200.39706"
+       x="-517.34137"
+       y="335.02078"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\wires.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <rect
+       style="fill:#93aca7;fill-opacity:1;stroke:#374845;stroke-width:5.03579092;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985-2-7-2"
+       width="77.107056"
+       height="127.82133"
+       x="-136.1684"
+       y="371.30865"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\wires.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700"
+       transform="scale(-1,1)" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#4b5d59;fill-opacity:1;stroke:#374845;stroke-opacity:1"
+       d="m 119.46309,337.24999 c 8.2323,0 14.90625,6.67394 14.90625,14.90625 0,8.23231 -6.67395,14.90625 -14.90625,14.90625 -6.4559,0 -11.95939,-4.13341 -14.03125,-9.875 l 11.1875,0 0,-10.09375 -11.1875,0 c 2.07186,-5.7416 7.57535,-9.84375 14.03125,-9.84375 z"
+       id="path4606-3"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\wires.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#4b5d59;fill-opacity:1;stroke:#374845;stroke-opacity:1"
+       d="m 119.46309,503.31991 c 8.2323,0 14.90625,6.67395 14.90625,14.90625 0,8.23231 -6.67395,14.90625 -14.90625,14.90625 -6.4559,0 -11.95939,-4.1334 -14.03125,-9.875 l 11.1875,0 0,-10.09375 -11.1875,0 c 2.07186,-5.74159 7.57535,-9.84375 14.03125,-9.84375 z"
+       id="path4606-9-3"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\wires.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <rect
+       style="fill:#93aca7;fill-opacity:1;stroke:#374845;stroke-width:6.74578285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985-2-4"
+       width="88.254211"
+       height="200.39706"
+       x="-211.3848"
+       y="335.02078"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\wires.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700"
+       transform="scale(-1,1)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient5344);fill-opacity:1;stroke:#374845;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path5314"
+       sodipodi:cx="-175.76654"
+       sodipodi:cy="-71.937592"
+       sodipodi:rx="84.852814"
+       sodipodi:ry="169.70563"
+       d="m -90.913727,-71.937592 a 84.852814,169.70563 0 1 1 -169.705623,0 84.852814,169.70563 0 1 1 169.705623,0 z"
+       transform="translate(-5.4971679e-6,0)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\antennaOutput.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#93aca7;fill-opacity:1;stroke:#374845;stroke-width:3.19702244;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m -211.91312,-60.898129 0,-17.050785 77.94645,-1.217916 0,19.486616 z"
+       id="rect5419-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\antennaOutput.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:url(#linearGradient5456);fill-opacity:1;stroke:#374845;stroke-width:4.21554278999999980;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m -137.20815,-57.780606 0,-22.4829 102.778949,-1.605919 0,25.694738 z"
+       id="rect5419"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\antennaOutput.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#93aca7;fill-opacity:1;stroke:#374845;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path5440"
+       sodipodi:cx="-659.28571"
+       sodipodi:cy="-264.78067"
+       sodipodi:rx="31.428572"
+       sodipodi:ry="31.428572"
+       d="m -627.85713,-264.78067 a 31.428572,31.428572 0 1 1 -62.85715,0 31.428572,31.428572 0 1 1 62.85715,0 z"
+       transform="matrix(0,-0.56207235,0.56207235,0,-69.079791,-439.98979)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\antennaOutput.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#93aca7;fill-opacity:1;stroke:#374845;stroke-width:13.60773468;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="M -161.09375 -239.125 C -121.22417 -225.22416 -90.90625 -155.65502 -90.90625 -71.9375 C -90.90625 11.780016 -121.22417 81.349159 -161.09375 95.25 C -80.268021 87.416667 -16.96875 15.558433 -16.96875 -71.9375 C -16.96875 -159.43343 -80.268021 -231.29167 -161.09375 -239.125 z "
+       id="path5314-2"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\antennaOutput.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#374845;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -86.428571,-71.937592 72.857146,0"
+       id="path5346"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\antennaOutput.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#374845;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -102.10696,-163.35209 c 30.094091,-0.67138 54.379801,8.00115 72.857141,20.71429"
+       id="path5346-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\antennaOutput.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#374845;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -98.571426,15.558261 c 30.094091,0.67138 54.379801,-8.0011487 72.857141,-20.7142887"
+       id="path5346-7-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\antennaOutput.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -348.57143,-116.92352 c 0,0 -23.57143,13.21778 -23.57143,49.28571 0,36.067926 23.57143,49.285713 23.57143,49.285713"
+       id="path5458"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\audioWave.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#93aca7;fill-opacity:1;stroke:#374845;stroke-width:7.23377323;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 313.39977,-95.668005 48.30224,0 3.45016,140.867853 -55.20255,0 z"
+       id="rect5419-6-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\antennaReceiver.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#93aca7;fill-opacity:1;stroke:#374845;stroke-width:9.53833771;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 304.56832,39.341715 63.69057,0 4.54932,185.746115 -72.78922,0 z"
+       id="rect5419-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\antennaReceiver.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#93aca7;fill-opacity:1;stroke:#374845;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path5440-5"
+       sodipodi:cx="-659.28571"
+       sodipodi:cy="-264.78067"
+       sodipodi:rx="31.428572"
+       sodipodi:ry="31.428572"
+       d="m -627.85713,-264.78067 a 31.428572,31.428572 0 1 1 -62.85715,0 31.428572,31.428572 0 1 1 62.85715,0 z"
+       transform="matrix(1.62405,0,0,1.62405,1407.8558,302.4311)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\antennaReceiver.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#93aca7;fill-opacity:1;stroke:#374845;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 258.77448,212.33879 156.73675,0 20.20305,67.84333 -197.14285,0 z"
+       id="rect2985-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Platforms\antennaReceiver.png"
        inkscape:export-xdpi="700"
        inkscape:export-ydpi="700" />
   </g>

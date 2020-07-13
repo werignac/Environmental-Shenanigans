@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="crossbow.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="242.94098"
+     inkscape:cy="1020.234"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#462908;stroke-width:1.81847131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 5.6564231,26.89043 c 0,0 6.1082309,0.94451 13.4674699,-2.41787 7.359235,-3.362393 18.136504,-11.031675 34.103604,-11.031675 15.96709,0 23.69527,6.592559 33.32127,9.954945 9.62601,3.36239 14.249803,3.4946 14.249803,3.4946"
+       id="path3758"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cszsc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#d38d5f;fill-opacity:1;stroke:#753206;stroke-width:0.60296553;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 48.056187,13.00069 10.33655,0 -1.11177,26.16439 c 0,0 1.9512,3.41096 2.08083,9.90587 0.14204,7.11719 -1.67519,9.90586 -1.67519,9.90586 l -2.52404,36.60862 -3.8762,0 -2.52405,-36.60862 c 0,0 -1.7416,-3.43504 -1.67518,-9.90586 0.0667,-6.49587 2.08083,-9.90587 2.08083,-9.90587 z"
+       id="rect2985"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsccccscc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <rect
+       style="fill:#ba6933;fill-opacity:1;stroke:none"
+       id="rect3756"
+       width="1.5813084"
+       height="33.378838"
+       x="52.43684"
+       y="13.273692"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.75370687;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 6.9253241,26.89043 46.4068129,0 46.40681,0"
+       id="path3760"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#462908;stroke-width:2.2611208;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 46.444137,2.7718072 13.56672,0 -2.04578,10.8749148 -9.47517,0 z"
+       id="rect3762"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#7d7570;fill-opacity:1;stroke:#2b2826;stroke-width:0.5363124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 48.779597,46.66883 8.8958,0 -1.72276,15.8945 -5.45028,0 z"
+       id="rect3765"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#585450;fill-opacity:1;stroke:none"
+       id="path3768"
+       sodipodi:cx="357.5"
+       sodipodi:cy="452.71933"
+       sodipodi:rx="16.071428"
+       sodipodi:ry="46.785713"
+       d="m 373.57143,452.71933 a 16.071428,46.785713 0 1 1 -32.14286,0 16.071428,46.785713 0 1 1 32.14286,0 z"
+       transform="matrix(0.1060552,0,0,0.1060552,15.312761,6.6028412)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#462908;stroke-width:1.81847131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 106.98226,33.687692 c 0,0 6.10823,0.94451 13.46747,-2.41787 7.35924,-3.362393 18.13651,-17.817389 34.10361,-17.817389 15.96709,0 23.69527,13.378273 33.32127,16.740659 9.62601,3.36239 14.2498,3.4946 14.2498,3.4946"
+       id="path3758-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cszsc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#d38d5f;fill-opacity:1;stroke:#753206;stroke-width:0.60296553;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 149.38203,13.012238 10.33655,0 -1.11177,26.16439 c 0,0 1.9512,3.41096 2.08083,9.90587 0.14204,7.11719 -1.67519,9.90586 -1.67519,9.90586 l -2.52404,36.60862 -3.8762,0 -2.52405,-36.60862 c 0,0 -1.7416,-3.43504 -1.67518,-9.90586 0.0667,-6.49587 2.08083,-9.90587 2.08083,-9.90587 z"
+       id="rect2985-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsccccscc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <rect
+       style="fill:#ba6933;fill-opacity:1;stroke:none"
+       id="rect3756-4"
+       width="1.5813084"
+       height="33.378838"
+       x="153.76268"
+       y="13.28524"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#462908;stroke-width:2.2611208;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 147.76998,2.7833553 13.56672,0 -2.04578,10.8749147 -9.47517,0 z"
+       id="rect3762-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#7d7570;fill-opacity:1;stroke:#2b2826;stroke-width:0.5363124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 150.10544,46.680378 8.8958,0 -1.72276,15.8945 -5.45028,0 z"
+       id="rect3765-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#585450;fill-opacity:1;stroke:none"
+       id="path3768-8"
+       sodipodi:cx="357.5"
+       sodipodi:cy="452.71933"
+       sodipodi:rx="16.071428"
+       sodipodi:ry="46.785713"
+       d="m 373.57143,452.71933 a 16.071428,46.785713 0 1 1 -32.14286,0 16.071428,46.785713 0 1 1 32.14286,0 z"
+       transform="matrix(0.1060552,0,0,0.1060552,116.6386,6.6143893)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.75370687;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 108.25116,33.509121 46.40682,26.428571 46.40681,-26.428571"
+       id="path3760-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#462908;stroke-width:1.81847131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 207.78607,29.774246 c 0,0 6.10823,0.94451 13.46747,-2.41787 7.35924,-3.362393 18.13651,-14.245961 34.10361,-14.245961 15.96709,0 23.69527,9.806845 33.32127,13.169231 9.62601,3.36239 14.2498,3.4946 14.2498,3.4946"
+       id="path3758-1-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cszsc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#d38d5f;fill-opacity:1;stroke:#753206;stroke-width:0.60296553;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 250.18584,12.67022 10.33655,0 -1.11177,26.16439 c 0,0 1.9512,3.41096 2.08083,9.90587 0.14204,7.11719 -1.67519,9.90586 -1.67519,9.90586 l -2.52404,36.608623 -3.8762,0 -2.52405,-36.608623 c 0,0 -1.7416,-3.43504 -1.67518,-9.90586 0.0667,-6.49587 2.08083,-9.90587 2.08083,-9.90587 z"
+       id="rect2985-7-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsccccscc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <rect
+       style="fill:#ba6933;fill-opacity:1;stroke:none"
+       id="rect3756-4-4"
+       width="1.5813084"
+       height="33.378838"
+       x="254.56648"
+       y="12.943221"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#462908;stroke-width:2.2611208;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 248.57379,2.4413368 13.56672,0 -2.04578,10.8749152 -9.47517,0 z"
+       id="rect3762-9-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#7d7570;fill-opacity:1;stroke:#2b2826;stroke-width:0.5363124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 250.90925,46.33836 8.8958,0 -1.72276,15.8945 -5.45028,0 z"
+       id="rect3765-4-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#585450;fill-opacity:1;stroke:none"
+       id="path3768-8-1"
+       sodipodi:cx="357.5"
+       sodipodi:cy="452.71933"
+       sodipodi:rx="16.071428"
+       sodipodi:ry="46.785713"
+       d="m 373.57143,452.71933 a 16.071428,46.785713 0 1 1 -32.14286,0 16.071428,46.785713 0 1 1 32.14286,0 z"
+       transform="matrix(0.1060552,0,0,0.1060552,217.44241,6.2723708)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.75370687;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 209.05497,29.417103 c 0,0 38.53982,23.48631 46.40682,23.48631 7.867,0 46.40681,-23.48631 46.40681,-23.48631"
+       id="path3760-0-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#462908;stroke-width:1.81847131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 4.8015838,129.36093 c 0,0 6.1082302,0.94451 13.4674702,-2.41787 7.35924,-3.3624 18.13651,-12.46025 34.10361,-12.46025 15.96709,0 23.69527,8.02113 33.32127,11.38352 9.62601,3.36239 14.2498,3.4946 14.2498,3.4946"
+       id="path3758-1-8-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cszsc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#d38d5f;fill-opacity:1;stroke:#753206;stroke-width:0.60296553;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 47.201354,114.04262 10.33655,0 -1.11177,26.16439 c 0,0 1.9512,3.41096 2.08083,9.90587 0.14204,7.11719 -1.67519,9.90586 -1.67519,9.90586 l -2.52404,36.60862 -3.8762,0 -2.52405,-36.60862 c 0,0 -1.7416,-3.43504 -1.67518,-9.90586 0.0667,-6.49587 2.08083,-9.90587 2.08083,-9.90587 z"
+       id="rect2985-7-2-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsccccscc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <rect
+       style="fill:#ba6933;fill-opacity:1;stroke:none"
+       id="rect3756-4-4-5"
+       width="1.5813084"
+       height="33.378838"
+       x="51.581993"
+       y="114.31561"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#462908;stroke-width:2.2611208;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 45.589304,103.81373 13.56672,0 -2.04578,10.87492 -9.47517,0 z"
+       id="rect3762-9-5-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#7d7570;fill-opacity:1;stroke:#2b2826;stroke-width:0.5363124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 47.924764,147.71076 8.8958,0 -1.72276,15.8945 -5.45028,0 z"
+       id="rect3765-4-5-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#585450;fill-opacity:1;stroke:none"
+       id="path3768-8-1-6"
+       sodipodi:cx="357.5"
+       sodipodi:cy="452.71933"
+       sodipodi:rx="16.071428"
+       sodipodi:ry="46.785713"
+       d="m 373.57143,452.71933 a 16.071428,46.785713 0 1 1 -32.14286,0 16.071428,46.785713 0 1 1 32.14286,0 z"
+       transform="matrix(0.1060552,0,0,0.1060552,14.457924,107.64477)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.75370687;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 6.0704838,129.5395 c 0,0 30.0841572,15.62917 46.4068202,15.62917 16.32266,0 46.40681,-15.62917 46.40681,-15.62917"
+       id="path3760-0-7-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cac"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#462908;stroke-width:1.81847131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 104.45688,127.66469 c 0,0 6.10823,0.94451 13.46747,-2.41787 7.35924,-3.36239 18.13651,-11.03167 34.10361,-11.03167 15.96709,0 23.69527,6.59256 33.32127,9.95494 9.62601,3.36239 14.2498,3.4946 14.2498,3.4946"
+       id="path3758-1-8-1-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cszsc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#d38d5f;fill-opacity:1;stroke:#753206;stroke-width:0.60296553;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 146.85665,113.77495 10.33655,0 -1.11177,26.16439 c 0,0 1.9512,3.41096 2.08083,9.90587 0.14204,7.11719 -1.67519,9.90586 -1.67519,9.90586 l -2.52404,36.60863 -3.8762,0 -2.52405,-36.60863 c 0,0 -1.7416,-3.43504 -1.67518,-9.90586 0.0667,-6.49587 2.08083,-9.90587 2.08083,-9.90587 z"
+       id="rect2985-7-2-1-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsccccscc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <rect
+       style="fill:#ba6933;fill-opacity:1;stroke:none"
+       id="rect3756-4-4-5-3"
+       width="1.5813084"
+       height="33.378838"
+       x="151.23726"
+       y="114.04795"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#462908;stroke-width:2.2611208;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 145.2446,103.54607 13.56672,0 -2.04578,10.87492 -9.47517,0 z"
+       id="rect3762-9-5-2-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#7d7570;fill-opacity:1;stroke:#2b2826;stroke-width:0.5363124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 147.58006,147.44309 8.8958,0 -1.72276,15.8945 -5.45028,0 z"
+       id="rect3765-4-5-7-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#585450;fill-opacity:1;stroke:none"
+       id="path3768-8-1-6-1"
+       sodipodi:cx="357.5"
+       sodipodi:cy="452.71933"
+       sodipodi:rx="16.071428"
+       sodipodi:ry="46.785713"
+       d="m 373.57143,452.71933 a 16.071428,46.785713 0 1 1 -32.14286,0 16.071428,46.785713 0 1 1 32.14286,0 z"
+       transform="matrix(0.1060552,0,0,0.1060552,114.11322,107.37711)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.75370687;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 105.72578,127.66469 c 0,0 30.87373,4.2306 46.40682,4.2306 15.53308,0 46.40681,-4.2306 46.40681,-4.2306"
+       id="path3760-0-7-1-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cac"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#462908;stroke-width:1.81847131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 203.373,127.21807 c 0,0 6.10823,0.94451 13.46747,-2.41787 7.35924,-3.36239 18.13651,-11.03167 34.10361,-11.03167 15.96709,0 23.69527,6.59255 33.32127,9.95494 9.62601,3.36239 14.2498,3.4946 14.2498,3.4946"
+       id="path3758-1-8-1-4-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cszsc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#d38d5f;fill-opacity:1;stroke:#753206;stroke-width:0.60296553;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 245.77277,113.32833 10.33655,0 -1.11177,26.16439 c 0,0 1.9512,3.41096 2.08083,9.90587 0.14204,7.11719 -1.67519,9.90586 -1.67519,9.90586 l -2.52404,36.60863 -3.8762,0 -2.52405,-36.60863 c 0,0 -1.7416,-3.43504 -1.67518,-9.90586 0.0667,-6.49587 2.08083,-9.90587 2.08083,-9.90587 z"
+       id="rect2985-7-2-1-2-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsccccscc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <rect
+       style="fill:#ba6933;fill-opacity:1;stroke:none"
+       id="rect3756-4-4-5-3-7"
+       width="1.5813084"
+       height="33.378838"
+       x="250.15337"
+       y="113.60133"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#462908;stroke-width:2.2611208;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 244.16072,103.09945 13.56672,0 -2.04578,10.87491 -9.47517,0 z"
+       id="rect3762-9-5-2-2-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:#7d7570;fill-opacity:1;stroke:#2b2826;stroke-width:0.5363124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 246.49618,146.99647 8.8958,0 -1.72276,15.8945 -5.45028,0 z"
+       id="rect3765-4-5-7-2-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#585450;fill-opacity:1;stroke:none"
+       id="path3768-8-1-6-1-8"
+       sodipodi:cx="357.5"
+       sodipodi:cy="452.71933"
+       sodipodi:rx="16.071428"
+       sodipodi:ry="46.785713"
+       d="m 373.57143,452.71933 a 16.071428,46.785713 0 1 1 -32.14286,0 16.071428,46.785713 0 1 1 32.14286,0 z"
+       transform="matrix(0.1060552,0,0,0.1060552,213.02934,106.93048)"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.75370687;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 204.6419,127.21807 c 0,0 30.85271,-4.87655 46.40682,-4.87655 15.55411,0 46.40681,4.87655 46.40681,4.87655"
+       id="path3760-0-7-1-6-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cac"
+       inkscape:export-filename="E:\Environmental Shenanigans\Environmental Shenanigans\Environmental-Shenanigans\Assets\Sprites\Hazards\crossbow.png"
+       inkscape:export-xdpi="700"
+       inkscape:export-ydpi="700" />
+  </g>
+</svg>
