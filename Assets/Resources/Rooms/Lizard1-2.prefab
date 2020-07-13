@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 686010878ed07524ca5abf00e84d71aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomName: Lizard 1-2
+  roomName: Lizard1-2
   width: 100
   roomType: 41
   nextRoomType: 42
