@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 7772950860996132327}
   - component: {fileID: 3289310768695703040}
   m_Layer: 0
-  m_Name: DestructableWire
-  m_TagString: Enemy
+  m_Name: WireDestructable
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

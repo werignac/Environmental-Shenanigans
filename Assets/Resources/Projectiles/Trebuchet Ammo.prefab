@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1417180187708896146}
   m_Layer: 0
   m_Name: Trebuchet Ammo
-  m_TagString: Projectile
+  m_TagString: ShieldBreaker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
